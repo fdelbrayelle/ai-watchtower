@@ -8,25 +8,27 @@ A curated tech radar for AI/LLM tooling, best practices, and news. One place to 
 
 ## 📚 Table of Contents
 
-- [AI Agents & Agentic Frameworks](#-ai-agents--agentic-frameworks)
-- [MCP (Model Context Protocol)](#-mcp-model-context-protocol)
-- [Claude Code](#-claude-code)
-- [Code Assistants & AI Editors](#-code-assistants--ai-editors)
-- [OpenCode](#-opencode)
-- [Prompt Engineering & Development Methodologies](#-prompt-engineering--development-methodologies)
-- [Multi-LLM Access & Routing](#-multi-llm-access--routing)
-- [AI for Java](#-ai-for-java)
-- [Python Ecosystem](#-python-ecosystem)
-- [Data Engineering & Science](#-data-engineering--science)
-- [Generative AI Patterns & Learning](#-generative-ai-patterns--learning)
-- [GEO / LLMO](#-geo--llmo)
-- [Docker & Infrastructure](#-docker--infrastructure)
-- [Terminal Tools](#-terminal-tools)
-- [Misc Tools](#-misc-tools)
-- [AI Native Landscape](#-ai-native-landscape)
-- [Psychology, Culture & AI](#-psychology-culture--ai)
+- [AI Agents & Agentic Frameworks](#ai-agents--agentic-frameworks)
+- [MCP (Model Context Protocol)](#mcp-model-context-protocol)
+- [Claude Code](#claude-code)
+- [Code Assistants & AI Editors](#code-assistants--ai-editors)
+- [OpenCode](#opencode)
+- [Prompt Engineering & Development Methodologies](#prompt-engineering--development-methodologies)
+- [Multi-LLM Access & Routing](#multi-llm-access--routing)
+- [AI for Java](#ai-for-java)
+- [Python Ecosystem](#python-ecosystem)
+- [Data Engineering & Science](#data-engineering--science)
+- [Generative AI Patterns & Learning](#generative-ai-patterns--learning)
+- [GEO / LLMO](#geo--llmo)
+- [Docker & Infrastructure](#docker--infrastructure)
+- [Terminal Tools](#terminal-tools)
+- [Misc Tools](#misc-tools)
+- [AI Native Landscape](#ai-native-landscape)
+- [Psychology, Culture & AI](#psychology-culture--ai)
 
 ---
+
+<a id="ai-agents--agentic-frameworks"></a>
 
 ## 🤖 AI Agents & Agentic Frameworks
 
@@ -66,6 +68,8 @@ Platforms, protocols, and orchestration tools for building and running AI agents
 
 ---
 
+<a id="mcp-model-context-protocol"></a>
+
 ## 🔌 MCP (Model Context Protocol)
 
 The open standard for connecting AI models to external tools and data sources.
@@ -80,6 +84,8 @@ The open standard for connecting AI models to external tools and data sources.
 - [Micronaut MCP](https://micronaut-projects.github.io/micronaut-mcp/snapshot/guide/) — MCP support for Micronaut framework 📌 Unread
 
 ---
+
+<a id="claude-code"></a>
 
 ## 🛠️ Claude Code
 
@@ -107,6 +113,8 @@ Best practices, monitoring, and token optimization for Claude Code.
 
 ---
 
+<a id="code-assistants--ai-editors"></a>
+
 ## 💻 Code Assistants & AI Editors
 
 IDEs, copilots, and AI-powered coding tools.
@@ -125,6 +133,8 @@ IDEs, copilots, and AI-powered coding tools.
 
 ---
 
+<a id="opencode"></a>
+
 ## 🧩 OpenCode
 
 OpenCode-specific tools and extensions.
@@ -134,6 +144,8 @@ OpenCode-specific tools and extensions.
 - [OCX](https://github.com/kdcokenny/ocx) — Extends OpenCode capabilities 📌 Unread
 
 ---
+
+<a id="prompt-engineering--development-methodologies"></a>
 
 ## 📝 Prompt Engineering & Development Methodologies
 
@@ -151,6 +163,8 @@ Prompt-driven development, spec-driven development, and prompt engineering guide
 
 ---
 
+<a id="multi-llm-access--routing"></a>
+
 ## 🔗 Multi-LLM Access & Routing
 
 Access multiple LLMs through unified interfaces and routers.
@@ -160,6 +174,8 @@ Access multiple LLMs through unified interfaces and routers.
 - [1min AI](https://1min.ai/) — Multi-model AI access platform
 
 ---
+
+<a id="ai-for-java"></a>
 
 ## ☕ AI for Java
 
@@ -174,6 +190,8 @@ Spring AI, LangChain4J, and the Java AI ecosystem.
 - [Koog for Java](https://blog.jetbrains.com/ai/2026/03/koog-comes-to-java/) — JetBrains' AI framework for Java 📌 Unread
 
 ---
+
+<a id="python-ecosystem"></a>
 
 ## 🐍 Python Ecosystem
 
@@ -205,6 +223,8 @@ Python fundamentals, frameworks, and best practices for the AI-era developer.
 
 ---
 
+<a id="data-engineering--science"></a>
+
 ## 🗄️ Data Engineering & Science
 
 Roadmaps, machine learning, and data career paths.
@@ -228,6 +248,8 @@ Roadmaps, machine learning, and data career paths.
 
 ---
 
+<a id="generative-ai-patterns--learning"></a>
+
 ## 🧠 Generative AI Patterns & Learning
 
 Architecture patterns, training resources, and foundational learning.
@@ -240,6 +262,8 @@ Architecture patterns, training resources, and foundational learning.
 
 ---
 
+<a id="geo--llmo"></a>
+
 ## 🌐 GEO / LLMO
 
 Generative Engine Optimization — making your content discoverable by AI models.
@@ -249,6 +273,8 @@ Generative Engine Optimization — making your content discoverable by AI models
 
 ---
 
+<a id="docker--infrastructure"></a>
+
 ## 🐳 Docker & Infrastructure
 
 Running AI models locally with Docker.
@@ -256,6 +282,8 @@ Running AI models locally with Docker.
 - [Docker Model Runner](https://www.docker.com/blog/introducing-docker-model-runner/) — Run AI models directly in Docker
 
 ---
+
+<a id="terminal-tools"></a>
 
 ## 🖥️ Terminal Tools
 
@@ -266,6 +294,8 @@ Modern terminal emulators and multiplexers for AI-augmented workflows.
 - [tmux](https://github.com/tmux/tmux) — Classic terminal multiplexer
 
 ---
+
+<a id="misc-tools"></a>
 
 ## 🔧 Misc Tools
 
@@ -278,6 +308,8 @@ Browser automation, scraping, background jobs, and other useful tools.
 
 ---
 
+<a id="ai-native-landscape"></a>
+
 ## 🧭 AI Native Landscape
 
 Overview of the AI-native development ecosystem.
@@ -285,6 +317,8 @@ Overview of the AI-native development ecosystem.
 - [AI Native Dev Landscape](https://landscape.ainativedev.io/) — Interactive landscape of AI-native tools
 
 ---
+
+<a id="psychology-culture--ai"></a>
 
 ## 💭 Psychology, Culture & AI
 
