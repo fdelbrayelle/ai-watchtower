@@ -6,8 +6,29 @@ A curated tech radar for AI/LLM tooling, best practices, and news. One place to 
 
 ---
 
+<a id="what-to-focus-on-now"></a>
+
+## 🎯 What to Focus On Now
+
+With 80%+ of code now AI-generated, the engineer's value shifts from writing code to shaping what gets built, how it holds together, and whether it works.
+
+- [Product Thinking](https://roadmap.sh/product-manager) — Own the "what" and "why" before the agent writes the "how"
+- [Software Architecture](https://roadmap.sh/software-architect) — System design, boundaries, and trade-offs don't prompt themselves
+- [Cybersecurity](https://roadmap.sh/cyber-security) — AI-generated code is only as secure as the reviewer
+- [Code Review](https://google.github.io/eng-practices/review/) — The last line of defense is now the main job
+- [QA & Testing Strategy](https://roadmap.sh/qa) — If you didn't write it, you'd better know how to break it
+- [Agentic Orchestration](#ai-agents--agentic-frameworks) — Designing, chaining, and supervising AI agents (see below)
+- [Technical Writing](https://roadmap.sh/technical-writer) — Specs, prompts, and docs are the new source code
+- [GEO / LLMO](#geo--llmo) — Marketing outcomes where AI models can find them
+- [Self Marketing](https://www.freecodecamp.org/news/personal-branding-for-devs-handbook/) — Build visibility on LinkedIn, Twitter/X, Slack, and beyond — your work won't speak for itself
+
+The radar below tracks the tools and practices for each of these areas.
+
+---
+
 ## 📚 Table of Contents
 
+- [What to Focus On Now](#what-to-focus-on-now)
 - [AI Agents & Agentic Frameworks](#ai-agents--agentic-frameworks)
 - [MCP (Model Context Protocol)](#mcp-model-context-protocol)
 - [Claude Code](#claude-code)
