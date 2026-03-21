@@ -23,7 +23,7 @@ With 80%+ of code now AI-generated, the engineer's value shifts from writing cod
 
 **Outputs — What you verify after the agent writes code:**
 
-- Technical Debt Management — AI writes fast, but someone has to maintain it
+- [Technical Debt Management](https://leaddev.com/technical-direction/how-ai-generated-code-accelerates-technical-debt) — AI writes fast, but someone has to maintain it
 - [Code Review](https://google.github.io/eng-practices/review/) — The last line of defense is now the main job
 - [QA & Testing Strategy](https://roadmap.sh/qa) — If you didn't write it, you'd better know how to break it
 
@@ -32,10 +32,10 @@ With 80%+ of code now AI-generated, the engineer's value shifts from writing cod
 - [Self Marketing](https://www.freecodecamp.org/news/personal-branding-for-devs-handbook/) — Build visibility on LinkedIn, Twitter/X, Slack, and beyond — your work won't speak for itself
 - [GEO / LLMO](#geo--llmo) — Marketing outcomes where AI models can find them
 - [Technical Writing](https://roadmap.sh/technical-writer) — Specs, prompts, and docs are the new source code
-- Inference Economy — Save tokens, use simple scripts or local SLMs when a frontier model isn't needed
+- [Inference Economy](https://epoch.ai/blog/inference-economics-of-language-models) — Save tokens, use simple scripts or local SLMs when a frontier model isn't needed
 - [Agentic Orchestration](#ai-agents--agentic-frameworks) — Designing, chaining, and supervising AI agents (see below 👇)
-- Black Box Debug & Observability — You can't debug what you can't see; instrument what agents produce
-- Legal, Compliance & Governance — GDPR, AI Act, licensing — the rules AI can't learn on its own
+- [Black Box Debug & Observability](https://wandb.ai/site/articles/ai-agent-observability/) — You can't debug what you can't see; instrument what agents produce
+- [Legal, Compliance & Governance](https://linuxfoundation.eu/newsroom/ai-act-explainer) — GDPR, AI Act, licensing — the rules AI can't learn on its own
 - [Cybersecurity](https://roadmap.sh/cyber-security) — AI-generated code is only as secure as the reviewer
 
 The radar below tracks the tools and practices for each of these areas.
@@ -138,6 +138,7 @@ Best practices, monitoring, and token optimization for Claude Code.
 - [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) — Official Anthropic training 📌 Unread
 - [Claude Code Plugins](https://code.claude.com/docs/en/plugins) — Official plugins documentation 📌 Unread
 - [Claude Swarm Monitor](https://github.com/oinant/claude-swarm-monitor) — Monitor Claude Code swarms
+- [Claude Octopus](https://github.com/nyldn/claude-octopus) — Multi-agent orchestrator coordinating Claude, Codex, and Gemini CLIs 📌 Unread
 - [CC Workflow Studio](https://github.com/breaking-brake/cc-wf-studio) — Claude Code observability
 - [RTK](https://github.com/rtk-ai/rtk) — Token reduction tool (standalone Rust binary, zero dependencies)
 - [Claudette](https://github.com/nicmarti/Claudette) — Token reduction via MCP
