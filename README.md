@@ -82,7 +82,7 @@ Platforms, protocols, and orchestration tools for building and running AI agents
 - [Agor](https://agor.live/) — Multi-agent collaboration platform (by the creator of Airflow)
 - [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD) — Breakthrough Method for Agile AI Development
 - [Goose](https://github.com/block/goose) — Block's open-source AI developer agent
-- [Beads](https://github.com/steveyegge/beads) — AI coding assistant framework by Steve Yegge
+- [Beads](https://github.com/steveyegge/beads) — AI coding assistant framework by Steve Yegge 📌 Unread
 - [Dexter](https://github.com/virattt/dexter) — Finance-focused AI agent
 - [Kestra Engineering AI Hub](https://github.com/kestra-io/engineering-ai-hub) — AI-powered engineering workflows
 - [Zvec](https://github.com/alibaba/zvec) — Vector database by Alibaba
@@ -142,7 +142,7 @@ Best practices, monitoring, and token optimization for Claude Code.
 - [CC Workflow Studio](https://github.com/breaking-brake/cc-wf-studio) — Claude Code observability
 - [RTK](https://github.com/rtk-ai/rtk) — Token reduction tool (standalone Rust binary, zero dependencies)
 - [Claudette](https://github.com/nicmarti/Claudette) — Token reduction via MCP
-- [Ralph Claude Code](https://github.com/frankbria/ralph-claude-code) — Claude Code assistant
+- [Ralph Claude Code](https://github.com/frankbria/ralph-claude-code) — Claude Code assistant 📌 Unread
 - [ExitBox](https://github.com/Cloud-Exit/ExitBox) — Security sandbox for Claude Code
 - [AI-RSK](https://github.com/Krigsexe/ai-rsk) — Security gate for AI-generated code, blocks builds until vulnerabilities are fixed
 - [Claude Opus 4.6 Announcement](https://www.anthropic.com/news/claude-opus-4-6) — Latest model release 📌 Unread
