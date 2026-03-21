@@ -83,8 +83,8 @@ Platforms, protocols, and orchestration tools for building and running AI agents
 - [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD) — Breakthrough Method for Agile AI Development
 - [Goose](https://github.com/block/goose) — Block's open-source AI developer agent
 - [Beads](https://github.com/steveyegge/beads) — AI coding assistant framework by Steve Yegge
-- [Dexter](https://github.com/virattt/dexter) — Finance-focused AI agent 📌 Unread
-- [Kestra Engineering AI Hub](https://github.com/kestra-io/engineering-ai-hub) — AI-powered engineering workflows 📌 Unread
+- [Dexter](https://github.com/virattt/dexter) — Finance-focused AI agent
+- [Kestra Engineering AI Hub](https://github.com/kestra-io/engineering-ai-hub) — AI-powered engineering workflows
 - [Zvec](https://github.com/alibaba/zvec) — Vector database by Alibaba
 - [Kilo AI](https://kilo.ai/) — AI agent platform
 - [VibeKanban](https://www.vibekanban.com/) — AI-native project management 📌 Unread
@@ -92,12 +92,12 @@ Platforms, protocols, and orchestration tools for building and running AI agents
 - [OpenClaw](https://openclaw.ai/) — Open-source AI agent framework
 - [NanoClaw](https://nanoclaw.net/) — Lightweight agent runtime
 - [NemoClaw](https://github.com/NVIDIA/NemoClaw) — NVIDIA's agent framework
-- [Sim AI](https://www.sim.ai/) — Create agents, MCP servers, and tools visually 📌 Unread
+- [Sim AI](https://www.sim.ai/) — Create agents, MCP servers, and tools visually
 - [Causal AI: From What to Why](https://elaiapartners.substack.com/p/from-what-to-why-the-rise-of-causal) — The rise of causal AI
-- [Aden HQ](https://adenhq.com/) — AI-powered development platform 📌 Unread
-- [Cosine](https://cosine.sh/) — AI code companion 📌 Unread
-- [Entire](https://entire.io/) — AI development platform 📌 Unread
-- [Air.dev](https://air.dev/) — AI agent builder 📌 Unread
+- [Aden HQ](https://adenhq.com/) — AI-powered development platform
+- [Cosine](https://cosine.sh/) — AI code companion
+- [Entire](https://entire.io/) — AI development platform
+- [Air.dev](https://air.dev/) — AI agent builder
 - [GitHub Agentic Workflows](https://github.com/features) — GitHub's built-in agentic capabilities
 - [Get Shit Done](https://github.com/gsd-build/get-shit-done) — Pragmatic AI development methodology 📌 Unread
 - [Autopsy of the Great Reckoning](https://www.linkedin.com/pulse/autopsie-du-great-reckoning-et-les-5-le%C3%A7ons-qui-lia-aur%C3%A9lien-allienne-tpkue/) — 5 lessons from AI adoption
@@ -117,8 +117,8 @@ The open standard for connecting AI models to external tools and data sources.
 - [MCP Part I: Core Concepts](https://blog.owulveryck.info/fr/2025/01/27/mcp-partie-i-concepts-fondamentaux-pass%C3%A9-pr%C3%A9sent-et-futur-des-syst%C3%A8mes-agents.html) — Past, present, and future of agent systems
 - [Awesome MCP Servers](https://glama.ai/mcp/servers) — Directory of MCP servers
 - [MCP is Dead, Long Live the CLI](https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html) — The debate: MCP vs CLI tools (nuance: MCPs cost more tokens for tool calls; skills & CLI can be more efficient, but MCPs still have valid use cases)
-- [Datagouv MCP](https://github.com/datagouv/datagouv-mcp) — French open data MCP server 📌 Unread
-- [Micronaut MCP](https://micronaut-projects.github.io/micronaut-mcp/snapshot/guide/) — MCP support for Micronaut framework 📌 Unread
+- [Datagouv MCP](https://github.com/datagouv/datagouv-mcp) — French open data MCP server
+- [Micronaut MCP](https://micronaut-projects.github.io/micronaut-mcp/snapshot/guide/) — MCP support for Micronaut framework
 
 ---
 
@@ -128,9 +128,9 @@ The open standard for connecting AI models to external tools and data sources.
 
 Best practices, monitoring, and token optimization for Claude Code.
 
-- [Claude Code Best Practices (Thread 1)](https://x.com/bcherny/status/2007179832300581177) — Tips from a Claude engineer
-- [Claude Code Best Practices (Thread 2)](https://x.com/bcherny/status/2017742741636321619) — More tips from a Claude engineer
-- [Claude Code Best Practices Repo](https://github.com/shanraisshan/claude-code-best-practice) — Community-curated best practices
+- [Claude Code Best Practices (Thread 1)](https://x.com/bcherny/status/2007179832300581177) — Tips from a Claude engineer 📌 Unread
+- [Claude Code Best Practices (Thread 2)](https://x.com/bcherny/status/2017742741636321619) — More tips from a Claude engineer 📌 Unread
+- [Claude Code Best Practices Repo](https://github.com/shanraisshan/claude-code-best-practice) — Community-curated best practices 📌 Unread
 - [Claude Code Tips](https://github.com/ykdojo/claude-code-tips) — Practical tips collection 📌 Unread
 - [Claude Code Guide](https://cc.bruniaux.com/guide/) — Comprehensive guide 📌 Unread
 - [MCP vs CLI Guidance](https://cc.bruniaux.com/guide/mcp-vs-cli/#guidance-by-situation) — When to use MCP vs CLI 📌 Unread
@@ -198,7 +198,7 @@ Prompt-driven development, spec-driven development, and prompt engineering guide
 - [Humans and Agents](https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html) — Martin Fowler on human-agent collaboration 📌 Unread
 - [Knowledge Priming](https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html) — Reducing friction with AI through knowledge priming
 - [Skills.sh](https://skills.sh/) — Reusable AI skills marketplace
-- [Math Spec-Driven Skill](https://github.com/Ben8t/math-spec-driven-skill) — Example of spec-driven skill development 📌 Unread
+- [Math Spec-Driven Skill](https://github.com/Ben8t/math-spec-driven-skill) — Example of spec-driven skill development
 - [CLI-Anything](https://github.com/HKUDS/CLI-Anything) — Turn any tool into a CLI for AI agents
 - [Superpowers](https://github.com/obra/superpowers) — Agentic skills framework & software development methodology 📌 Unread
 
@@ -346,7 +346,7 @@ Browser automation, scraping, background jobs, and other useful tools.
 - [Scrapling](https://github.com/D4Vinci/Scrapling) — AI-adapted web scraping
 - [Trigger.dev](https://trigger.dev/) — Background jobs and workflow automation
 - [Agent Browser](https://agent-browser.dev/skills) — Browser automation CLI for AI agents
-- [Vercel Agent Browser](https://github.com/vercel-labs/agent-browser) — Vercel's browser automation skills 📌 Unread
+- [Vercel Agent Browser](https://github.com/vercel-labs/agent-browser) — Vercel's browser automation skills
 
 ---
 
