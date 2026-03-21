@@ -12,15 +12,31 @@ A curated tech radar for AI/LLM tooling, best practices, and news. One place to 
 
 With 80%+ of code now AI-generated, the engineer's value shifts from writing code to shaping what gets built, how it holds together, and whether it works.
 
-- [Product Thinking](https://roadmap.sh/product-manager) — Own the "what" and "why" before the agent writes the "how"
+<p align="center">
+  <img src="what-to-focus-on-now.svg" alt="What to Focus On Now — Hexagonal Hive" width="800" />
+</p>
+
+**Inputs — What you shape before the agent writes code:**
+
 - [Software Architecture](https://roadmap.sh/software-architect) — System design, boundaries, and trade-offs don't prompt themselves
-- [Cybersecurity](https://roadmap.sh/cyber-security) — AI-generated code is only as secure as the reviewer
+- [Product Thinking](https://roadmap.sh/product-manager) — Own the "what" and "why" before the agent writes the "how"
+
+**Outputs — What you verify after the agent writes code:**
+
+- Technical Debt Management — AI writes fast, but someone has to maintain it
 - [Code Review](https://google.github.io/eng-practices/review/) — The last line of defense is now the main job
 - [QA & Testing Strategy](https://roadmap.sh/qa) — If you didn't write it, you'd better know how to break it
-- [Agentic Orchestration](#ai-agents--agentic-frameworks) — Designing, chaining, and supervising AI agents (see below)
-- [Technical Writing](https://roadmap.sh/technical-writer) — Specs, prompts, and docs are the new source code
-- [GEO / LLMO](#geo--llmo) — Marketing outcomes where AI models can find them
+
+**Transverse — Skills that apply across the entire lifecycle:**
+
 - [Self Marketing](https://www.freecodecamp.org/news/personal-branding-for-devs-handbook/) — Build visibility on LinkedIn, Twitter/X, Slack, and beyond — your work won't speak for itself
+- [GEO / LLMO](#geo--llmo) — Marketing outcomes where AI models can find them
+- [Technical Writing](https://roadmap.sh/technical-writer) — Specs, prompts, and docs are the new source code
+- Inference Economy — Save tokens, use simple scripts or local SLMs when a frontier model isn't needed
+- [Agentic Orchestration](#ai-agents--agentic-frameworks) — Designing, chaining, and supervising AI agents (see below 👇)
+- Black Box Debug & Observability — You can't debug what you can't see; instrument what agents produce
+- Legal, Compliance & Governance — GDPR, AI Act, licensing — the rules AI can't learn on its own
+- [Cybersecurity](https://roadmap.sh/cyber-security) — AI-generated code is only as secure as the reviewer
 
 The radar below tracks the tools and practices for each of these areas.
 
@@ -127,10 +143,12 @@ Best practices, monitoring, and token optimization for Claude Code.
 - [Claudette](https://github.com/nicmarti/Claudette) — Token reduction via MCP
 - [Ralph Claude Code](https://github.com/frankbria/ralph-claude-code) — Claude Code assistant
 - [ExitBox](https://github.com/Cloud-Exit/ExitBox) — Security sandbox for Claude Code
+- [AI-RSK](https://github.com/Krigsexe/ai-rsk) — Security gate for AI-generated code, blocks builds until vulnerabilities are fixed
 - [Claude Opus 4.6 Announcement](https://www.anthropic.com/news/claude-opus-4-6) — Latest model release 📌 Unread
 - [Claude Sonnet 4.6 Announcement](https://www.anthropic.com/news/claude-sonnet-4-6) — Latest model release 📌 Unread
 - [COBOL Modernization with AI](https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization) — Breaking the cost barrier 📌 Unread
-- Claude Certified Architect — Available for Claude partners
+- [Claude Certified Architect](https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request) — Certification for Claude partners
+- [Claude Certified Architect Study Guide](https://github.com/paullarionov/claude-certified-architect/blob/main/guide_en.MD) — Community study guide 📌 Unread
 
 ---
 
@@ -181,6 +199,7 @@ Prompt-driven development, spec-driven development, and prompt engineering guide
 - [Skills.sh](https://skills.sh/) — Reusable AI skills marketplace
 - [Math Spec-Driven Skill](https://github.com/Ben8t/math-spec-driven-skill) — Example of spec-driven skill development 📌 Unread
 - [CLI-Anything](https://github.com/HKUDS/CLI-Anything) — Turn any tool into a CLI for AI agents
+- [Superpowers](https://github.com/obra/superpowers) — Agentic skills framework & software development methodology 📌 Unread
 
 ---
 
@@ -193,6 +212,7 @@ Access multiple LLMs through unified interfaces and routers.
 - [LiteLLM](https://github.com/BerriAI/litellm) — Unified API for 100+ LLMs
 - [OpenRouter](https://openrouter.ai/) — LLM routing and access
 - [1min AI](https://1min.ai/) — Multi-model AI access platform
+- [LLMFit](https://github.com/AlexsJones/llmfit) — Find which models & providers run on your hardware 📌 Unread
 
 ---
 
