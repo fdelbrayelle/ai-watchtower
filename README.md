@@ -151,6 +151,12 @@ Best practices, monitoring, and token optimization for Claude Code.
 - [Claude Certified Architect](https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request) — Certification for Claude partners
 - [Claude Certified Architect Study Guide](https://github.com/paullarionov/claude-certified-architect/blob/main/guide_en.MD) — Community study guide 📌 Unread
 
+### Plugins
+
+- [Context7](https://github.com/upstash/context7) — Up-to-date docs and code examples for any library, pulled straight into your prompt 📌 Unread
+- [Superpowers](https://github.com/obra/superpowers) — Agentic skills framework & software development methodology 📌 Unread
+- [Hookify](https://github.com/anthropics/claude-code/tree/main/plugins/hookify) — Official plugin to manage Claude Code hooks visually 📌 Unread
+
 ---
 
 <a id="code-assistants--ai-editors"></a>
@@ -200,7 +206,6 @@ Prompt-driven development, spec-driven development, and prompt engineering guide
 - [Skills.sh](https://skills.sh/) — Reusable AI skills marketplace
 - [Math Spec-Driven Skill](https://github.com/Ben8t/math-spec-driven-skill) — Example of spec-driven skill development
 - [CLI-Anything](https://github.com/HKUDS/CLI-Anything) — Turn any tool into a CLI for AI agents
-- [Superpowers](https://github.com/obra/superpowers) — Agentic skills framework & software development methodology 📌 Unread
 
 ---
 
