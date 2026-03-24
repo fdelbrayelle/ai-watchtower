@@ -140,8 +140,6 @@ Best practices, monitoring, and token optimization for Claude Code.
 - [Claude Swarm Monitor](https://github.com/oinant/claude-swarm-monitor) — Monitor Claude Code swarms
 - [Claude Octopus](https://github.com/nyldn/claude-octopus) — Multi-agent orchestrator coordinating Claude, Codex, and Gemini CLIs 📌 Unread
 - [CC Workflow Studio](https://github.com/breaking-brake/cc-wf-studio) — Claude Code observability
-- [RTK](https://github.com/rtk-ai/rtk) — Token reduction tool (standalone Rust binary, zero dependencies)
-- [Claudette](https://github.com/nicmarti/Claudette) — Token reduction via MCP
 - [Ralph Claude Code](https://github.com/frankbria/ralph-claude-code) — Claude Code assistant 📌 Unread
 - [ExitBox](https://github.com/Cloud-Exit/ExitBox) — Security sandbox for Claude Code
 - [AI-RSK](https://github.com/Krigsexe/ai-rsk) — Security gate for AI-generated code, blocks builds until vulnerabilities are fixed
@@ -150,6 +148,12 @@ Best practices, monitoring, and token optimization for Claude Code.
 - [COBOL Modernization with AI](https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization) — Breaking the cost barrier 📌 Unread
 - [Claude Certified Architect](https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request) — Certification for Claude partners
 - [Claude Certified Architect Study Guide](https://github.com/paullarionov/claude-certified-architect/blob/main/guide_en.MD) — Community study guide 📌 Unread
+
+### Token Optimization
+
+- [RTK](https://github.com/rtk-ai/rtk) — Token reduction tool (standalone Rust binary, zero dependencies)
+- [Claudette](https://github.com/nicmarti/Claudette) — Token reduction via MCP
+- [Serena](https://github.com/oraios/serena) — Language-server-powered code intelligence MCP, gives agents precise context to save tokens 📌 Unread
 
 ### Plugins
 
