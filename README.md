@@ -167,98 +167,6 @@ AI accelerates output, but craft still matters. Build agents or skills specializ
 
 ---
 
-<a id="technical-debt-management"></a>
-
-## 🧹 Technical Debt Management
-
-AI writes fast, but someone has to maintain it.
-
-- [How AI-Generated Code Accelerates Technical Debt](https://leaddev.com/technical-direction/how-ai-generated-code-accelerates-technical-debt) — LeadDev on the debt acceleration problem
-
----
-
-<a id="code-review"></a>
-
-## 👁️ Code Review
-
-The last line of defense is now the main job.
-
-- [Google's Code Review Practices](https://google.github.io/eng-practices/review/) — Engineering best practices for code review
-- [Claude Code Custom Agents & Skills](https://docs.anthropic.com/en/docs/claude-code/skills) — Build dedicated review agents or slash-command skills to automate code review workflows
-
----
-
-<a id="qa--testing-strategy"></a>
-
-## 🧪 QA & Testing Strategy
-
-If you didn't write it, you'd better know how to break it.
-
-- [QA Roadmap](https://roadmap.sh/qa) — Roadmap for QA engineers
-- [Claude Code Custom Agents & Skills](https://docs.anthropic.com/en/docs/claude-code/skills) — Build dedicated QA agents or slash-command skills to automate testing workflows
-
----
-
-<a id="self-marketing"></a>
-
-## 📣 Self Marketing
-
-Build visibility on LinkedIn, Twitter/X, Slack, and beyond — your work won't speak for itself.
-
-- [Personal Branding for Devs](https://www.freecodecamp.org/news/personal-branding-for-devs-handbook/) — freeCodeCamp handbook on developer personal branding
-
----
-
-<a id="geo--llmo"></a>
-
-## 🌐 GEO / LLMO
-
-Generative Engine Optimization — making your content discoverable by AI models.
-
-- [What is GEO/LLMO?](https://www.crews-education.com/actualites/qu-est-ce-que-le-geo-llmo) — Introduction to Generative Engine Optimization
-- [8 On-Page SEO Tips for LLM/GEO](https://www.sebastien-vallat.com/8-conseils-seo-on-page-llm-geo/) — Practical optimization tips
-
----
-
-<a id="technical-writing--prompt-engineering"></a>
-
-## 📝 Technical Writing & Prompt Engineering
-
-Specs, prompts, and docs are the new source code — prompt-driven and spec-driven development.
-
-- [Prompting Guide](https://www.promptingguide.ai/fr) — Comprehensive prompt engineering guide
-- [Prompting Guide: Basics](https://www.promptingguide.ai/fr/introduction/basics) — Introduction to prompt fundamentals
-- [Prompt Driven Development](https://promptdriven.ai/) — PDD methodology 📌 Unread
-- [Spec-Driven Development: Tools](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html) — Martin Fowler on SDD tooling 📌 Unread
-- [Humans and Agents](https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html) — Martin Fowler on human-agent collaboration 📌 Unread
-- [Knowledge Priming](https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html) — Reducing friction with AI through knowledge priming
-- [Skills.sh](https://skills.sh/) — Reusable AI skills marketplace
-- [Math Spec-Driven Skill](https://github.com/Ben8t/math-spec-driven-skill) — Example of spec-driven skill development
-- [CLI-Anything](https://github.com/HKUDS/CLI-Anything) — Turn any tool into a CLI for AI agents
-
----
-
-<a id="inference-economy"></a>
-
-## 💰 Inference Economy
-
-[Save tokens](https://epoch.ai/blog/inference-economics-of-language-models), use simple scripts or local SLMs when a frontier model isn't needed. Optimize cost, latency, and routing across models.
-
-### Token Optimization
-
-- [RTK](https://github.com/rtk-ai/rtk) — Token reduction tool (standalone Rust binary, zero dependencies)
-- [Claudette](https://github.com/nicmarti/Claudette) — Token reduction via MCP
-- [Serena](https://github.com/oraios/serena) — Language-server-powered code intelligence MCP, gives agents precise context to save tokens 📌 Unread
-
-### Multi-LLM Access & Routing
-
-- [LiteLLM](https://github.com/BerriAI/litellm) — Unified API for 100+ LLMs
-- [OpenRouter](https://openrouter.ai/) — LLM routing and access
-- [1min AI](https://1min.ai/) — Multi-model AI access platform
-- [LLMFit](https://github.com/AlexsJones/llmfit) — Find which models & providers run on your hardware 📌 Unread
-
----
-
 <a id="agentic-orchestration"></a>
 
 ## 🤖 Agentic Orchestration
@@ -483,6 +391,98 @@ Thought pieces on how AI is reshaping developer culture and the software industr
 - [Enterprise AI](https://www.latent.space/p/enterprise) — Latent Space on enterprise AI adoption
 - [AI Agent Attacks Open Source Developer](https://intelligence-artificielle.developpez.com/actu/380270/Un-agent-IA-autonome-lance-une-campagne-de-denigrement-contre-un-developpeur-open-source-pour-imposer-son-optimisation-a-la-bibliotheque-Python-Matplotlib-que-ce-dernier-a-refusee/) — When an autonomous AI agent targeted an open-source maintainer
 - [Death by Clawd](https://deathbyclawd.com/) — Ironical SaaS death prediction powered by AI 📌 Unread
+
+---
+
+<a id="technical-debt-management"></a>
+
+## 🧹 Technical Debt Management
+
+AI writes fast, but someone has to maintain it.
+
+- [How AI-Generated Code Accelerates Technical Debt](https://leaddev.com/technical-direction/how-ai-generated-code-accelerates-technical-debt) — LeadDev on the debt acceleration problem
+
+---
+
+<a id="code-review"></a>
+
+## 👁️ Code Review
+
+The last line of defense is now the main job.
+
+- [Google's Code Review Practices](https://google.github.io/eng-practices/review/) — Engineering best practices for code review
+- [Claude Code Custom Agents & Skills](https://docs.anthropic.com/en/docs/claude-code/skills) — Build dedicated review agents or slash-command skills to automate code review workflows
+
+---
+
+<a id="qa--testing-strategy"></a>
+
+## 🧪 QA & Testing Strategy
+
+If you didn't write it, you'd better know how to break it.
+
+- [QA Roadmap](https://roadmap.sh/qa) — Roadmap for QA engineers
+- [Claude Code Custom Agents & Skills](https://docs.anthropic.com/en/docs/claude-code/skills) — Build dedicated QA agents or slash-command skills to automate testing workflows
+
+---
+
+<a id="self-marketing"></a>
+
+## 📣 Self Marketing
+
+Build visibility on LinkedIn, Twitter/X, Slack, and beyond — your work won't speak for itself.
+
+- [Personal Branding for Devs](https://www.freecodecamp.org/news/personal-branding-for-devs-handbook/) — freeCodeCamp handbook on developer personal branding
+
+---
+
+<a id="geo--llmo"></a>
+
+## 🌐 GEO / LLMO
+
+Generative Engine Optimization — making your content discoverable by AI models.
+
+- [What is GEO/LLMO?](https://www.crews-education.com/actualites/qu-est-ce-que-le-geo-llmo) — Introduction to Generative Engine Optimization
+- [8 On-Page SEO Tips for LLM/GEO](https://www.sebastien-vallat.com/8-conseils-seo-on-page-llm-geo/) — Practical optimization tips
+
+---
+
+<a id="technical-writing--prompt-engineering"></a>
+
+## 📝 Technical Writing & Prompt Engineering
+
+Specs, prompts, and docs are the new source code — prompt-driven and spec-driven development.
+
+- [Prompting Guide](https://www.promptingguide.ai/fr) — Comprehensive prompt engineering guide
+- [Prompting Guide: Basics](https://www.promptingguide.ai/fr/introduction/basics) — Introduction to prompt fundamentals
+- [Prompt Driven Development](https://promptdriven.ai/) — PDD methodology 📌 Unread
+- [Spec-Driven Development: Tools](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html) — Martin Fowler on SDD tooling 📌 Unread
+- [Humans and Agents](https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html) — Martin Fowler on human-agent collaboration 📌 Unread
+- [Knowledge Priming](https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html) — Reducing friction with AI through knowledge priming
+- [Skills.sh](https://skills.sh/) — Reusable AI skills marketplace
+- [Math Spec-Driven Skill](https://github.com/Ben8t/math-spec-driven-skill) — Example of spec-driven skill development
+- [CLI-Anything](https://github.com/HKUDS/CLI-Anything) — Turn any tool into a CLI for AI agents
+
+---
+
+<a id="inference-economy"></a>
+
+## 💰 Inference Economy
+
+[Save tokens](https://epoch.ai/blog/inference-economics-of-language-models), use simple scripts or local SLMs when a frontier model isn't needed. Optimize cost, latency, and routing across models.
+
+### Token Optimization
+
+- [RTK](https://github.com/rtk-ai/rtk) — Token reduction tool (standalone Rust binary, zero dependencies)
+- [Claudette](https://github.com/nicmarti/Claudette) — Token reduction via MCP
+- [Serena](https://github.com/oraios/serena) — Language-server-powered code intelligence MCP, gives agents precise context to save tokens 📌 Unread
+
+### Multi-LLM Access & Routing
+
+- [LiteLLM](https://github.com/BerriAI/litellm) — Unified API for 100+ LLMs
+- [OpenRouter](https://openrouter.ai/) — LLM routing and access
+- [1min AI](https://1min.ai/) — Multi-model AI access platform
+- [LLMFit](https://github.com/AlexsJones/llmfit) — Find which models & providers run on your hardware 📌 Unread
 
 ---
 
