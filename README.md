@@ -394,6 +394,30 @@ Thought pieces on how AI is reshaping developer culture and the software industr
 
 ---
 
+<a id="technical-writing"></a>
+
+## 📝 Technical Writing
+
+Specs, prompts, and docs are the new source code — prompt-driven, spec-driven, and context-driven development.
+
+- [Technical Writer Roadmap](https://roadmap.sh/technical-writer) — Roadmap for technical writers
+
+### Prompt / Specs / Context Engineering
+
+- [Effective Context Engineering for AI Agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) — Anthropic on designing the information environment agents operate in 📌 Unread
+- [Prompting Guide](https://www.promptingguide.ai/fr) — Comprehensive prompt engineering guide
+- [Prompting Guide: Basics](https://www.promptingguide.ai/fr/introduction/basics) — Introduction to prompt fundamentals
+- [Prompt Driven Development](https://promptdriven.ai/) — PDD methodology 📌 Unread
+- [Spec-Driven Development: Tools](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html) — Martin Fowler on SDD tooling 📌 Unread
+- [Humans and Agents](https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html) — Martin Fowler on human-in-the-loop agent collaboration 📌 Unread
+- [Knowledge Priming](https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html) — Reducing friction with AI through knowledge priming
+- [Skills.sh](https://skills.sh/) — Reusable AI skills marketplace
+- [AgentSkills.io](https://agentskills.io) — AI agent skills platform 📌 Unread
+- [Math Spec-Driven Skill](https://github.com/Ben8t/math-spec-driven-skill) — Example of spec-driven skill development
+- [CLI-Anything](https://github.com/HKUDS/CLI-Anything) — Turn any tool into a CLI for AI agents
+
+---
+
 <a id="inference-economy"></a>
 
 ## 💰 Inference Economy
@@ -475,30 +499,6 @@ Generative Engine Optimization — making your content discoverable by AI models
 
 - [What is GEO/LLMO?](https://www.crews-education.com/actualites/qu-est-ce-que-le-geo-llmo) — Introduction to Generative Engine Optimization
 - [8 On-Page SEO Tips for LLM/GEO](https://www.sebastien-vallat.com/8-conseils-seo-on-page-llm-geo/) — Practical optimization tips
-
----
-
-<a id="technical-writing"></a>
-
-## 📝 Technical Writing
-
-Specs, prompts, and docs are the new source code — prompt-driven, spec-driven, and context-driven development.
-
-- [Technical Writer Roadmap](https://roadmap.sh/technical-writer) — Roadmap for technical writers
-
-### Prompt / Specs / Context Engineering
-
-- [Effective Context Engineering for AI Agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) — Anthropic on designing the information environment agents operate in 📌 Unread
-- [Prompting Guide](https://www.promptingguide.ai/fr) — Comprehensive prompt engineering guide
-- [Prompting Guide: Basics](https://www.promptingguide.ai/fr/introduction/basics) — Introduction to prompt fundamentals
-- [Prompt Driven Development](https://promptdriven.ai/) — PDD methodology 📌 Unread
-- [Spec-Driven Development: Tools](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html) — Martin Fowler on SDD tooling 📌 Unread
-- [Humans and Agents](https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html) — Martin Fowler on human-in-the-loop agent collaboration 📌 Unread
-- [Knowledge Priming](https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html) — Reducing friction with AI through knowledge priming
-- [Skills.sh](https://skills.sh/) — Reusable AI skills marketplace
-- [AgentSkills.io](https://agentskills.io) — AI agent skills platform 📌 Unread
-- [Math Spec-Driven Skill](https://github.com/Ben8t/math-spec-driven-skill) — Example of spec-driven skill development
-- [CLI-Anything](https://github.com/HKUDS/CLI-Anything) — Turn any tool into a CLI for AI agents
 
 ---
 
