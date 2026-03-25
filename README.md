@@ -174,6 +174,7 @@ AI writes fast, but someone has to maintain it.
 The last line of defense is now the main job.
 
 - [Google's Code Review Practices](https://google.github.io/eng-practices/review/) — Engineering best practices for code review
+- [Claude Code Custom Agents & Skills](https://docs.anthropic.com/en/docs/claude-code/skills) — Build dedicated review agents or slash-command skills to automate code review workflows
 
 ---
 
@@ -184,6 +185,7 @@ The last line of defense is now the main job.
 If you didn't write it, you'd better know how to break it.
 
 - [QA Roadmap](https://roadmap.sh/qa) — Roadmap for QA engineers
+- [Claude Code Custom Agents & Skills](https://docs.anthropic.com/en/docs/claude-code/skills) — Build dedicated QA agents or slash-command skills to automate testing workflows
 
 ---
 
