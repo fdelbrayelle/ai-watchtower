@@ -33,8 +33,8 @@ With 80%+ of code now AI-generated, the engineer's value shifts from writing cod
 - [Self Marketing](#self-marketing) — Build visibility on LinkedIn, Twitter/X, Slack, and beyond — your work won't speak for itself
 - [GEO / LLMO](#geo--llmo) — Marketing outcomes where AI models can find them
 - [Technical Writing](#technical-writing) — Specs, prompts, and docs are the new source code
-- [Inference Economy](#inference-economy) — Save tokens, use simple scripts or local SLMs when a frontier model isn't needed
 - [Agentic Orchestration](#agentic-orchestration) — Designing, chaining, and supervising AI agents (see below 👇)
+- [Inference Economy](#inference-economy) — Save tokens, use simple scripts or local SLMs when a frontier model isn't needed
 - [Black Box Debug & Observability](#black-box-debug--observability) — You can't debug what you can't see; instrument what agents produce
 - [Legal, Compliance & Governance](#legal-compliance--governance) — GDPR, AI Act, licensing — the rules AI can't learn on its own
 - [Cybersecurity](#cybersecurity) — AI-generated code is only as secure as the reviewer
@@ -394,6 +394,37 @@ Thought pieces on how AI is reshaping developer culture and the software industr
 
 ---
 
+<a id="inference-economy"></a>
+
+## 💰 Inference Economy
+
+[Save tokens](https://epoch.ai/blog/inference-economics-of-language-models), use simple scripts or local SLMs when a frontier model isn't needed. Optimize cost, latency, and routing across models.
+
+### Token Optimization
+
+- [RTK](https://github.com/rtk-ai/rtk) — Token reduction tool (standalone Rust binary, zero dependencies)
+- [Claudette](https://github.com/nicmarti/Claudette) — Token reduction via MCP
+- [Serena](https://github.com/oraios/serena) — Language-server-powered code intelligence MCP, gives agents precise context to save tokens 📌 Unread
+
+### Multi-LLM Access & Routing
+
+- [LiteLLM](https://github.com/BerriAI/litellm) — Unified API for 100+ LLMs
+- [OpenRouter](https://openrouter.ai/) — LLM routing and access
+- [1min AI](https://1min.ai/) — Multi-model AI access platform
+- [LLMFit](https://github.com/AlexsJones/llmfit) — Find which models & providers run on your hardware 📌 Unread
+
+---
+
+<a id="black-box-debug--observability"></a>
+
+## 🔍 Black Box Debug & Observability
+
+You can't debug what you can't see — instrument what agents produce.
+
+- [AI Agent Observability](https://wandb.ai/site/articles/ai-agent-observability/) — Weights & Biases guide to agent observability
+
+---
+
 <a id="technical-debt-management"></a>
 
 ## 🧹 Technical Debt Management
@@ -467,37 +498,6 @@ Specs, prompts, and docs are the new source code — prompt-driven, spec-driven,
 - [Skills.sh](https://skills.sh/) — Reusable AI skills marketplace
 - [Math Spec-Driven Skill](https://github.com/Ben8t/math-spec-driven-skill) — Example of spec-driven skill development
 - [CLI-Anything](https://github.com/HKUDS/CLI-Anything) — Turn any tool into a CLI for AI agents
-
----
-
-<a id="inference-economy"></a>
-
-## 💰 Inference Economy
-
-[Save tokens](https://epoch.ai/blog/inference-economics-of-language-models), use simple scripts or local SLMs when a frontier model isn't needed. Optimize cost, latency, and routing across models.
-
-### Token Optimization
-
-- [RTK](https://github.com/rtk-ai/rtk) — Token reduction tool (standalone Rust binary, zero dependencies)
-- [Claudette](https://github.com/nicmarti/Claudette) — Token reduction via MCP
-- [Serena](https://github.com/oraios/serena) — Language-server-powered code intelligence MCP, gives agents precise context to save tokens 📌 Unread
-
-### Multi-LLM Access & Routing
-
-- [LiteLLM](https://github.com/BerriAI/litellm) — Unified API for 100+ LLMs
-- [OpenRouter](https://openrouter.ai/) — LLM routing and access
-- [1min AI](https://1min.ai/) — Multi-model AI access platform
-- [LLMFit](https://github.com/AlexsJones/llmfit) — Find which models & providers run on your hardware 📌 Unread
-
----
-
-<a id="black-box-debug--observability"></a>
-
-## 🔍 Black Box Debug & Observability
-
-You can't debug what you can't see — instrument what agents produce.
-
-- [AI Agent Observability](https://wandb.ai/site/articles/ai-agent-observability/) — Weights & Biases guide to agent observability
 
 ---
 
