@@ -38,6 +38,11 @@ With 80%+ of code now AI-generated, the engineer's value shifts from writing cod
 - [Legal, Compliance & Governance](https://linuxfoundation.eu/newsroom/ai-act-explainer) — GDPR, AI Act, licensing — the rules AI can't learn on its own
 - [Cybersecurity](https://roadmap.sh/cyber-security) — AI-generated code is only as secure as the reviewer
 
+**⚠️ Bottlenecks — Where the pipeline stalls:**
+
+- **Upstream:** Product must feed the backlog with clear business needs and prioritized requests — without this, agents spin on low-value work. FOMO-driven adoption ("competitors are shipping faster") compounds the problem by flooding the pipeline with half-baked specs.
+- **Downstream:** The human review layer can't scale at the same pace as AI output. Code review and QA fatigue set in fast. It's hard to say "stop" to agentic work at end of day. Constant context switching erodes focus, developers lose meaning in the work, and the risk of burnout becomes real.
+
 The radar below tracks the tools and practices for each of these areas.
 
 ---
