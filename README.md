@@ -155,6 +155,16 @@ Python fundamentals, frameworks, and best practices for the AI-era developer.
 - [FastAPI Tutorial](https://fastapi.tiangolo.com/tutorial/) — Getting started with FastAPI
 - [Pydantic Docs](https://docs.pydantic.dev/latest/) — Data validation library
 
+### Software Craftsmanship
+
+AI accelerates output, but craft still matters. Build agents or skills specialized in proven engineering disciplines to keep quality high at scale.
+
+- **TDD (Test-Driven Development)** — Create agents that write failing tests first, then generate the minimal code to pass. The red-green-refactor loop works even better when the agent handles the boilerplate and you review the design.
+- **BDD (Behavior-Driven Development)** — Use skills that generate Gherkin scenarios from user stories, then wire them to step definitions. Keeps acceptance criteria executable and traceable.
+- **DDD (Domain-Driven Design)** — Encode bounded contexts, aggregates, and ubiquitous language in project instructions so agents produce code that respects domain boundaries instead of creating a big ball of mud.
+- **Clean Architecture** — Enforce hexagonal / ports-and-adapters patterns through CLAUDE.md rules or custom agents that validate dependency direction (domain → application → infrastructure, never the reverse).
+- **Other patterns** — Onion Architecture, CQRS, Event Sourcing — codify these as agent constraints or review skills so generated code stays structurally sound.
+
 ---
 
 <a id="technical-debt-management"></a>
@@ -398,10 +408,17 @@ IDEs, copilots, and AI-powered coding tools.
 - [Junie](https://www.jetbrains.com/junie/) — JetBrains' AI coding agent
 - [Lovable](https://lovable.dev) — AI-powered full-stack app builder
 - [Mammouth AI](https://mammouth.ai/) — AI coding assistant
-- [Figma to Code](https://www.figma.com/community/plugin/747985167520967365) — Convert Figma designs to code
 - [OpenCode](https://opencode.ai/) — Open-source AI coding platform 📌 Unread
 - [OpenCode Worktree](https://github.com/kdcokenny/opencode-worktree) — Worktree support (alternative: `claude --worktree feature-auth`) 📌 Unread
 - [OCX](https://github.com/kdcokenny/ocx) — Extends OpenCode capabilities 📌 Unread
+
+### UX/UI Design
+
+AI-powered design-to-code tools and collaborative design platforms.
+
+- [Figma to Code](https://www.figma.com/community/plugin/747985167520967365) — Convert Figma designs to code
+- [Google Stitch](https://stitch.withgoogle.com/) — Google's AI-powered design-to-code tool 📌 Unread
+- [Paper](https://paper.design/) — Collaborative design tool for building interfaces 📌 Unread
 
 ### Generative AI Patterns & Learning
 
