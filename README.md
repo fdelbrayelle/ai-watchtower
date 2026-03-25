@@ -453,6 +453,8 @@ Generative Engine Optimization — making your content discoverable by AI models
 
 Specs, prompts, and docs are the new source code — prompt-driven, spec-driven, and context-driven development.
 
+- [Technical Writer Roadmap](https://roadmap.sh/technical-writer) — Roadmap for technical writers
+
 ### Prompt / Specs / Context Engineering
 
 - [Effective Context Engineering for AI Agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) — Anthropic on designing the information environment agents operate in 📌 Unread
