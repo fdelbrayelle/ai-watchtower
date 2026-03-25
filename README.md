@@ -437,6 +437,7 @@ Specs, prompts, and docs are the new source code — prompt-driven, spec-driven,
 - **Startup overhead:** Each `claude` invocation consumes tokens just to initialize/load context. You can verify this with `/context`.
 - **Repo switching cost:** Working across many repositories increases token usage due to repeated context loading and memory/context switching.
 - **Reasoning level:** Avoid unnecessarily high thinking/reasoning levels when a simpler mode is enough.
+- **Model choice:** In Claude Code, using Sonnet instead of Opus can save a lot of tokens when the task does not need the stronger model.
 - **Surface separation:** Avoid mixing the same work between Claude in the browser and Claude Code, since usage is shared and context has to be rebuilt.
 - **Worktree overhead:** Worktrees can also increase token consumption because each parallel branch/session may maintain separate context.
 
