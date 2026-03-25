@@ -496,6 +496,7 @@ Specs, prompts, and docs are the new source code — prompt-driven, spec-driven,
 - [Humans and Agents](https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html) — Martin Fowler on human-in-the-loop agent collaboration 📌 Unread
 - [Knowledge Priming](https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html) — Reducing friction with AI through knowledge priming
 - [Skills.sh](https://skills.sh/) — Reusable AI skills marketplace
+- [AgentSkills.io](https://agentskills.io) — AI agent skills platform 📌 Unread
 - [Math Spec-Driven Skill](https://github.com/Ben8t/math-spec-driven-skill) — Example of spec-driven skill development
 - [CLI-Anything](https://github.com/HKUDS/CLI-Anything) — Turn any tool into a CLI for AI agents
 
