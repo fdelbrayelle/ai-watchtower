@@ -101,6 +101,7 @@ Key concepts beyond vectors: matrix multiplication (the core of neural network f
 Own the "what" and "why" before the agent writes the "how".
 
 - [Product Manager Roadmap](https://roadmap.sh/product-manager) — Roadmap for product managers
+- [Thiga Books & Assets](https://www.thiga.co/en/our-assets) — Product management books and resources by Thiga
 
 ---
 
@@ -491,3 +492,4 @@ GDPR, AI Act, licensing — the rules AI can't learn on its own.
 AI-generated code is only as secure as the reviewer.
 
 - [Cybersecurity Roadmap](https://roadmap.sh/cyber-security) — Roadmap for cybersecurity
+- [OWASP Top 10](https://owasp.org/www-project-top-ten/) — The 10 most critical web application security risks
