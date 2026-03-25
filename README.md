@@ -32,7 +32,7 @@ With 80%+ of code now AI-generated, the engineer's value shifts from writing cod
 
 - [Self Marketing](#self-marketing) — Build visibility on LinkedIn, Twitter/X, Slack, and beyond — your work won't speak for itself
 - [GEO / LLMO](#geo--llmo) — Marketing outcomes where AI models can find them
-- [Technical Writing & Prompt Engineering](#technical-writing--prompt-engineering) — Specs, prompts, and docs are the new source code
+- [Technical Writing](#technical-writing) — Specs, prompts, and docs are the new source code
 - [Inference Economy](#inference-economy) — Save tokens, use simple scripts or local SLMs when a frontier model isn't needed
 - [Agentic Orchestration](#agentic-orchestration) — Designing, chaining, and supervising AI agents (see below 👇)
 - [Black Box Debug & Observability](#black-box-debug--observability) — You can't debug what you can't see; instrument what agents produce
@@ -121,7 +121,7 @@ Spring AI, LangChain4J, and the Java AI ecosystem.
 
 - [Spring AI](https://spring.io/projects/spring-ai) — Official Spring AI project
 - [Spring AI Concepts](https://docs.spring.io/spring-ai/reference/concepts.html) — Core concepts documentation
-- [Spring AI Prompt Engineering Patterns](https://spring.io/blog/2025/04/14/spring-ai-prompt-engineering-patterns) — Prompt patterns for Spring AI
+- [Spring AI Prompt / Context Engineering Patterns](https://spring.io/blog/2025/04/14/spring-ai-prompt-engineering-patterns) — Prompt patterns for Spring AI
 - [LangChain4J](https://docs.langchain4j.dev/) — Java LLM framework documentation
 - [LangChain4J + Docker Model Runner](https://medium.com/@lize.raes/langchain4j-%EF%B8%8F-docker-model-runner-b5f720a76c85) — Running LangChain4J with Docker
 - [Evolution of the Java Ecosystem for AI](https://inside.java/2025/01/29/evolution-of-java-ecosystem-for-integrating-ai/) — Oracle's perspective on Java + AI
@@ -447,17 +447,20 @@ Generative Engine Optimization — making your content discoverable by AI models
 
 ---
 
-<a id="technical-writing--prompt-engineering"></a>
+<a id="technical-writing"></a>
 
-## 📝 Technical Writing & Prompt Engineering
+## 📝 Technical Writing
 
-Specs, prompts, and docs are the new source code — prompt-driven and spec-driven development.
+Specs, prompts, and docs are the new source code — prompt-driven, spec-driven, and context-driven development.
 
+### Prompt / Specs / Context Engineering
+
+- [Effective Context Engineering for AI Agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) — Anthropic on designing the information environment agents operate in 📌 Unread
 - [Prompting Guide](https://www.promptingguide.ai/fr) — Comprehensive prompt engineering guide
 - [Prompting Guide: Basics](https://www.promptingguide.ai/fr/introduction/basics) — Introduction to prompt fundamentals
 - [Prompt Driven Development](https://promptdriven.ai/) — PDD methodology 📌 Unread
 - [Spec-Driven Development: Tools](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html) — Martin Fowler on SDD tooling 📌 Unread
-- [Humans and Agents](https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html) — Martin Fowler on human-agent collaboration 📌 Unread
+- [Humans and Agents](https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html) — Martin Fowler on human-in-the-loop agent collaboration 📌 Unread
 - [Knowledge Priming](https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html) — Reducing friction with AI through knowledge priming
 - [Skills.sh](https://skills.sh/) — Reusable AI skills marketplace
 - [Math Spec-Driven Skill](https://github.com/Ben8t/math-spec-driven-skill) — Example of spec-driven skill development
