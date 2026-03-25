@@ -407,6 +407,12 @@ IDEs, copilots, and AI-powered coding tools.
 
 Architecture patterns, training resources, and foundational learning.
 
+- [Generative AI Patterns](https://martinfowler.com/articles/gen-ai-patterns/) — Martin Fowler's gen AI pattern catalog
+- [Legacy Modernization with Gen AI](https://martinfowler.com/articles/legacy-modernization-gen-ai.html) — Modernizing legacy systems
+- [12 Days of Free Gen AI Training](https://cloud.google.com/blog/topics/training-certifications/12-days-of-no-cost-generative-ai-training?hl=en) — Google Cloud free training
+- [A Field Guide to AI](https://hamel.dev/blog/posts/field-guide/) — Practical AI field guide
+- [HuggingFace](https://huggingface.co) — The open-source AI platform
+
 #### JEPA & World Models
 
 Current LLMs learn by predicting the next token in text sequences. Despite training on the entire Internet, they lack the intuitive physics, common sense, and causal reasoning that a 4-year-old child acquires just by interacting with the world. A toddler learns that unsupported objects fall, that hidden objects still exist, and that actions have consequences — not from reading about them, but from **experiencing** them. LLMs memorize statistical patterns; children build **world models**.
@@ -417,12 +423,6 @@ Why it matters for engineers: JEPA signals a potential paradigm shift beyond aut
 
 - [A Path Towards Autonomous Machine Intelligence](https://openreview.net/pdf?id=BZ5a1r-kVsf) — Yann LeCun's JEPA position paper
 - [Yann LeCun: JEPA Explained (DEVOXX)](https://www.youtube.com/watch?v=MiqLoAZFRSE) — Talk on world models and the limits of LLMs
-
-- [Generative AI Patterns](https://martinfowler.com/articles/gen-ai-patterns/) — Martin Fowler's gen AI pattern catalog
-- [Legacy Modernization with Gen AI](https://martinfowler.com/articles/legacy-modernization-gen-ai.html) — Modernizing legacy systems
-- [12 Days of Free Gen AI Training](https://cloud.google.com/blog/topics/training-certifications/12-days-of-no-cost-generative-ai-training?hl=en) — Google Cloud free training
-- [A Field Guide to AI](https://hamel.dev/blog/posts/field-guide/) — Practical AI field guide
-- [HuggingFace](https://huggingface.co) — The open-source AI platform
 
 ### Developer Tooling & Infrastructure
 
