@@ -18,25 +18,25 @@ With 80%+ of code now AI-generated, the engineer's value shifts from writing cod
 
 **Inputs — What you shape before the agent writes code:**
 
-- [Software Architecture](https://roadmap.sh/software-architect) — System design, boundaries, and trade-offs don't prompt themselves
-- [Product Thinking](https://roadmap.sh/product-manager) — Own the "what" and "why" before the agent writes the "how"
+- [Software Architecture](#software-architecture) — System design, boundaries, and trade-offs don't prompt themselves
+- [Product Thinking](#product-thinking) — Own the "what" and "why" before the agent writes the "how"
 
 **Outputs — What you verify after the agent writes code:**
 
-- [Technical Debt Management](https://leaddev.com/technical-direction/how-ai-generated-code-accelerates-technical-debt) — AI writes fast, but someone has to maintain it
-- [Code Review](https://google.github.io/eng-practices/review/) — The last line of defense is now the main job
-- [QA & Testing Strategy](https://roadmap.sh/qa) — If you didn't write it, you'd better know how to break it
+- [Technical Debt Management](#technical-debt-management) — AI writes fast, but someone has to maintain it
+- [Code Review](#code-review) — The last line of defense is now the main job
+- [QA & Testing Strategy](#qa--testing-strategy) — If you didn't write it, you'd better know how to break it
 
 **Transverse — Skills that apply across the entire lifecycle:**
 
-- [Self Marketing](https://www.freecodecamp.org/news/personal-branding-for-devs-handbook/) — Build visibility on LinkedIn, Twitter/X, Slack, and beyond — your work won't speak for itself
+- [Self Marketing](#self-marketing) — Build visibility on LinkedIn, Twitter/X, Slack, and beyond — your work won't speak for itself
 - [GEO / LLMO](#geo--llmo) — Marketing outcomes where AI models can find them
-- [Technical Writing](https://roadmap.sh/technical-writer) — Specs, prompts, and docs are the new source code
-- [Inference Economy](https://epoch.ai/blog/inference-economics-of-language-models) — Save tokens, use simple scripts or local SLMs when a frontier model isn't needed
-- [Agentic Orchestration](#ai-agents--agentic-frameworks) — Designing, chaining, and supervising AI agents (see below 👇)
-- [Black Box Debug & Observability](https://wandb.ai/site/articles/ai-agent-observability/) — You can't debug what you can't see; instrument what agents produce
-- [Legal, Compliance & Governance](https://linuxfoundation.eu/newsroom/ai-act-explainer) — GDPR, AI Act, licensing — the rules AI can't learn on its own
-- [Cybersecurity](https://roadmap.sh/cyber-security) — AI-generated code is only as secure as the reviewer
+- [Technical Writing & Prompt Engineering](#technical-writing--prompt-engineering) — Specs, prompts, and docs are the new source code
+- [Inference Economy](#inference-economy) — Save tokens, use simple scripts or local SLMs when a frontier model isn't needed
+- [Agentic Orchestration](#agentic-orchestration) — Designing, chaining, and supervising AI agents (see below 👇)
+- [Black Box Debug & Observability](#black-box-debug--observability) — You can't debug what you can't see; instrument what agents produce
+- [Legal, Compliance & Governance](#legal-compliance--governance) — GDPR, AI Act, licensing — the rules AI can't learn on its own
+- [Cybersecurity](#cybersecurity) — AI-generated code is only as secure as the reviewer
 
 **⚠️ Bottlenecks — Where the pipeline stalls:**
 
@@ -50,31 +50,149 @@ The radar below tracks the tools and practices for each of these areas.
 ## 📚 Table of Contents
 
 - [What to Focus On Now](#what-to-focus-on-now)
-- [AI Agents & Agentic Frameworks](#ai-agents--agentic-frameworks)
-- [MCP (Model Context Protocol)](#mcp-model-context-protocol)
-- [Claude Code](#claude-code)
-- [Code Assistants & AI Editors](#code-assistants--ai-editors)
-- [OpenCode](#opencode)
-- [Prompt Engineering & Development Methodologies](#prompt-engineering--development-methodologies)
-- [Multi-LLM Access & Routing](#multi-llm-access--routing)
-- [AI for Java](#ai-for-java)
-- [Python Ecosystem](#python-ecosystem)
-- [Data Engineering & Science](#data-engineering--science)
-- [Generative AI Patterns & Learning](#generative-ai-patterns--learning)
-- [GEO / LLMO](#geo--llmo)
-- [Docker & Infrastructure](#docker--infrastructure)
-- [Terminal Tools](#terminal-tools)
-- [Misc Tools](#misc-tools)
-- [AI Native Landscape](#ai-native-landscape)
-- [Psychology, Culture & AI](#psychology-culture--ai)
+- **Inputs**
+  - [Software Architecture](#software-architecture)
+  - [Product Thinking](#product-thinking)
+- **Outputs**
+  - [Technical Debt Management](#technical-debt-management)
+  - [Code Review](#code-review)
+  - [QA & Testing Strategy](#qa--testing-strategy)
+- **Transverse**
+  - [Self Marketing](#self-marketing)
+  - [GEO / LLMO](#geo--llmo)
+  - [Technical Writing & Prompt Engineering](#technical-writing--prompt-engineering)
+  - [Inference Economy](#inference-economy)
+  - [Agentic Orchestration](#agentic-orchestration)
+  - [Black Box Debug & Observability](#black-box-debug--observability)
+  - [Legal, Compliance & Governance](#legal-compliance--governance)
+  - [Cybersecurity](#cybersecurity)
+- **More**
+  - [Language Ecosystems](#language-ecosystems)
+  - [Data Engineering & Science](#data-engineering--science)
+  - [Generative AI Patterns & Learning](#generative-ai-patterns--learning)
+  - [Developer Tooling & Infrastructure](#developer-tooling--infrastructure)
+  - [AI Native Landscape](#ai-native-landscape)
+  - [Psychology, Culture & AI](#psychology-culture--ai)
 
 ---
 
-<a id="ai-agents--agentic-frameworks"></a>
+<a id="software-architecture"></a>
 
-## 🤖 AI Agents & Agentic Frameworks
+## 🏗️ Software Architecture
 
-Platforms, protocols, and orchestration tools for building and running AI agents.
+System design, boundaries, and trade-offs don't prompt themselves.
+
+- [Software Architect Roadmap](https://roadmap.sh/software-architect) — Roadmap for software architects
+
+---
+
+<a id="product-thinking"></a>
+
+## 💡 Product Thinking
+
+Own the "what" and "why" before the agent writes the "how".
+
+- [Product Manager Roadmap](https://roadmap.sh/product-manager) — Roadmap for product managers
+
+---
+
+<a id="technical-debt-management"></a>
+
+## 🧹 Technical Debt Management
+
+AI writes fast, but someone has to maintain it.
+
+- [How AI-Generated Code Accelerates Technical Debt](https://leaddev.com/technical-direction/how-ai-generated-code-accelerates-technical-debt) — LeadDev on the debt acceleration problem
+
+---
+
+<a id="code-review"></a>
+
+## 👁️ Code Review
+
+The last line of defense is now the main job.
+
+- [Google's Code Review Practices](https://google.github.io/eng-practices/review/) — Engineering best practices for code review
+
+---
+
+<a id="qa--testing-strategy"></a>
+
+## 🧪 QA & Testing Strategy
+
+If you didn't write it, you'd better know how to break it.
+
+- [QA Roadmap](https://roadmap.sh/qa) — Roadmap for QA engineers
+
+---
+
+<a id="self-marketing"></a>
+
+## 📣 Self Marketing
+
+Build visibility on LinkedIn, Twitter/X, Slack, and beyond — your work won't speak for itself.
+
+- [Personal Branding for Devs](https://www.freecodecamp.org/news/personal-branding-for-devs-handbook/) — freeCodeCamp handbook on developer personal branding
+
+---
+
+<a id="geo--llmo"></a>
+
+## 🌐 GEO / LLMO
+
+Generative Engine Optimization — making your content discoverable by AI models.
+
+- [What is GEO/LLMO?](https://www.crews-education.com/actualites/qu-est-ce-que-le-geo-llmo) — Introduction to Generative Engine Optimization
+- [8 On-Page SEO Tips for LLM/GEO](https://www.sebastien-vallat.com/8-conseils-seo-on-page-llm-geo/) — Practical optimization tips
+
+---
+
+<a id="technical-writing--prompt-engineering"></a>
+
+## 📝 Technical Writing & Prompt Engineering
+
+Specs, prompts, and docs are the new source code — prompt-driven and spec-driven development.
+
+- [Prompting Guide](https://www.promptingguide.ai/fr) — Comprehensive prompt engineering guide
+- [Prompting Guide: Basics](https://www.promptingguide.ai/fr/introduction/basics) — Introduction to prompt fundamentals
+- [Prompt Driven Development](https://promptdriven.ai/) — PDD methodology 📌 Unread
+- [Spec-Driven Development: Tools](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html) — Martin Fowler on SDD tooling 📌 Unread
+- [Humans and Agents](https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html) — Martin Fowler on human-agent collaboration 📌 Unread
+- [Knowledge Priming](https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html) — Reducing friction with AI through knowledge priming
+- [Skills.sh](https://skills.sh/) — Reusable AI skills marketplace
+- [Math Spec-Driven Skill](https://github.com/Ben8t/math-spec-driven-skill) — Example of spec-driven skill development
+- [CLI-Anything](https://github.com/HKUDS/CLI-Anything) — Turn any tool into a CLI for AI agents
+
+---
+
+<a id="inference-economy"></a>
+
+## 💰 Inference Economy
+
+[Save tokens](https://epoch.ai/blog/inference-economics-of-language-models), use simple scripts or local SLMs when a frontier model isn't needed. Optimize cost, latency, and routing across models.
+
+### Token Optimization
+
+- [RTK](https://github.com/rtk-ai/rtk) — Token reduction tool (standalone Rust binary, zero dependencies)
+- [Claudette](https://github.com/nicmarti/Claudette) — Token reduction via MCP
+- [Serena](https://github.com/oraios/serena) — Language-server-powered code intelligence MCP, gives agents precise context to save tokens 📌 Unread
+
+### Multi-LLM Access & Routing
+
+- [LiteLLM](https://github.com/BerriAI/litellm) — Unified API for 100+ LLMs
+- [OpenRouter](https://openrouter.ai/) — LLM routing and access
+- [1min AI](https://1min.ai/) — Multi-model AI access platform
+- [LLMFit](https://github.com/AlexsJones/llmfit) — Find which models & providers run on your hardware 📌 Unread
+
+---
+
+<a id="agentic-orchestration"></a>
+
+## 🤖 Agentic Orchestration
+
+Designing, chaining, and supervising AI agents — platforms, protocols, and tools.
+
+### Agents & Frameworks
 
 - [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) — Anthropic's guide to agent design
 - [HuggingFace Agents Course](https://huggingface.co/learn/agents-course/unit0/introduction) — Free course on building AI agents
@@ -108,11 +226,7 @@ Platforms, protocols, and orchestration tools for building and running AI agents
 - [Autopsy of the Great Reckoning](https://www.linkedin.com/pulse/autopsie-du-great-reckoning-et-les-5-le%C3%A7ons-qui-lia-aur%C3%A9lien-allienne-tpkue/) — 5 lessons from AI adoption
 - [UCP: Universal Commerce Protocol](https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/) — Google's Universal Commerce Protocol
 
----
-
-<a id="mcp-model-context-protocol"></a>
-
-## 🔌 MCP (Model Context Protocol)
+### MCP (Model Context Protocol)
 
 The open standard for connecting AI models to external tools and data sources.
 
@@ -125,13 +239,9 @@ The open standard for connecting AI models to external tools and data sources.
 - [Datagouv MCP](https://github.com/datagouv/datagouv-mcp) — French open data MCP server
 - [Micronaut MCP](https://micronaut-projects.github.io/micronaut-mcp/snapshot/guide/) — MCP support for Micronaut framework
 
----
+### Claude Code
 
-<a id="claude-code"></a>
-
-## 🛠️ Claude Code
-
-Best practices, monitoring, and token optimization for Claude Code.
+Best practices, monitoring, and plugins for Claude Code.
 
 - [Claude Code Best Practices (Thread 1)](https://x.com/bcherny/status/2007179832300581177) — Tips from a Claude engineer 📌 Unread
 - [Claude Code Best Practices (Thread 2)](https://x.com/bcherny/status/2017742741636321619) — More tips from a Claude engineer 📌 Unread
@@ -154,23 +264,13 @@ Best practices, monitoring, and token optimization for Claude Code.
 - [Claude Certified Architect](https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request) — Certification for Claude partners
 - [Claude Certified Architect Study Guide](https://github.com/paullarionov/claude-certified-architect/blob/main/guide_en.MD) — Community study guide 📌 Unread
 
-### Token Optimization
-
-- [RTK](https://github.com/rtk-ai/rtk) — Token reduction tool (standalone Rust binary, zero dependencies)
-- [Claudette](https://github.com/nicmarti/Claudette) — Token reduction via MCP
-- [Serena](https://github.com/oraios/serena) — Language-server-powered code intelligence MCP, gives agents precise context to save tokens 📌 Unread
-
-### Plugins
+#### Plugins
 
 - [Context7](https://github.com/upstash/context7) — Up-to-date docs and code examples for any library, pulled straight into your prompt 📌 Unread
 - [Superpowers](https://github.com/obra/superpowers) — Agentic skills framework & software development methodology 📌 Unread
 - [Hookify](https://github.com/anthropics/claude-code/tree/main/plugins/hookify) — Official plugin to manage Claude Code hooks visually 📌 Unread
 
----
-
-<a id="code-assistants--ai-editors"></a>
-
-## 💻 Code Assistants & AI Editors
+### Code Assistants & AI Editors
 
 IDEs, copilots, and AI-powered coding tools.
 
@@ -185,55 +285,49 @@ IDEs, copilots, and AI-powered coding tools.
 - [Lovable](https://lovable.dev) — AI-powered full-stack app builder
 - [Mammouth AI](https://mammouth.ai/) — AI coding assistant
 - [Figma to Code](https://www.figma.com/community/plugin/747985167520967365) — Convert Figma designs to code
-
----
-
-<a id="opencode"></a>
-
-## 🧩 OpenCode
-
-OpenCode-specific tools and extensions.
-
 - [OpenCode](https://opencode.ai/) — Open-source AI coding platform 📌 Unread
 - [OpenCode Worktree](https://github.com/kdcokenny/opencode-worktree) — Worktree support (alternative: `claude --worktree feature-auth`) 📌 Unread
 - [OCX](https://github.com/kdcokenny/ocx) — Extends OpenCode capabilities 📌 Unread
 
 ---
 
-<a id="prompt-engineering--development-methodologies"></a>
+<a id="black-box-debug--observability"></a>
 
-## 📝 Prompt Engineering & Development Methodologies
+## 🔍 Black Box Debug & Observability
 
-Prompt-driven development, spec-driven development, and prompt engineering guides.
+You can't debug what you can't see — instrument what agents produce.
 
-- [Prompting Guide](https://www.promptingguide.ai/fr) — Comprehensive prompt engineering guide
-- [Prompting Guide: Basics](https://www.promptingguide.ai/fr/introduction/basics) — Introduction to prompt fundamentals
-- [Prompt Driven Development](https://promptdriven.ai/) — PDD methodology 📌 Unread
-- [Spec-Driven Development: Tools](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html) — Martin Fowler on SDD tooling 📌 Unread
-- [Humans and Agents](https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html) — Martin Fowler on human-agent collaboration 📌 Unread
-- [Knowledge Priming](https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html) — Reducing friction with AI through knowledge priming
-- [Skills.sh](https://skills.sh/) — Reusable AI skills marketplace
-- [Math Spec-Driven Skill](https://github.com/Ben8t/math-spec-driven-skill) — Example of spec-driven skill development
-- [CLI-Anything](https://github.com/HKUDS/CLI-Anything) — Turn any tool into a CLI for AI agents
+- [AI Agent Observability](https://wandb.ai/site/articles/ai-agent-observability/) — Weights & Biases guide to agent observability
 
 ---
 
-<a id="multi-llm-access--routing"></a>
+<a id="legal-compliance--governance"></a>
 
-## 🔗 Multi-LLM Access & Routing
+## ⚖️ Legal, Compliance & Governance
 
-Access multiple LLMs through unified interfaces and routers.
+GDPR, AI Act, licensing — the rules AI can't learn on its own.
 
-- [LiteLLM](https://github.com/BerriAI/litellm) — Unified API for 100+ LLMs
-- [OpenRouter](https://openrouter.ai/) — LLM routing and access
-- [1min AI](https://1min.ai/) — Multi-model AI access platform
-- [LLMFit](https://github.com/AlexsJones/llmfit) — Find which models & providers run on your hardware 📌 Unread
+- [AI Act Explainer](https://linuxfoundation.eu/newsroom/ai-act-explainer) — Linux Foundation's EU AI Act explainer
 
 ---
 
-<a id="ai-for-java"></a>
+<a id="cybersecurity"></a>
 
-## ☕ AI for Java
+## 🔒 Cybersecurity
+
+AI-generated code is only as secure as the reviewer.
+
+- [Cybersecurity Roadmap](https://roadmap.sh/cyber-security) — Roadmap for cybersecurity
+
+---
+
+<a id="language-ecosystems"></a>
+
+## ☕🐍 Language Ecosystems
+
+AI-era tooling and best practices for Java and Python.
+
+### AI for Java
 
 Spring AI, LangChain4J, and the Java AI ecosystem.
 
@@ -245,15 +339,11 @@ Spring AI, LangChain4J, and the Java AI ecosystem.
 - [Evolution of the Java Ecosystem for AI](https://inside.java/2025/01/29/evolution-of-java-ecosystem-for-integrating-ai/) — Oracle's perspective on Java + AI
 - [Koog for Java](https://blog.jetbrains.com/ai/2026/03/koog-comes-to-java/) — JetBrains' AI framework for Java 📌 Unread
 
----
-
-<a id="python-ecosystem"></a>
-
-## 🐍 Python Ecosystem
+### Python Ecosystem
 
 Python fundamentals, frameworks, and best practices for the AI-era developer.
 
-### Core Python
+#### Core Python
 
 - [PEP 8 — Style Guide](https://peps.python.org/pep-0008/) — The official Python style guide
 - [Python Standard Library](https://docs.python.org/3/library/) — Complete standard library reference
@@ -269,7 +359,7 @@ Python fundamentals, frameworks, and best practices for the AI-era developer.
 - [Python Is Slow and Other Myths](https://hackernoon.com/python-is-slow-and-other-myths-of-a-dying-era) — More performance myth-busting
 - **Fluent Python** (book) — Deep dive into Pythonic code
 
-### Web Frameworks
+#### Web Frameworks
 
 - [Flask Quickstart](https://flask.palletsprojects.com/en/stable/quickstart/) — Getting started with Flask
 - [Flask Blueprints](https://flask.palletsprojects.com/en/stable/blueprints/) — Modular Flask applications
@@ -318,44 +408,23 @@ Architecture patterns, training resources, and foundational learning.
 
 ---
 
-<a id="geo--llmo"></a>
+<a id="developer-tooling--infrastructure"></a>
 
-## 🌐 GEO / LLMO
+## 🔧 Developer Tooling & Infrastructure
 
-Generative Engine Optimization — making your content discoverable by AI models.
+Docker, terminals, browser automation, and other tools for AI-augmented workflows.
 
-- [What is GEO/LLMO?](https://www.crews-education.com/actualites/qu-est-ce-que-le-geo-llmo) — Introduction to Generative Engine Optimization
-- [8 On-Page SEO Tips for LLM/GEO](https://www.sebastien-vallat.com/8-conseils-seo-on-page-llm-geo/) — Practical optimization tips
-
----
-
-<a id="docker--infrastructure"></a>
-
-## 🐳 Docker & Infrastructure
-
-Running AI models locally with Docker.
+### Docker & Infrastructure
 
 - [Docker Model Runner](https://www.docker.com/blog/introducing-docker-model-runner/) — Run AI models directly in Docker
 
----
-
-<a id="terminal-tools"></a>
-
-## 🖥️ Terminal Tools
-
-Modern terminal emulators and multiplexers for AI-augmented workflows.
+### Terminal Tools
 
 - [Warp](https://www.warp.dev/) — AI-powered terminal
 - [Zellij](https://github.com/zellij-org/zellij) — Modern terminal workspace (Rust)
 - [tmux](https://github.com/tmux/tmux) — Classic terminal multiplexer
 
----
-
-<a id="misc-tools"></a>
-
-## 🔧 Misc Tools
-
-Browser automation, scraping, background jobs, and other useful tools.
+### Browser Automation & Misc
 
 - [Scrapling](https://github.com/D4Vinci/Scrapling) — AI-adapted web scraping
 - [Trigger.dev](https://trigger.dev/) — Background jobs and workflow automation
