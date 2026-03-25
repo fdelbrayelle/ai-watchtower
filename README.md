@@ -47,35 +47,6 @@ The radar below tracks the tools and practices for each of these areas.
 
 ---
 
-## 📚 Table of Contents
-
-- [What to Focus On Now](#what-to-focus-on-now)
-- **Inputs**
-  - [Software Architecture](#software-architecture)
-  - [Product Thinking](#product-thinking)
-- **Outputs**
-  - [Technical Debt Management](#technical-debt-management)
-  - [Code Review](#code-review)
-  - [QA & Testing Strategy](#qa--testing-strategy)
-- **Transverse**
-  - [Self Marketing](#self-marketing)
-  - [GEO / LLMO](#geo--llmo)
-  - [Technical Writing & Prompt Engineering](#technical-writing--prompt-engineering)
-  - [Inference Economy](#inference-economy)
-  - [Agentic Orchestration](#agentic-orchestration)
-  - [Black Box Debug & Observability](#black-box-debug--observability)
-  - [Legal, Compliance & Governance](#legal-compliance--governance)
-  - [Cybersecurity](#cybersecurity)
-- **More**
-  - [Language Ecosystems](#language-ecosystems)
-  - [Data Engineering & Science](#data-engineering--science)
-  - [Generative AI Patterns & Learning](#generative-ai-patterns--learning)
-  - [Developer Tooling & Infrastructure](#developer-tooling--infrastructure)
-  - [AI Native Landscape](#ai-native-landscape)
-  - [Psychology, Culture & AI](#psychology-culture--ai)
-
----
-
 <a id="software-architecture"></a>
 
 ## 🏗️ Software Architecture
