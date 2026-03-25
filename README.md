@@ -296,6 +296,7 @@ These usually encode: **What** (facts, rules, conventions), **Why** (rationale, 
 - [Malt: Vector Database for Freelancer Recommendations](https://blog.malt.engineering/super-powering-our-freelancer-recommendation-system-using-a-vector-database-add643fcfd23)
 - [MongoDB: AI Agents](https://www.mongodb.com/resources/basics/artificial-intelligence/ai-agents) — Fundamentals of AI agents
 - [Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools) — Curated list of AI tools
+- [Dispatch](https://www.anthropic.com/products/dispatch) — Anthropic's multi-agent orchestration platform 📌 Unread
 - [Agor](https://agor.live/) — Multi-agent collaboration platform (by the creator of Airflow)
 - [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD) — Breakthrough Method for Agile AI Development
 - [Goose](https://github.com/block/goose) — Block's open-source AI developer agent
@@ -349,6 +350,7 @@ Best practices, monitoring, and plugins for Claude Code.
 - [Claude Swarm Monitor](https://github.com/oinant/claude-swarm-monitor) — Monitor Claude Code swarms
 - [Claude Octopus](https://github.com/nyldn/claude-octopus) — Multi-agent orchestrator coordinating Claude, Codex, and Gemini CLIs 📌 Unread
 - [CC Workflow Studio](https://github.com/breaking-brake/cc-wf-studio) — Claude Code observability
+- [Claude Cowork](https://code.claude.com/docs/en/cowork) — Collaborative multi-agent sessions in Claude Code 📌 Unread
 - [Ralph Claude Code](https://github.com/frankbria/ralph-claude-code) — Claude Code assistant 📌 Unread
 - [ExitBox](https://github.com/Cloud-Exit/ExitBox) — Security sandbox for Claude Code
 - [AI-RSK](https://github.com/Krigsexe/ai-rsk) — Security gate for AI-generated code, blocks builds until vulnerabilities are fixed
@@ -438,6 +440,8 @@ Docker, terminals, browser automation, and other tools for AI-augmented workflow
 
 - [Scrapling](https://github.com/D4Vinci/Scrapling) — AI-adapted web scraping
 - [Trigger.dev](https://trigger.dev/) — Background jobs and workflow automation
+- [Computer Use (Anthropic)](https://docs.anthropic.com/en/docs/agents-and-tools/computer-use) — Let Claude control a computer — click, type, navigate, and take screenshots 📌 Unread
+- [Perplexity Computer](https://www.perplexity.ai/hub/blog/introducing-computer-use) — Perplexity's computer-using agent for browser tasks 📌 Unread
 - [Agent Browser](https://agent-browser.dev/skills) — Browser automation CLI for AI agents
 - [Vercel Agent Browser](https://github.com/vercel-labs/agent-browser) — Vercel's browser automation skills
 
