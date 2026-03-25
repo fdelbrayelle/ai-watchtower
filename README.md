@@ -23,6 +23,7 @@ With 80%+ of code now AI-generated, the engineer's value shifts from writing cod
 
 **Outputs — What you verify after the agent writes code:**
 
+- [Code Generation / Writing](#code-generation--writing) — AI writes 80%+ of the code; your 20% is where judgment, edge cases, and craft still matter
 - [Technical Debt Management](#technical-debt-management) — AI writes fast, but someone has to maintain it
 - [Code Review](#code-review) — The last line of defense is now the main job
 - [QA & Testing Strategy](#qa--testing-strategy) — If you didn't write it, you'd better know how to break it
@@ -55,6 +56,42 @@ System design, boundaries, and trade-offs don't prompt themselves.
 
 - [Software Architect Roadmap](https://roadmap.sh/software-architect) — Roadmap for software architects
 
+### Data Engineering & Science
+
+Roadmaps, machine learning, and data career paths.
+
+#### Roadmaps
+
+- [Data Engineer Roadmap](https://roadmap.sh/data-engineer)
+- [Data Analyst Roadmap](https://roadmap.sh/data-analyst)
+- [SQL Roadmap](https://roadmap.sh/sql)
+- [Machine Learning Roadmap](https://roadmap.sh/machine-learning)
+- [AI Data Scientist Roadmap](https://roadmap.sh/ai-data-scientist)
+- [AI Engineer Roadmap](https://roadmap.sh/ai-engineer)
+- [AI Agents Roadmap](https://roadmap.sh/ai-agents)
+- [MLOps Roadmap](https://roadmap.sh/mlops)
+
+#### Basic Maths for AI
+
+Understanding AI under the hood requires two pillars: **linear algebra** and **probability/statistics**.
+
+**Linear algebra** is the language of data. Every dataset is a matrix, every feature is a vector, and every model transformation (rotation, scaling, projection) is a matrix operation.
+
+A **vector** is a list of numbers representing a point or direction in space. In AI, vectors are everywhere: a word embedding like `[0.2, -0.5, 0.8]` places a word in a 3D semantic space. Similar words end up as nearby vectors — "king" and "queen" are close, "king" and "banana" are far. This is how models understand meaning: not through definitions, but through geometric proximity. Real embeddings use hundreds of dimensions (e.g., OpenAI's `text-embedding-3-small` produces 1536-dimensional vectors), but the principle is the same. The **dot product** of two vectors measures their alignment: high dot product = similar direction = similar meaning. This is the core operation behind cosine similarity in vector search (RAG, recommendation systems) and attention scores in transformers. **Vector addition** enables analogies: the classic `king - man + woman ≈ queen` works because semantic relationships are encoded as directional offsets in vector space.
+
+Key concepts beyond vectors: matrix multiplication (the core of neural network forward passes — each layer is a matrix multiply + activation), eigenvalues/eigenvectors (behind PCA dimensionality reduction), and tensor operations (multi-dimensional arrays powering deep learning frameworks like PyTorch and TensorFlow). Example: when a transformer model computes attention scores, it's performing `softmax(QK^T / √d) × V` — pure matrix math.
+
+**Probability & statistics** drive how models learn and predict. Key concepts: Bayes' theorem (the foundation of updating beliefs with evidence — spam filters, medical diagnosis), probability distributions (normal, Bernoulli, softmax outputs), conditional probability (P(A|B) — "given this input, what's the likely output?"), maximum likelihood estimation (how models fit parameters to data), loss functions and gradient descent (cross-entropy, MSE — measuring and minimizing prediction error). Example: a language model predicting the next token is outputting a probability distribution over the entire vocabulary, trained by minimizing cross-entropy loss.
+
+- **Essential Math for Data Science** (book) — Mathematical foundations
+- [3Blue1Brown: Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) — Visual, intuitive linear algebra series
+- [StatQuest: Statistics Fundamentals](https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9) — Statistics and ML concepts explained clearly
+
+#### Learning
+
+- [Clean & Analyze Your Dataset](https://openclassrooms.com/fr/courses/7410486-nettoyez-et-analysez-votre-jeu-de-donnees) — OpenClassrooms data cleaning course
+- **Tools**: Jupyter Notebook, Kaggle, Hugging Face, Matplotlib, NumPy, Pandas
+
 ---
 
 <a id="product-thinking"></a>
@@ -64,6 +101,58 @@ System design, boundaries, and trade-offs don't prompt themselves.
 Own the "what" and "why" before the agent writes the "how".
 
 - [Product Manager Roadmap](https://roadmap.sh/product-manager) — Roadmap for product managers
+
+---
+
+<a id="code-generation--writing"></a>
+
+## ✍️ Code Generation / Writing
+
+AI writes 80%+ of the code, but the software engineer can still have added value on up to 20% of code writing on their own — judgment calls, edge cases, glue code, and craft that agents miss.
+
+### Language Ecosystems
+
+AI-era tooling and best practices for Java and Python.
+
+#### AI for Java
+
+Spring AI, LangChain4J, and the Java AI ecosystem.
+
+- [Spring AI](https://spring.io/projects/spring-ai) — Official Spring AI project
+- [Spring AI Concepts](https://docs.spring.io/spring-ai/reference/concepts.html) — Core concepts documentation
+- [Spring AI Prompt Engineering Patterns](https://spring.io/blog/2025/04/14/spring-ai-prompt-engineering-patterns) — Prompt patterns for Spring AI
+- [LangChain4J](https://docs.langchain4j.dev/) — Java LLM framework documentation
+- [LangChain4J + Docker Model Runner](https://medium.com/@lize.raes/langchain4j-%EF%B8%8F-docker-model-runner-b5f720a76c85) — Running LangChain4J with Docker
+- [Evolution of the Java Ecosystem for AI](https://inside.java/2025/01/29/evolution-of-java-ecosystem-for-integrating-ai/) — Oracle's perspective on Java + AI
+- [Koog for Java](https://blog.jetbrains.com/ai/2026/03/koog-comes-to-java/) — JetBrains' AI framework for Java 📌 Unread
+
+#### Python Ecosystem
+
+Python fundamentals, frameworks, and best practices for the AI-era developer.
+
+##### Core Python
+
+- [PEP 8 — Style Guide](https://peps.python.org/pep-0008/) — The official Python style guide
+- [Python Standard Library](https://docs.python.org/3/library/) — Complete standard library reference
+- [Virtual Environments (venv)](https://docs.python.org/3/library/venv.html) — Managing Python environments
+- [Classes & Namespaces](https://docs.python.org/3/tutorial/classes.html#python-scopes-and-namespaces) — Scopes and namespaces tutorial
+- [Dunder Methods](https://gayerie.dev/docs/python/python3/dunder.html) — Guide to Python magic methods
+- [Abstract Base Classes (abc)](https://docs.python.org/fr/3.13/library/abc.html) — ABC module reference
+- [AsyncIO](https://docs.python.org/fr/3.13/library/asyncio.html) — Asynchronous I/O reference
+- [Dataclasses](https://invivoo.com/blog/dataclasses-python) — Practical guide to dataclasses
+- [Dependency Injection Best Practices](https://arjancodes.com/blog/python-dependency-injection-best-practices/) — DI patterns in Python
+- [DDD with Python Microservices](https://medium.com/@nomannayeem/everything-you-need-to-know-about-domain-driven-design-with-python-microservices-2c2f6556b5b1) — Domain-Driven Design guide
+- [Is Python Really That Slow?](https://blog.miguelgrinberg.com/post/is-python-really-that-slow) — Performance myths debunked
+- [Python Is Slow and Other Myths](https://hackernoon.com/python-is-slow-and-other-myths-of-a-dying-era) — More performance myth-busting
+- **Fluent Python** (book) — Deep dive into Pythonic code
+
+##### Web Frameworks
+
+- [Flask Quickstart](https://flask.palletsprojects.com/en/stable/quickstart/) — Getting started with Flask
+- [Flask Blueprints](https://flask.palletsprojects.com/en/stable/blueprints/) — Modular Flask applications
+- [Flask + Jinja2 to React](https://dev.to/usooldatascience/transitioning-from-flask-with-jinja2-to-react-understanding-authentication-and-data-flow-for-4214) — Migration guide
+- [FastAPI Tutorial](https://fastapi.tiangolo.com/tutorial/) — Getting started with FastAPI
+- [Pydantic Docs](https://docs.pydantic.dev/latest/) — Data validation library
 
 ---
 
@@ -260,6 +349,57 @@ IDEs, copilots, and AI-powered coding tools.
 - [OpenCode Worktree](https://github.com/kdcokenny/opencode-worktree) — Worktree support (alternative: `claude --worktree feature-auth`) 📌 Unread
 - [OCX](https://github.com/kdcokenny/ocx) — Extends OpenCode capabilities 📌 Unread
 
+### Generative AI Patterns & Learning
+
+Architecture patterns, training resources, and foundational learning.
+
+- [Generative AI Patterns](https://martinfowler.com/articles/gen-ai-patterns/) — Martin Fowler's gen AI pattern catalog
+- [Legacy Modernization with Gen AI](https://martinfowler.com/articles/legacy-modernization-gen-ai.html) — Modernizing legacy systems
+- [12 Days of Free Gen AI Training](https://cloud.google.com/blog/topics/training-certifications/12-days-of-no-cost-generative-ai-training?hl=en) — Google Cloud free training
+- [A Field Guide to AI](https://hamel.dev/blog/posts/field-guide/) — Practical AI field guide
+- [HuggingFace](https://huggingface.co) — The open-source AI platform
+
+### Developer Tooling & Infrastructure
+
+Docker, terminals, browser automation, and other tools for AI-augmented workflows.
+
+#### Docker & Infrastructure
+
+- [Docker Model Runner](https://www.docker.com/blog/introducing-docker-model-runner/) — Run AI models directly in Docker
+
+#### Terminal Tools
+
+- [Warp](https://www.warp.dev/) — AI-powered terminal
+- [Zellij](https://github.com/zellij-org/zellij) — Modern terminal workspace (Rust)
+- [tmux](https://github.com/tmux/tmux) — Classic terminal multiplexer
+
+#### Browser Automation & Misc
+
+- [Scrapling](https://github.com/D4Vinci/Scrapling) — AI-adapted web scraping
+- [Trigger.dev](https://trigger.dev/) — Background jobs and workflow automation
+- [Agent Browser](https://agent-browser.dev/skills) — Browser automation CLI for AI agents
+- [Vercel Agent Browser](https://github.com/vercel-labs/agent-browser) — Vercel's browser automation skills
+
+### AI Native Landscape
+
+Overview of the AI-native development ecosystem.
+
+- [AI Native Dev Landscape](https://landscape.ainativedev.io/) — Interactive landscape of AI-native tools
+
+### Psychology, Culture & AI
+
+Thought pieces on how AI is reshaping developer culture and the software industry.
+
+- [The AI Vampire](https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163) — Steve Yegge on AI's impact
+- [The Post-Developer Era](https://www.joshwcomeau.com/blog/the-post-developer-era/) — What comes after traditional development
+- [The Recurring Dream of Replacing Developers](https://www.caimito.net/en/blog/2025/12/07/the-recurring-dream-of-replacing-developers.html) — Historical perspective
+- [AI Theater vs AI Fluency](https://www.atlassian.com/blog/artificial-intelligence/ai-theater-vs-ai-fluency-the-sneaky-patterns-that-hold-back-ai-results/amp) — Atlassian on real vs. performative AI adoption
+- [The Next Software Crisis Won't Be About Writing Code](https://blog.kotzilla.io/the-next-software-crisis-wont-be-about-writing-code)
+- [So I Will Never Write Code Again?](https://julien.danjou.info/blog/so-i-will-never-write-code-again/) — A developer's reflection
+- [Enterprise AI](https://www.latent.space/p/enterprise) — Latent Space on enterprise AI adoption
+- [AI Agent Attacks Open Source Developer](https://intelligence-artificielle.developpez.com/actu/380270/Un-agent-IA-autonome-lance-une-campagne-de-denigrement-contre-un-developpeur-open-source-pour-imposer-son-optimisation-a-la-bibliotheque-Python-Matplotlib-que-ce-dernier-a-refusee/) — When an autonomous AI agent targeted an open-source maintainer
+- [Death by Clawd](https://deathbyclawd.com/) — Ironical SaaS death prediction powered by AI 📌 Unread
+
 ---
 
 <a id="black-box-debug--observability"></a>
@@ -278,6 +418,9 @@ You can't debug what you can't see — instrument what agents produce.
 
 GDPR, AI Act, licensing — the rules AI can't learn on its own.
 
+- [GDPR Official Text](https://gdpr-info.eu/) — Full text of the General Data Protection Regulation
+- [GDPR Article 22 — Automated Decision-Making](https://gdpr-info.eu/art-22-gdpr/) — Right not to be subject to automated individual decision-making, including profiling
+- [EU AI Act](https://artificialintelligenceact.eu/) — Full text of the EU AI Act
 - [AI Act Explainer](https://linuxfoundation.eu/newsroom/ai-act-explainer) — Linux Foundation's EU AI Act explainer
 
 ---
@@ -289,143 +432,3 @@ GDPR, AI Act, licensing — the rules AI can't learn on its own.
 AI-generated code is only as secure as the reviewer.
 
 - [Cybersecurity Roadmap](https://roadmap.sh/cyber-security) — Roadmap for cybersecurity
-
----
-
-<a id="language-ecosystems"></a>
-
-## ☕🐍 Language Ecosystems
-
-AI-era tooling and best practices for Java and Python.
-
-### AI for Java
-
-Spring AI, LangChain4J, and the Java AI ecosystem.
-
-- [Spring AI](https://spring.io/projects/spring-ai) — Official Spring AI project
-- [Spring AI Concepts](https://docs.spring.io/spring-ai/reference/concepts.html) — Core concepts documentation
-- [Spring AI Prompt Engineering Patterns](https://spring.io/blog/2025/04/14/spring-ai-prompt-engineering-patterns) — Prompt patterns for Spring AI
-- [LangChain4J](https://docs.langchain4j.dev/) — Java LLM framework documentation
-- [LangChain4J + Docker Model Runner](https://medium.com/@lize.raes/langchain4j-%EF%B8%8F-docker-model-runner-b5f720a76c85) — Running LangChain4J with Docker
-- [Evolution of the Java Ecosystem for AI](https://inside.java/2025/01/29/evolution-of-java-ecosystem-for-integrating-ai/) — Oracle's perspective on Java + AI
-- [Koog for Java](https://blog.jetbrains.com/ai/2026/03/koog-comes-to-java/) — JetBrains' AI framework for Java 📌 Unread
-
-### Python Ecosystem
-
-Python fundamentals, frameworks, and best practices for the AI-era developer.
-
-#### Core Python
-
-- [PEP 8 — Style Guide](https://peps.python.org/pep-0008/) — The official Python style guide
-- [Python Standard Library](https://docs.python.org/3/library/) — Complete standard library reference
-- [Virtual Environments (venv)](https://docs.python.org/3/library/venv.html) — Managing Python environments
-- [Classes & Namespaces](https://docs.python.org/3/tutorial/classes.html#python-scopes-and-namespaces) — Scopes and namespaces tutorial
-- [Dunder Methods](https://gayerie.dev/docs/python/python3/dunder.html) — Guide to Python magic methods
-- [Abstract Base Classes (abc)](https://docs.python.org/fr/3.13/library/abc.html) — ABC module reference
-- [AsyncIO](https://docs.python.org/fr/3.13/library/asyncio.html) — Asynchronous I/O reference
-- [Dataclasses](https://invivoo.com/blog/dataclasses-python) — Practical guide to dataclasses
-- [Dependency Injection Best Practices](https://arjancodes.com/blog/python-dependency-injection-best-practices/) — DI patterns in Python
-- [DDD with Python Microservices](https://medium.com/@nomannayeem/everything-you-need-to-know-about-domain-driven-design-with-python-microservices-2c2f6556b5b1) — Domain-Driven Design guide
-- [Is Python Really That Slow?](https://blog.miguelgrinberg.com/post/is-python-really-that-slow) — Performance myths debunked
-- [Python Is Slow and Other Myths](https://hackernoon.com/python-is-slow-and-other-myths-of-a-dying-era) — More performance myth-busting
-- **Fluent Python** (book) — Deep dive into Pythonic code
-
-#### Web Frameworks
-
-- [Flask Quickstart](https://flask.palletsprojects.com/en/stable/quickstart/) — Getting started with Flask
-- [Flask Blueprints](https://flask.palletsprojects.com/en/stable/blueprints/) — Modular Flask applications
-- [Flask + Jinja2 to React](https://dev.to/usooldatascience/transitioning-from-flask-with-jinja2-to-react-understanding-authentication-and-data-flow-for-4214) — Migration guide
-- [FastAPI Tutorial](https://fastapi.tiangolo.com/tutorial/) — Getting started with FastAPI
-- [Pydantic Docs](https://docs.pydantic.dev/latest/) — Data validation library
-
----
-
-<a id="data-engineering--science"></a>
-
-## 🗄️ Data Engineering & Science
-
-Roadmaps, machine learning, and data career paths.
-
-### Roadmaps
-
-- [Data Engineer Roadmap](https://roadmap.sh/data-engineer)
-- [Data Analyst Roadmap](https://roadmap.sh/data-analyst)
-- [SQL Roadmap](https://roadmap.sh/sql)
-- [Machine Learning Roadmap](https://roadmap.sh/machine-learning)
-- [AI Data Scientist Roadmap](https://roadmap.sh/ai-data-scientist)
-- [AI Engineer Roadmap](https://roadmap.sh/ai-engineer)
-- [AI Agents Roadmap](https://roadmap.sh/ai-agents)
-- [MLOps Roadmap](https://roadmap.sh/mlops)
-
-### Learning
-
-- [Clean & Analyze Your Dataset](https://openclassrooms.com/fr/courses/7410486-nettoyez-et-analysez-votre-jeu-de-donnees) — OpenClassrooms data cleaning course
-- **Essential Math for Data Science** (book) — Mathematical foundations
-- **Tools**: Jupyter Notebook, Kaggle, Hugging Face, Matplotlib, NumPy, Pandas
-
----
-
-<a id="generative-ai-patterns--learning"></a>
-
-## 🧠 Generative AI Patterns & Learning
-
-Architecture patterns, training resources, and foundational learning.
-
-- [Generative AI Patterns](https://martinfowler.com/articles/gen-ai-patterns/) — Martin Fowler's gen AI pattern catalog
-- [Legacy Modernization with Gen AI](https://martinfowler.com/articles/legacy-modernization-gen-ai.html) — Modernizing legacy systems
-- [12 Days of Free Gen AI Training](https://cloud.google.com/blog/topics/training-certifications/12-days-of-no-cost-generative-ai-training?hl=en) — Google Cloud free training
-- [A Field Guide to AI](https://hamel.dev/blog/posts/field-guide/) — Practical AI field guide
-- [HuggingFace](https://huggingface.co) — The open-source AI platform
-
----
-
-<a id="developer-tooling--infrastructure"></a>
-
-## 🔧 Developer Tooling & Infrastructure
-
-Docker, terminals, browser automation, and other tools for AI-augmented workflows.
-
-### Docker & Infrastructure
-
-- [Docker Model Runner](https://www.docker.com/blog/introducing-docker-model-runner/) — Run AI models directly in Docker
-
-### Terminal Tools
-
-- [Warp](https://www.warp.dev/) — AI-powered terminal
-- [Zellij](https://github.com/zellij-org/zellij) — Modern terminal workspace (Rust)
-- [tmux](https://github.com/tmux/tmux) — Classic terminal multiplexer
-
-### Browser Automation & Misc
-
-- [Scrapling](https://github.com/D4Vinci/Scrapling) — AI-adapted web scraping
-- [Trigger.dev](https://trigger.dev/) — Background jobs and workflow automation
-- [Agent Browser](https://agent-browser.dev/skills) — Browser automation CLI for AI agents
-- [Vercel Agent Browser](https://github.com/vercel-labs/agent-browser) — Vercel's browser automation skills
-
----
-
-<a id="ai-native-landscape"></a>
-
-## 🧭 AI Native Landscape
-
-Overview of the AI-native development ecosystem.
-
-- [AI Native Dev Landscape](https://landscape.ainativedev.io/) — Interactive landscape of AI-native tools
-
----
-
-<a id="psychology-culture--ai"></a>
-
-## 💭 Psychology, Culture & AI
-
-Thought pieces on how AI is reshaping developer culture and the software industry.
-
-- [The AI Vampire](https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163) — Steve Yegge on AI's impact
-- [The Post-Developer Era](https://www.joshwcomeau.com/blog/the-post-developer-era/) — What comes after traditional development
-- [The Recurring Dream of Replacing Developers](https://www.caimito.net/en/blog/2025/12/07/the-recurring-dream-of-replacing-developers.html) — Historical perspective
-- [AI Theater vs AI Fluency](https://www.atlassian.com/blog/artificial-intelligence/ai-theater-vs-ai-fluency-the-sneaky-patterns-that-hold-back-ai-results/amp) — Atlassian on real vs. performative AI adoption
-- [The Next Software Crisis Won't Be About Writing Code](https://blog.kotzilla.io/the-next-software-crisis-wont-be-about-writing-code)
-- [So I Will Never Write Code Again?](https://julien.danjou.info/blog/so-i-will-never-write-code-again/) — A developer's reflection
-- [Enterprise AI](https://www.latent.space/p/enterprise) — Latent Space on enterprise AI adoption
-- [AI Agent Attacks Open Source Developer](https://intelligence-artificielle.developpez.com/actu/380270/Un-agent-IA-autonome-lance-une-campagne-de-denigrement-contre-un-developpeur-open-source-pour-imposer-son-optimisation-a-la-bibliotheque-Python-Matplotlib-que-ce-dernier-a-refusee/) — When an autonomous AI agent targeted an open-source maintainer
-- [Death by Clawd](https://deathbyclawd.com/) — Ironical SaaS death prediction powered by AI 📌 Unread
