@@ -252,6 +252,39 @@ Specs, prompts, and docs are the new source code — prompt-driven and spec-driv
 
 Designing, chaining, and supervising AI agents — platforms, protocols, and tools.
 
+### Key Concepts
+
+**Agent:** The full system that receives a goal, reasons about it, uses tools, checks results, and loops until done. It combines an LLM with tool access, memory, and control flow.
+
+**LLM / Model:** The reasoning engine inside the agent. It decides what to do next, but by itself it only generates text. Examples: Claude Opus 4.6, GPT 5.4, Gemini 2.5 Pro.
+
+**Tools:** The actions available to the agent — read files, edit code, run commands, search the web, call APIs, etc. Tools are what let an agent *act* on the world instead of just talking about it.
+
+**Skills:** Reusable playbooks that tell the agent how to handle a class of tasks well, often by combining tools in a structured way (e.g., a "commit" skill that stages, commits, and pushes).
+
+**Subagents:** Specialized helper agents called by the main agent for focused tasks. They work in isolated contexts, then return results. Useful for parallelizing work or keeping the main context window clean.
+
+**Memory:** Persistent context that guides future sessions:
+- `CLAUDE.md` / project instructions: human-written rules, conventions, architecture decisions
+- Project/local memory: repo-specific context (what's in progress, what was decided)
+- User/global memory (e.g., `~/.claude/`): personal defaults across all projects
+
+These usually encode: **What** (facts, rules, conventions), **Why** (rationale, constraints), and **How** (architecture, workflows, patterns).
+
+**Hooks:** Shell commands that fire automatically in response to agent events (before/after tool calls, on notifications, etc.). They let you enforce rules, run linters, trigger builds, or inject context — without the agent needing to know about them.
+
+**Human in the loop:** The human gives goals, answers questions, approves risky actions, reviews outputs, and redirects the agent when needed. The agent proposes; the human disposes.
+
+**Plan mode:** A read-only phase where the agent explores the codebase, understands the problem, and proposes a plan *before* making changes. Reduces wasted work and misaligned edits.
+
+**Typical agentic flow:**
+1. **Explore** — read code, search, understand context
+2. **Plan** — propose an approach
+3. **Execute** — make changes, run commands
+4. **Verify** — run tests, check results
+5. **Get human feedback** — review, approve, or redirect
+6. **Iterate** if needed
+
 ### Agents & Frameworks
 
 - [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) — Anthropic's guide to agent design
@@ -324,6 +357,21 @@ Best practices, monitoring, and plugins for Claude Code.
 - [Claude Certified Architect](https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request) — Certification for Claude partners
 - [Claude Certified Architect Study Guide](https://github.com/paullarionov/claude-certified-architect/blob/main/guide_en.MD) — Community study guide 📌 Unread
 
+#### Tips
+
+- Prefer **Skills or CLI over MCP** when possible — it is usually cheaper in tokens.
+- Run `/compact` around 60–70% context usage. Run `/clear` around 80–90%, or start a fresh session.
+- Check the current memory state with `/memory` (auto-memory and auto-dream can be enabled there).
+- **Start a new session for a new topic.** Do not keep piling unrelated work into one chat.
+- Use `/loop` for periodic reminders or cron-like tasks. Example: `/loop 20m run "echo kindly reminder to look 20 seconds at 20 meters to save your view"`
+- Resume a previous session with `/resume` or `claude --resume`.
+- Use `/btw` to chat with Claude Code while it is working.
+- Use `Ctrl + G` to edit your prompt in your default editor (`EDITOR` and `VISUAL` env vars must be set in `~/.bashrc` or `~/.zshrc`).
+- Switch Plan Mode to Accept Edits with `Shift + Tab`.
+- Check usage with `/usage`.
+- For parallel work, use **Git worktrees**: run parallel sessions with `claude --worktree feature-auth`.
+- **Sandboxes**: Claude Code can run in [sandboxed environments](https://docs.anthropic.com/en/docs/claude-code/security#sandboxing) for isolation and security. This is the safer alternative to `--dangerously-skip-permissions` or full auto mode — use sandboxes when you need unattended execution without bypassing permission checks.
+
 #### Plugins
 
 - [Context7](https://github.com/upstash/context7) — Up-to-date docs and code examples for any library, pulled straight into your prompt 📌 Unread
@@ -352,6 +400,17 @@ IDEs, copilots, and AI-powered coding tools.
 ### Generative AI Patterns & Learning
 
 Architecture patterns, training resources, and foundational learning.
+
+#### JEPA & World Models
+
+Current LLMs learn by predicting the next token in text sequences. Despite training on the entire Internet, they lack the intuitive physics, common sense, and causal reasoning that a 4-year-old child acquires just by interacting with the world. A toddler learns that unsupported objects fall, that hidden objects still exist, and that actions have consequences — not from reading about them, but from **experiencing** them. LLMs memorize statistical patterns; children build **world models**.
+
+**JEPA** (Joint Embedding Predictive Architecture), proposed by Yann LeCun, is a framework for building world models that learn like biological intelligence. Instead of predicting raw pixels or tokens, JEPA predicts in **representation space** — it learns abstract representations of the world and predicts how they evolve. This avoids the intractable problem of predicting every pixel of a future video frame and instead focuses on the underlying structure. The key insight: human learning is mostly **self-supervised** (observing the world, not reading labels), and it operates on **abstract representations**, not raw sensory data.
+
+Why it matters for engineers: JEPA signals a potential paradigm shift beyond autoregressive LLMs. If world models succeed, future AI systems may reason about cause and effect, plan multi-step actions, and generalize from far less data — closing the gap between "has read everything" and "understands anything."
+
+- [A Path Towards Autonomous Machine Intelligence](https://openreview.net/pdf?id=BZ5a1r-kVsf) — Yann LeCun's JEPA position paper
+- [Yann LeCun: JEPA Explained (DEVOXX)](https://www.youtube.com/watch?v=MiqLoAZFRSE) — Talk on world models and the limits of LLMs
 
 - [Generative AI Patterns](https://martinfowler.com/articles/gen-ai-patterns/) — Martin Fowler's gen AI pattern catalog
 - [Legacy Modernization with Gen AI](https://martinfowler.com/articles/legacy-modernization-gen-ai.html) — Modernizing legacy systems
