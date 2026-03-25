@@ -429,6 +429,16 @@ Specs, prompts, and docs are the new source code — prompt-driven, spec-driven,
 - [RTK](https://github.com/rtk-ai/rtk) — Token reduction tool (standalone Rust binary, zero dependencies)
 - [Claudette](https://github.com/nicmarti/Claudette) — Token reduction via MCP
 - [Serena](https://github.com/oraios/serena) — Language-server-powered code intelligence MCP, gives agents precise context to save tokens 📌 Unread
+- [Opcode](https://opcode.sh/) — Track AI spending and usage across tools
+
+#### Claude Code Token Hygiene
+
+- **5-hour sessions:** Claude usage/session limits reset every 5 hours (official Anthropic source: [About Claude's Pro Plan Usage](https://support.anthropic.com/en/articles/8324991-about-claude-s-pro-plan-usage/) and [About Claude's Max Plan Usage](https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage)).
+- **Startup overhead:** Each `claude` invocation consumes tokens just to initialize/load context. You can verify this with `/context`.
+- **Repo switching cost:** Working across many repositories increases token usage due to repeated context loading and memory/context switching.
+- **Reasoning level:** Avoid unnecessarily high thinking/reasoning levels when a simpler mode is enough.
+- **Surface separation:** Avoid mixing the same work between Claude in the browser and Claude Code, since usage is shared and context has to be rebuilt.
+- **Worktree overhead:** Worktrees can also increase token consumption because each parallel branch/session may maintain separate context.
 
 ### Multi-LLM Access & Routing
 
