@@ -2,6 +2,8 @@
 
 Software engineering was never just about writing code — and the agentic era makes that clearer than ever. Architecture, product thinking, code review, testing strategy, technical writing: these skills now define the engineer's value more than keystrokes ever did.
 
+**Vibe Coding vs. AI-Augmented Software Engineering** — Vibe coding means describing what you want in natural language and letting the AI generate the result with minimal oversight — fast, creative, great for prototypes and throwaway scripts. AI-augmented software engineering is the opposite mindset: the engineer stays in the driver's seat, using AI to accelerate exploration, drafting, and iteration while retaining full responsibility for architecture, correctness, and maintainability. This radar focuses on the latter. The goal is not to remove the engineer from the loop, but to make the loop faster and the engineer more effective.
+
 This is a curated tech radar for AI-augmented software engineering. Tools, frameworks, protocols, methodologies, and best practices — one place to track what matters when AI writes the code and you own everything around it.
 
 📌 = Unread
@@ -47,8 +49,6 @@ With 80%+ of code now AI-generated, the engineer's value shifts from writing cod
 - **Downstream:** The human review layer can't scale at the same pace as AI output. Code review and QA fatigue set in fast. It's hard to say "stop" to agentic work at end of day. Constant context switching erodes focus, developers lose meaning in the work, and the risk of burnout becomes real.
 
 The radar below tracks the tools and practices for each of these areas.
-
-**Vibe Coding vs. AI-Augmented Software Engineering** — Vibe coding means describing what you want in natural language and letting the AI generate the result with minimal oversight — fast, creative, great for prototypes and throwaway scripts. AI-augmented software engineering is the opposite mindset: the engineer stays in the driver's seat, using AI to accelerate exploration, drafting, and iteration while retaining full responsibility for architecture, correctness, and maintainability. This radar focuses on the latter. The goal is not to remove the engineer from the loop, but to make the loop faster and the engineer more effective.
 
 ---
 
