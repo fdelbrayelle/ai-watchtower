@@ -1,6 +1,8 @@
 # 🔭 AI Watchtower
 
-A curated tech radar for AI/LLM tooling, best practices, and news. One place to track the fast-moving landscape of AI agents, code assistants, frameworks, and developer culture.
+Software engineering was never just about writing code — and the agentic era makes that clearer than ever. Architecture, product thinking, code review, testing strategy, technical writing: these skills now define the engineer's value more than keystrokes ever did.
+
+This is a curated tech radar for AI-augmented software engineering. Tools, frameworks, protocols, methodologies, and best practices — one place to track what matters when AI writes the code and you own everything around it.
 
 📌 = Unread
 
