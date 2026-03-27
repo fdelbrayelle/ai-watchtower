@@ -46,6 +46,8 @@ With 80%+ of code now AI-generated, the engineer's value shifts from writing cod
 
 The radar below tracks the tools and practices for each of these areas.
 
+**Vibe Coding vs. AI-Augmented Software Engineering** — Vibe coding means describing what you want in natural language and letting the AI generate the result with minimal oversight — fast, creative, great for prototypes and throwaway scripts. AI-augmented software engineering is the opposite mindset: the engineer stays in the driver's seat, using AI to accelerate exploration, drafting, and iteration while retaining full responsibility for architecture, correctness, and maintainability. This radar focuses on the latter. The goal is not to remove the engineer from the loop, but to make the loop faster and the engineer more effective.
+
 ---
 
 <a id="software-architecture"></a>
@@ -172,8 +174,6 @@ AI accelerates output, but craft still matters. Build agents or skills specializ
 ## 🤖 Agentic Orchestration
 
 Designing, chaining, and supervising AI agents — platforms, protocols, and tools.
-
-**Vibe Coding vs. AI-Augmented Software Engineering** — Vibe coding means describing what you want in natural language and letting the AI generate the result with minimal oversight — fast, creative, great for prototypes and throwaway scripts. AI-augmented software engineering is the opposite mindset: the engineer stays in the driver's seat, using AI to accelerate exploration, drafting, and iteration while retaining full responsibility for architecture, correctness, and maintainability. This radar focuses on the latter. The goal is not to remove the engineer from the loop, but to make the loop faster and the engineer more effective.
 
 ### Key Concepts
 
