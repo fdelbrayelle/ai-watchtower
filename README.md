@@ -173,6 +173,8 @@ AI accelerates output, but craft still matters. Build agents or skills specializ
 
 Designing, chaining, and supervising AI agents — platforms, protocols, and tools.
 
+**Vibe Coding vs. AI-Augmented Software Engineering** — Vibe coding means describing what you want in natural language and letting the AI generate the result with minimal oversight — fast, creative, great for prototypes and throwaway scripts. AI-augmented software engineering is the opposite mindset: the engineer stays in the driver's seat, using AI to accelerate exploration, drafting, and iteration while retaining full responsibility for architecture, correctness, and maintainability. This radar focuses on the latter. The goal is not to remove the engineer from the loop, but to make the loop faster and the engineer more effective.
+
 ### Key Concepts
 
 **Agent:** The full system that receives a goal, reasons about it, uses tools, checks results, and loops until done. It combines an LLM with tool access, memory, and control flow.
@@ -210,7 +212,6 @@ These usually encode: **What** (facts, rules, conventions), **Why** (rationale, 
 
 - [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) — Anthropic's guide to agent design
 - [HuggingFace Agents Course](https://huggingface.co/learn/agents-course/unit0/introduction) — Free course on building AI agents
-- [A2A: A New Era of Agent Interoperability](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) — Google's Agent-to-Agent protocol
 - [Automate 90% of Your Work with AI Agents](https://dev.to/copilotkit/automate-90-of-your-work-with-ai-agents-real-examples-code-inside-46ke?ref=dailydev) — Practical examples with code
 - [Malt: From AI Assistant to AI Agents](https://blog.malt.engineering/from-ai-assistant-to-ai-agents-malts-journey-in-building-ai-tools-for-internal-efficiency-9198b41fd7d1?gi=5e83657d5955) — Malt's journey building internal AI tools
 - [Malt: Vector Database for Freelancer Recommendations](https://blog.malt.engineering/super-powering-our-freelancer-recommendation-system-using-a-vector-database-add643fcfd23)
@@ -218,14 +219,11 @@ These usually encode: **What** (facts, rules, conventions), **Why** (rationale, 
 - [Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools) — Curated list of AI tools
 - [Dispatch](https://www.anthropic.com/products/dispatch) — Anthropic's multi-agent orchestration platform 📌 Unread
 - [Agor](https://agor.live/) — Multi-agent collaboration platform (by the creator of Airflow)
-- [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD) — Breakthrough Method for Agile AI Development
 - [Goose](https://github.com/block/goose) — Block's open-source AI developer agent
-- [Beads](https://github.com/steveyegge/beads) — AI coding assistant framework by Steve Yegge 📌 Unread
 - [Dexter](https://github.com/virattt/dexter) — Finance-focused AI agent
 - [Kestra Engineering AI Hub](https://github.com/kestra-io/engineering-ai-hub) — AI-powered engineering workflows
 - [Zvec](https://github.com/alibaba/zvec) — Vector database by Alibaba
 - [Kilo AI](https://kilo.ai/) — AI agent platform
-- [VibeKanban](https://www.vibekanban.com/) — AI-native project management 📌 Unread
 - [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) — Curated resources for Claude Code
 - [OpenClaw](https://openclaw.ai/) — Open-source AI agent framework
 - [NanoClaw](https://nanoclaw.net/) — Lightweight agent runtime
@@ -237,11 +235,13 @@ These usually encode: **What** (facts, rules, conventions), **Why** (rationale, 
 - [Entire](https://entire.io/) — AI development platform
 - [Air.dev](https://air.dev/) — AI agent builder
 - [GitHub Agentic Workflows](https://github.com/features) — GitHub's built-in agentic capabilities
-- [Get Shit Done](https://github.com/gsd-build/get-shit-done) — Pragmatic AI development methodology 📌 Unread
 - [Autopsy of the Great Reckoning](https://www.linkedin.com/pulse/autopsie-du-great-reckoning-et-les-5-le%C3%A7ons-qui-lia-aur%C3%A9lien-allienne-tpkue/) — 5 lessons from AI adoption
+### Protocols
+
+- [A2A: A New Era of Agent Interoperability](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) — Google's Agent-to-Agent protocol
 - [UCP: Universal Commerce Protocol](https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/) — Google's Universal Commerce Protocol
 
-### MCP (Model Context Protocol)
+#### MCP (Model Context Protocol)
 
 The open standard for connecting AI models to external tools and data sources.
 
@@ -253,6 +253,13 @@ The open standard for connecting AI models to external tools and data sources.
 - [MCP is Dead, Long Live the CLI](https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html) — The debate: MCP vs CLI tools (nuance: MCPs cost more tokens for tool calls; skills & CLI can be more efficient, but MCPs still have valid use cases)
 - [Datagouv MCP](https://github.com/datagouv/datagouv-mcp) — French open data MCP server
 - [Micronaut MCP](https://micronaut-projects.github.io/micronaut-mcp/snapshot/guide/) — MCP support for Micronaut framework
+
+### Methodologies
+
+- [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD) — Breakthrough Method for Agile AI Development
+- [Beads](https://github.com/steveyegge/beads) — AI coding assistant framework by Steve Yegge 📌 Unread
+- [VibeKanban](https://www.vibekanban.com/) — AI-native project management 📌 Unread
+- [Get Shit Done](https://github.com/gsd-build/get-shit-done) — Pragmatic AI development methodology 📌 Unread
 
 ### Claude Code
 
