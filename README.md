@@ -46,7 +46,7 @@ With 80%+ of code now AI-generated, the engineer's value shifts from writing cod
 **⚠️ Bottlenecks — Where the pipeline stalls:**
 
 - **Upstream:** Product must feed the backlog with clear business needs and prioritized requests — without this, agents spin on low-value work. FOMO-driven adoption ("competitors are shipping faster") compounds the problem by flooding the pipeline with half-baked specs.
-- **Downstream:** The human review layer can't scale at the same pace as AI output. Code review and QA fatigue set in fast. It's hard to say "stop" to agentic work at end of day. Constant context switching erodes focus, developers lose meaning in the work, and the risk of burnout becomes real.
+- **Downstream:** The human review layer can't scale at the same pace as AI output. Code review and QA fatigue set in fast. It's hard to say "stop" to agentic work at end of day. Constant context switching erodes focus, developers lose meaning in the work, and the risk of burnout becomes real. Mario Zechner makes the case for [slowing the fuck down](https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/) — autonomous agents create brittle systems with compounding errors; keep humans in control of architecture, use agents only for scoped evaluable tasks.
 
 The radar below tracks the tools and practices for each of these areas.
 
