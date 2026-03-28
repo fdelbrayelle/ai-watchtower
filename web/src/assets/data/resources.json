@@ -1,0 +1,1990 @@
+[
+  {
+    "id": "software-architecture-software-architect-roadmap-0",
+    "title": "Software Architect Roadmap",
+    "url": "https://roadmap.sh/software-architect",
+    "categoryId": "software-architecture",
+    "type": "roadmap",
+    "unread": false,
+    "description": "Roadmap for software architects"
+  },
+  {
+    "id": "software-architecture-designing-data-intensive-applications-2n-1",
+    "title": "**Designing Data-Intensive Applications**, 2nd Edition",
+    "url": "https://www.oreilly.com/library/view/designing-data-intensive-applications/9781098119058/",
+    "categoryId": "software-architecture",
+    "type": "book",
+    "unread": false,
+    "description": "Martin Kleppmann, Chris Riccomini — Distributed systems, data models, storage engines, and trade-offs at scale"
+  },
+  {
+    "id": "software-architecture-fundamentals-of-data-engineering-2",
+    "title": "**Fundamentals of Data Engineering**",
+    "url": "https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/",
+    "categoryId": "software-architecture",
+    "subcategory": "Data Engineering & Science",
+    "type": "book",
+    "unread": false,
+    "description": "Joe Reis, Matt Housley — Data pipelines, storage, ingestion, orchestration, and the data engineering lifecycle"
+  },
+  {
+    "id": "software-architecture-machine-learning-avec-scikit-learn-3",
+    "title": "**Machine Learning avec Scikit-Learn**",
+    "url": "https://www.oreilly.com/library/view/machine-learning-avec/9782100797820/",
+    "categoryId": "software-architecture",
+    "subcategory": "Data Engineering & Science",
+    "type": "book",
+    "unread": false,
+    "description": "Aurélien Géron — Hands-on ML with Scikit-Learn"
+  },
+  {
+    "id": "software-architecture-deep-learning-avec-keras-et-tensorflow-4",
+    "title": "**Deep Learning avec Keras et TensorFlow**",
+    "url": "https://www.oreilly.com/library/view/deep-learning-avec/9782100805020/",
+    "categoryId": "software-architecture",
+    "subcategory": "Data Engineering & Science",
+    "type": "book",
+    "unread": false,
+    "description": "Aurélien Géron — Deep learning with Keras and TensorFlow"
+  },
+  {
+    "id": "software-architecture-data-engineer-roadmap-5",
+    "title": "Data Engineer Roadmap",
+    "url": "https://roadmap.sh/data-engineer",
+    "categoryId": "software-architecture",
+    "subcategory": "Roadmaps",
+    "type": "roadmap",
+    "unread": false
+  },
+  {
+    "id": "software-architecture-data-analyst-roadmap-6",
+    "title": "Data Analyst Roadmap",
+    "url": "https://roadmap.sh/data-analyst",
+    "categoryId": "software-architecture",
+    "subcategory": "Roadmaps",
+    "type": "roadmap",
+    "unread": false
+  },
+  {
+    "id": "software-architecture-sql-roadmap-7",
+    "title": "SQL Roadmap",
+    "url": "https://roadmap.sh/sql",
+    "categoryId": "software-architecture",
+    "subcategory": "Roadmaps",
+    "type": "roadmap",
+    "unread": false
+  },
+  {
+    "id": "software-architecture-machine-learning-roadmap-8",
+    "title": "Machine Learning Roadmap",
+    "url": "https://roadmap.sh/machine-learning",
+    "categoryId": "software-architecture",
+    "subcategory": "Roadmaps",
+    "type": "roadmap",
+    "unread": false
+  },
+  {
+    "id": "software-architecture-ai-data-scientist-roadmap-9",
+    "title": "AI Data Scientist Roadmap",
+    "url": "https://roadmap.sh/ai-data-scientist",
+    "categoryId": "software-architecture",
+    "subcategory": "Roadmaps",
+    "type": "roadmap",
+    "unread": false
+  },
+  {
+    "id": "software-architecture-ai-engineer-roadmap-10",
+    "title": "AI Engineer Roadmap",
+    "url": "https://roadmap.sh/ai-engineer",
+    "categoryId": "software-architecture",
+    "subcategory": "Roadmaps",
+    "type": "roadmap",
+    "unread": false
+  },
+  {
+    "id": "software-architecture-ai-agents-roadmap-11",
+    "title": "AI Agents Roadmap",
+    "url": "https://roadmap.sh/ai-agents",
+    "categoryId": "software-architecture",
+    "subcategory": "Roadmaps",
+    "type": "roadmap",
+    "unread": false
+  },
+  {
+    "id": "software-architecture-mlops-roadmap-12",
+    "title": "MLOps Roadmap",
+    "url": "https://roadmap.sh/mlops",
+    "categoryId": "software-architecture",
+    "subcategory": "Roadmaps",
+    "type": "roadmap",
+    "unread": false
+  },
+  {
+    "id": "software-architecture-3blue1brown-essence-of-linear-algebra-13",
+    "title": "3Blue1Brown: Essence of Linear Algebra",
+    "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+    "categoryId": "software-architecture",
+    "subcategory": "Basic Maths for AI",
+    "type": "video",
+    "unread": false,
+    "description": "Visual, intuitive linear algebra series"
+  },
+  {
+    "id": "software-architecture-statquest-statistics-fundamentals-14",
+    "title": "StatQuest: Statistics Fundamentals",
+    "url": "https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9",
+    "categoryId": "software-architecture",
+    "subcategory": "Basic Maths for AI",
+    "type": "video",
+    "unread": false,
+    "description": "Statistics and ML concepts explained clearly"
+  },
+  {
+    "id": "software-architecture-machinelearnia-15",
+    "title": "MachineLearnia",
+    "url": "https://www.youtube.com/@MachineLearnia",
+    "categoryId": "software-architecture",
+    "subcategory": "Basic Maths for AI",
+    "type": "video",
+    "unread": false,
+    "description": "Machine Learning and Deep Learning video course"
+  },
+  {
+    "id": "software-architecture-clean-analyze-your-dataset-16",
+    "title": "Clean & Analyze Your Dataset",
+    "url": "https://openclassrooms.com/fr/courses/7410486-nettoyez-et-analysez-votre-jeu-de-donnees",
+    "categoryId": "software-architecture",
+    "subcategory": "Learning",
+    "type": "course",
+    "unread": false,
+    "description": "OpenClassrooms data cleaning course"
+  },
+  {
+    "id": "product-thinking-product-manager-roadmap-17",
+    "title": "Product Manager Roadmap",
+    "url": "https://roadmap.sh/product-manager",
+    "categoryId": "product-thinking",
+    "type": "roadmap",
+    "unread": false,
+    "description": "Roadmap for product managers"
+  },
+  {
+    "id": "product-thinking-thiga-books-assets-18",
+    "title": "Thiga Books & Assets",
+    "url": "https://www.thiga.co/en/our-assets",
+    "categoryId": "product-thinking",
+    "type": "article",
+    "unread": false,
+    "description": "Product management books and resources by Thiga"
+  },
+  {
+    "id": "code-generation-spring-ai-19",
+    "title": "Spring AI",
+    "url": "https://spring.io/projects/spring-ai",
+    "categoryId": "code-generation",
+    "subcategory": "AI for Java",
+    "type": "article",
+    "unread": false,
+    "description": "Official Spring AI project"
+  },
+  {
+    "id": "code-generation-spring-ai-concepts-20",
+    "title": "Spring AI Concepts",
+    "url": "https://docs.spring.io/spring-ai/reference/concepts.html",
+    "categoryId": "code-generation",
+    "subcategory": "AI for Java",
+    "type": "article",
+    "unread": false,
+    "description": "Core concepts documentation"
+  },
+  {
+    "id": "code-generation-spring-ai-prompt-context-engineering-pat-21",
+    "title": "Spring AI Prompt / Context Engineering Patterns",
+    "url": "https://spring.io/blog/2025/04/14/spring-ai-prompt-engineering-patterns",
+    "categoryId": "code-generation",
+    "subcategory": "AI for Java",
+    "type": "article",
+    "unread": false,
+    "description": "Prompt patterns for Spring AI"
+  },
+  {
+    "id": "code-generation-langchain4j-22",
+    "title": "LangChain4J",
+    "url": "https://docs.langchain4j.dev/",
+    "categoryId": "code-generation",
+    "subcategory": "AI for Java",
+    "type": "article",
+    "unread": false,
+    "description": "Java LLM framework documentation"
+  },
+  {
+    "id": "code-generation-langchain4j-docker-model-runner-23",
+    "title": "LangChain4J + Docker Model Runner",
+    "url": "https://medium.com/@lize.raes/langchain4j-%EF%B8%8F-docker-model-runner-b5f720a76c85",
+    "categoryId": "code-generation",
+    "subcategory": "AI for Java",
+    "type": "article",
+    "unread": false,
+    "description": "Running LangChain4J with Docker"
+  },
+  {
+    "id": "code-generation-evolution-of-the-java-ecosystem-for-ai-24",
+    "title": "Evolution of the Java Ecosystem for AI",
+    "url": "https://inside.java/2025/01/29/evolution-of-java-ecosystem-for-integrating-ai/",
+    "categoryId": "code-generation",
+    "subcategory": "AI for Java",
+    "type": "article",
+    "unread": false,
+    "description": "Oracle's perspective on Java + AI"
+  },
+  {
+    "id": "code-generation-koog-for-java-25",
+    "title": "Koog for Java",
+    "url": "https://blog.jetbrains.com/ai/2026/03/koog-comes-to-java/",
+    "categoryId": "code-generation",
+    "subcategory": "AI for Java",
+    "type": "article",
+    "unread": true,
+    "description": "JetBrains' AI framework for Java 📌 Unread"
+  },
+  {
+    "id": "code-generation-pep-8-style-guide-26",
+    "title": "PEP 8 — Style Guide",
+    "url": "https://peps.python.org/pep-0008/",
+    "categoryId": "code-generation",
+    "subcategory": "Python Ecosystem",
+    "type": "article",
+    "unread": false,
+    "description": "The official Python style guide"
+  },
+  {
+    "id": "code-generation-python-standard-library-27",
+    "title": "Python Standard Library",
+    "url": "https://docs.python.org/3/library/",
+    "categoryId": "code-generation",
+    "subcategory": "Python Ecosystem",
+    "type": "article",
+    "unread": false,
+    "description": "Complete standard library reference"
+  },
+  {
+    "id": "code-generation-virtual-environments-venv-28",
+    "title": "Virtual Environments (venv)",
+    "url": "https://docs.python.org/3/library/venv.html",
+    "categoryId": "code-generation",
+    "subcategory": "Python Ecosystem",
+    "type": "article",
+    "unread": false,
+    "description": "Managing Python environments"
+  },
+  {
+    "id": "code-generation-classes-namespaces-29",
+    "title": "Classes & Namespaces",
+    "url": "https://docs.python.org/3/tutorial/classes.html#python-scopes-and-namespaces",
+    "categoryId": "code-generation",
+    "subcategory": "Python Ecosystem",
+    "type": "article",
+    "unread": false,
+    "description": "Scopes and namespaces tutorial"
+  },
+  {
+    "id": "code-generation-dunder-methods-30",
+    "title": "Dunder Methods",
+    "url": "https://gayerie.dev/docs/python/python3/dunder.html",
+    "categoryId": "code-generation",
+    "subcategory": "Python Ecosystem",
+    "type": "article",
+    "unread": false,
+    "description": "Guide to Python magic methods"
+  },
+  {
+    "id": "code-generation-abstract-base-classes-abc-31",
+    "title": "Abstract Base Classes (abc)",
+    "url": "https://docs.python.org/fr/3.13/library/abc.html",
+    "categoryId": "code-generation",
+    "subcategory": "Python Ecosystem",
+    "type": "article",
+    "unread": false,
+    "description": "ABC module reference"
+  },
+  {
+    "id": "code-generation-asyncio-32",
+    "title": "AsyncIO",
+    "url": "https://docs.python.org/fr/3.13/library/asyncio.html",
+    "categoryId": "code-generation",
+    "subcategory": "Python Ecosystem",
+    "type": "article",
+    "unread": false,
+    "description": "Asynchronous I/O reference"
+  },
+  {
+    "id": "code-generation-dataclasses-33",
+    "title": "Dataclasses",
+    "url": "https://invivoo.com/blog/dataclasses-python",
+    "categoryId": "code-generation",
+    "subcategory": "Python Ecosystem",
+    "type": "article",
+    "unread": false,
+    "description": "Practical guide to dataclasses"
+  },
+  {
+    "id": "code-generation-dependency-injection-best-practices-34",
+    "title": "Dependency Injection Best Practices",
+    "url": "https://arjancodes.com/blog/python-dependency-injection-best-practices/",
+    "categoryId": "code-generation",
+    "subcategory": "Python Ecosystem",
+    "type": "article",
+    "unread": false,
+    "description": "DI patterns in Python"
+  },
+  {
+    "id": "code-generation-ddd-with-python-microservices-35",
+    "title": "DDD with Python Microservices",
+    "url": "https://medium.com/@nomannayeem/everything-you-need-to-know-about-domain-driven-design-with-python-microservices-2c2f6556b5b1",
+    "categoryId": "code-generation",
+    "subcategory": "Python Ecosystem",
+    "type": "article",
+    "unread": false,
+    "description": "Domain-Driven Design guide"
+  },
+  {
+    "id": "code-generation-is-python-really-that-slow-36",
+    "title": "Is Python Really That Slow?",
+    "url": "https://blog.miguelgrinberg.com/post/is-python-really-that-slow",
+    "categoryId": "code-generation",
+    "subcategory": "Python Ecosystem",
+    "type": "article",
+    "unread": false,
+    "description": "Performance myths debunked"
+  },
+  {
+    "id": "code-generation-python-is-slow-and-other-myths-37",
+    "title": "Python Is Slow and Other Myths",
+    "url": "https://hackernoon.com/python-is-slow-and-other-myths-of-a-dying-era",
+    "categoryId": "code-generation",
+    "subcategory": "Python Ecosystem",
+    "type": "article",
+    "unread": false,
+    "description": "More performance myth-busting"
+  },
+  {
+    "id": "code-generation-flask-quickstart-38",
+    "title": "Flask Quickstart",
+    "url": "https://flask.palletsprojects.com/en/stable/quickstart/",
+    "categoryId": "code-generation",
+    "subcategory": "Python Ecosystem",
+    "type": "article",
+    "unread": false,
+    "description": "Getting started with Flask"
+  },
+  {
+    "id": "code-generation-flask-blueprints-39",
+    "title": "Flask Blueprints",
+    "url": "https://flask.palletsprojects.com/en/stable/blueprints/",
+    "categoryId": "code-generation",
+    "subcategory": "Python Ecosystem",
+    "type": "article",
+    "unread": false,
+    "description": "Modular Flask applications"
+  },
+  {
+    "id": "code-generation-flask-jinja2-to-react-40",
+    "title": "Flask + Jinja2 to React",
+    "url": "https://dev.to/usooldatascience/transitioning-from-flask-with-jinja2-to-react-understanding-authentication-and-data-flow-for-4214",
+    "categoryId": "code-generation",
+    "subcategory": "Python Ecosystem",
+    "type": "article",
+    "unread": false,
+    "description": "Migration guide"
+  },
+  {
+    "id": "code-generation-fastapi-tutorial-41",
+    "title": "FastAPI Tutorial",
+    "url": "https://fastapi.tiangolo.com/tutorial/",
+    "categoryId": "code-generation",
+    "subcategory": "Python Ecosystem",
+    "type": "article",
+    "unread": false,
+    "description": "Getting started with FastAPI"
+  },
+  {
+    "id": "code-generation-pydantic-docs-42",
+    "title": "Pydantic Docs",
+    "url": "https://docs.pydantic.dev/latest/",
+    "categoryId": "code-generation",
+    "subcategory": "Python Ecosystem",
+    "type": "article",
+    "unread": false,
+    "description": "Data validation library"
+  },
+  {
+    "id": "agentic-orchestration-building-effective-agents-43",
+    "title": "Building Effective Agents",
+    "url": "https://www.anthropic.com/engineering/building-effective-agents",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "article",
+    "unread": true,
+    "description": "Anthropic's guide to agent design 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-huggingface-agents-course-44",
+    "title": "HuggingFace Agents Course",
+    "url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "course",
+    "unread": false,
+    "description": "Free course on building AI agents"
+  },
+  {
+    "id": "agentic-orchestration-automate-90-of-your-work-with-ai-agents-45",
+    "title": "Automate 90% of Your Work with AI Agents",
+    "url": "https://dev.to/copilotkit/automate-90-of-your-work-with-ai-agents-real-examples-code-inside-46ke?ref=dailydev",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "article",
+    "unread": false,
+    "description": "Practical examples with code"
+  },
+  {
+    "id": "agentic-orchestration-malt-from-ai-assistant-to-ai-agents-46",
+    "title": "Malt: From AI Assistant to AI Agents",
+    "url": "https://blog.malt.engineering/from-ai-assistant-to-ai-agents-malts-journey-in-building-ai-tools-for-internal-efficiency-9198b41fd7d1?gi=5e83657d5955",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "article",
+    "unread": false,
+    "description": "Malt's journey building internal AI tools"
+  },
+  {
+    "id": "agentic-orchestration-malt-vector-database-for-freelancer-reco-47",
+    "title": "Malt: Vector Database for Freelancer Recommendations",
+    "url": "https://blog.malt.engineering/super-powering-our-freelancer-recommendation-system-using-a-vector-database-add643fcfd23",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "article",
+    "unread": false
+  },
+  {
+    "id": "agentic-orchestration-mongodb-ai-agents-48",
+    "title": "MongoDB: AI Agents",
+    "url": "https://www.mongodb.com/resources/basics/artificial-intelligence/ai-agents",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "article",
+    "unread": false,
+    "description": "Fundamentals of AI agents"
+  },
+  {
+    "id": "agentic-orchestration-awesome-ai-tools-49",
+    "title": "Awesome AI Tools",
+    "url": "https://github.com/mahseema/awesome-ai-tools",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "tool",
+    "unread": false,
+    "description": "Curated list of AI tools"
+  },
+  {
+    "id": "agentic-orchestration-dispatch-50",
+    "title": "Dispatch",
+    "url": "https://www.anthropic.com/products/dispatch",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "article",
+    "unread": true,
+    "description": "Anthropic's multi-agent orchestration platform 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-agor-51",
+    "title": "Agor",
+    "url": "https://agor.live/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "article",
+    "unread": false,
+    "description": "Multi-agent collaboration platform (by the creator of Airflow)"
+  },
+  {
+    "id": "agentic-orchestration-goose-52",
+    "title": "Goose",
+    "url": "https://github.com/block/goose",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "tool",
+    "unread": false,
+    "description": "Block's open-source AI developer agent"
+  },
+  {
+    "id": "agentic-orchestration-dexter-53",
+    "title": "Dexter",
+    "url": "https://github.com/virattt/dexter",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "tool",
+    "unread": false,
+    "description": "Finance-focused AI agent"
+  },
+  {
+    "id": "agentic-orchestration-kestra-engineering-ai-hub-54",
+    "title": "Kestra Engineering AI Hub",
+    "url": "https://github.com/kestra-io/engineering-ai-hub",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "tool",
+    "unread": false,
+    "description": "AI-powered engineering workflows"
+  },
+  {
+    "id": "agentic-orchestration-zvec-55",
+    "title": "Zvec",
+    "url": "https://github.com/alibaba/zvec",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "tool",
+    "unread": false,
+    "description": "Vector database by Alibaba"
+  },
+  {
+    "id": "agentic-orchestration-kilo-ai-56",
+    "title": "Kilo AI",
+    "url": "https://kilo.ai/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "article",
+    "unread": false,
+    "description": "AI agent platform"
+  },
+  {
+    "id": "agentic-orchestration-openclaw-57",
+    "title": "OpenClaw",
+    "url": "https://openclaw.ai/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "article",
+    "unread": false,
+    "description": "Open-source AI agent framework"
+  },
+  {
+    "id": "agentic-orchestration-nanoclaw-58",
+    "title": "NanoClaw",
+    "url": "https://nanoclaw.net/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "article",
+    "unread": false,
+    "description": "Lightweight agent runtime"
+  },
+  {
+    "id": "agentic-orchestration-nemoclaw-59",
+    "title": "NemoClaw",
+    "url": "https://github.com/NVIDIA/NemoClaw",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "tool",
+    "unread": false,
+    "description": "NVIDIA's agent framework"
+  },
+  {
+    "id": "agentic-orchestration-sim-ai-60",
+    "title": "Sim AI",
+    "url": "https://www.sim.ai/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "article",
+    "unread": false,
+    "description": "Create agents, MCP servers, and tools visually"
+  },
+  {
+    "id": "agentic-orchestration-causal-ai-from-what-to-why-61",
+    "title": "Causal AI: From What to Why",
+    "url": "https://elaiapartners.substack.com/p/from-what-to-why-the-rise-of-causal",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "article",
+    "unread": false,
+    "description": "The rise of causal AI"
+  },
+  {
+    "id": "agentic-orchestration-aden-hq-62",
+    "title": "Aden HQ",
+    "url": "https://adenhq.com/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "article",
+    "unread": false,
+    "description": "AI-powered development platform"
+  },
+  {
+    "id": "agentic-orchestration-cosine-63",
+    "title": "Cosine",
+    "url": "https://cosine.sh/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "article",
+    "unread": false,
+    "description": "AI code companion"
+  },
+  {
+    "id": "agentic-orchestration-entire-64",
+    "title": "Entire",
+    "url": "https://entire.io/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "article",
+    "unread": false,
+    "description": "AI development platform"
+  },
+  {
+    "id": "agentic-orchestration-air-dev-65",
+    "title": "Air.dev",
+    "url": "https://air.dev/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "article",
+    "unread": false,
+    "description": "AI agent builder"
+  },
+  {
+    "id": "agentic-orchestration-github-agentic-workflows-66",
+    "title": "GitHub Agentic Workflows",
+    "url": "https://github.com/features",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "tool",
+    "unread": false,
+    "description": "GitHub's built-in agentic capabilities"
+  },
+  {
+    "id": "agentic-orchestration-autopsy-of-the-great-reckoning-67",
+    "title": "Autopsy of the Great Reckoning",
+    "url": "https://www.linkedin.com/pulse/autopsie-du-great-reckoning-et-les-5-le%C3%A7ons-qui-lia-aur%C3%A9lien-allienne-tpkue/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Agents & Frameworks",
+    "type": "article",
+    "unread": false,
+    "description": "5 lessons from AI adoption"
+  },
+  {
+    "id": "agentic-orchestration-a2a-a-new-era-of-agent-interoperability-68",
+    "title": "A2A: A New Era of Agent Interoperability",
+    "url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Protocols",
+    "type": "article",
+    "unread": false,
+    "description": "Google's Agent-to-Agent protocol"
+  },
+  {
+    "id": "agentic-orchestration-ucp-universal-commerce-protocol-69",
+    "title": "UCP: Universal Commerce Protocol",
+    "url": "https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Protocols",
+    "type": "article",
+    "unread": false,
+    "description": "Google's Universal Commerce Protocol"
+  },
+  {
+    "id": "agentic-orchestration-mcp-introduction-70",
+    "title": "MCP Introduction",
+    "url": "https://modelcontextprotocol.io/introduction",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "MCP (Model Context Protocol)",
+    "type": "article",
+    "unread": false,
+    "description": "Official documentation"
+  },
+  {
+    "id": "agentic-orchestration-spring-ai-mcp-71",
+    "title": "Spring AI & MCP",
+    "url": "https://www.baeldung.com/spring-ai-model-context-protocol-mcp",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "MCP (Model Context Protocol)",
+    "type": "article",
+    "unread": false,
+    "description": "Integrating MCP with Spring AI"
+  },
+  {
+    "id": "agentic-orchestration-mcp-servers-explained-72",
+    "title": "MCP Servers Explained",
+    "url": "https://generativeai.pub/mcp-servers-explained-python-and-agentic-ai-tool-integration-aa2ddca6cbe5",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "MCP (Model Context Protocol)",
+    "type": "article",
+    "unread": false,
+    "description": "Python and agentic AI tool integration"
+  },
+  {
+    "id": "agentic-orchestration-mcp-part-i-core-concepts-73",
+    "title": "MCP Part I: Core Concepts",
+    "url": "https://blog.owulveryck.info/fr/2025/01/27/mcp-partie-i-concepts-fondamentaux-pass%C3%A9-pr%C3%A9sent-et-futur-des-syst%C3%A8mes-agents.html",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "MCP (Model Context Protocol)",
+    "type": "article",
+    "unread": false,
+    "description": "Past, present, and future of agent systems"
+  },
+  {
+    "id": "agentic-orchestration-awesome-mcp-servers-74",
+    "title": "Awesome MCP Servers",
+    "url": "https://glama.ai/mcp/servers",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "MCP (Model Context Protocol)",
+    "type": "article",
+    "unread": false,
+    "description": "Directory of MCP servers"
+  },
+  {
+    "id": "agentic-orchestration-mcp-is-dead-long-live-the-cli-75",
+    "title": "MCP is Dead, Long Live the CLI",
+    "url": "https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "MCP (Model Context Protocol)",
+    "type": "article",
+    "unread": false,
+    "description": "The debate: MCP vs CLI tools (nuance: MCPs cost more tokens for tool calls; skills & CLI can be more efficient, but MCPs still have valid use cases)"
+  },
+  {
+    "id": "agentic-orchestration-mcp-vs-cli-guidance-76",
+    "title": "MCP vs CLI Guidance",
+    "url": "https://cc.bruniaux.com/guide/mcp-vs-cli/#guidance-by-situation",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "MCP (Model Context Protocol)",
+    "type": "article",
+    "unread": true,
+    "description": "When to use MCP vs CLI 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-datagouv-mcp-77",
+    "title": "Datagouv MCP",
+    "url": "https://github.com/datagouv/datagouv-mcp",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "MCP (Model Context Protocol)",
+    "type": "tool",
+    "unread": false,
+    "description": "French open data MCP server"
+  },
+  {
+    "id": "agentic-orchestration-micronaut-mcp-78",
+    "title": "Micronaut MCP",
+    "url": "https://micronaut-projects.github.io/micronaut-mcp/snapshot/guide/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "MCP (Model Context Protocol)",
+    "type": "article",
+    "unread": false,
+    "description": "MCP support for Micronaut framework"
+  },
+  {
+    "id": "agentic-orchestration-rag-is-dead-long-live-rag-79",
+    "title": "RAG is Dead, Long Live RAG",
+    "url": "https://lighton.ai/lighton-blogs/rag-is-dead-long-live-rag-retrieval-in-the-age-of-agents",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "RAG",
+    "type": "article",
+    "unread": false,
+    "description": "Rather than being killed by larger context windows, RAG has evolved into a sophisticated system that makes intelligent, conditional decisions about whether and how to retrieve information"
+  },
+  {
+    "id": "agentic-orchestration-bmad-method-80",
+    "title": "BMAD Method",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Methodologies",
+    "type": "tool",
+    "unread": true,
+    "description": "Breakthrough Method for Agile AI Development 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-beads-81",
+    "title": "Beads",
+    "url": "https://github.com/steveyegge/beads",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Methodologies",
+    "type": "tool",
+    "unread": true,
+    "description": "AI coding assistant framework by Steve Yegge 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-vibekanban-82",
+    "title": "VibeKanban",
+    "url": "https://www.vibekanban.com/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Methodologies",
+    "type": "article",
+    "unread": true,
+    "description": "AI-native project management 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-get-shit-done-83",
+    "title": "Get Shit Done",
+    "url": "https://github.com/gsd-build/get-shit-done",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Methodologies",
+    "type": "tool",
+    "unread": true,
+    "description": "Pragmatic AI development methodology 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-claude-code-changelog-84",
+    "title": "Claude Code Changelog",
+    "url": "https://code.claude.com/docs/en/changelog",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Claude Code",
+    "type": "article",
+    "unread": false,
+    "description": "Official changelog"
+  },
+  {
+    "id": "agentic-orchestration-claude-code-plugins-85",
+    "title": "Claude Code Plugins",
+    "url": "https://code.claude.com/docs/en/plugins",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Claude Code",
+    "type": "article",
+    "unread": true,
+    "description": "Official plugins documentation 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-claude-cowork-86",
+    "title": "Claude Cowork",
+    "url": "https://code.claude.com/docs/en/cowork",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Claude Code",
+    "type": "article",
+    "unread": true,
+    "description": "Collaborative multi-agent sessions in Claude Code 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-claude-opus-4-6-announcement-87",
+    "title": "Claude Opus 4.6 Announcement",
+    "url": "https://www.anthropic.com/news/claude-opus-4-6",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Claude Code",
+    "type": "article",
+    "unread": false,
+    "description": "Latest model release"
+  },
+  {
+    "id": "agentic-orchestration-claude-sonnet-4-6-announcement-88",
+    "title": "Claude Sonnet 4.6 Announcement",
+    "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Claude Code",
+    "type": "article",
+    "unread": false,
+    "description": "Latest model release"
+  },
+  {
+    "id": "agentic-orchestration-cobol-modernization-with-ai-89",
+    "title": "COBOL Modernization with AI",
+    "url": "https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Claude Code",
+    "type": "article",
+    "unread": true,
+    "description": "Breaking the cost barrier 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-claude-code-in-action-90",
+    "title": "Claude Code in Action",
+    "url": "https://anthropic.skilljar.com/claude-code-in-action",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Learn",
+    "type": "course",
+    "unread": true,
+    "description": "Official Anthropic training 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-claude-certified-architect-91",
+    "title": "Claude Certified Architect",
+    "url": "https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Learn",
+    "type": "course",
+    "unread": false,
+    "description": "Certification for Claude partners"
+  },
+  {
+    "id": "agentic-orchestration-claude-certified-architect-study-guide-92",
+    "title": "Claude Certified Architect Study Guide",
+    "url": "https://github.com/paullarionov/claude-certified-architect/blob/main/guide_en.MD",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Learn",
+    "type": "tool",
+    "unread": true,
+    "description": "Community study guide 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-claude-code-best-practices-thread-1-93",
+    "title": "Claude Code Best Practices (Thread 1)",
+    "url": "https://x.com/bcherny/status/2007179832300581177",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Learn",
+    "type": "article",
+    "unread": true,
+    "description": "Tips from a Claude engineer 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-claude-code-best-practices-thread-2-94",
+    "title": "Claude Code Best Practices (Thread 2)",
+    "url": "https://x.com/bcherny/status/2017742741636321619",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Learn",
+    "type": "article",
+    "unread": true,
+    "description": "More tips from a Claude engineer 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-claude-code-best-practices-repo-95",
+    "title": "Claude Code Best Practices Repo",
+    "url": "https://github.com/shanraisshan/claude-code-best-practice",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Learn",
+    "type": "tool",
+    "unread": true,
+    "description": "Community-curated best practices 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-claude-code-guide-96",
+    "title": "Claude Code Guide",
+    "url": "https://cc.bruniaux.com/guide/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Learn",
+    "type": "article",
+    "unread": true,
+    "description": "Comprehensive guide 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-claude-code-diagrams-97",
+    "title": "Claude Code Diagrams",
+    "url": "https://cc.bruniaux.com/diagrams/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Learn",
+    "type": "article",
+    "unread": true,
+    "description": "Visual architecture diagrams 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-everything-claude-code-98",
+    "title": "Everything Claude Code",
+    "url": "https://github.com/affaan-m/everything-claude-code",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Learn",
+    "type": "tool",
+    "unread": false,
+    "description": "Curated resources for Claude Code"
+  },
+  {
+    "id": "agentic-orchestration-claude-swarm-monitor-99",
+    "title": "Claude Swarm Monitor",
+    "url": "https://github.com/oinant/claude-swarm-monitor",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Tools",
+    "type": "tool",
+    "unread": false,
+    "description": "Monitor Claude Code swarms"
+  },
+  {
+    "id": "agentic-orchestration-claude-octopus-100",
+    "title": "Claude Octopus",
+    "url": "https://github.com/nyldn/claude-octopus",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Tools",
+    "type": "tool",
+    "unread": true,
+    "description": "Multi-agent orchestrator coordinating Claude, Codex, and Gemini CLIs 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-cc-workflow-studio-101",
+    "title": "CC Workflow Studio",
+    "url": "https://github.com/breaking-brake/cc-wf-studio",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Tools",
+    "type": "tool",
+    "unread": false,
+    "description": "Claude Code observability"
+  },
+  {
+    "id": "agentic-orchestration-ralph-claude-code-102",
+    "title": "Ralph Claude Code",
+    "url": "https://github.com/frankbria/ralph-claude-code",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Tools",
+    "type": "tool",
+    "unread": true,
+    "description": "Claude Code assistant 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-exitbox-103",
+    "title": "ExitBox",
+    "url": "https://github.com/Cloud-Exit/ExitBox",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Tools",
+    "type": "tool",
+    "unread": false,
+    "description": "Security sandbox for Claude Code"
+  },
+  {
+    "id": "agentic-orchestration-ai-rsk-104",
+    "title": "AI-RSK",
+    "url": "https://github.com/Krigsexe/ai-rsk",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Tools",
+    "type": "tool",
+    "unread": false,
+    "description": "Security gate for AI-generated code, blocks builds until vulnerabilities are fixed"
+  },
+  {
+    "id": "agentic-orchestration-claude-code-tips-105",
+    "title": "Claude Code Tips",
+    "url": "https://github.com/ykdojo/claude-code-tips",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Tips",
+    "type": "tool",
+    "unread": true,
+    "description": "Practical tips collection 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-context7-106",
+    "title": "Context7",
+    "url": "https://github.com/upstash/context7",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Plugins",
+    "type": "tool",
+    "unread": true,
+    "description": "Up-to-date docs and code examples for any library, pulled straight into your prompt 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-superpowers-107",
+    "title": "Superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Plugins",
+    "type": "tool",
+    "unread": true,
+    "description": "Agentic skills framework & software development methodology 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-hookify-108",
+    "title": "Hookify",
+    "url": "https://github.com/anthropics/claude-code/tree/main/plugins/hookify",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Plugins",
+    "type": "tool",
+    "unread": true,
+    "description": "Official plugin to manage Claude Code hooks visually 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-claude-mem-109",
+    "title": "claude-mem",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Plugins",
+    "type": "tool",
+    "unread": true,
+    "description": "Memory management plugin for Claude Code 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-best-ai-code-editors-2025-110",
+    "title": "Best AI Code Editors (2025)",
+    "url": "https://www.builder.io/blog/best-ai-code-editors?ref=dailydev",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Code Assistants & AI Editors",
+    "type": "article",
+    "unread": false,
+    "description": "Comprehensive comparison"
+  },
+  {
+    "id": "agentic-orchestration-claude-ai-111",
+    "title": "Claude AI",
+    "url": "https://claude.ai",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Code Assistants & AI Editors",
+    "type": "article",
+    "unread": false,
+    "description": "Anthropic's AI assistant"
+  },
+  {
+    "id": "agentic-orchestration-cursor-112",
+    "title": "Cursor",
+    "url": "https://www.cursor.com",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Code Assistants & AI Editors",
+    "type": "article",
+    "unread": false,
+    "description": "AI-first code editor"
+  },
+  {
+    "id": "agentic-orchestration-continue-113",
+    "title": "Continue",
+    "url": "https://www.continue.dev/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Code Assistants & AI Editors",
+    "type": "article",
+    "unread": false,
+    "description": "Open-source AI code assistant"
+  },
+  {
+    "id": "agentic-orchestration-continue-ollama-114",
+    "title": "Continue + Ollama",
+    "url": "https://ollama.com/blog/continue-code-assistant",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Code Assistants & AI Editors",
+    "type": "article",
+    "unread": false,
+    "description": "Running Continue with local models"
+  },
+  {
+    "id": "agentic-orchestration-supermaven-115",
+    "title": "Supermaven",
+    "url": "https://supermaven.com/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Code Assistants & AI Editors",
+    "type": "article",
+    "unread": false,
+    "description": "Fast AI code completion"
+  },
+  {
+    "id": "agentic-orchestration-devoxxgenie-116",
+    "title": "DevoxxGenie",
+    "url": "https://github.com/devoxx/DevoxxGenieIDEAPlugin",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Code Assistants & AI Editors",
+    "type": "tool",
+    "unread": false,
+    "description": "AI plugin for IntelliJ IDEA"
+  },
+  {
+    "id": "agentic-orchestration-junie-117",
+    "title": "Junie",
+    "url": "https://www.jetbrains.com/junie/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Code Assistants & AI Editors",
+    "type": "article",
+    "unread": false,
+    "description": "JetBrains' AI coding agent"
+  },
+  {
+    "id": "agentic-orchestration-lovable-118",
+    "title": "Lovable",
+    "url": "https://lovable.dev",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Code Assistants & AI Editors",
+    "type": "article",
+    "unread": false,
+    "description": "AI-powered full-stack app builder"
+  },
+  {
+    "id": "agentic-orchestration-mammouth-ai-119",
+    "title": "Mammouth AI",
+    "url": "https://mammouth.ai/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Code Assistants & AI Editors",
+    "type": "article",
+    "unread": false,
+    "description": "AI coding assistant"
+  },
+  {
+    "id": "agentic-orchestration-opencode-120",
+    "title": "OpenCode",
+    "url": "https://opencode.ai/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Code Assistants & AI Editors",
+    "type": "article",
+    "unread": true,
+    "description": "Open-source AI coding platform 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-opencode-worktree-121",
+    "title": "OpenCode Worktree",
+    "url": "https://github.com/kdcokenny/opencode-worktree",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Code Assistants & AI Editors",
+    "type": "tool",
+    "unread": true,
+    "description": "Worktree support (alternative: `claude --worktree feature-auth`) 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-ocx-122",
+    "title": "OCX",
+    "url": "https://github.com/kdcokenny/ocx",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Code Assistants & AI Editors",
+    "type": "tool",
+    "unread": true,
+    "description": "Extends OpenCode capabilities 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-figma-to-code-123",
+    "title": "Figma to Code",
+    "url": "https://www.figma.com/community/plugin/747985167520967365",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "UX/UI Design",
+    "type": "article",
+    "unread": false,
+    "description": "Convert Figma designs to code"
+  },
+  {
+    "id": "agentic-orchestration-google-stitch-124",
+    "title": "Google Stitch",
+    "url": "https://stitch.withgoogle.com/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "UX/UI Design",
+    "type": "article",
+    "unread": true,
+    "description": "Google's AI-powered design-to-code tool 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-paper-125",
+    "title": "Paper",
+    "url": "https://paper.design/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "UX/UI Design",
+    "type": "article",
+    "unread": true,
+    "description": "Collaborative design tool for building interfaces 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-generative-ai-patterns-126",
+    "title": "Generative AI Patterns",
+    "url": "https://martinfowler.com/articles/gen-ai-patterns/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Generative AI Patterns & Learning",
+    "type": "article",
+    "unread": false,
+    "description": "Martin Fowler's gen AI pattern catalog"
+  },
+  {
+    "id": "agentic-orchestration-legacy-modernization-with-gen-ai-127",
+    "title": "Legacy Modernization with Gen AI",
+    "url": "https://martinfowler.com/articles/legacy-modernization-gen-ai.html",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Generative AI Patterns & Learning",
+    "type": "article",
+    "unread": false,
+    "description": "Modernizing legacy systems"
+  },
+  {
+    "id": "agentic-orchestration-12-days-of-free-gen-ai-training-128",
+    "title": "12 Days of Free Gen AI Training",
+    "url": "https://cloud.google.com/blog/topics/training-certifications/12-days-of-no-cost-generative-ai-training?hl=en",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Generative AI Patterns & Learning",
+    "type": "course",
+    "unread": false,
+    "description": "Google Cloud free training"
+  },
+  {
+    "id": "agentic-orchestration-a-field-guide-to-ai-129",
+    "title": "A Field Guide to AI",
+    "url": "https://hamel.dev/blog/posts/field-guide/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Generative AI Patterns & Learning",
+    "type": "article",
+    "unread": false,
+    "description": "Practical AI field guide"
+  },
+  {
+    "id": "agentic-orchestration-huggingface-130",
+    "title": "HuggingFace",
+    "url": "https://huggingface.co",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Generative AI Patterns & Learning",
+    "type": "article",
+    "unread": false,
+    "description": "The open-source AI platform"
+  },
+  {
+    "id": "agentic-orchestration-a-path-towards-autonomous-machine-intell-131",
+    "title": "A Path Towards Autonomous Machine Intelligence",
+    "url": "https://openreview.net/pdf?id=BZ5a1r-kVsf",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "JEPA & World Models",
+    "type": "article",
+    "unread": false,
+    "description": "Yann LeCun's JEPA position paper"
+  },
+  {
+    "id": "agentic-orchestration-yann-lecun-jepa-explained-devoxx-132",
+    "title": "Yann LeCun: JEPA Explained (DEVOXX)",
+    "url": "https://www.youtube.com/watch?v=MiqLoAZFRSE",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "JEPA & World Models",
+    "type": "video",
+    "unread": false,
+    "description": "Talk on world models and the limits of LLMs"
+  },
+  {
+    "id": "agentic-orchestration-docker-model-runner-133",
+    "title": "Docker Model Runner",
+    "url": "https://www.docker.com/blog/introducing-docker-model-runner/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Docker & Infrastructure",
+    "type": "article",
+    "unread": false,
+    "description": "Run AI models directly in Docker"
+  },
+  {
+    "id": "agentic-orchestration-warp-134",
+    "title": "Warp",
+    "url": "https://www.warp.dev/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Terminal Tools",
+    "type": "article",
+    "unread": false,
+    "description": "AI-powered terminal"
+  },
+  {
+    "id": "agentic-orchestration-zellij-135",
+    "title": "Zellij",
+    "url": "https://github.com/zellij-org/zellij",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Terminal Tools",
+    "type": "tool",
+    "unread": false,
+    "description": "Modern terminal workspace (Rust)"
+  },
+  {
+    "id": "agentic-orchestration-tmux-136",
+    "title": "tmux",
+    "url": "https://github.com/tmux/tmux",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Terminal Tools",
+    "type": "tool",
+    "unread": false,
+    "description": "Classic terminal multiplexer"
+  },
+  {
+    "id": "agentic-orchestration-scrapling-137",
+    "title": "Scrapling",
+    "url": "https://github.com/D4Vinci/Scrapling",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Browser Automation & Misc",
+    "type": "tool",
+    "unread": false,
+    "description": "AI-adapted web scraping"
+  },
+  {
+    "id": "agentic-orchestration-trigger-dev-138",
+    "title": "Trigger.dev",
+    "url": "https://trigger.dev/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Browser Automation & Misc",
+    "type": "article",
+    "unread": false,
+    "description": "Background jobs and workflow automation"
+  },
+  {
+    "id": "agentic-orchestration-computer-use-anthropic-139",
+    "title": "Computer Use (Anthropic)",
+    "url": "https://docs.anthropic.com/en/docs/agents-and-tools/computer-use",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Browser Automation & Misc",
+    "type": "article",
+    "unread": true,
+    "description": "Let Claude control a computer — click, type, navigate, and take screenshots 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-perplexity-computer-140",
+    "title": "Perplexity Computer",
+    "url": "https://www.perplexity.ai/hub/blog/introducing-computer-use",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Browser Automation & Misc",
+    "type": "article",
+    "unread": true,
+    "description": "Perplexity's computer-using agent for browser tasks 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-agent-browser-141",
+    "title": "Agent Browser",
+    "url": "https://agent-browser.dev/skills",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Browser Automation & Misc",
+    "type": "article",
+    "unread": false,
+    "description": "Browser automation CLI for AI agents"
+  },
+  {
+    "id": "agentic-orchestration-vercel-agent-browser-142",
+    "title": "Vercel Agent Browser",
+    "url": "https://github.com/vercel-labs/agent-browser",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Browser Automation & Misc",
+    "type": "tool",
+    "unread": false,
+    "description": "Vercel's browser automation skills"
+  },
+  {
+    "id": "agentic-orchestration-ai-native-dev-landscape-143",
+    "title": "AI Native Dev Landscape",
+    "url": "https://landscape.ainativedev.io/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "AI Native Landscape",
+    "type": "article",
+    "unread": false,
+    "description": "Interactive landscape of AI-native tools"
+  },
+  {
+    "id": "agentic-orchestration-the-ai-vampire-144",
+    "title": "The AI Vampire",
+    "url": "https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Psychology, Culture & AI",
+    "type": "article",
+    "unread": false,
+    "description": "Steve Yegge on AI's impact"
+  },
+  {
+    "id": "agentic-orchestration-the-post-developer-era-145",
+    "title": "The Post-Developer Era",
+    "url": "https://www.joshwcomeau.com/blog/the-post-developer-era/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Psychology, Culture & AI",
+    "type": "article",
+    "unread": false,
+    "description": "What comes after traditional development"
+  },
+  {
+    "id": "agentic-orchestration-the-recurring-dream-of-replacing-develop-146",
+    "title": "The Recurring Dream of Replacing Developers",
+    "url": "https://www.caimito.net/en/blog/2025/12/07/the-recurring-dream-of-replacing-developers.html",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Psychology, Culture & AI",
+    "type": "article",
+    "unread": false,
+    "description": "Historical perspective"
+  },
+  {
+    "id": "agentic-orchestration-ai-theater-vs-ai-fluency-147",
+    "title": "AI Theater vs AI Fluency",
+    "url": "https://www.atlassian.com/blog/artificial-intelligence/ai-theater-vs-ai-fluency-the-sneaky-patterns-that-hold-back-ai-results/amp",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Psychology, Culture & AI",
+    "type": "article",
+    "unread": false,
+    "description": "Atlassian on real vs. performative AI adoption"
+  },
+  {
+    "id": "agentic-orchestration-the-next-software-crisis-won-t-be-about--148",
+    "title": "The Next Software Crisis Won't Be About Writing Code",
+    "url": "https://blog.kotzilla.io/the-next-software-crisis-wont-be-about-writing-code",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Psychology, Culture & AI",
+    "type": "article",
+    "unread": false
+  },
+  {
+    "id": "agentic-orchestration-so-i-will-never-write-code-again-149",
+    "title": "So I Will Never Write Code Again?",
+    "url": "https://julien.danjou.info/blog/so-i-will-never-write-code-again/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Psychology, Culture & AI",
+    "type": "article",
+    "unread": false,
+    "description": "A developer's reflection"
+  },
+  {
+    "id": "agentic-orchestration-enterprise-ai-150",
+    "title": "Enterprise AI",
+    "url": "https://www.latent.space/p/enterprise",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Psychology, Culture & AI",
+    "type": "article",
+    "unread": false,
+    "description": "Latent Space on enterprise AI adoption"
+  },
+  {
+    "id": "agentic-orchestration-ai-agent-attacks-open-source-developer-151",
+    "title": "AI Agent Attacks Open Source Developer",
+    "url": "https://intelligence-artificielle.developpez.com/actu/380270/Un-agent-IA-autonome-lance-une-campagne-de-denigrement-contre-un-developpeur-open-source-pour-imposer-son-optimisation-a-la-bibliotheque-Python-Matplotlib-que-ce-dernier-a-refusee/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Psychology, Culture & AI",
+    "type": "article",
+    "unread": false,
+    "description": "When an autonomous AI agent targeted an open-source maintainer"
+  },
+  {
+    "id": "agentic-orchestration-death-by-clawd-152",
+    "title": "Death by Clawd",
+    "url": "https://deathbyclawd.com/",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Psychology, Culture & AI",
+    "type": "article",
+    "unread": true,
+    "description": "Ironical SaaS death prediction powered by AI 📌 Unread"
+  },
+  {
+    "id": "agentic-orchestration-the-idiot-factory-153",
+    "title": "The Idiot Factory",
+    "url": "https://www.youtube.com/watch?v=4xq6bVbS-Pw",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Psychology, Culture & AI",
+    "type": "video",
+    "unread": false,
+    "description": "Micode on how over-reliance on AI leads to cognitive atrophy"
+  },
+  {
+    "id": "agentic-orchestration-samoura-dansant-154",
+    "title": "Samouraï Dansant",
+    "url": "https://www.youtube.com/@SamouraiDansant",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Psychology, Culture & AI",
+    "type": "video",
+    "unread": false,
+    "description": "Psychology-focused YouTube channel"
+  },
+  {
+    "id": "agentic-orchestration-cognitive-biases-155",
+    "title": "**Cognitive Biases**",
+    "url": "https://en.wikipedia.org/wiki/Cognitive_bias",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Theory",
+    "type": "article",
+    "unread": false,
+    "description": "Humans have them, and so do AI agents — biases in training data, prompt framing, and model architecture create systematic blind spots that mirror (and amplify) human cognitive biases."
+  },
+  {
+    "id": "agentic-orchestration-brooks-law-156",
+    "title": "**Brooks' Law**",
+    "url": "https://en.wikipedia.org/wiki/Brooks%27s_law",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Theory",
+    "type": "article",
+    "unread": false,
+    "description": "\"Adding manpower to a late software project makes it later\" (Fred Brooks, 1975). The same applies to AI agents: spinning up more agents on a complex task doesn't linearly speed things up. Each new agent increases coordination overhead, context-sharing costs, and the risk of conflicting changes — just like adding people to a team mid-project."
+  },
+  {
+    "id": "agentic-orchestration-jevons-paradox-157",
+    "title": "**Jevons Paradox**",
+    "url": "https://en.wikipedia.org/wiki/Jevons_paradox",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Theory",
+    "type": "article",
+    "unread": false,
+    "description": "When AI makes coding dramatically cheaper and faster, we don't write less code — we write far more. Just as cheaper coal in the 19th century led to more coal consumption, not less, cheaper software production leads to an explosion of software, features, and technical debt. Efficiency gains get reinvested into ever-expanding scope."
+  },
+  {
+    "id": "agentic-orchestration-dunbar-s-number-158",
+    "title": "**Dunbar's number**",
+    "url": "https://en.wikipedia.org/wiki/Dunbar%27s_number",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Theory",
+    "type": "article",
+    "unread": false,
+    "description": "Dunbar's number (~150) describes the cognitive limit of relationships a person can maintain. In AI-augmented teams, a similar limit emerges: there's a ceiling to how many agents, tools, and AI-mediated workflows a developer can effectively orchestrate before losing situational awareness and coherent decision-making."
+  },
+  {
+    "id": "agentic-orchestration-conway-s-law-159",
+    "title": "**Conway's Law**",
+    "url": "https://en.wikipedia.org/wiki/Conway%27s_law",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Theory",
+    "type": "article",
+    "unread": false,
+    "description": "\"Organizations design systems that mirror their own communication structure.\" AI systems are no exception: they often reproduce the organizational flaws, communication silos, and structural blind spots of the companies that build them."
+  },
+  {
+    "id": "agentic-orchestration-murphy-s-law-160",
+    "title": "**Murphy's Law**",
+    "url": "https://en.wikipedia.org/wiki/Murphy%27s_law",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Theory",
+    "type": "article",
+    "unread": false,
+    "description": "\"Anything that can go wrong will go wrong.\" Because AI operates as a black box, if there is a hidden way for a model to fail or hallucinate, it eventually will — and the opacity makes it harder to predict when."
+  },
+  {
+    "id": "agentic-orchestration-goodhart-s-law-161",
+    "title": "**Goodhart's Law**",
+    "url": "https://en.wikipedia.org/wiki/Goodhart%27s_law",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Theory",
+    "type": "article",
+    "unread": false,
+    "description": "\"When a measure becomes a target, it ceases to be a good measure.\" Give an AI a specific metric to optimize (clicks, engagement, conversion) and it may ignore human ethics or intent to make that number go up — gaming the metric at the expense of the goal."
+  },
+  {
+    "id": "agentic-orchestration-peter-principle-162",
+    "title": "**Peter Principle**",
+    "url": "https://en.wikipedia.org/wiki/Peter_principle",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Theory",
+    "type": "article",
+    "unread": false,
+    "description": "\"People rise to their level of incompetence.\" We risk \"promoting\" AI to high-stakes roles (legal decisions, medical diagnosis, autonomous weapons) that exceed its actual understanding and competence — confusing fluent output with genuine expertise."
+  },
+  {
+    "id": "agentic-orchestration-dunning-kruger-effect-163",
+    "title": "**Dunning-Kruger Effect**",
+    "url": "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect",
+    "categoryId": "agentic-orchestration",
+    "subcategory": "Theory",
+    "type": "article",
+    "unread": false,
+    "description": "AI models often deliver incorrect answers with extreme confidence, and users with limited domain knowledge can't tell the difference. The result: humans overestimate the machine's true intelligence, and the machine has no mechanism to signal its own uncertainty."
+  },
+  {
+    "id": "technical-writing-technical-writer-roadmap-164",
+    "title": "Technical Writer Roadmap",
+    "url": "https://roadmap.sh/technical-writer",
+    "categoryId": "technical-writing",
+    "type": "roadmap",
+    "unread": false,
+    "description": "Roadmap for technical writers"
+  },
+  {
+    "id": "technical-writing-effective-context-engineering-for-ai-age-165",
+    "title": "Effective Context Engineering for AI Agents",
+    "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+    "categoryId": "technical-writing",
+    "subcategory": "Prompt / Specs / Context Engineering",
+    "type": "article",
+    "unread": true,
+    "description": "Anthropic on designing the information environment agents operate in 📌 Unread"
+  },
+  {
+    "id": "technical-writing-prompting-guide-166",
+    "title": "Prompting Guide",
+    "url": "https://www.promptingguide.ai/fr",
+    "categoryId": "technical-writing",
+    "subcategory": "Prompt / Specs / Context Engineering",
+    "type": "article",
+    "unread": false,
+    "description": "Comprehensive prompt engineering guide"
+  },
+  {
+    "id": "technical-writing-prompting-guide-basics-167",
+    "title": "Prompting Guide: Basics",
+    "url": "https://www.promptingguide.ai/fr/introduction/basics",
+    "categoryId": "technical-writing",
+    "subcategory": "Prompt / Specs / Context Engineering",
+    "type": "article",
+    "unread": false,
+    "description": "Introduction to prompt fundamentals"
+  },
+  {
+    "id": "technical-writing-prompt-driven-development-168",
+    "title": "Prompt Driven Development",
+    "url": "https://promptdriven.ai/",
+    "categoryId": "technical-writing",
+    "subcategory": "Prompt / Specs / Context Engineering",
+    "type": "article",
+    "unread": true,
+    "description": "PDD methodology 📌 Unread"
+  },
+  {
+    "id": "technical-writing-spec-driven-development-tools-169",
+    "title": "Spec-Driven Development: Tools",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html",
+    "categoryId": "technical-writing",
+    "subcategory": "Prompt / Specs / Context Engineering",
+    "type": "article",
+    "unread": true,
+    "description": "Martin Fowler on SDD tooling 📌 Unread"
+  },
+  {
+    "id": "technical-writing-humans-and-agents-170",
+    "title": "Humans and Agents",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html",
+    "categoryId": "technical-writing",
+    "subcategory": "Prompt / Specs / Context Engineering",
+    "type": "article",
+    "unread": true,
+    "description": "Martin Fowler on human-in-the-loop agent collaboration 📌 Unread"
+  },
+  {
+    "id": "technical-writing-knowledge-priming-171",
+    "title": "Knowledge Priming",
+    "url": "https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html",
+    "categoryId": "technical-writing",
+    "subcategory": "Prompt / Specs / Context Engineering",
+    "type": "article",
+    "unread": false,
+    "description": "Reducing friction with AI through knowledge priming"
+  },
+  {
+    "id": "technical-writing-skills-sh-172",
+    "title": "Skills.sh",
+    "url": "https://skills.sh/",
+    "categoryId": "technical-writing",
+    "subcategory": "Prompt / Specs / Context Engineering",
+    "type": "article",
+    "unread": false,
+    "description": "Reusable AI skills marketplace"
+  },
+  {
+    "id": "technical-writing-agentskills-io-173",
+    "title": "AgentSkills.io",
+    "url": "https://agentskills.io",
+    "categoryId": "technical-writing",
+    "subcategory": "Prompt / Specs / Context Engineering",
+    "type": "article",
+    "unread": true,
+    "description": "AI agent skills platform 📌 Unread"
+  },
+  {
+    "id": "technical-writing-math-spec-driven-skill-174",
+    "title": "Math Spec-Driven Skill",
+    "url": "https://github.com/Ben8t/math-spec-driven-skill",
+    "categoryId": "technical-writing",
+    "subcategory": "Prompt / Specs / Context Engineering",
+    "type": "tool",
+    "unread": false,
+    "description": "Example of spec-driven skill development"
+  },
+  {
+    "id": "technical-writing-cli-anything-175",
+    "title": "CLI-Anything",
+    "url": "https://github.com/HKUDS/CLI-Anything",
+    "categoryId": "technical-writing",
+    "subcategory": "Prompt / Specs / Context Engineering",
+    "type": "tool",
+    "unread": false,
+    "description": "Turn any tool into a CLI for AI agents"
+  },
+  {
+    "id": "inference-economy-tokens-rationing-in-the-inference-econom-176",
+    "title": "Tokens Rationing in the Inference Economy",
+    "url": "https://www.youtube.com/watch?v=UdkxFiZhY6Y",
+    "categoryId": "inference-economy",
+    "type": "video",
+    "unread": false,
+    "description": "Whether tokens will cost less or more in the future remains an open question"
+  },
+  {
+    "id": "inference-economy-rtk-177",
+    "title": "RTK",
+    "url": "https://github.com/rtk-ai/rtk",
+    "categoryId": "inference-economy",
+    "subcategory": "Token Optimization",
+    "type": "tool",
+    "unread": false,
+    "description": "Token reduction tool (standalone Rust binary, zero dependencies)"
+  },
+  {
+    "id": "inference-economy-claudette-178",
+    "title": "Claudette",
+    "url": "https://github.com/nicmarti/Claudette",
+    "categoryId": "inference-economy",
+    "subcategory": "Token Optimization",
+    "type": "tool",
+    "unread": false,
+    "description": "Token reduction via MCP"
+  },
+  {
+    "id": "inference-economy-serena-179",
+    "title": "Serena",
+    "url": "https://github.com/oraios/serena",
+    "categoryId": "inference-economy",
+    "subcategory": "Token Optimization",
+    "type": "tool",
+    "unread": true,
+    "description": "Language-server-powered code intelligence MCP, gives agents precise context to save tokens 📌 Unread"
+  },
+  {
+    "id": "inference-economy-toon-180",
+    "title": "TOON",
+    "url": "https://github.com/toon-format/toon",
+    "categoryId": "inference-economy",
+    "subcategory": "Token Optimization",
+    "type": "tool",
+    "unread": false,
+    "description": "Token-Oriented Object Notation — compact encoding that cuts ~40% tokens vs JSON for LLM payloads"
+  },
+  {
+    "id": "inference-economy-opcode-181",
+    "title": "Opcode",
+    "url": "https://opcode.sh/",
+    "categoryId": "inference-economy",
+    "subcategory": "Token Optimization",
+    "type": "article",
+    "unread": false,
+    "description": "Track AI spending and usage across tools"
+  },
+  {
+    "id": "inference-economy-litellm-182",
+    "title": "LiteLLM",
+    "url": "https://github.com/BerriAI/litellm",
+    "categoryId": "inference-economy",
+    "subcategory": "Multi-LLM Access & Routing",
+    "type": "tool",
+    "unread": false,
+    "description": "Unified API for 100+ LLMs"
+  },
+  {
+    "id": "inference-economy-openrouter-183",
+    "title": "OpenRouter",
+    "url": "https://openrouter.ai/",
+    "categoryId": "inference-economy",
+    "subcategory": "Multi-LLM Access & Routing",
+    "type": "article",
+    "unread": false,
+    "description": "LLM routing and access"
+  },
+  {
+    "id": "inference-economy-1min-ai-184",
+    "title": "1min AI",
+    "url": "https://1min.ai/",
+    "categoryId": "inference-economy",
+    "subcategory": "Multi-LLM Access & Routing",
+    "type": "article",
+    "unread": false,
+    "description": "Multi-model AI access platform"
+  },
+  {
+    "id": "inference-economy-llmfit-185",
+    "title": "LLMFit",
+    "url": "https://github.com/AlexsJones/llmfit",
+    "categoryId": "inference-economy",
+    "subcategory": "Multi-LLM Access & Routing",
+    "type": "tool",
+    "unread": true,
+    "description": "Find which models & providers run on your hardware 📌 Unread"
+  },
+  {
+    "id": "black-box-debug-ai-agent-observability-186",
+    "title": "AI Agent Observability",
+    "url": "https://wandb.ai/site/articles/ai-agent-observability/",
+    "categoryId": "black-box-debug",
+    "type": "article",
+    "unread": false,
+    "description": "Weights & Biases guide to agent observability"
+  },
+  {
+    "id": "tech-debt-how-ai-generated-code-accelerates-techni-187",
+    "title": "How AI-Generated Code Accelerates Technical Debt",
+    "url": "https://leaddev.com/technical-direction/how-ai-generated-code-accelerates-technical-debt",
+    "categoryId": "tech-debt",
+    "type": "article",
+    "unread": false,
+    "description": "LeadDev on the debt acceleration problem"
+  },
+  {
+    "id": "code-review-google-s-code-review-practices-188",
+    "title": "Google's Code Review Practices",
+    "url": "https://google.github.io/eng-practices/review/",
+    "categoryId": "code-review",
+    "type": "article",
+    "unread": false,
+    "description": "Engineering best practices for code review"
+  },
+  {
+    "id": "code-review-claude-code-custom-agents-skills-189",
+    "title": "Claude Code Custom Agents & Skills",
+    "url": "https://docs.anthropic.com/en/docs/claude-code/skills",
+    "categoryId": "code-review",
+    "type": "article",
+    "unread": false,
+    "description": "Build dedicated review agents or slash-command skills to automate code review workflows"
+  },
+  {
+    "id": "qa-testing-qa-roadmap-190",
+    "title": "QA Roadmap",
+    "url": "https://roadmap.sh/qa",
+    "categoryId": "qa-testing",
+    "type": "roadmap",
+    "unread": false,
+    "description": "Roadmap for QA engineers"
+  },
+  {
+    "id": "qa-testing-claude-code-custom-agents-skills-191",
+    "title": "Claude Code Custom Agents & Skills",
+    "url": "https://docs.anthropic.com/en/docs/claude-code/skills",
+    "categoryId": "qa-testing",
+    "type": "article",
+    "unread": false,
+    "description": "Build dedicated QA agents or slash-command skills to automate testing workflows"
+  },
+  {
+    "id": "self-marketing-personal-branding-for-devs-192",
+    "title": "Personal Branding for Devs",
+    "url": "https://www.freecodecamp.org/news/personal-branding-for-devs-handbook/",
+    "categoryId": "self-marketing",
+    "type": "article",
+    "unread": false,
+    "description": "freeCodeCamp handbook on developer personal branding"
+  },
+  {
+    "id": "geo-llmo-moz-193",
+    "title": "Moz",
+    "url": "https://moz.com/",
+    "categoryId": "geo-llmo",
+    "type": "article",
+    "unread": false,
+    "description": "Reference SEO resource (guides, tools, blog) — strong traditional SEO foundations remain essential for GEO, since AI agents still rely on well-structured, crawlable, authoritative content to surface answers"
+  },
+  {
+    "id": "geo-llmo-what-is-geo-llmo-194",
+    "title": "What is GEO/LLMO?",
+    "url": "https://www.crews-education.com/actualites/qu-est-ce-que-le-geo-llmo",
+    "categoryId": "geo-llmo",
+    "type": "article",
+    "unread": false,
+    "description": "Introduction to Generative Engine Optimization"
+  },
+  {
+    "id": "geo-llmo-8-on-page-seo-tips-for-llm-geo-195",
+    "title": "8 On-Page SEO Tips for LLM/GEO",
+    "url": "https://www.sebastien-vallat.com/8-conseils-seo-on-page-llm-geo/",
+    "categoryId": "geo-llmo",
+    "type": "article",
+    "unread": false,
+    "description": "Practical optimization tips"
+  },
+  {
+    "id": "legal-compliance-gdpr-official-text-196",
+    "title": "GDPR Official Text",
+    "url": "https://gdpr-info.eu/",
+    "categoryId": "legal-compliance",
+    "type": "article",
+    "unread": false,
+    "description": "Full text of the General Data Protection Regulation"
+  },
+  {
+    "id": "legal-compliance-gdpr-article-22-automated-decision-makin-197",
+    "title": "GDPR Article 22 — Automated Decision-Making",
+    "url": "https://gdpr-info.eu/art-22-gdpr/",
+    "categoryId": "legal-compliance",
+    "type": "article",
+    "unread": false,
+    "description": "Right not to be subject to automated individual decision-making, including profiling"
+  },
+  {
+    "id": "legal-compliance-eu-ai-act-198",
+    "title": "EU AI Act",
+    "url": "https://artificialintelligenceact.eu/",
+    "categoryId": "legal-compliance",
+    "type": "article",
+    "unread": false,
+    "description": "Full text of the EU AI Act"
+  },
+  {
+    "id": "legal-compliance-ai-act-explainer-199",
+    "title": "AI Act Explainer",
+    "url": "https://linuxfoundation.eu/newsroom/ai-act-explainer",
+    "categoryId": "legal-compliance",
+    "type": "article",
+    "unread": false,
+    "description": "Linux Foundation's EU AI Act explainer"
+  },
+  {
+    "id": "cybersecurity-cybersecurity-roadmap-200",
+    "title": "Cybersecurity Roadmap",
+    "url": "https://roadmap.sh/cyber-security",
+    "categoryId": "cybersecurity",
+    "type": "roadmap",
+    "unread": false,
+    "description": "Roadmap for cybersecurity"
+  },
+  {
+    "id": "cybersecurity-owasp-top-10-201",
+    "title": "OWASP Top 10",
+    "url": "https://owasp.org/www-project-top-ten/",
+    "categoryId": "cybersecurity",
+    "type": "article",
+    "unread": false,
+    "description": "The 10 most critical web application security risks"
+  }
+]

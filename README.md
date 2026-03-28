@@ -1,5 +1,28 @@
 # 🔭 AI Watchtower
 
+![AI Watchtower — interactive honeycomb tech radar](docs/screenshot.png)
+
+Interactive tech radar for AI-augmented software engineering. Spot what matters, track what you've read, build your own template for a career path, project, or mission.
+
+## 🚀 Run locally
+
+**Requires [Node.js](https://nodejs.org/) ≥ 22.12.0**
+
+```bash
+git clone https://github.com/fdelbrayelle/ai-watchtower.git
+cd ai-watchtower/web
+npm install
+npm run dev        # → http://localhost:4321
+```
+
+> `npm run dev` and `npm run build` automatically re-extract all resources from this README — add a link here and it appears in the app on next run.
+
+## ☁️ Deploy to Vercel
+
+Import the repo in [Vercel](https://vercel.com), set **Root Directory** to `web`, and deploy. Every push to `main` rebuilds and redeploys automatically.
+
+---
+
 Software engineering was never just about writing code — and the agentic era makes that clearer than ever. Architecture, product thinking, code review, testing strategy, technical writing: these skills now define the engineer's value more than keystrokes ever did.
 
 **The Software Engineer is becoming a Product Engineer.** When agents handle execution, the engineer's critical value shifts to the decisions surrounding the code: upstream (what to build, why, for whom, with what constraints) and downstream (is it correct, secure, maintainable, observable?). This is governance and judgment — scoping requirements, choosing trade-offs, validating outputs, and owning outcomes end to end. The title may stay the same, but the job description is now that of a product engineer in the broadest sense.
