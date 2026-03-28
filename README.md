@@ -75,9 +75,11 @@ System design, boundaries, and trade-offs don't prompt themselves.
 
 Roadmaps, machine learning, and data career paths.
 
-**AI is the umbrella — not the model.** Artificial Intelligence encompasses Machine Learning (ML), which encompasses Deep Learning (DL), which encompasses the specific model architectures we use today: SLMs (Small Language Models), LLMs (Large Language Models), vision models, etc. Agents don't *replace* any of these layers — they *orchestrate* them, chaining models, tools, and memory into goal-driven workflows. Understanding this hierarchy matters: not every problem needs a frontier LLM, and not every AI system is an agent.
+**AI is the umbrella — not the model.** Artificial Intelligence encompasses Machine Learning (ML), which encompasses Deep Learning (DL), which encompasses the specific model architectures we use today: SLMs (Small Language Models), LLMs (Large Language Models), vision models, etc. LLMs are built on the [**attention mechanism**](https://en.wikipedia.org/wiki/Attention_Is_All_You_Need) introduced in *Attention Is All You Need* (Vaswani et al., 2017), which uses learned weights to let the model focus on relevant parts of the input — the foundation of the Transformer architecture. Agents don't *replace* any of these layers — they *orchestrate* them, chaining models, tools, and memory into goal-driven workflows. Understanding this hierarchy matters: not every problem needs a frontier LLM, and not every AI system is an agent.
 
 - 📚 [**Fundamentals of Data Engineering**](https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/) (book) — Joe Reis, Matt Housley — Data pipelines, storage, ingestion, orchestration, and the data engineering lifecycle
+- 📚 [**Machine Learning avec Scikit-Learn**](https://www.oreilly.com/library/view/machine-learning-avec/9782100797820/) (book) — Aurélien Géron — Hands-on ML with Scikit-Learn
+- 📚 [**Deep Learning avec Keras et TensorFlow**](https://www.oreilly.com/library/view/deep-learning-avec/9782100805020/) (book) — Aurélien Géron — Deep learning with Keras and TensorFlow
 
 #### Roadmaps
 
