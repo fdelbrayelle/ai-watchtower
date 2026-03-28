@@ -407,6 +407,7 @@ Thought pieces on how AI is reshaping developer culture and the software industr
 - [**Brooks' Law**](https://en.wikipedia.org/wiki/Brooks%27s_law) **in the AI era** — "Adding manpower to a late software project makes it later" (Fred Brooks, 1975). The same applies to AI agents: spinning up more agents on a complex task doesn't linearly speed things up. Each new agent increases coordination overhead, context-sharing costs, and the risk of conflicting changes — just like adding people to a team mid-project.
 - [**Jevons Paradox**](https://en.wikipedia.org/wiki/Jevons_paradox) **& the AI explosion** — When AI makes coding dramatically cheaper and faster, we don't write less code — we write far more. Just as cheaper coal in the 19th century led to more coal consumption, not less, cheaper software production leads to an explosion of software, features, and technical debt. Efficiency gains get reinvested into ever-expanding scope.
 - [**Dunbar's number**](https://en.wikipedia.org/wiki/Dunbar%27s_number) **for AI agents** — Dunbar's number (~150) describes the cognitive limit of relationships a person can maintain. In AI-augmented teams, a similar limit emerges: there's a ceiling to how many agents, tools, and AI-mediated workflows a developer can effectively orchestrate before losing situational awareness and coherent decision-making.
+- [The Idiot Factory](https://www.youtube.com/watch?v=4xq6bVbS-Pw) (🇫🇷 video) — Micode on how over-reliance on AI leads to cognitive atrophy
 
 ---
 
