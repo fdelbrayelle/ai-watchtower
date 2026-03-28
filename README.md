@@ -442,6 +442,7 @@ Specs, prompts, and docs are the new source code — prompt-driven, spec-driven,
 - [RTK](https://github.com/rtk-ai/rtk) — Token reduction tool (standalone Rust binary, zero dependencies)
 - [Claudette](https://github.com/nicmarti/Claudette) — Token reduction via MCP
 - [Serena](https://github.com/oraios/serena) — Language-server-powered code intelligence MCP, gives agents precise context to save tokens 📌 Unread
+- [TOON](https://github.com/toon-format/toon) — Token-Oriented Object Notation — compact encoding that cuts ~40% tokens vs JSON for LLM payloads
 - [Opcode](https://opcode.sh/) — Track AI spending and usage across tools
 
 #### Claude Code Token Hygiene
