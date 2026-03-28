@@ -6,9 +6,19 @@
     </select>
 
     <!-- Actions -->
-    <button class="btn-icon" title="New template" @click="showCreate = true">＋</button>
-    <button class="btn-icon" title="Export JSON" @click="exportJson">⬇ JSON</button>
-    <button class="btn-icon" title="Delete template" @click="deleteActive" :disabled="templateStore.templates.length === 1">🗑</button>
+    <span class="tip-wrap" data-tip="Create a new template">
+      <button class="btn-icon" @click="showCreate = true">＋</button>
+    </span>
+    <span class="tip-wrap" data-tip="Export template to JSON file">
+      <button class="btn-icon" @click="exportJson">⬆ JSON</button>
+    </span>
+    <span class="tip-wrap" data-tip="Import template from JSON file">
+      <button class="btn-icon" @click="triggerImport">⬇ JSON</button>
+    </span>
+    <input ref="fileInput" type="file" accept=".json,application/json" class="file-input-hidden" @change="onFileSelected" />
+    <span class="tip-wrap" data-tip="Delete this template">
+      <button class="btn-icon" @click="deleteActive" :disabled="templateStore.templates.length === 1">🗑</button>
+    </span>
 
     <!-- Create modal -->
     <div v-if="showCreate" class="modal-overlay" @click.self="showCreate = false">
@@ -34,10 +44,9 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import { useTemplatesStore } from '../stores/templates';
-import { useResourcesStore } from '../stores/resources';
 
 const templateStore = useTemplatesStore();
-const resourcesStore = useResourcesStore();
+const fileInput = ref<HTMLInputElement | null>(null);
 
 const showCreate = ref(false);
 const newName = ref('');
@@ -56,6 +65,23 @@ function deleteActive() {
   }
 }
 
+function triggerImport() {
+  fileInput.value?.click();
+}
+
+function onFileSelected(e: Event) {
+  const file = (e.target as HTMLInputElement).files?.[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = () => {
+    const result = templateStore.importTemplate(reader.result as string);
+    if (!result.ok) alert(`Import failed: ${result.error}`);
+    // Reset so the same file can be re-imported if needed
+    if (fileInput.value) fileInput.value.value = '';
+  };
+  reader.readAsText(file);
+}
+
 function exportJson() {
   const json = templateStore.exportJson();
   const blob = new Blob([json], { type: 'application/json' });
@@ -72,34 +98,80 @@ function exportJson() {
 .template-manager {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 10px;
   flex-wrap: wrap;
 }
 
 .template-select {
-  padding: 5px 8px;
+  padding: 8px 12px;
   border: 1px solid var(--border);
-  border-radius: 6px;
+  border-radius: 8px;
   background: var(--bg-panel);
   color: var(--text);
-  font-size: 13px;
+  font-size: 16px;
   font-family: inherit;
-  max-width: 180px;
+  max-width: 220px;
 }
 
 .btn-icon {
-  padding: 5px 8px;
+  padding: 8px 14px;
   border: 1px solid var(--border);
-  border-radius: 6px;
+  border-radius: 8px;
   background: var(--bg-panel);
   color: var(--text);
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   transition: background 0.15s;
   white-space: nowrap;
 }
 .btn-icon:hover { background: var(--bg-hover); }
 .btn-icon:disabled { opacity: 0.35; cursor: not-allowed; }
+
+.file-input-hidden { display: none; }
+
+/* CSS tooltip */
+.tip-wrap {
+  position: relative;
+  display: inline-flex;
+}
+
+.tip-wrap::after {
+  content: attr(data-tip);
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1e1e1e;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  white-space: nowrap;
+  padding: 7px 14px;
+  border-radius: 6px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+  z-index: 200;
+}
+
+.tip-wrap::before {
+  content: '';
+  position: absolute;
+  top: calc(100% + 1px);
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid transparent;
+  border-bottom-color: #1e1e1e;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+  z-index: 200;
+}
+
+.tip-wrap:hover::after,
+.tip-wrap:hover::before {
+  opacity: 1;
+}
 
 .modal-overlay {
   position: fixed;

@@ -50,12 +50,12 @@ const typeIcon = computed(() => ({
 
 .read-toggle {
   flex-shrink: 0;
-  width: 22px;
-  height: 22px;
+  width: 26px;
+  height: 26px;
   border: none;
   background: none;
   color: var(--text-muted);
-  font-size: 14px;
+  font-size: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,7 +75,7 @@ const typeIcon = computed(() => ({
 
 .resource-title {
   display: block;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 500;
   color: var(--text);
   line-height: 1.4;
@@ -85,10 +85,10 @@ const typeIcon = computed(() => ({
 
 .resource-title:hover { color: var(--accent); text-decoration: none; }
 
-.type-icon { margin-right: 4px; font-size: 12px; }
+.type-icon { margin-right: 4px; font-size: 15px; }
 
 .resource-desc {
-  font-size: 11px;
+  font-size: 14px;
   color: var(--text-muted);
   margin-top: 2px;
   line-height: 1.4;

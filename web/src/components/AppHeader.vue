@@ -31,23 +31,23 @@ import TemplateManager from './TemplateManager.vue';
 }
 
 .header-title {
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 800;
   color: var(--text);
   letter-spacing: -0.02em;
 }
 
 .header-subtitle {
-  font-size: 12px;
+  font-size: 16px;
   color: var(--text-muted);
   font-style: italic;
-  margin-top: 2px;
+  margin-top: 4px;
 }
 
 .header-right {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 16px;
   flex-wrap: wrap;
 }
 </style>

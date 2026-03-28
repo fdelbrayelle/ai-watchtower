@@ -92,6 +92,30 @@ export const useTemplatesStore = defineStore('templates', () => {
     active.value.updatedAt = new Date().toISOString();
   }
 
+  function importTemplate(json: string): { ok: boolean; error?: string } {
+    let parsed: unknown;
+    try {
+      parsed = JSON.parse(json);
+    } catch {
+      return { ok: false, error: 'Invalid JSON file.' };
+    }
+    if (typeof parsed !== 'object' || parsed === null) return { ok: false, error: 'Not a valid template.' };
+    const t = parsed as Record<string, unknown>;
+    if (typeof t['name'] !== 'string') return { ok: false, error: 'Missing template name.' };
+    const imported: SavedTemplate = {
+      id: crypto.randomUUID(),
+      name: t['name'] as string,
+      createdAt: typeof t['createdAt'] === 'string' ? t['createdAt'] : new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
+      readStatus: (typeof t['readStatus'] === 'object' && t['readStatus'] !== null ? t['readStatus'] : {}) as Record<string, boolean>,
+      notes: (typeof t['notes'] === 'object' && t['notes'] !== null ? t['notes'] : {}) as Record<string, string>,
+      customLinks: (typeof t['customLinks'] === 'object' && t['customLinks'] !== null ? t['customLinks'] : {}) as Record<string, Array<{ title: string; url: string }>>,
+    };
+    templates.value.push(imported);
+    switchTemplate(imported.id);
+    return { ok: true };
+  }
+
   function exportJson(): string {
     return JSON.stringify(active.value, null, 2);
   }
@@ -131,6 +155,7 @@ export const useTemplatesStore = defineStore('templates', () => {
     setNote,
     addCustomLink,
     removeCustomLink,
+    importTemplate,
     exportJson,
     exportMarkdown,
   };

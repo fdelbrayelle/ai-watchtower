@@ -1,7 +1,7 @@
 <template>
   <div
     class="hex-wrapper"
-    :class="{ selected: isSelected, 'hex-center': hex.ring === 0 }"
+    :class="{ selected: isSelected, 'hex-center': hex.ring === 0, dimmed: isDimmed }"
     :style="{ left: `calc(50% + ${hex.x}px)`, top: `calc(50% + ${hex.y}px)` }"
     :title="hex.tagline"
     @click="hexStore.select(hex.id)"
@@ -10,9 +10,9 @@
       <div class="hex-inner" :style="{ background: hex.fillColor }">
         <span class="hex-emoji">{{ hex.emoji }}</span>
         <span class="hex-label" :style="{ color: hex.strokeColor }">{{ hex.label }}</span>
+        <span v-if="counts" class="hex-badge">{{ counts.read }}/{{ counts.total }}</span>
       </div>
     </div>
-    <span v-if="counts" class="hex-badge">{{ counts.read }}/{{ counts.total }}</span>
   </div>
 </template>
 
@@ -28,5 +28,8 @@ const hexStore = useHexagonsStore();
 const resourcesStore = useResourcesStore();
 
 const isSelected = computed(() => hexStore.selectedId === props.hex.id);
+const isDimmed = computed(() =>
+  !!hexStore.filteredZone && hexStore.filteredZone !== props.hex.zone && !isSelected.value
+);
 const counts = computed(() => resourcesStore.countByCategory[props.hex.id] ?? null);
 </script>

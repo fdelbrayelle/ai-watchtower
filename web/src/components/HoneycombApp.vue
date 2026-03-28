@@ -35,9 +35,9 @@ const hexStore = useHexagonsStore();
 
 .app-main {
   flex: 1;
-  overflow: auto;
+  overflow: hidden;
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: center;
 }
 </style>

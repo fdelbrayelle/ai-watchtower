@@ -25,9 +25,9 @@ function toggle() {
   border: 1px solid var(--border);
   background: var(--bg-panel);
   border-radius: 8px;
-  width: 36px;
-  height: 36px;
-  font-size: 16px;
+  width: 46px;
+  height: 46px;
+  font-size: 22px;
   display: flex;
   align-items: center;
   justify-content: center;

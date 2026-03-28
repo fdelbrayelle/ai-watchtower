@@ -122,19 +122,19 @@ function addLink() {
   margin-bottom: 8px;
 }
 
-.panel-emoji { font-size: 28px; line-height: 1; flex-shrink: 0; }
+.panel-emoji { font-size: 40px; line-height: 1; flex-shrink: 0; }
 
 .panel-title {
-  font-size: 16px;
+  font-size: 26px;
   font-weight: 700;
   color: var(--text);
   line-height: 1.2;
 }
 
 .panel-tagline {
-  font-size: 12px;
+  font-size: 16px;
   color: var(--text-muted);
-  margin-top: 3px;
+  margin-top: 4px;
   line-height: 1.4;
   font-style: italic;
 }
@@ -158,7 +158,7 @@ function addLink() {
 .btn-close:hover { background: var(--bg-hover); color: var(--text); }
 
 .btn-small {
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 600;
   padding: 4px 10px;
   border: 1px solid var(--border);
@@ -193,7 +193,7 @@ function addLink() {
 }
 
 .progress-label {
-  font-size: 11px;
+  font-size: 15px;
   color: var(--text-muted);
   font-weight: 600;
   white-space: nowrap;
@@ -208,7 +208,7 @@ function addLink() {
 .resource-group { margin-top: 12px; }
 
 .subcat-label {
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -227,7 +227,7 @@ function addLink() {
   background: var(--bg);
   color: var(--text);
   font-family: inherit;
-  font-size: 13px;
+  font-size: 16px;
   resize: vertical;
   margin-top: 4px;
 }
@@ -238,7 +238,7 @@ function addLink() {
   justify-content: space-between;
   gap: 8px;
   padding: 4px 0;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .btn-remove {
