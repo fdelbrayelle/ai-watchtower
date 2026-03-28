@@ -1,0 +1,81 @@
+/* Flat-top hexagon: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%) */
+
+.hex-wrapper {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  /* Drop shadow on wrapper (before clip) */
+  filter: drop-shadow(0 3px 6px var(--shadow));
+  transition: filter 0.2s ease, transform 0.2s ease;
+}
+
+.hex-wrapper:hover {
+  filter: drop-shadow(0 6px 12px var(--shadow-lg));
+  transform: translate(-50%, -50%) scale(1.07);
+}
+
+.hex-wrapper.selected {
+  filter: drop-shadow(0 0 12px rgba(25, 113, 194, 0.5)) drop-shadow(0 4px 8px var(--shadow-lg));
+  transform: translate(-50%, -50%) scale(1.10);
+}
+
+/* Outer hex (stroke / border) */
+.hex-outer {
+  width: 146px;
+  height: 127px;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Inner hex (fill) */
+.hex-inner {
+  width: 138px;
+  height: 119px;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 12px 16px;
+  text-align: center;
+  transition: filter 0.2s;
+}
+
+.hex-wrapper:hover .hex-inner {
+  filter: brightness(1.05);
+}
+
+.hex-emoji {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.hex-label {
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+/* Badge (resource count) */
+.hex-badge {
+  position: absolute;
+  top: 4px;
+  right: 12px;
+  background: rgba(0,0,0,0.35);
+  color: #fff;
+  font-size: 9px;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 1px 5px;
+  pointer-events: none;
+}
+
+/* Center hex is slightly bigger */
+.hex-center .hex-outer { width: 158px; height: 137px; }
+.hex-center .hex-inner { width: 150px; height: 129px; }
+.hex-center .hex-emoji { font-size: 22px; }
+.hex-center .hex-label { font-size: 12px; }

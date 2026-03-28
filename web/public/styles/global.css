@@ -1,0 +1,49 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #f8f9fa;
+  --bg-panel: #ffffff;
+  --bg-hover: #f1f3f5;
+  --text: #1e1e1e;
+  --text-muted: #868e96;
+  --border: #dee2e6;
+  --shadow: rgba(0,0,0,0.10);
+  --shadow-lg: rgba(0,0,0,0.15);
+  --accent: #1971c2;
+  --badge-input: #2f9e44;
+  --badge-output: #9c36b5;
+  --badge-transverse: #495057;
+}
+
+[data-theme="dark"] {
+  --bg: #1a1b1e;
+  --bg-panel: #25262b;
+  --bg-hover: #2c2e33;
+  --text: #c1c2c5;
+  --text-muted: #868e96;
+  --border: #373a40;
+  --shadow: rgba(0,0,0,0.30);
+  --shadow-lg: rgba(0,0,0,0.45);
+  --accent: #74c0fc;
+}
+
+html, body {
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  transition: background 0.2s, color 0.2s;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
