@@ -411,6 +411,8 @@ Thought pieces on how AI is reshaping developer culture and the software industr
 - [AI Agent Attacks Open Source Developer](https://intelligence-artificielle.developpez.com/actu/380270/Un-agent-IA-autonome-lance-une-campagne-de-denigrement-contre-un-developpeur-open-source-pour-imposer-son-optimisation-a-la-bibliotheque-Python-Matplotlib-que-ce-dernier-a-refusee/) — When an autonomous AI agent targeted an open-source maintainer
 - [Death by Clawd](https://deathbyclawd.com/) — Ironical SaaS death prediction powered by AI 📌 Unread
 - [The Idiot Factory](https://www.youtube.com/watch?v=4xq6bVbS-Pw) (🇫🇷 video) — Micode on how over-reliance on AI leads to cognitive atrophy
+- [Samouraï Dansant](https://www.youtube.com/@SamouraiDansant) (🇫🇷 channel) — Psychology-focused YouTube channel
+- **The Great Wounds to Human (and Developer) Ego** — Science has systematically dismantled human centralism: Copernicus (we're not the center of the universe), Darwin (we're animals, not divine creations), Freud (we're not masters of our own minds), and now AI (intelligence and creativity can be replicated by machines). The same lesson applies to developers: you are not your code. See [The 10 Commandments of Egoless Programming](https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/).
 
 #### Theory
 
@@ -449,6 +451,8 @@ Specs, prompts, and docs are the new source code — prompt-driven, spec-driven,
 ## 💰 Inference Economy
 
 [Save tokens](https://epoch.ai/blog/inference-economics-of-language-models), use simple scripts or local SLMs when a frontier model isn't needed. Optimize cost, latency, and routing across models.
+
+- [Tokens Rationing in the Inference Economy](https://www.youtube.com/watch?v=UdkxFiZhY6Y) (🇫🇷 video) — Whether tokens will cost less or more in the future remains an open question
 
 ### Token Optimization
 
