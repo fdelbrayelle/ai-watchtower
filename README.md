@@ -396,6 +396,7 @@ Docker, terminals, browser automation, and other tools for AI-augmented workflow
 Overview of the AI-native development ecosystem.
 
 - [AI Native Dev Landscape](https://landscape.ainativedev.io/) — Interactive landscape of AI-native tools
+- **AI Native Applications ≠ Chatbot Wrappers** — Building an "AI native" application isn't about bolting a chatbot or a GPT-powered feature onto an existing product. It means rethinking the product from the ground up around AI capabilities: the UX adapts to probabilistic outputs instead of deterministic flows, the data model is designed for embeddings and retrieval, the architecture assumes agents as first-class actors, and the value proposition simply couldn't exist without AI at its core. A chatbot skin on a CRUD app is AI-adjacent, not AI-native. The same applies to the landscape itself: AI-native ecosystems replace entire categories (CI, observability, testing, IDEs) with tools that are built around AI reasoning — not traditional tools with an AI add-on.
 
 ### Psychology, Culture & AI
 
@@ -530,6 +531,7 @@ If you didn't write it, you'd better know how to break it.
 Build visibility on LinkedIn, Twitter/X, Slack, and beyond — your work won't speak for itself.
 
 - [Personal Branding for Devs](https://www.freecodecamp.org/news/personal-branding-for-devs-handbook/) — freeCodeCamp handbook on developer personal branding
+- **Your LinkedIn CV Won't Be Enough** — A long list of hard skills and job titles on LinkedIn is becoming table stakes. AI-powered recruiting agents and talent-sourcing bots are already crawling GitHub repositories, analyzing commit history, PR quality, and actual contributions to assess what engineers truly deliver — not what they claim. The same applies beyond GitHub: agents will scrape your blog posts for depth of thought, your Stack Overflow answers for expertise signals, your open-source contributions for collaboration patterns, and your conference talks for communication skills. The implication: your real, observable output across platforms becomes your resume. Polished profiles without substance will be filtered out by the same AI that generates them. Invest in visible, verifiable outcomes — meaningful commits, well-crafted technical writing, thoughtful code reviews, and genuine community contributions — because that's what the crawlers will judge you on.
 
 ---
 
@@ -539,6 +541,7 @@ Build visibility on LinkedIn, Twitter/X, Slack, and beyond — your work won't s
 
 Generative Engine Optimization — making your content discoverable by AI models.
 
+- [Moz](https://moz.com/) — Reference SEO resource (guides, tools, blog) — strong traditional SEO foundations remain essential for GEO, since AI agents still rely on well-structured, crawlable, authoritative content to surface answers
 - [What is GEO/LLMO?](https://www.crews-education.com/actualites/qu-est-ce-que-le-geo-llmo) — Introduction to Generative Engine Optimization
 - [8 On-Page SEO Tips for LLM/GEO](https://www.sebastien-vallat.com/8-conseils-seo-on-page-llm-geo/) — Practical optimization tips
 
