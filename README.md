@@ -49,10 +49,6 @@ This is a curated tech radar for AI-augmented software engineering. Tools, frame
 
 With 80%+ of code now AI-generated, the engineer's value shifts from writing code to shaping what gets built, how it holds together, and whether it works.
 
-<p align="center">
-  <img src="what-to-focus-on-now.svg" alt="What to Focus On Now — Hexagonal Hive" width="800" />
-</p>
-
 **Inputs — What you shape before the agent writes code:**
 
 - [Software Architecture](#software-architecture) — System design, boundaries, and trade-offs don't prompt themselves
