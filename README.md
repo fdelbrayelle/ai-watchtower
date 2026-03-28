@@ -274,6 +274,10 @@ The open standard for connecting AI models to external tools and data sources.
 - [Datagouv MCP](https://github.com/datagouv/datagouv-mcp) — French open data MCP server
 - [Micronaut MCP](https://micronaut-projects.github.io/micronaut-mcp/snapshot/guide/) — MCP support for Micronaut framework
 
+### RAG
+
+- [RAG is Dead, Long Live RAG](https://lighton.ai/lighton-blogs/rag-is-dead-long-live-rag-retrieval-in-the-age-of-agents) — Rather than being killed by larger context windows, RAG has evolved into a sophisticated system that makes intelligent, conditional decisions about whether and how to retrieve information
+
 ### Methodologies
 
 - [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD) — Breakthrough Method for Agile AI Development 📌 Unread
