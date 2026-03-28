@@ -2,7 +2,17 @@
 
 Software engineering was never just about writing code — and the agentic era makes that clearer than ever. Architecture, product thinking, code review, testing strategy, technical writing: these skills now define the engineer's value more than keystrokes ever did.
 
+**The Software Engineer is becoming a Product Engineer.** When agents handle execution, the engineer's critical value shifts to the decisions surrounding the code: upstream (what to build, why, for whom, with what constraints) and downstream (is it correct, secure, maintainable, observable?). This is governance and judgment — scoping requirements, choosing trade-offs, validating outputs, and owning outcomes end to end. The title may stay the same, but the job description is now that of a product engineer in the broadest sense.
+
 **Vibe Coding vs. AI-Augmented Software Engineering** — Vibe coding means describing what you want in natural language and letting the AI generate the result with minimal oversight — fast, creative, great for prototypes and throwaway scripts. AI-augmented software engineering is the opposite mindset: the engineer stays in the driver's seat, using AI to accelerate exploration, drafting, and iteration while retaining full responsibility for architecture, correctness, and maintainability. This radar focuses on the latter. The goal is not to remove the engineer from the loop, but to make the loop faster and the engineer more effective.
+
+**AI will transform jobs — and create new ones.** Yes, AI will destroy certain jobs. But more precisely, it will transform them — and create entirely new roles that don't exist yet, just as the smartphone revolution created "mobile developer," "growth hacker," and "UX researcher" — jobs no one imagined in 2001. This is [Schumpeterian growth](https://en.wikipedia.org/wiki/Schumpeterian_growth) in action: innovation destroys the old to make room for the new. Joseph Schumpeter called it [creative destruction](https://en.wikipedia.org/wiki/Creative_destruction) — the engine of capitalism where obsolete industries, skills, and roles are continuously replaced by more productive ones. AI prompt engineers, agent orchestrators, AI auditors, and synthetic data curators are early examples. The net effect on employment depends on how fast we adapt, retrain, and build the new ecosystem.
+
+**But we're not there yet — real-world constraints slow the revolution:**
+- **Energy:** Training and running frontier models demands staggering compute power. Each major AI datacenter [requires near-dedicated nuclear plant capacity](https://www.iea.org/reports/energy-and-ai) — a direct collision course with climate and energy crises.
+- **Adoption is still niche:** As of 2025, only [~23% of U.S. adults](https://www.pewresearch.org/short-reads/2024/10/23/how-americans-view-ai/) have used ChatGPT, and [65% of organizations](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai) report using generative AI regularly — but intensive, agentic usage remains a tiny fraction of 8+ billion humans. Early adopters are not the norm.
+- **High-potential sectors lag behind:** The legal sector, despite being one of the most automatable knowledge domains, reports only [~35% of lawyers using AI in practice](https://www.americanbar.org/groups/law_practice/resources/tech-report/) (ABA 2024 TechReport). Medicine, education, and government show similar gaps.
+- **Regulation divergence:** Europe is regulating aggressively with the [EU AI Act](#legal-compliance--governance), which risks constraining innovation. Meanwhile, the US and China are racing toward AGI with lighter guardrails — creating a global asymmetry in AI capability and deployment.
 
 This is a curated tech radar for AI-augmented software engineering. Tools, frameworks, protocols, methodologies, and best practices — one place to track what matters when AI writes the code and you own everything around it.
 
@@ -64,6 +74,8 @@ System design, boundaries, and trade-offs don't prompt themselves.
 ### Data Engineering & Science
 
 Roadmaps, machine learning, and data career paths.
+
+**AI is the umbrella — not the model.** Artificial Intelligence encompasses Machine Learning (ML), which encompasses Deep Learning (DL), which encompasses the specific model architectures we use today: SLMs (Small Language Models), LLMs (Large Language Models), vision models, etc. Agents don't *replace* any of these layers — they *orchestrate* them, chaining models, tools, and memory into goal-driven workflows. Understanding this hierarchy matters: not every problem needs a frontier LLM, and not every AI system is an agent.
 
 - [**Fundamentals of Data Engineering**](https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/) (book) — Joe Reis, Matt Housley — Data pipelines, storage, ingestion, orchestration, and the data engineering lifecycle
 
@@ -179,7 +191,7 @@ AI accelerates output, but craft still matters. Build agents or skills specializ
 
 ## 🤖 Agentic Orchestration
 
-Designing, chaining, and supervising AI agents — platforms, protocols, and tools.
+Designing, chaining, and supervising AI agents — platforms, protocols, and tools. Apply the [KISS principle](https://en.wikipedia.org/wiki/KISS_principle) relentlessly: don't scatter across dozens of tools, frameworks, and methodologies. Pick a minimal, proven stack and think simple. The best agent architecture is the one you can reason about, debug, and explain — not the one with the most moving parts.
 
 ### Key Concepts
 
@@ -271,6 +283,7 @@ The open standard for connecting AI models to external tools and data sources.
 
 Best practices, monitoring, and plugins for Claude Code.
 
+- [Claude Code Changelog](https://code.claude.com/docs/en/changelog) — Official changelog
 - [Claude Code Plugins](https://code.claude.com/docs/en/plugins) — Official plugins documentation 📌 Unread
 - [Claude Cowork](https://code.claude.com/docs/en/cowork) — Collaborative multi-agent sessions in Claude Code 📌 Unread
 - [Claude Opus 4.6 Announcement](https://www.anthropic.com/news/claude-opus-4-6) — Latest model release
@@ -320,6 +333,7 @@ Best practices, monitoring, and plugins for Claude Code.
 - [Context7](https://github.com/upstash/context7) — Up-to-date docs and code examples for any library, pulled straight into your prompt 📌 Unread
 - [Superpowers](https://github.com/obra/superpowers) — Agentic skills framework & software development methodology 📌 Unread
 - [Hookify](https://github.com/anthropics/claude-code/tree/main/plugins/hookify) — Official plugin to manage Claude Code hooks visually 📌 Unread
+- [claude-mem](https://github.com/thedotmack/claude-mem) — Memory management plugin for Claude Code 📌 Unread
 
 ### Code Assistants & AI Editors
 
@@ -368,6 +382,16 @@ Why it matters for engineers: JEPA signals a potential paradigm shift beyond aut
 - [A Path Towards Autonomous Machine Intelligence](https://openreview.net/pdf?id=BZ5a1r-kVsf) — Yann LeCun's JEPA position paper
 - [Yann LeCun: JEPA Explained (DEVOXX)](https://www.youtube.com/watch?v=MiqLoAZFRSE) — Talk on world models and the limits of LLMs
 
+#### Energy-Based Models
+
+[Energy-Based Models (EBMs)](https://en.wikipedia.org/wiki/Energy-based_model) are an alternative framework where the model learns to assign low energy to correct configurations and high energy to incorrect ones — instead of predicting the next token, the model scores how "right" a given state of the world is. EBMs can capture complex dependencies without requiring explicit probability normalization, making them more flexible than standard generative models.
+
+Both AGI and energy-based models will be especially transformative for **physical agentics — i.e., robotics**. This is where [Moravec's paradox](https://en.wikipedia.org/wiki/Moravec%27s_paradox) becomes relevant: tasks that are trivial for humans (walking, grasping, navigating a room) are incredibly hard for machines, while tasks that are hard for humans (chess, calculus, code generation) are comparatively easy for AI. World models and EBMs aim to close this gap by giving machines an intuitive understanding of physics.
+
+#### Scaling & Moore's Law for AI
+
+Just as [Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law) predicted exponential growth in transistor density, a similar dynamic applies to AI: models double in capability on roughly predictable timelines through [scaling laws](https://en.wikipedia.org/wiki/Neural_scaling_law) — more compute, more data, and better architectures yield predictably better performance. At the current trajectory, models are expected to multiply their capabilities enough to completely replace pure execution tasks by ~2030, while judgment, governance, and creative direction remain human territory for longer.
+
 ### Developer Tooling & Infrastructure
 
 Docker, terminals, browser automation, and other tools for AI-augmented workflows.
@@ -397,6 +421,7 @@ Overview of the AI-native development ecosystem.
 
 - [AI Native Dev Landscape](https://landscape.ainativedev.io/) — Interactive landscape of AI-native tools
 - **AI Native Applications ≠ Chatbot Wrappers** — Building an "AI native" application isn't about bolting a chatbot or a GPT-powered feature onto an existing product. It means rethinking the product from the ground up around AI capabilities: the UX adapts to probabilistic outputs instead of deterministic flows, the data model is designed for embeddings and retrieval, the architecture assumes agents as first-class actors, and the value proposition simply couldn't exist without AI at its core. A chatbot skin on a CRUD app is AI-adjacent, not AI-native. The same applies to the landscape itself: AI-native ecosystems replace entire categories (CI, observability, testing, IDEs) with tools that are built around AI reasoning — not traditional tools with an AI add-on.
+- **Design for agent users, not just human users** — Until 2022, every product was designed exclusively for human users. Today, agents are users too — they call your APIs, read your documentation, navigate your interfaces. If your system isn't legible to agents (structured data, clear semantics, machine-readable endpoints), you're designing for half the audience.
 
 ### Psychology, Culture & AI
 
@@ -413,6 +438,7 @@ Thought pieces on how AI is reshaping developer culture and the software industr
 - [Death by Clawd](https://deathbyclawd.com/) — Ironical SaaS death prediction powered by AI 📌 Unread
 - [The Idiot Factory](https://www.youtube.com/watch?v=4xq6bVbS-Pw) (🇫🇷 video) — Micode on how over-reliance on AI leads to cognitive atrophy
 - [Samouraï Dansant](https://www.youtube.com/@SamouraiDansant) (🇫🇷 channel) — Psychology-focused YouTube channel
+- [Cognitive Biases](https://en.wikipedia.org/wiki/Cognitive_bias) — Humans have them, and so do AI agents — biases in training data, prompt framing, and model architecture create systematic blind spots that mirror (and amplify) human cognitive biases
 
 #### Theory
 
