@@ -90,6 +90,7 @@ Key concepts beyond vectors: matrix multiplication (the core of neural network f
 - **Essential Math for Data Science** (book) — Mathematical foundations
 - [3Blue1Brown: Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) — Visual, intuitive linear algebra series
 - [StatQuest: Statistics Fundamentals](https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9) — Statistics and ML concepts explained clearly
+- [MachineLearnia](https://www.youtube.com/@MachineLearnia) — Machine Learning and Deep Learning video course
 
 #### Learning
 
