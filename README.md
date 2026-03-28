@@ -69,7 +69,7 @@ The radar below tracks the tools and practices for each of these areas.
 System design, boundaries, and trade-offs don't prompt themselves.
 
 - [Software Architect Roadmap](https://roadmap.sh/software-architect) — Roadmap for software architects
-- [**Designing Data-Intensive Applications**, 2nd Edition](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781098119058/) (book) — Martin Kleppmann, Chris Riccomini — Distributed systems, data models, storage engines, and trade-offs at scale
+- 📚 [**Designing Data-Intensive Applications**, 2nd Edition](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781098119058/) (book) — Martin Kleppmann, Chris Riccomini — Distributed systems, data models, storage engines, and trade-offs at scale
 
 ### Data Engineering & Science
 
@@ -77,7 +77,7 @@ Roadmaps, machine learning, and data career paths.
 
 **AI is the umbrella — not the model.** Artificial Intelligence encompasses Machine Learning (ML), which encompasses Deep Learning (DL), which encompasses the specific model architectures we use today: SLMs (Small Language Models), LLMs (Large Language Models), vision models, etc. Agents don't *replace* any of these layers — they *orchestrate* them, chaining models, tools, and memory into goal-driven workflows. Understanding this hierarchy matters: not every problem needs a frontier LLM, and not every AI system is an agent.
 
-- [**Fundamentals of Data Engineering**](https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/) (book) — Joe Reis, Matt Housley — Data pipelines, storage, ingestion, orchestration, and the data engineering lifecycle
+- 📚 [**Fundamentals of Data Engineering**](https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/) (book) — Joe Reis, Matt Housley — Data pipelines, storage, ingestion, orchestration, and the data engineering lifecycle
 
 #### Roadmaps
 
@@ -102,10 +102,10 @@ Key concepts beyond vectors: matrix multiplication (the core of neural network f
 
 **Probability & statistics** drive how models learn and predict. Key concepts: Bayes' theorem (the foundation of updating beliefs with evidence — spam filters, medical diagnosis), probability distributions (normal, Bernoulli, softmax outputs), conditional probability (P(A|B) — "given this input, what's the likely output?"), maximum likelihood estimation (how models fit parameters to data), loss functions and gradient descent (cross-entropy, MSE — measuring and minimizing prediction error). Example: a language model predicting the next token is outputting a probability distribution over the entire vocabulary, trained by minimizing cross-entropy loss.
 
-- **Essential Math for Data Science** (book) — Mathematical foundations
-- [3Blue1Brown: Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) — Visual, intuitive linear algebra series
-- [StatQuest: Statistics Fundamentals](https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9) — Statistics and ML concepts explained clearly
-- [MachineLearnia](https://www.youtube.com/@MachineLearnia) — Machine Learning and Deep Learning video course
+- 📚 **Essential Math for Data Science** (book) — Mathematical foundations
+- 🎥 [3Blue1Brown: Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) — Visual, intuitive linear algebra series
+- 🎥 [StatQuest: Statistics Fundamentals](https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9) — Statistics and ML concepts explained clearly
+- 🎥 [MachineLearnia](https://www.youtube.com/@MachineLearnia) — Machine Learning and Deep Learning video course
 
 #### Learning
 
@@ -165,7 +165,7 @@ Python fundamentals, frameworks, and best practices for the AI-era developer.
 - [DDD with Python Microservices](https://medium.com/@nomannayeem/everything-you-need-to-know-about-domain-driven-design-with-python-microservices-2c2f6556b5b1) — Domain-Driven Design guide
 - [Is Python Really That Slow?](https://blog.miguelgrinberg.com/post/is-python-really-that-slow) — Performance myths debunked
 - [Python Is Slow and Other Myths](https://hackernoon.com/python-is-slow-and-other-myths-of-a-dying-era) — More performance myth-busting
-- **Fluent Python** (book) — Deep dive into Pythonic code
+- 📚 **Fluent Python** (book) — Deep dive into Pythonic code
 
 ##### Web Frameworks
 
@@ -380,7 +380,7 @@ Current LLMs learn by predicting the next token in text sequences. Despite train
 Why it matters for engineers: JEPA signals a potential paradigm shift beyond autoregressive LLMs. If world models succeed, future AI systems may reason about cause and effect, plan multi-step actions, and generalize from far less data — closing the gap between "has read everything" and "understands anything."
 
 - [A Path Towards Autonomous Machine Intelligence](https://openreview.net/pdf?id=BZ5a1r-kVsf) — Yann LeCun's JEPA position paper
-- [Yann LeCun: JEPA Explained (DEVOXX)](https://www.youtube.com/watch?v=MiqLoAZFRSE) — Talk on world models and the limits of LLMs
+- 🎥 [Yann LeCun: JEPA Explained (DEVOXX)](https://www.youtube.com/watch?v=MiqLoAZFRSE) — Talk on world models and the limits of LLMs
 
 #### Energy-Based Models
 
@@ -436,8 +436,8 @@ Thought pieces on how AI is reshaping developer culture and the software industr
 - [Enterprise AI](https://www.latent.space/p/enterprise) — Latent Space on enterprise AI adoption
 - [AI Agent Attacks Open Source Developer](https://intelligence-artificielle.developpez.com/actu/380270/Un-agent-IA-autonome-lance-une-campagne-de-denigrement-contre-un-developpeur-open-source-pour-imposer-son-optimisation-a-la-bibliotheque-Python-Matplotlib-que-ce-dernier-a-refusee/) — When an autonomous AI agent targeted an open-source maintainer
 - [Death by Clawd](https://deathbyclawd.com/) — Ironical SaaS death prediction powered by AI 📌 Unread
-- [The Idiot Factory](https://www.youtube.com/watch?v=4xq6bVbS-Pw) (🇫🇷 video) — Micode on how over-reliance on AI leads to cognitive atrophy
-- [Samouraï Dansant](https://www.youtube.com/@SamouraiDansant) (🇫🇷 channel) — Psychology-focused YouTube channel
+- 🎥 [The Idiot Factory](https://www.youtube.com/watch?v=4xq6bVbS-Pw) (🇫🇷 video) — Micode on how over-reliance on AI leads to cognitive atrophy
+- 🎥 [Samouraï Dansant](https://www.youtube.com/@SamouraiDansant) (🇫🇷 channel) — Psychology-focused YouTube channel
 
 #### Theory
 
@@ -484,7 +484,7 @@ Specs, prompts, and docs are the new source code — prompt-driven, spec-driven,
 
 [Save tokens](https://epoch.ai/blog/inference-economics-of-language-models), use simple scripts or local SLMs when a frontier model isn't needed. Optimize cost, latency, and routing across models.
 
-- [Tokens Rationing in the Inference Economy](https://www.youtube.com/watch?v=UdkxFiZhY6Y) (🇫🇷 video) — Whether tokens will cost less or more in the future remains an open question
+- 🎥 [Tokens Rationing in the Inference Economy](https://www.youtube.com/watch?v=UdkxFiZhY6Y) (🇫🇷 video) — Whether tokens will cost less or more in the future remains an open question
 
 ### Token Optimization
 
