@@ -59,10 +59,13 @@ The radar below tracks the tools and practices for each of these areas.
 System design, boundaries, and trade-offs don't prompt themselves.
 
 - [Software Architect Roadmap](https://roadmap.sh/software-architect) — Roadmap for software architects
+- [**Designing Data-Intensive Applications**, 2nd Edition](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781098119058/) (book) — Martin Kleppmann, Chris Riccomini — Distributed systems, data models, storage engines, and trade-offs at scale
 
 ### Data Engineering & Science
 
 Roadmaps, machine learning, and data career paths.
+
+- [**Fundamentals of Data Engineering**](https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/) (book) — Joe Reis, Matt Housley — Data pipelines, storage, ingestion, orchestration, and the data engineering lifecycle
 
 #### Roadmaps
 
