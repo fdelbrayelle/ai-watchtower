@@ -429,6 +429,23 @@ Overview of the AI-native development ecosystem.
 - **AI Native Applications ≠ Chatbot Wrappers** — Building an "AI native" application isn't about bolting a chatbot or a GPT-powered feature onto an existing product. It means rethinking the product from the ground up around AI capabilities: the UX adapts to probabilistic outputs instead of deterministic flows, the data model is designed for embeddings and retrieval, the architecture assumes agents as first-class actors, and the value proposition simply couldn't exist without AI at its core. A chatbot skin on a CRUD app is AI-adjacent, not AI-native. The same applies to the landscape itself: AI-native ecosystems replace entire categories (CI, observability, testing, IDEs) with tools that are built around AI reasoning — not traditional tools with an AI add-on.
 - **Design for agent users, not just human users** — Until 2022, every product was designed exclusively for human users. Today, agents are users too — they call your APIs, read your documentation, navigate your interfaces. If your system isn't legible to agents (structured data, clear semantics, machine-readable endpoints), you're designing for half the audience.
 
+#### 12-Factor AI Native
+
+Inspired by the [12-Factor App](https://12factor.net/) methodology for cloud-native, imagine the equivalent principles for **AI-native** applications. See also [12-Factor Agents](https://github.com/humanlayer/12-factor-agents) (⭐ 19k) — a complementary set of 12 implementation-level principles for building production-ready LLM agents (own your prompts, own your context window, stateless reducer pattern, etc.).
+
+1. **Prompt as Code** — Prompts are versioned, reviewed, and deployed like source code
+2. **Model Portability** — No hard coupling to a single model provider; swap models without rewriting the app
+3. **Context as Config** — Context (system prompts, RAG sources, memory) is injected, not hardcoded
+4. **Stateless Inference** — Each request is self-contained; session state lives outside the model call
+5. **Explicit Token Budget** — Token usage is a first-class resource with limits, monitoring, and optimization
+6. **Observability by Default** — Every LLM call is traced, logged, and measurable (latency, cost, quality)
+7. **Graceful Degradation** — Fallback chains across models/providers; the app survives an outage or rate limit
+8. **Eval-Driven Development** — Automated evals replace unit tests for non-deterministic AI behavior
+9. **Human-in-the-Loop Boundaries** — Clearly defined gates where human review is required vs. autonomous
+10. **Guardrails as Infrastructure** — Safety, compliance, and content filters are infra concerns, not afterthoughts
+11. **Disposable Agents** — Agents are ephemeral and reproducible; no precious long-running state
+12. **Cost-Aware Routing** — Route to the cheapest model/tool that meets the quality bar (CLI > MCP > RAG > full context)
+
 ### Psychology, Culture & AI
 
 Thought pieces on how AI is reshaping developer culture and the software industry.
@@ -491,6 +508,8 @@ Specs, prompts, and docs are the new source code — prompt-driven, spec-driven,
 [Save tokens](https://epoch.ai/blog/inference-economics-of-language-models), use simple scripts or local SLMs when a frontier model isn't needed. Optimize cost, latency, and routing across models.
 
 - 🎥 [Tokens Rationing in the Inference Economy](https://www.youtube.com/watch?v=UdkxFiZhY6Y) (🇫🇷 video) — Whether tokens will cost less or more in the future remains an open question
+- **CLI is cheaper than MCP** — CLI tool calls have less token overhead than MCP protocol exchanges; prefer CLI/skills when possible for lower inference cost
+- **Good RAG beats large context stuffing** — A well-tuned RAG pipeline retrieving only what's needed can outperform naively filling a 1M-token context window, both in cost and in result quality (less noise, more relevant context)
 
 ### Token Optimization
 
