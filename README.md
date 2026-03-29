@@ -438,7 +438,6 @@ Docker, terminals, browser automation, and other tools for AI-augmented workflow
 - [Computer Use (Anthropic)](https://docs.anthropic.com/en/docs/agents-and-tools/computer-use) — Let Claude control a computer — click, type, navigate, and take screenshots 📌 Unread
 - [Perplexity Computer](https://www.perplexity.ai/hub/blog/introducing-computer-use) — Perplexity's computer-using agent for browser tasks 📌 Unread
 - [Agent Browser](https://agent-browser.dev/skills) — Browser automation CLI for AI agents
-- [Vercel Agent Browser](https://github.com/vercel-labs/agent-browser) — Vercel's browser automation skills
 
 ### AI Native Landscape
 
