@@ -1,0 +1,13 @@
+SHow me how much is the entire/heckpoints/v1 branch weight
+
+---
+
+In a big repo like kestra-io/kestra with 10 active dev how much could it weight in 1 year ?N
+
+---
+
+With without the auto push the tool looses it's interest right?
+
+---
+
+OK add this tradeoff comparison (regarding the weight and autopush) on the bulletpoint
