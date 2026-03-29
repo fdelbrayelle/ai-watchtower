@@ -311,6 +311,7 @@ The open standard for connecting AI models to external tools and data sources.
 ### RAG
 
 - [RAG is Dead, Long Live RAG](https://lighton.ai/lighton-blogs/rag-is-dead-long-live-rag-retrieval-in-the-age-of-agents) — Rather than being killed by larger context windows, RAG has evolved into a sophisticated system that makes intelligent, conditional decisions about whether and how to retrieve information
+- 🎬 [Is RAG Still Needed?](https://www.youtube.com/watch?v=UabBYexBD4k&list=PLopYFrR81G9Eb0xO3tbOzOf9ZOTEFKohy&index=3)
 
 ### Methodologies
 
@@ -532,6 +533,7 @@ Specs, prompts, and docs are the new source code — prompt-driven, spec-driven,
 ### Prompt / Specs / Context Engineering
 
 - [Effective Context Engineering for AI Agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) — Anthropic on designing the information environment agents operate in 📌 Unread
+- 🎬 [Prompt Engineering is Dead](https://www.youtube.com/watch?v=Cs7QiSi8KLY&list=PLopYFrR81G9Eb0xO3tbOzOf9ZOTEFKohy&index=4) — Context Engineering is the new prompt engineering
 - [Prompting Guide](https://www.promptingguide.ai/fr) — Comprehensive prompt engineering guide
 - [Prompting Guide: Basics](https://www.promptingguide.ai/fr/introduction/basics) — Introduction to prompt fundamentals
 - [Prompt Driven Development](https://promptdriven.ai/) — PDD methodology 📌 Unread
