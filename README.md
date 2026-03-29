@@ -249,19 +249,19 @@ These usually encode: **What** (facts, rules, conventions), **Why** (rationale, 
 
 ### Maturity Levels
 
-Modèle de maturité d'adoption de l'IA dans les équipes de développement — adapté du modèle de Dan Shapiro. Utile pour situer une équipe, anticiper sa trajectoire, et faire des choix conscients plutôt que de subir la hype ou la pression du management.
+AI adoption maturity model for development teams — adapted from Dan Shapiro's framework. Useful for locating where a team stands, anticipating its trajectory, and making deliberate choices rather than reacting to hype or management pressure.
 
-- **Niveau 1 — L'autocomplétion** *(~2023)* : l'IA suggère des complétions de code dans le contexte immédiat du développeur. Le développeur reste aux commandes. C'est là que la plupart des organisations ont commencé, à l'époque des premières versions de GitHub Copilot.
-- **Niveau 2 — Les assistants de codage** *(~2024)* : l'IA exécute des tâches multi-étapes à travers des fichiers et des outils — Claude Code, Cursor, Windsurf.
-- **Niveau 3 — Les agents de développement autonomes** *(~2025)* : l'IA prend en charge l'ensemble du cycle, du ticket backlog au déploiement. Le développeur humain définit les exigences et valide les sorties. On parle d'**ingénierie supervisée**. La plupart des organisations sont en train de franchir ce palier.
-- **Niveau 4 — Les réseaux d'agents collaboratifs** *(~2026)* : plusieurs agents spécialisés travaillent ensemble sur la conception, le code, les tests, le déploiement. Les humains orchestrent. Typiquement l'usage avec BMAD, BEADS, LIZA. Très peu d'organisations ont réellement atteint ce niveau.
-- **Niveau 5 — La software factory** *(~2028?)* : les organisations décrivent des résultats métier souhaités, et des systèmes entiers émergent de la collaboration entre agents. Les humains se concentrent sur la stratégie et la vision produit. Encore largement théorique, mais peut-être un horizon plus proche qu'on ne le pense.
+- **Level 1 — Autocomplete** *(~2023)*: AI suggests completions in the developer's immediate context. The developer stays in control. Where most organizations started, back in the early GitHub Copilot days.
+- **Level 2 — Coding assistants** *(~2024)*: AI executes multi-step tasks across files and tools — Claude Code, Cursor, Windsurf.
+- **Level 3 — Autonomous dev agents** *(~2025)*: AI handles the full cycle, from backlog ticket to deployment. The human defines requirements and validates outputs — **supervised engineering**. Most organizations are crossing this threshold now.
+- **Level 4 — Collaborative agent networks** *(~2026)*: Multiple specialized agents work together on design, code, tests, and deployment. Humans orchestrate. Typical usage with BMAD, BEADS, LIZA. Very few organizations have genuinely reached this level.
+- **Level 5 — Software factory** *(~2028?)*: Organizations describe desired business outcomes, and entire systems emerge from agent collaboration. Humans focus on strategy and product vision. Still largely theoretical, but perhaps a closer horizon than we think.
 
-Entre le niveau 2 et le niveau 3, quelque chose de fondamental bascule : **le développeur cesse d'être celui qui fait pour devenir celui qui vérifie**. Ce glissement change la nature du métier — les compétences qui comptent, les responsabilités qui se déplacent, et les risques qui apparaissent.
+Between level 2 and level 3, something fundamental shifts: **the developer stops being the one who builds and becomes the one who verifies**. This changes the nature of the craft — which skills matter, where responsibility moves, and what new risks emerge.
 
-> À quel niveau êtes-vous aujourd'hui, et est-ce que votre organisation peut passer au niveau suivant ?
+> Where is your organization today — and can it move to the next level?
 
-- 🎬 [Vidéo FR — Niveaux de maturité IA](https://www.youtube.com/watch?v=Gq5VAlFfC3M&list=PLopYFrR81G9Eb0xO3tbOzOf9ZOTEFKohy&index=65&pp=iAQBsAgC)
+- 🎬 [FR video — AI maturity levels](https://www.youtube.com/watch?v=Gq5VAlFfC3M&list=PLopYFrR81G9Eb0xO3tbOzOf9ZOTEFKohy&index=65&pp=iAQBsAgC)
 
 ### Agents & Frameworks
 
