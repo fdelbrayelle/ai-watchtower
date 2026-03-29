@@ -363,7 +363,7 @@ The open standard for connecting AI models to external tools and data sources.
 Best practices, monitoring, and plugins for Claude Code.
 
 - [Claude Code Changelog](https://code.claude.com/docs/en/changelog) — Official changelog
-- [Claude Code Plugins](https://code.claude.com/docs/en/plugins) — Official plugins documentation 📌 Unread
+- [Claude Code Plugins](https://code.claude.com/docs/en/plugins) — Official plugins documentation
 - [Claude Cowork](https://code.claude.com/docs/en/cowork) — Collaborative multi-agent sessions in Claude Code 📌 Unread
 - [Claude Opus 4.6 Announcement](https://www.anthropic.com/news/claude-opus-4-6) — Latest model release
 - [Claude Sonnet 4.6 Announcement](https://www.anthropic.com/news/claude-sonnet-4-6) — Latest model release
