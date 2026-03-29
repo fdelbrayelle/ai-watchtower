@@ -1,0 +1,13 @@
+Move entire to black box & observability with an explanation on how it works and why it's important to use it (see https://docs.entire.io/introduction for help)
+
+---
+
+Do the devs hav to commit this .entire folder? How it works behind the scenes? Just answer me, do not update the README for now.
+
+---
+
+Couldn't it have leak to push .entire to repositories?
+
+---
+
+Add to the bulletpoint it's git hook based, tell also token usage can be tracked and that all prompts can be found = "treat prompts as code" (so better avoid to leak secrets there etc)
