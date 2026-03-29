@@ -364,6 +364,10 @@ Best practices, monitoring, and plugins for Claude Code.
 
 - [Claude Code Changelog](https://code.claude.com/docs/en/changelog) — Official changelog
 - [Claude Code Plugins](https://code.claude.com/docs/en/plugins) — Official plugins documentation 📌 Unread
+  - [code-review](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-review) — Official code review plugin
+  - [code-simplifier](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/code-simplifier) — Official code simplifier plugin
+  - [frontend-design](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/frontend-design) — Official frontend design plugin
+  - [ralph-loop](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-loop) — Official loop/iteration plugin
 - [Claude Cowork](https://code.claude.com/docs/en/cowork) — Collaborative multi-agent sessions in Claude Code 📌 Unread
 - [Claude Opus 4.6 Announcement](https://www.anthropic.com/news/claude-opus-4-6) — Latest model release
 - [Claude Sonnet 4.6 Announcement](https://www.anthropic.com/news/claude-sonnet-4-6) — Latest model release
