@@ -331,6 +331,17 @@ Best practices, monitoring, and plugins for Claude Code.
 - [Claude Sonnet 4.6 Announcement](https://www.anthropic.com/news/claude-sonnet-4-6) — Latest model release
 - [COBOL Modernization with AI](https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization) — Breaking the cost barrier 📌 Unread
 
+#### Mastery Levels
+
+Six levels of Claude Code usage, from basic prompting to fully autonomous systems — 🎬 [FR video](https://www.youtube.com/watch?v=Gq5VAlFfC3M&list=PLopYFrR81G9Eb0xO3tbOzOf9ZOTEFKohy&index=65&pp=iAQBsAgC):
+
+- **Level 1 — Prompt** : Use Claude Code as a terminal-based ChatGPT. Ask questions, get answers. No project context.
+- **Level 2 — Planner** : Add a `CLAUDE.md` with project context. Claude understands the codebase and plans before acting.
+- **Level 3 — Context** : Leverage memory, conventions, and project files. Claude works with persistent, structured knowledge.
+- **Level 4 — Tools** : Connect MCP servers, bash commands, and external integrations. Claude acts on the world.
+- **Level 5 — Multi-Agent** : Orchestrate subagents for parallel, specialized work. Claude delegates and coordinates.
+- **Level 6 — Autonomous** : 24/7 systems where agents run unsupervised, triggered by events, without human in the loop.
+
 #### Learn
 
 - [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) — Official Anthropic training 📌 Unread
