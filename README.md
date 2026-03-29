@@ -144,6 +144,44 @@ Own the "what" and "why" before the agent writes the "how".
 - [Product Manager Roadmap](https://roadmap.sh/product-manager) — Roadmap for product managers
 - [Thiga Books & Assets](https://www.thiga.co/en/our-assets) — Product management books and resources by Thiga
 
+### The Product Manager Role
+
+The PM is the bridge between **Business** (company objectives), **UX/Design** (user needs), and **Technology** (feasibility). Not a decision dictator — an alignment enabler who ensures the team builds the right thing, for the right user, at the right time.
+
+**Core missions:**
+- **Discovery** — Understand user problems via interviews, data analysis, and competitive research
+- **Strategy** — Define the product vision and prioritize for maximum impact
+- **Delivery** — Partner with devs and designers to ship concrete features
+- **Analysis** — Track KPIs post-launch and adjust course
+
+**Key deliverables by phase:**
+
+*Strategy & Vision*
+
+| Deliverable | Purpose |
+|---|---|
+| Product Vision Board | Product intent, target audience, and value proposition |
+| Product Roadmap | Macro view (often quarterly) of upcoming features and themes |
+| KPI Dashboard | Track performance (retention, conversion, etc.) |
+
+*Discovery & Design*
+
+| Deliverable | Purpose |
+|---|---|
+| Personas | Profiles of target users and their pain points |
+| PRD (Product Requirements Document) | The "Why" and "What" of a feature before development starts |
+| User Journey / Story Map | Map of the user's path through the product |
+
+*Delivery*
+
+| Deliverable | Purpose |
+|---|---|
+| Backlog | Ordered list of all remaining tasks and features |
+| User Stories | "As a [user], I want [action] so that [benefit]" |
+| Release Notes | Internal/external communication on what shipped |
+
+> The PM never works alone — wireframes involve the Product Designer, feasibility involves the Lead Tech. The PM's job is to keep the whole coherent.
+
 ---
 
 <a id="code-generation--writing"></a>
