@@ -424,10 +424,10 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 - [Code Simplifier](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/code-simplifier) — Anthropic's official code simplification plugin
 - [Frontend Design](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/frontend-design) — Anthropic's official frontend design plugin
 - [Ralph Loop](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-loop) — Anthropic's official loop/iteration plugin
-- [Context7](https://github.com/upstash/context7) — Up-to-date docs and code examples for any library, pulled straight into your prompt 📌 Unread
-- [Superpowers](https://github.com/obra/superpowers) — Agentic skills framework & software development methodology 📌 Unread
-- [Hookify](https://github.com/anthropics/claude-code/tree/main/plugins/hookify) — Official plugin to manage Claude Code hooks visually 📌 Unread
-- [claude-mem](https://github.com/thedotmack/claude-mem) — Memory management plugin for Claude Code 📌 Unread
+- [Context7](https://github.com/upstash/context7) — Up-to-date docs and code examples for any library, pulled straight into your prompt
+- [Superpowers](https://github.com/obra/superpowers) — Agentic skills framework & software development methodology
+- [Hookify](https://github.com/anthropics/claude-code/tree/main/plugins/hookify) — Official plugin to manage Claude Code hooks visually
+- [Claude Mem](https://github.com/thedotmack/claude-mem) — Memory management plugin for Claude Code
 
 ### Code Assistants & AI Editors
 
