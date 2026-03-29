@@ -324,8 +324,6 @@ Between level 2 and level 3, something fundamental shifts: **the developer stops
 - [Cosine](https://cosine.sh/) — AI code companion
 - [Air.dev](https://air.dev/) — AI agent builder
 - [GitHub Agentic Workflows](https://github.com/features) — GitHub's built-in agentic capabilities
-- [Autopsy of the Great Reckoning](https://www.linkedin.com/pulse/autopsie-du-great-reckoning-et-les-5-le%C3%A7ons-qui-lia-aur%C3%A9lien-allienne-tpkue/) — 5 lessons from AI adoption
-
 ### Protocols
 
 - [A2A: A New Era of Agent Interoperability](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) — Google's Agent-to-Agent protocol
@@ -545,6 +543,7 @@ Thought pieces on how AI is reshaping developer culture and the software industr
 - [Enterprise AI](https://www.latent.space/p/enterprise) — Latent Space on enterprise AI adoption
 - [AI Agent Attacks Open Source Developer](https://intelligence-artificielle.developpez.com/actu/380270/Un-agent-IA-autonome-lance-une-campagne-de-denigrement-contre-un-developpeur-open-source-pour-imposer-son-optimisation-a-la-bibliotheque-Python-Matplotlib-que-ce-dernier-a-refusee/) — When an autonomous AI agent targeted an open-source maintainer
 - [Death by Clawd](https://deathbyclawd.com/) — Ironical SaaS death prediction powered by AI 📌 Unread
+- [Autopsy of the Great Reckoning](https://www.linkedin.com/pulse/autopsie-du-great-reckoning-et-les-5-le%C3%A7ons-qui-lia-aur%C3%A9lien-allienne-tpkue/) — 5 lessons from AI adoption (🇫🇷 article)
 - 🎥 [The Idiot Factory](https://www.youtube.com/watch?v=4xq6bVbS-Pw) (🇫🇷 video) — Micode on how over-reliance on AI leads to cognitive atrophy
 - 🎥 [Samouraï Dansant](https://www.youtube.com/@SamouraiDansant) (🇫🇷 channel) — Psychology-focused YouTube channel
 
