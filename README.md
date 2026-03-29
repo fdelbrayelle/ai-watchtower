@@ -261,8 +261,6 @@ Between level 2 and level 3, something fundamental shifts: **the developer stops
 
 > Where is your organization today — and can it move to the next level?
 
-- 🎬 [FR video — AI maturity levels](https://www.youtube.com/watch?v=Gq5VAlFfC3M&list=PLopYFrR81G9Eb0xO3tbOzOf9ZOTEFKohy&index=65&pp=iAQBsAgC)
-
 ### Agents & Frameworks
 
 - [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) — Anthropic's guide to agent design 📌 Unread
@@ -290,6 +288,7 @@ Between level 2 and level 3, something fundamental shifts: **the developer stops
 - [Air.dev](https://air.dev/) — AI agent builder
 - [GitHub Agentic Workflows](https://github.com/features) — GitHub's built-in agentic capabilities
 - [Autopsy of the Great Reckoning](https://www.linkedin.com/pulse/autopsie-du-great-reckoning-et-les-5-le%C3%A7ons-qui-lia-aur%C3%A9lien-allienne-tpkue/) — 5 lessons from AI adoption
+
 ### Protocols
 
 - [A2A: A New Era of Agent Interoperability](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) — Google's Agent-to-Agent protocol
