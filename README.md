@@ -51,8 +51,8 @@ With 80%+ of code now AI-generated, the engineer's value shifts from writing cod
 
 **Inputs — What you shape before the agent writes code:**
 
-- [Software Architecture](#software-architecture) — System design, boundaries, and trade-offs don't prompt themselves
 - [Product Thinking](#product-thinking) — Own the "what" and "why" before the agent writes the "how"
+- [Software Architecture](#software-architecture) — The "how": system design, boundaries, and trade-offs that agents can't decide alone
 
 **Outputs — What you verify after the agent writes code:**
 
@@ -78,60 +78,6 @@ With 80%+ of code now AI-generated, the engineer's value shifts from writing cod
 - **Downstream:** The human review layer can't scale at the same pace as AI output. Code review and QA fatigue set in fast. It's hard to say "stop" to agentic work at end of day. Constant context switching erodes focus, developers lose meaning in the work, and the risk of burnout becomes real. Mario Zechner makes the case for [slowing the fuck down](https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/) — autonomous agents create brittle systems with compounding errors; keep humans in control of architecture, use agents only for scoped evaluable tasks.
 
 The radar below tracks the tools and practices for each of these areas.
-
----
-
-<a id="software-architecture"></a>
-
-## 🏗️ Software Architecture
-
-System design, boundaries, and trade-offs don't prompt themselves.
-
-- [Software Architect Roadmap](https://roadmap.sh/software-architect) — Roadmap for software architects
-- 📚 [**Designing Data-Intensive Applications**, 2nd Edition](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781098119058/) (book) — Martin Kleppmann, Chris Riccomini — Distributed systems, data models, storage engines, and trade-offs at scale
-
-### Data Engineering & Science
-
-Roadmaps, machine learning, and data career paths.
-
-**AI is the umbrella — not the model.** Artificial Intelligence encompasses Machine Learning (ML), which encompasses Deep Learning (DL), which encompasses the specific model architectures we use today: SLMs (Small Language Models), LLMs (Large Language Models), vision models, etc. LLMs are built on the [**attention mechanism**](https://en.wikipedia.org/wiki/Attention_Is_All_You_Need) introduced in *Attention Is All You Need* (Vaswani et al., 2017), which uses learned weights to let the model focus on relevant parts of the input — the foundation of the Transformer architecture. Agents don't *replace* any of these layers — they *orchestrate* them, chaining models, tools, and memory into goal-driven workflows. Understanding this hierarchy matters: not every problem needs a frontier LLM, and not every AI system is an agent.
-
-- 📚 [**Fundamentals of Data Engineering**](https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/) (book) — Joe Reis, Matt Housley — Data pipelines, storage, ingestion, orchestration, and the data engineering lifecycle
-- 📚 [**Machine Learning avec Scikit-Learn**](https://www.oreilly.com/library/view/machine-learning-avec/9782100797820/) (book) — Aurélien Géron — Hands-on ML with Scikit-Learn
-- 📚 [**Deep Learning avec Keras et TensorFlow**](https://www.oreilly.com/library/view/deep-learning-avec/9782100805020/) (book) — Aurélien Géron — Deep learning with Keras and TensorFlow
-
-#### Roadmaps
-
-- [Data Engineer Roadmap](https://roadmap.sh/data-engineer)
-- [Data Analyst Roadmap](https://roadmap.sh/data-analyst)
-- [SQL Roadmap](https://roadmap.sh/sql)
-- [Machine Learning Roadmap](https://roadmap.sh/machine-learning)
-- [AI Data Scientist Roadmap](https://roadmap.sh/ai-data-scientist)
-- [AI Engineer Roadmap](https://roadmap.sh/ai-engineer)
-- [AI Agents Roadmap](https://roadmap.sh/ai-agents)
-- [MLOps Roadmap](https://roadmap.sh/mlops)
-
-#### Basic Maths for AI
-
-Understanding AI under the hood requires two pillars: **linear algebra** and **probability/statistics**.
-
-**Linear algebra** is the language of data. Every dataset is a matrix, every feature is a vector, and every model transformation (rotation, scaling, projection) is a matrix operation.
-
-A **vector** is a list of numbers representing a point or direction in space. In AI, vectors are everywhere: a word embedding like `[0.2, -0.5, 0.8]` places a word in a 3D semantic space. Similar words end up as nearby vectors — "king" and "queen" are close, "king" and "banana" are far. This is how models understand meaning: not through definitions, but through geometric proximity. Real embeddings use hundreds of dimensions (e.g., OpenAI's `text-embedding-3-small` produces 1536-dimensional vectors), but the principle is the same. The **dot product** of two vectors measures their alignment: high dot product = similar direction = similar meaning. This is the core operation behind cosine similarity in vector search (RAG, recommendation systems) and attention scores in transformers. **Vector addition** enables analogies: the classic `king - man + woman ≈ queen` works because semantic relationships are encoded as directional offsets in vector space.
-
-Key concepts beyond vectors: matrix multiplication (the core of neural network forward passes — each layer is a matrix multiply + activation), eigenvalues/eigenvectors (behind PCA dimensionality reduction), and tensor operations (multi-dimensional arrays powering deep learning frameworks like PyTorch and TensorFlow). Example: when a transformer model computes attention scores, it's performing `softmax(QK^T / √d) × V` — pure matrix math.
-
-**Probability & statistics** drive how models learn and predict. Key concepts: Bayes' theorem (the foundation of updating beliefs with evidence — spam filters, medical diagnosis), probability distributions (normal, Bernoulli, softmax outputs), conditional probability (P(A|B) — "given this input, what's the likely output?"), maximum likelihood estimation (how models fit parameters to data), loss functions and gradient descent (cross-entropy, MSE — measuring and minimizing prediction error). Example: a language model predicting the next token is outputting a probability distribution over the entire vocabulary, trained by minimizing cross-entropy loss.
-
-- 📚 **Essential Math for Data Science** (book) — Mathematical foundations
-- 🎥 [3Blue1Brown: Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) — Visual, intuitive linear algebra series
-- 🎥 [StatQuest: Statistics Fundamentals](https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9) — Statistics and ML concepts explained clearly
-- 🎥 [MachineLearnia](https://www.youtube.com/@MachineLearnia) — Machine Learning and Deep Learning video course
-
-#### Learning
-
-- [Clean & Analyze Your Dataset](https://openclassrooms.com/fr/courses/7410486-nettoyez-et-analysez-votre-jeu-de-donnees) — OpenClassrooms data cleaning course
-- **Tools**: Jupyter Notebook, Kaggle, Hugging Face, Matplotlib, NumPy, Pandas
 
 ---
 
@@ -181,6 +127,60 @@ The PM is the bridge between **Business** (company objectives), **UX/Design** (u
 | Release Notes | Internal/external communication on what shipped |
 
 > The PM never works alone — wireframes involve the Product Designer, feasibility involves the Lead Tech. The PM's job is to keep the whole coherent.
+
+---
+
+<a id="software-architecture"></a>
+
+## 🏗️ Software Architecture
+
+The "how" that shapes what the agent builds — system design, boundaries, and trade-offs that can't be delegated to a prompt.
+
+- [Software Architect Roadmap](https://roadmap.sh/software-architect) — Roadmap for software architects
+- 📚 [**Designing Data-Intensive Applications**, 2nd Edition](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781098119058/) (book) — Martin Kleppmann, Chris Riccomini — Distributed systems, data models, storage engines, and trade-offs at scale
+
+### Data Engineering & Science
+
+Roadmaps, machine learning, and data career paths.
+
+**AI is the umbrella — not the model.** Artificial Intelligence encompasses Machine Learning (ML), which encompasses Deep Learning (DL), which encompasses the specific model architectures we use today: SLMs (Small Language Models), LLMs (Large Language Models), vision models, etc. LLMs are built on the [**attention mechanism**](https://en.wikipedia.org/wiki/Attention_Is_All_You_Need) introduced in *Attention Is All You Need* (Vaswani et al., 2017), which uses learned weights to let the model focus on relevant parts of the input — the foundation of the Transformer architecture. Agents don't *replace* any of these layers — they *orchestrate* them, chaining models, tools, and memory into goal-driven workflows. Understanding this hierarchy matters: not every problem needs a frontier LLM, and not every AI system is an agent.
+
+- 📚 [**Fundamentals of Data Engineering**](https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/) (book) — Joe Reis, Matt Housley — Data pipelines, storage, ingestion, orchestration, and the data engineering lifecycle
+- 📚 [**Machine Learning avec Scikit-Learn**](https://www.oreilly.com/library/view/machine-learning-avec/9782100797820/) (book) — Aurélien Géron — Hands-on ML with Scikit-Learn
+- 📚 [**Deep Learning avec Keras et TensorFlow**](https://www.oreilly.com/library/view/deep-learning-avec/9782100805020/) (book) — Aurélien Géron — Deep learning with Keras and TensorFlow
+
+#### Roadmaps
+
+- [Data Engineer Roadmap](https://roadmap.sh/data-engineer)
+- [Data Analyst Roadmap](https://roadmap.sh/data-analyst)
+- [SQL Roadmap](https://roadmap.sh/sql)
+- [Machine Learning Roadmap](https://roadmap.sh/machine-learning)
+- [AI Data Scientist Roadmap](https://roadmap.sh/ai-data-scientist)
+- [AI Engineer Roadmap](https://roadmap.sh/ai-engineer)
+- [AI Agents Roadmap](https://roadmap.sh/ai-agents)
+- [MLOps Roadmap](https://roadmap.sh/mlops)
+
+#### Basic Maths for AI
+
+Understanding AI under the hood requires two pillars: **linear algebra** and **probability/statistics**.
+
+**Linear algebra** is the language of data. Every dataset is a matrix, every feature is a vector, and every model transformation (rotation, scaling, projection) is a matrix operation.
+
+A **vector** is a list of numbers representing a point or direction in space. In AI, vectors are everywhere: a word embedding like `[0.2, -0.5, 0.8]` places a word in a 3D semantic space. Similar words end up as nearby vectors — "king" and "queen" are close, "king" and "banana" are far. This is how models understand meaning: not through definitions, but through geometric proximity. Real embeddings use hundreds of dimensions (e.g., OpenAI's `text-embedding-3-small` produces 1536-dimensional vectors), but the principle is the same. The **dot product** of two vectors measures their alignment: high dot product = similar direction = similar meaning. This is the core operation behind cosine similarity in vector search (RAG, recommendation systems) and attention scores in transformers. **Vector addition** enables analogies: the classic `king - man + woman ≈ queen` works because semantic relationships are encoded as directional offsets in vector space.
+
+Key concepts beyond vectors: matrix multiplication (the core of neural network forward passes — each layer is a matrix multiply + activation), eigenvalues/eigenvectors (behind PCA dimensionality reduction), and tensor operations (multi-dimensional arrays powering deep learning frameworks like PyTorch and TensorFlow). Example: when a transformer model computes attention scores, it's performing `softmax(QK^T / √d) × V` — pure matrix math.
+
+**Probability & statistics** drive how models learn and predict. Key concepts: Bayes' theorem (the foundation of updating beliefs with evidence — spam filters, medical diagnosis), probability distributions (normal, Bernoulli, softmax outputs), conditional probability (P(A|B) — "given this input, what's the likely output?"), maximum likelihood estimation (how models fit parameters to data), loss functions and gradient descent (cross-entropy, MSE — measuring and minimizing prediction error). Example: a language model predicting the next token is outputting a probability distribution over the entire vocabulary, trained by minimizing cross-entropy loss.
+
+- 📚 **Essential Math for Data Science** (book) — Mathematical foundations
+- 🎥 [3Blue1Brown: Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) — Visual, intuitive linear algebra series
+- 🎥 [StatQuest: Statistics Fundamentals](https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9) — Statistics and ML concepts explained clearly
+- 🎥 [MachineLearnia](https://www.youtube.com/@MachineLearnia) — Machine Learning and Deep Learning video course
+
+#### Learning
+
+- [Clean & Analyze Your Dataset](https://openclassrooms.com/fr/courses/7410486-nettoyez-et-analysez-votre-jeu-de-donnees) — OpenClassrooms data cleaning course
+- **Tools**: Jupyter Notebook, Kaggle, Hugging Face, Matplotlib, NumPy, Pandas
 
 ---
 
