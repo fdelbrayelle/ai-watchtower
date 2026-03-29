@@ -322,7 +322,6 @@ Between level 2 and level 3, something fundamental shifts: **the developer stops
 - [Causal AI: From What to Why](https://elaiapartners.substack.com/p/from-what-to-why-the-rise-of-causal) — The rise of causal AI
 - [Aden HQ](https://adenhq.com/) — AI-powered development platform
 - [Cosine](https://cosine.sh/) — AI code companion
-- [Entire](https://entire.io/) — AI development platform
 - [Air.dev](https://air.dev/) — AI agent builder
 - [GitHub Agentic Workflows](https://github.com/features) — GitHub's built-in agentic capabilities
 - [Autopsy of the Great Reckoning](https://www.linkedin.com/pulse/autopsie-du-great-reckoning-et-les-5-le%C3%A7ons-qui-lia-aur%C3%A9lien-allienne-tpkue/) — 5 lessons from AI adoption
@@ -633,6 +632,8 @@ Specs, prompts, and docs are the new source code — prompt-driven, spec-driven,
 You can't debug what you can't see — instrument what agents produce.
 
 - [AI Agent Observability](https://wandb.ai/site/articles/ai-agent-observability/) — Weights & Biases guide to agent observability
+- [Langfuse](https://langfuse.com/) — Open-source LLM engineering platform for tracing, prompt management, and evaluation. Instruments your LLM calls with traces, spans, and scores so you can debug failures, measure quality, and track costs across every model call in production — the standard observability stack for teams building on LLMs.
+- [Entire](https://entire.io/) — Git-native AI session recorder: operates via **Git hooks** (`post-commit`) to automatically capture the full context of every agent run (transcript, prompts, tool calls, token usage, file edits) as checkpoints stored on a dedicated `entire/checkpoints/v1` branch. Project config lives in a `.entire/` hidden folder at the repo root (`settings.json` is version-controlled and shared with the team; `settings.local.json` is gitignored for local overrides). Each Git commit gets an `Entire-Checkpoint` trailer linking back to the session that produced it, and an `Entire-Attribution` trailer showing the agent-vs-human line split — including **token usage metrics** (input, output, cache reads/writes, API call counts) so teams can track AI cost per commit. This turns the AI "black box" into an auditable record: you can run `entire explain` on any commit to replay *why* code was written, not just *what* changed. ⚠️ **Treat prompts as code** — since all your prompts are stored and can be pushed to the remote alongside the checkpoints branch, never paste secrets, credentials, or sensitive data into the agent conversation. Local-first (data stays in your repo), open-source under MIT.
 
 ---
 
