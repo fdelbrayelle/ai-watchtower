@@ -312,7 +312,6 @@ Between level 2 and level 3, something fundamental shifts: **the developer stops
 - [Agor](https://agor.live/) — Multi-agent collaboration platform (by the creator of Airflow)
 - [Goose](https://github.com/block/goose) — Block's open-source AI developer agent
 - [Dexter](https://github.com/virattt/dexter) — Finance-focused AI agent
-- [Kestra Engineering AI Hub](https://github.com/kestra-io/engineering-ai-hub) — AI-powered engineering workflows
 - [Zvec](https://github.com/alibaba/zvec) — Vector database by Alibaba
 - [Kilo AI](https://kilo.ai/) — AI agent platform
 - [OpenClaw](https://openclaw.ai/) — Open-source AI agent framework
