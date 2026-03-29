@@ -1,0 +1,15 @@
+- In "Adoption is still niche" mix this: 
+84% of humanity has never used AI
+This chart (include it the repo and put a link on "this chart") in shows 8.1 billion people as dots. Each dot represents 3.2 million humans. The grey fills almost the entire frame. This is February 2026 data
+If you've ever used ChatGPT, even once, you're among the 16% who've tried AI at all
+If you pay $20/month for it, you're in the top 0.3%
+If you use AI for coding, you're in the top 0.04%
+
+The chart: https://media.licdn.com/dms/image/v2/D4D22AQG7UWH64Ziw4g/feedshare-shrink_2048_1536/B4DZzyjZvSIYAg-/0/1773595892985?e=1776297600&v=beta&REDACTED 
+
+- Add "use english prompt" in Inference Economy and explain why (training bias on english data, more tokens in languages like french, hindi, etc)
+- Put some space in the "Entire" (Black box) bulletpoint to make it clearer
+
+---
+
+continue
