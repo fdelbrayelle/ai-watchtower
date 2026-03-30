@@ -614,6 +614,7 @@ Specs, prompts, and docs are the new source code — prompt-driven, spec-driven,
 - **Model choice:** In Claude Code, using Sonnet instead of Opus can save a lot of tokens when the task does not need the stronger model. Use `/model opusplan` to automatically use Opus 4.6 only during plan mode and fall back to Sonnet 4.6 for execution ([docs](https://code.claude.com/docs/model-config)).
 - **Surface separation:** Avoid mixing the same work between Claude in the browser and Claude Code, since usage is shared and context has to be rebuilt.
 - **Worktree overhead:** Worktrees can also increase token consumption because each parallel branch/session may maintain separate context.
+- **`/clear` vs `/compact`:** Use `/clear` to wipe the entire conversation history and start fresh — best when you're switching tasks entirely or the current context is irrelevant noise. Use `/compact` to summarize and compress the conversation into a shorter form while preserving key context — best mid-task when history is growing long but you still need continuity.
 
 ### Multi-LLM Access & Routing
 
