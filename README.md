@@ -725,3 +725,4 @@ AI-generated code is only as secure as the reviewer.
 
 - [Cybersecurity Roadmap](https://roadmap.sh/cyber-security) — Roadmap for cybersecurity
 - [OWASP Top 10](https://owasp.org/www-project-top-ten/) — The 10 most critical web application security risks
+- [OWASP LLM Top 10](https://genai.owasp.org/llm-top-10/) — The 10 most critical security risks for LLM applications
