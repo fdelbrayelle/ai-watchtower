@@ -424,6 +424,7 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 - [Superpowers](https://github.com/obra/superpowers) — Agentic skills framework & software development methodology
 - [Hookify](https://github.com/anthropics/claude-code/tree/main/plugins/hookify) — Official plugin to manage Claude Code hooks visually
 - [Claude Mem](https://github.com/thedotmack/claude-mem) — Memory management plugin for Claude Code
+- [Oh My Claude Code](https://github.com/yeachan-heo/oh-my-claudecode) — Plugin to orchestrate Claude Code 📌 Unread
 
 ### Code Assistants & AI Editors
 
