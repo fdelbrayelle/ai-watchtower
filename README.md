@@ -387,6 +387,7 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 - [Claude Code Guide](https://cc.bruniaux.com/guide/) — Comprehensive guide 📌 Unread
 - [Claude Code Diagrams](https://cc.bruniaux.com/diagrams/) — Visual architecture diagrams 📌 Unread
 - [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) — Curated resources for Claude Code
+- [Claw Code](https://github.com/instructkr/claw-code) — Leaked Claude Code source code 📌 Unread
 
 #### Tools
 
