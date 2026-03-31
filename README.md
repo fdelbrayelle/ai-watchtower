@@ -472,6 +472,7 @@ Why it matters for engineers: JEPA signals a potential paradigm shift beyond aut
 
 - [A Path Towards Autonomous Machine Intelligence](https://openreview.net/pdf?id=BZ5a1r-kVsf) — Yann LeCun's JEPA position paper
 - 🎥 [Yann LeCun: JEPA Explained (DEVOXX)](https://www.youtube.com/watch?v=MiqLoAZFRSE) — Talk on world models and the limits of LLMs
+- [LeWorldModel](https://le-wm.github.io/) — Abstract: stable end-to-end JEPA from pixels; ~15M params, runs on a single GPU, ~48x faster planning than foundation-model approaches
 
 #### Energy-Based Models
 
