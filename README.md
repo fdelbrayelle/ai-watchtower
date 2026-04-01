@@ -600,6 +600,7 @@ Specs, prompts, and docs are the new source code — prompt-driven, spec-driven,
 - **Use English prompts** — LLMs are predominantly trained on English data, so English prompts yield better instruction-following and reasoning. Non-English languages also tokenize less efficiently (e.g. French, Hindi, Arabic often use 1.5–3× more tokens for the same meaning), directly inflating cost and latency
 - **CLI is cheaper than MCP** — CLI tool calls have less token overhead than MCP protocol exchanges; prefer CLI/skills when possible for lower inference cost
 - **Good RAG beats large context stuffing** — A well-tuned RAG pipeline retrieving only what's needed can outperform naively filling a 1M-token context window, both in cost and in result quality (less noise, more relevant context)
+- **Stateful agents beat stateless ones for long tasks** — Stateless LLM calls re-send the full context every turn; stateful agents (e.g. with KV cache, persistent memory, or session continuity) pay that cost once and reuse it, yielding lower token spend and latency at scale
 
 ### Token Optimization
 
