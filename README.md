@@ -323,6 +323,8 @@ Between level 2 and level 3, something fundamental shifts: **the developer stops
 - [Cosine](https://cosine.sh/) — AI code companion
 - [Air.dev](https://air.dev/) — AI agent builder
 - [GitHub Agentic Workflows](https://github.com/features) — GitHub's built-in agentic capabilities
+- [Paperclip](https://github.com/paperclipai/paperclip) — Orchestrate multiple Claude Code sessions/agents in parallel 📌 Unread
+
 ### Protocols
 
 - [A2A: A New Era of Agent Interoperability](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) — Google's Agent-to-Agent protocol
