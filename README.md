@@ -616,10 +616,13 @@ Specs, prompts, and docs are the new source code — prompt-driven, spec-driven,
 - **Startup overhead:** Each `claude` invocation consumes tokens just to initialize/load context. You can verify this with `/context`.
 - **Repo switching cost:** Working across many repositories increases token usage due to repeated context loading and memory/context switching.
 - **Reasoning level:** Avoid unnecessarily high thinking/reasoning levels when a simpler mode is enough.
-- **Model choice:** In Claude Code, using Sonnet instead of Opus can save a lot of tokens when the task does not need the stronger model. Use `/model opusplan` to automatically use Opus 4.6 only during plan mode and fall back to Sonnet 4.6 for execution ([docs](https://code.claude.com/docs/model-config)).
+- **Model choice + `/plan`:** In Claude Code, using Sonnet instead of Opus can save a lot of tokens when the task does not need the stronger model. Use `/model opusplan` to automatically use Opus 4.6 only during plan mode and fall back to Sonnet 4.6 for execution ([docs](https://code.claude.com/docs/model-config)). Always use `/plan` for large tasks (e.g. implementing a feature) where some research is needed — it focuses the session before burning execution tokens.
 - **Surface separation:** Avoid mixing the same work between Claude in the browser and Claude Code, since usage is shared and context has to be rebuilt.
 - **Worktree overhead:** Worktrees can also increase token consumption because each parallel branch/session may maintain separate context.
-- **`/clear` vs `/compact`:** Use `/clear` to wipe the entire conversation history and start fresh — best when you're switching tasks entirely or the current context is irrelevant noise. Use `/compact` to summarize and compress the conversation into a shorter form while preserving key context — best mid-task when history is growing long but you still need continuity.
+- **1 subject = 1 session — `/clear` vs `/compact`:** Switch topic → `/clear` (wipes history entirely, best when context is irrelevant noise). Use `/compact` to summarize and compress mid-task when history is growing but you need continuity.
+- **Pin files with `@./`:** When you know which files Claude must touch, reference them directly (e.g. `@./src/foo.ts`) — avoids costly file-search tool calls.
+- **No Shakespearean prompts:** Speak to LLMs directly. Bad: "Can you please analyse why this junit test XxxTest failed, then try to fix it" → Good: "scope: unit test, goal: must succeed, file: `@./src/test/XxxTest.java`"
+
 
 ### Multi-LLM Access & Routing
 
