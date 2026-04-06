@@ -67,10 +67,11 @@ With 80%+ of code now AI-generated, the engineer's value shifts from writing cod
 - [GEO / LLMO](#geo--llmo) — Marketing outcomes where AI models can find them
 - [Technical Writing](#technical-writing) — Specs, prompts, and docs are the new source code
 - [Agentic Orchestration](#agentic-orchestration) — Designing, chaining, and supervising AI agents (see below 👇)
-- [Inference Economy](#inference-economy) — Save tokens, use simple scripts or local SLMs when a frontier model isn't needed
+- [Inference Economy](#inference-economy) — Save tokens, script repetitive tasks, run local models for privacy and offline work
 - [Black Box Debug & Observability](#black-box-debug--observability) — You can't debug what you can't see; instrument what agents produce
 - [Legal, Compliance & Governance](#legal-compliance--governance) — GDPR, AI Act, licensing — the rules AI can't learn on its own
 - [Cybersecurity](#cybersecurity) — AI-generated code is only as secure as the reviewer
+- [Finance & AI Bubble](#finance--ai-bubble) — High valuations, massive capex, and the gap with actual revenues
 
 **⚠️ Bottlenecks — Where the pipeline stalls:**
 
@@ -508,6 +509,7 @@ Docker, terminals, browser automation, and other tools for AI-augmented workflow
 - [Trigger.dev](https://trigger.dev/) — Background jobs and workflow automation
 - [Computer Use (Anthropic)](https://docs.anthropic.com/en/docs/agents-and-tools/computer-use) — Let Claude control a computer — click, type, navigate, and take screenshots 📌 Unread
 - [Perplexity Computer](https://www.perplexity.ai/hub/blog/introducing-computer-use) — Perplexity's computer-using agent for browser tasks 📌 Unread
+- [Operator (OpenAI)](https://openai.com/index/introducing-operator/) — OpenAI's web-browsing agent that autonomously completes multi-step tasks (shopping, form filling, booking) inside a browser 📌 Unread
 - [Agent Browser](https://agent-browser.dev/skills) — Browser automation CLI for AI agents
 
 ### AI Native Landscape
@@ -603,6 +605,7 @@ Specs, prompts, and docs are the new source code — prompt-driven, spec-driven,
 - **CLI is cheaper than MCP** — CLI tool calls have less token overhead than MCP protocol exchanges; prefer CLI/skills when possible for lower inference cost
 - **Good RAG beats large context stuffing** — A well-tuned RAG pipeline retrieving only what's needed can outperform naively filling a 1M-token context window, both in cost and in result quality (less noise, more relevant context)
 - **Stateful agents beat stateless ones for long tasks** — Stateless LLM calls re-send the full context every turn; stateful agents (e.g. with KV cache, persistent memory, or session continuity) pay that cost once and reuse it, yielding lower token spend and latency at scale
+- **Script or batch over per-prompt repetition** — If you find yourself asking the same thing repeatedly, or need many similar outputs (e.g. translating a list, generating N variants, processing a dataset), write a script or generate outside Claude Code entirely. Interactive prompting has per-message startup cost, no parallelism, and burns session tokens. A script runs once, is reproducible, and scales.
 
 ### Token Optimization
 
@@ -625,6 +628,23 @@ Specs, prompts, and docs are the new source code — prompt-driven, spec-driven,
 - **Pin files with `@./`:** When you know which files Claude must touch, reference them directly (e.g. `@./src/foo.ts`) — avoids costly file-search tool calls.
 - **No Shakespearean prompts:** Speak to LLMs directly. Bad: "Can you please analyse why this junit test XxxTest failed, then try to fix it" → Good: "scope: unit test, goal: must succeed, file: `@./src/test/XxxTest.java`"
 
+
+### Local & Offline Models
+
+Run open-weight models on your own hardware for data privacy, lower latency, and offline work. No data leaves your machine.
+
+**Hardware requirements** — the bottleneck is always memory (RAM or VRAM), not CPU/GPU speed. A rough rule: a quantized (Q4) model needs ~0.6 GB per billion parameters. A dedicated GPU is ideal but not required — modern Macs with unified memory (M-series) are excellent for this.
+
+| Model size | Minimum RAM/VRAM | Runs on |
+|------------|-----------------|---------|
+| 1–3B | 4 GB | Any laptop |
+| 7–8B | 8 GB | Most laptops (M1/M2 Mac, mid-range GPU) |
+| 14–27B | 16–24 GB | High-end laptop or desktop GPU (RTX 3090/4090, M3 Max) |
+| 70B+ | 48+ GB | Multi-GPU workstation or Mac Studio/Pro |
+
+- **[Gemma 4](https://deepmind.google/models/gemma/gemma-4)** (Google DeepMind, open weights) — Multimodal model family, 1B to 27B. Gemma 4 27B needs ~16 GB RAM (Q4). Setup: `ollama pull gemma4` then `ollama run gemma4`
+- **[Qwen](https://ollama.com/library/qwen)** (Alibaba, Apache 2.0 open source) — Strong multilingual model family, 0.5B to 235B. Qwen3 8B needs ~6 GB RAM (Q4). Setup: `ollama pull qwen3` then `ollama run qwen3`
+- [Ollama](https://ollama.com/) — The standard runtime for running local models; one command to pull and serve any supported model (`ollama serve` starts a local OpenAI-compatible API on `localhost:11434`)
 
 ### Multi-LLM Access & Routing
 
@@ -725,6 +745,20 @@ GDPR, AI Act, licensing — the rules AI can't learn on its own.
 - [GDPR Article 22 — Automated Decision-Making](https://gdpr-info.eu/art-22-gdpr/) — Right not to be subject to automated individual decision-making, including profiling
 - [EU AI Act](https://artificialintelligenceact.eu/) — Full text of the EU AI Act
 - [AI Act Explainer](https://linuxfoundation.eu/newsroom/ai-act-explainer) — Linux Foundation's EU AI Act explainer
+
+---
+
+<a id="finance--ai-bubble"></a>
+
+## 💸 Finance & AI Bubble
+
+AI companies are raising and spending at unprecedented scale — but revenues lag far behind.
+
+- [Accelerating the Next Phase of AI (OpenAI)](https://openai.com/index/accelerating-the-next-phase-ai/) — OpenAI's case for massive continued investment in compute and infrastructure
+- **Valuation vs. revenue gap** — As of 2025–2026, leading AI labs carry valuations in the hundreds of billions (OpenAI ~$300B, Anthropic ~$60B) while generating a fraction of that in annual revenue. The implicit bet is that AGI-level capabilities will eventually justify the multiples — but the timeline is uncertain and the burn rate is not.
+- **Capex spiral** — Hyperscalers (Microsoft, Google, Amazon, Meta) are each committing $50–100B+/year in AI infrastructure. This creates a self-reinforcing cycle: more compute → better models → more adoption → more compute demand. If adoption plateaus before revenues scale, writedowns follow.
+- **Bubble dynamics** — The pattern resembles past speculative cycles (dot-com, crypto): real underlying technology, genuine long-term potential, but near-term valuations disconnected from near-term fundamentals. The question is not whether AI is transformative — it is — but whether current prices already assume the full transformation happened.
+- **What to watch:** enterprise AI contract renewal rates, GPU utilization at hyperscalers, OpenAI and Anthropic revenue growth vs. compute costs, and whether foundation model pricing keeps falling faster than demand grows.
 
 ---
 
