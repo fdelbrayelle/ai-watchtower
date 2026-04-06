@@ -104,7 +104,7 @@ The PM is the bridge between **Business** (company objectives), **UX/Design** (u
 
 *Strategy & Vision*
 
-<table width="100%"><thead><tr><th width="50%">Deliverable</th><th width="50%">Purpose</th></tr></thead><tbody>
+<table style="width:100%"><thead><tr><th width="50%">Deliverable</th><th width="50%">Purpose</th></tr></thead><tbody>
 <tr><td>Product Vision Board</td><td>Product intent, target audience, and value proposition</td></tr>
 <tr><td>Product Roadmap</td><td>Macro view (often quarterly) of upcoming features and themes</td></tr>
 <tr><td>KPI Dashboard</td><td>Track performance (retention, conversion, etc.)</td></tr>
@@ -112,7 +112,7 @@ The PM is the bridge between **Business** (company objectives), **UX/Design** (u
 
 *Discovery & Design*
 
-<table width="100%"><thead><tr><th width="50%">Deliverable</th><th width="50%">Purpose</th></tr></thead><tbody>
+<table style="width:100%"><thead><tr><th width="50%">Deliverable</th><th width="50%">Purpose</th></tr></thead><tbody>
 <tr><td>Personas</td><td>Profiles of target users and their pain points</td></tr>
 <tr><td>PRD (Product Requirements Document)</td><td>The "Why" and "What" of a feature before development starts</td></tr>
 <tr><td>User Journey / Story Map</td><td>Map of the user's path through the product</td></tr>
@@ -120,7 +120,7 @@ The PM is the bridge between **Business** (company objectives), **UX/Design** (u
 
 *Delivery*
 
-<table width="100%"><thead><tr><th width="50%">Deliverable</th><th width="50%">Purpose</th></tr></thead><tbody>
+<table style="width:100%"><thead><tr><th width="50%">Deliverable</th><th width="50%">Purpose</th></tr></thead><tbody>
 <tr><td>Backlog</td><td>Ordered list of all remaining tasks and features</td></tr>
 <tr><td>User Stories</td><td>"As a [user], I want [action] so that [benefit]"</td></tr>
 <tr><td>Release Notes</td><td>Internal/external communication on what shipped</td></tr>
@@ -639,7 +639,7 @@ Run open-weight models on your own hardware for data privacy, lower latency, and
 
 **Hardware requirements** — the bottleneck is always memory (RAM or VRAM), not CPU/GPU speed. A rough rule: a quantized (Q4) model needs ~0.6 GB per billion parameters. A dedicated GPU is ideal but not required — modern Macs with unified memory (M-series) are excellent for this.
 
-<table width="100%"><thead><tr><th width="33%">Model size</th><th width="33%">Minimum RAM/VRAM</th><th width="34%">Runs on</th></tr></thead><tbody>
+<table style="width:100%"><thead><tr><th width="33%">Model size</th><th width="33%">Minimum RAM/VRAM</th><th width="34%">Runs on</th></tr></thead><tbody>
 <tr><td>1–3B</td><td>4 GB</td><td>Any laptop</td></tr>
 <tr><td>7–8B</td><td>8 GB</td><td>Most laptops (M1/M2 Mac, mid-range GPU)</td></tr>
 <tr><td>14–27B</td><td>16–24 GB</td><td>High-end laptop or desktop GPU (RTX 3090/4090, M3 Max)</td></tr>
