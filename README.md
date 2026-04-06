@@ -431,6 +431,7 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 - [Claude Mem](https://github.com/thedotmack/claude-mem) — Memory management plugin for Claude Code
 - [Oh My Claude Code](https://github.com/yeachan-heo/oh-my-claudecode) — Plugin to orchestrate Claude Code
 - [Codex](https://github.com/openai/codex-plugin-cc) — OpenAI Codex CLI plugin for Claude Code 📌 Unread
+- [UI/UX Pro Max Skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) — UI/UX design skill for Claude Code 📌 Unread
 
 ### Code Assistants & AI Editors
 
