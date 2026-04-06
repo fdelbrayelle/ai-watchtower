@@ -391,6 +391,7 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 - [Claude Code Diagrams](https://cc.bruniaux.com/diagrams/) — Visual architecture diagrams 📌 Unread
 - [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) — Curated resources for Claude Code
 - [Claw Code](https://github.com/instructkr/claw-code) — Leaked Claude Code source code 📌 Unread
+- [12 Agentic Harness Patterns from Claude Code](https://generativeprogrammer.com/p/12-agentic-harness-patterns-from) — Patterns extracted from the leaked source 📌 Unread
 
 #### Tools
 
@@ -581,6 +582,7 @@ Specs, prompts, and docs are the new source code — prompt-driven, spec-driven,
 
 - [Effective Context Engineering for AI Agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) — Anthropic on designing the information environment agents operate in 📌 Unread
 - 🎬 [Prompt Engineering is Dead](https://www.youtube.com/watch?v=Cs7QiSi8KLY&list=PLopYFrR81G9Eb0xO3tbOzOf9ZOTEFKohy&index=4) — Context Engineering is the new prompt engineering
+- [Prompt Patterns](https://www.promptpatterns.dev/) — Catalog of reusable prompt patterns 📌 Unread
 - [Prompting Guide](https://www.promptingguide.ai/fr) — Comprehensive prompt engineering guide
 - [Prompting Guide: Basics](https://www.promptingguide.ai/fr/introduction/basics) — Introduction to prompt fundamentals
 - [Prompt Driven Development](https://promptdriven.ai/) — PDD methodology 📌 Unread
