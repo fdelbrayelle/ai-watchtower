@@ -71,7 +71,6 @@ With 80%+ of code now AI-generated, the engineer's value shifts from writing cod
 - [Black Box Debug & Observability](#black-box-debug--observability) — You can't debug what you can't see; instrument what agents produce
 - [Legal, Compliance & Governance](#legal-compliance--governance) — GDPR, AI Act, licensing — the rules AI can't learn on its own
 - [Cybersecurity](#cybersecurity) — AI-generated code is only as secure as the reviewer
-- [Finance & AI Bubble](#finance--ai-bubble) — High valuations, massive capex, and the gap with actual revenues
 
 **⚠️ Bottlenecks — Where the pipeline stalls:**
 
@@ -105,27 +104,27 @@ The PM is the bridge between **Business** (company objectives), **UX/Design** (u
 
 *Strategy & Vision*
 
-| Deliverable | Purpose |
-|---|---|
-| Product Vision Board | Product intent, target audience, and value proposition |
-| Product Roadmap | Macro view (often quarterly) of upcoming features and themes |
-| KPI Dashboard | Track performance (retention, conversion, etc.) |
+<table width="100%"><thead><tr><th width="50%">Deliverable</th><th width="50%">Purpose</th></tr></thead><tbody>
+<tr><td>Product Vision Board</td><td>Product intent, target audience, and value proposition</td></tr>
+<tr><td>Product Roadmap</td><td>Macro view (often quarterly) of upcoming features and themes</td></tr>
+<tr><td>KPI Dashboard</td><td>Track performance (retention, conversion, etc.)</td></tr>
+</tbody></table>
 
 *Discovery & Design*
 
-| Deliverable | Purpose |
-|---|---|
-| Personas | Profiles of target users and their pain points |
-| PRD (Product Requirements Document) | The "Why" and "What" of a feature before development starts |
-| User Journey / Story Map | Map of the user's path through the product |
+<table width="100%"><thead><tr><th width="50%">Deliverable</th><th width="50%">Purpose</th></tr></thead><tbody>
+<tr><td>Personas</td><td>Profiles of target users and their pain points</td></tr>
+<tr><td>PRD (Product Requirements Document)</td><td>The "Why" and "What" of a feature before development starts</td></tr>
+<tr><td>User Journey / Story Map</td><td>Map of the user's path through the product</td></tr>
+</tbody></table>
 
 *Delivery*
 
-| Deliverable | Purpose |
-|---|---|
-| Backlog | Ordered list of all remaining tasks and features |
-| User Stories | "As a [user], I want [action] so that [benefit]" |
-| Release Notes | Internal/external communication on what shipped |
+<table width="100%"><thead><tr><th width="50%">Deliverable</th><th width="50%">Purpose</th></tr></thead><tbody>
+<tr><td>Backlog</td><td>Ordered list of all remaining tasks and features</td></tr>
+<tr><td>User Stories</td><td>"As a [user], I want [action] so that [benefit]"</td></tr>
+<tr><td>Release Notes</td><td>Internal/external communication on what shipped</td></tr>
+</tbody></table>
 
 > The PM never works alone — wireframes involve the Product Designer, feasibility involves the Lead Tech. The PM's job is to keep the whole coherent.
 
@@ -640,12 +639,12 @@ Run open-weight models on your own hardware for data privacy, lower latency, and
 
 **Hardware requirements** — the bottleneck is always memory (RAM or VRAM), not CPU/GPU speed. A rough rule: a quantized (Q4) model needs ~0.6 GB per billion parameters. A dedicated GPU is ideal but not required — modern Macs with unified memory (M-series) are excellent for this.
 
-| Model size | Minimum RAM/VRAM | Runs on |
-|------------|-----------------|---------|
-| 1–3B | 4 GB | Any laptop |
-| 7–8B | 8 GB | Most laptops (M1/M2 Mac, mid-range GPU) |
-| 14–27B | 16–24 GB | High-end laptop or desktop GPU (RTX 3090/4090, M3 Max) |
-| 70B+ | 48+ GB | Multi-GPU workstation or Mac Studio/Pro |
+<table width="100%"><thead><tr><th width="33%">Model size</th><th width="33%">Minimum RAM/VRAM</th><th width="34%">Runs on</th></tr></thead><tbody>
+<tr><td>1–3B</td><td>4 GB</td><td>Any laptop</td></tr>
+<tr><td>7–8B</td><td>8 GB</td><td>Most laptops (M1/M2 Mac, mid-range GPU)</td></tr>
+<tr><td>14–27B</td><td>16–24 GB</td><td>High-end laptop or desktop GPU (RTX 3090/4090, M3 Max)</td></tr>
+<tr><td>70B+</td><td>48+ GB</td><td>Multi-GPU workstation or Mac Studio/Pro</td></tr>
+</tbody></table>
 
 - **[Gemma 4](https://deepmind.google/models/gemma/gemma-4)** (Google DeepMind, open weights) — Multimodal model family, 1B to 27B. Gemma 4 27B needs ~16 GB RAM (Q4). Setup: `ollama pull gemma4` then `ollama run gemma4`
 - **[Qwen](https://ollama.com/library/qwen)** (Alibaba, Apache 2.0 open source) — Strong multilingual model family, 0.5B to 235B. Qwen3 8B needs ~6 GB RAM (Q4). Setup: `ollama pull qwen3` then `ollama run qwen3`
@@ -750,20 +749,6 @@ GDPR, AI Act, licensing — the rules AI can't learn on its own.
 - [GDPR Article 22 — Automated Decision-Making](https://gdpr-info.eu/art-22-gdpr/) — Right not to be subject to automated individual decision-making, including profiling
 - [EU AI Act](https://artificialintelligenceact.eu/) — Full text of the EU AI Act
 - [AI Act Explainer](https://linuxfoundation.eu/newsroom/ai-act-explainer) — Linux Foundation's EU AI Act explainer
-
----
-
-<a id="finance--ai-bubble"></a>
-
-## 💸 Finance & AI Bubble
-
-AI companies are raising and spending at unprecedented scale — but revenues lag far behind.
-
-- [Accelerating the Next Phase of AI (OpenAI)](https://openai.com/index/accelerating-the-next-phase-ai/) — OpenAI's case for massive continued investment in compute and infrastructure
-- **Valuation vs. revenue gap** — As of 2025–2026, leading AI labs carry valuations in the hundreds of billions (OpenAI ~$300B, Anthropic ~$60B) while generating a fraction of that in annual revenue. The implicit bet is that AGI-level capabilities will eventually justify the multiples — but the timeline is uncertain and the burn rate is not.
-- **Capex spiral** — Hyperscalers (Microsoft, Google, Amazon, Meta) are each committing $50–100B+/year in AI infrastructure. This creates a self-reinforcing cycle: more compute → better models → more adoption → more compute demand. If adoption plateaus before revenues scale, writedowns follow.
-- **Bubble dynamics** — The pattern resembles past speculative cycles (dot-com, crypto): real underlying technology, genuine long-term potential, but near-term valuations disconnected from near-term fundamentals. The question is not whether AI is transformative — it is — but whether current prices already assume the full transformation happened.
-- **What to watch:** enterprise AI contract renewal rates, GPU utilization at hyperscalers, OpenAI and Anthropic revenue growth vs. compute costs, and whether foundation model pricing keeps falling faster than demand grows.
 
 ---
 
