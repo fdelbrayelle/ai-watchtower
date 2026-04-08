@@ -305,14 +305,13 @@ Between level 2 and level 3, something fundamental shifts: **the developer stops
 - [HuggingFace Agents Course](https://huggingface.co/learn/agents-course/unit0/introduction) — Free course on building AI agents
 - [Automate 90% of Your Work with AI Agents](https://dev.to/copilotkit/automate-90-of-your-work-with-ai-agents-real-examples-code-inside-46ke?ref=dailydev) — Practical examples with code
 - [Malt: From AI Assistant to AI Agents](https://blog.malt.engineering/from-ai-assistant-to-ai-agents-malts-journey-in-building-ai-tools-for-internal-efficiency-9198b41fd7d1?gi=5e83657d5955) — Malt's journey building internal AI tools
-- [Malt: Vector Database for Freelancer Recommendations](https://blog.malt.engineering/super-powering-our-freelancer-recommendation-system-using-a-vector-database-add643fcfd23)
 - [MongoDB: AI Agents](https://www.mongodb.com/resources/basics/artificial-intelligence/ai-agents) — Fundamentals of AI agents
 - [Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools) — Curated list of AI tools
 - [Dispatch](https://www.anthropic.com/products/dispatch) — Anthropic's multi-agent orchestration platform 📌 Unread
+- [Agno](https://www.agno.com/) — Open-source Python framework for building, deploying, and managing secure multi-agent AI systems 📌 Unread
 - [Agor](https://agor.live/) — Multi-agent collaboration platform (by the creator of Airflow)
 - [Goose](https://github.com/block/goose) — Block's open-source AI developer agent
 - [Dexter](https://github.com/virattt/dexter) — Finance-focused AI agent
-- [Zvec](https://github.com/alibaba/zvec) — Vector database by Alibaba
 - [Kilo AI](https://kilo.ai/) — AI agent platform
 - [OpenClaw](https://openclaw.ai/) — Open-source AI agent framework
 - [NanoClaw](https://nanoclaw.net/) — Lightweight agent runtime
@@ -348,6 +347,11 @@ The open standard for connecting AI models to external tools and data sources.
 
 - [RAG is Dead, Long Live RAG](https://lighton.ai/lighton-blogs/rag-is-dead-long-live-rag-retrieval-in-the-age-of-agents) — Rather than being killed by larger context windows, RAG has evolved into a sophisticated system that makes intelligent, conditional decisions about whether and how to retrieve information
 - 🎬 [Is RAG Still Needed?](https://www.youtube.com/watch?v=UabBYexBD4k&list=PLopYFrR81G9Eb0xO3tbOzOf9ZOTEFKohy&index=3)
+
+### Vector Databases
+
+- [Malt: Vector Database for Freelancer Recommendations](https://blog.malt.engineering/super-powering-our-freelancer-recommendation-system-using-a-vector-database-add643fcfd23) — How Malt built freelancer recommendations on top of vector search
+- [Zvec](https://github.com/alibaba/zvec) — Vector database by Alibaba
 
 ### Methodologies
 
@@ -503,6 +507,7 @@ Docker, terminals, browser automation, and other tools for AI-augmented workflow
 #### Terminal Tools
 
 - [Warp](https://www.warp.dev/) — AI-powered terminal
+- [Ghostty](https://ghostty.org/) — Fast, feature-rich, GPU-accelerated terminal emulator with platform-native UI 📌 Unread
 - [Zellij](https://github.com/zellij-org/zellij) — Modern terminal workspace (Rust)
 - [tmux](https://github.com/tmux/tmux) — Classic terminal multiplexer
 
@@ -559,6 +564,7 @@ Thought pieces on how AI is reshaping developer culture and the software industr
 
 #### Theory
 
+- [AI and the Paperclip Problem](https://cepr.org/voxeu/columns/ai-and-paperclip-problem) — VoxEU/CEPR economics perspective on the classic alignment thought experiment: an AI optimizing a single metric (make paperclips) destroys everything else — a parable for misaligned objectives at scale 📌 Unread
 - [**Cognitive Biases**](https://en.wikipedia.org/wiki/Cognitive_bias) — Humans have them, and so do AI agents — biases in training data, prompt framing, and model architecture create systematic blind spots that mirror (and amplify) human cognitive biases.
 - **The Great Wounds to Human (and Developer) Ego** — Science has systematically dismantled human centralism: Copernicus (we're not the center of the universe), Darwin (we're animals, not divine creations), Freud (we're not masters of our own minds), and now AI (intelligence and creativity can be replicated by machines). The same lesson applies to developers: you are not your code. See [The 10 Commandments of Egoless Programming](https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/).
 - [**Brooks' Law**](https://en.wikipedia.org/wiki/Brooks%27s_law) **in the AI era** — "Adding manpower to a late software project makes it later" (Fred Brooks, 1975). The same applies to AI agents: spinning up more agents on a complex task doesn't linearly speed things up. Each new agent increases coordination overhead, context-sharing costs, and the risk of conflicting changes — just like adding people to a team mid-project.
@@ -649,6 +655,7 @@ Run open-weight models on your own hardware for data privacy, lower latency, and
 - **[Gemma 4](https://deepmind.google/models/gemma/gemma-4)** (Google DeepMind, open weights) — Multimodal model family, 1B to 27B. Gemma 4 27B needs ~16 GB RAM (Q4). Setup: `ollama pull gemma4` then `ollama run gemma4`
 - **[Qwen](https://ollama.com/library/qwen)** (Alibaba, Apache 2.0 open source) — Strong multilingual model family, 0.5B to 235B. Qwen3 8B needs ~6 GB RAM (Q4). Setup: `ollama pull qwen3` then `ollama run qwen3`
 - [Ollama](https://ollama.com/) — The standard runtime for running local models; one command to pull and serve any supported model (`ollama serve` starts a local OpenAI-compatible API on `localhost:11434`)
+- [Ollama + MLX on Apple Silicon](https://ollama.com/blog/mlx) — Ollama powered by MLX on Apple Silicon (preview): significant inference speed gains on macOS M-series hardware 📌 Unread
 
 ### Multi-LLM Access & Routing
 
