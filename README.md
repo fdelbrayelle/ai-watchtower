@@ -436,6 +436,7 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 - [Context7](https://github.com/upstash/context7) — Up-to-date docs and code examples for any library, pulled straight into your prompt
 - [Superpowers](https://github.com/obra/superpowers) — Agentic skills framework & software development methodology
 - [Hookify](https://github.com/anthropics/claude-code/tree/main/plugins/hookify) — Official plugin to manage Claude Code hooks visually
+- [Oh My Hi](https://github.com/netil/oh-my-hi) — Visual dashboard that parses Claude Code harness config and usage data into an interactive HTML analytics interface 📌 Unread
 - [Claude Mem](https://github.com/thedotmack/claude-mem) — Memory management plugin for Claude Code
 - [Oh My Claude Code](https://github.com/yeachan-heo/oh-my-claudecode) — Plugin to orchestrate Claude Code
 - [Codex](https://github.com/openai/codex-plugin-cc) — OpenAI Codex CLI plugin for Claude Code 📌 Unread
