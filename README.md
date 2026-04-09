@@ -306,8 +306,6 @@ Between level 2 and level 3, something fundamental shifts: **the developer stops
 - [Malt: From AI Assistant to AI Agents](https://blog.malt.engineering/from-ai-assistant-to-ai-agents-malts-journey-in-building-ai-tools-for-internal-efficiency-9198b41fd7d1?gi=5e83657d5955) — Malt's journey building internal AI tools
 - [MongoDB: AI Agents](https://www.mongodb.com/resources/basics/artificial-intelligence/ai-agents) — Fundamentals of AI agents
 - [Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools) — Curated list of AI tools
-- [Dispatch](https://www.anthropic.com/products/dispatch) — Anthropic's multi-agent orchestration platform 📌 Unread
-- [Agno](https://www.agno.com/) — Open-source Python framework for building, deploying, and managing secure multi-agent AI systems 📌 Unread
 - [Agor](https://agor.live/) — Multi-agent collaboration platform (by the creator of Airflow)
 - [Goose](https://github.com/block/goose) — Block's open-source AI developer agent
 - [Dexter](https://github.com/virattt/dexter) — Finance-focused AI agent
@@ -318,7 +316,6 @@ Between level 2 and level 3, something fundamental shifts: **the developer stops
 - [Cosine](https://cosine.sh/) — AI code companion
 - [Air.dev](https://air.dev/) — AI agent builder
 - [GitHub Agentic Workflows](https://github.com/features) — GitHub's built-in agentic capabilities
-- [Paperclip](https://github.com/paperclipai/paperclip) — Orchestrate multiple Claude Code sessions/agents in parallel 📌 Unread
 
 ### Protocols
 
@@ -363,6 +360,9 @@ The harness is the scaffolding that wraps a model and turns it into an agent: it
 - [Everything I Learned About Harness Engineering and AI Factories in San Francisco (April 2026)](https://escape.tech/blog/everything-i-learned-about-harness-engineering-and-ai-factories-in-san-francisco-april-2026/) — Field report from the SF AI scene: harness patterns, AI factory thinking, and lessons from teams running agents at scale 📌 Unread
 - [12 Agentic Harness Patterns from Claude Code](https://generativeprogrammer.com/p/12-agentic-harness-patterns-from) — Patterns extracted from the leaked source 📌 Unread
 - [Managed Agents](https://www.anthropic.com/engineering/managed-agents) — Anthropic's approach to building and operating agents at scale 📌 Unread
+- [Dispatch](https://www.anthropic.com/products/dispatch) — Anthropic's multi-agent orchestration platform 📌 Unread
+- [Agno](https://www.agno.com/) — Open-source Python framework for building, deploying, and managing secure multi-agent AI systems 📌 Unread
+- [Paperclip](https://github.com/paperclipai/paperclip) — Orchestrate multiple Claude Code sessions/agents in parallel 📌 Unread
 - [OpenClaw](https://openclaw.ai/) — Open-source AI agent framework
 - [NanoClaw](https://nanoclaw.net/) — Lightweight agent runtime
 - [NemoClaw](https://github.com/NVIDIA/NemoClaw) — NVIDIA's agent framework
