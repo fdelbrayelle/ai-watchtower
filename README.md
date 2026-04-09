@@ -359,13 +359,28 @@ The harness is the scaffolding that wraps a model and turns it into an agent: it
 
 - [Everything I Learned About Harness Engineering and AI Factories in San Francisco (April 2026)](https://escape.tech/blog/everything-i-learned-about-harness-engineering-and-ai-factories-in-san-francisco-april-2026/) — Field report from the SF AI scene: harness patterns, AI factory thinking, and lessons from teams running agents at scale 📌 Unread
 - [12 Agentic Harness Patterns from Claude Code](https://generativeprogrammer.com/p/12-agentic-harness-patterns-from) — Patterns extracted from the leaked source 📌 Unread
+
+#### Product as a Service
+
+Managed agent offerings where the execution infrastructure, scheduling, and lifecycle management are handled by the vendor.
+
 - [Managed Agents](https://www.anthropic.com/engineering/managed-agents) — Anthropic's approach to building and operating agents at scale 📌 Unread
 - [Dispatch](https://www.anthropic.com/products/dispatch) — Anthropic's multi-agent orchestration platform 📌 Unread
-- [Agno](https://www.agno.com/) — Open-source Python framework for building, deploying, and managing secure multi-agent AI systems 📌 Unread
-- [Paperclip](https://github.com/paperclipai/paperclip) — Orchestrate multiple Claude Code sessions/agents in parallel 📌 Unread
+
+#### Orchestration
+
+Frameworks for composing, routing, and coordinating multiple agents or tool calls.
+
 - [OpenClaw](https://openclaw.ai/) — Open-source AI agent framework
+- [Agno](https://www.agno.com/) — Open-source Python framework for building, deploying, and managing secure multi-agent AI systems 📌 Unread
 - [NanoClaw](https://nanoclaw.net/) — Lightweight agent runtime
 - [NemoClaw](https://github.com/NVIDIA/NemoClaw) — NVIDIA's agent framework
+
+#### Harness Tools
+
+Tools that operate at the harness layer itself: controlling the execution loop, parallelizing sessions, and managing agent lifecycles.
+
+- [Paperclip](https://github.com/paperclipai/paperclip) — Orchestrate multiple Claude Code sessions/agents in parallel 📌 Unread
 
 ### Claude Code
 
