@@ -200,7 +200,6 @@ Spring AI, LangChain4J, and the Java AI ecosystem.
 
 - [Spring AI](https://spring.io/projects/spring-ai) — Official Spring AI project
 - [Spring AI Concepts](https://docs.spring.io/spring-ai/reference/concepts.html) — Core concepts documentation
-- [Spring AI Prompt / Context Engineering Patterns](https://spring.io/blog/2025/04/14/spring-ai-prompt-engineering-patterns) — Prompt patterns for Spring AI
 - [LangChain4J](https://docs.langchain4j.dev/) — Java LLM framework documentation
 - [LangChain4J + Docker Model Runner](https://medium.com/@lize.raes/langchain4j-%EF%B8%8F-docker-model-runner-b5f720a76c85) — Running LangChain4J with Docker
 - [Evolution of the Java Ecosystem for AI](https://inside.java/2025/01/29/evolution-of-java-ecosystem-for-integrating-ai/) — Oracle's perspective on Java + AI
@@ -313,9 +312,6 @@ Between level 2 and level 3, something fundamental shifts: **the developer stops
 - [Goose](https://github.com/block/goose) — Block's open-source AI developer agent
 - [Dexter](https://github.com/virattt/dexter) — Finance-focused AI agent
 - [Kilo AI](https://kilo.ai/) — AI agent platform
-- [OpenClaw](https://openclaw.ai/) — Open-source AI agent framework
-- [NanoClaw](https://nanoclaw.net/) — Lightweight agent runtime
-- [NemoClaw](https://github.com/NVIDIA/NemoClaw) — NVIDIA's agent framework
 - [Sim AI](https://www.sim.ai/) — Create agents, MCP servers, and tools visually
 - [Causal AI: From What to Why](https://elaiapartners.substack.com/p/from-what-to-why-the-rise-of-causal) — The rise of causal AI
 - [Aden HQ](https://adenhq.com/) — AI-powered development platform
@@ -360,6 +356,16 @@ The open standard for connecting AI models to external tools and data sources.
 - [VibeKanban](https://www.vibekanban.com/) — AI-native project management 📌 Unread
 - [Get Shit Done](https://github.com/gsd-build/get-shit-done) — Pragmatic AI development methodology 📌 Unread
 
+### Harness Engineering
+
+The harness is the scaffolding that wraps a model and turns it into an agent: it controls the execution loop, routes tool calls, enforces permissions, manages context windows, and handles retries and escalation. Harness Engineering is the discipline of designing, operating, and optimizing that layer — distinct from prompt engineering (what you say) or model selection (which model you use). As agents grow more autonomous and run at scale, the harness becomes the main lever for reliability, cost control, and safety. The concept of an *AI factory* extends this further: a harness-driven pipeline where agents are orchestrated like industrial processes, with defined inputs, outputs, quality gates, and throughput metrics.
+
+- [Everything I Learned About Harness Engineering and AI Factories in San Francisco (April 2026)](https://escape.tech/blog/everything-i-learned-about-harness-engineering-and-ai-factories-in-san-francisco-april-2026/) — Field report from the SF AI scene: harness patterns, AI factory thinking, and lessons from teams running agents at scale 📌 Unread
+- [12 Agentic Harness Patterns from Claude Code](https://generativeprogrammer.com/p/12-agentic-harness-patterns-from) — Patterns extracted from the leaked source 📌 Unread
+- [OpenClaw](https://openclaw.ai/) — Open-source AI agent framework
+- [NanoClaw](https://nanoclaw.net/) — Lightweight agent runtime
+- [NemoClaw](https://github.com/NVIDIA/NemoClaw) — NVIDIA's agent framework
+
 ### Claude Code
 
 Best practices, monitoring, and plugins for Claude Code.
@@ -394,7 +400,6 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 - [Claude Code Diagrams](https://cc.bruniaux.com/diagrams/) — Visual architecture diagrams 📌 Unread
 - [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) — Curated resources for Claude Code
 - [Claw Code](https://github.com/instructkr/claw-code) — Leaked Claude Code source code 📌 Unread
-- [12 Agentic Harness Patterns from Claude Code](https://generativeprogrammer.com/p/12-agentic-harness-patterns-from) — Patterns extracted from the leaked source 📌 Unread
 
 #### Tools
 
@@ -586,10 +591,23 @@ Specs, prompts, and docs are the new source code — prompt-driven, spec-driven,
 
 - [Technical Writer Roadmap](https://roadmap.sh/technical-writer) — Roadmap for technical writers
 
-### Prompt / Specs / Context Engineering
+### From Prompt Engineering to Context Engineering
+
+**Prompt engineering** — crafting individual instructions to steer a model — was the first lever developers pulled. It still matters, but it is no longer enough. **Context engineering** is the broader discipline: deliberately shaping *everything* the model sees at inference time — the system prompt, retrieved documents, conversation history, tool outputs, memory summaries, and structural formatting. The goal is to give the model exactly the right information, in the right form, at the right moment, so it can reason well without guessing or hallucinating.
+
+Core techniques:
+- **Retrieval-Augmented Generation (RAG)** — pull in relevant documents or facts at query time rather than baking knowledge into the model.
+- **Memory management** — decide what to keep, compress, or forget across turns to stay within context limits without losing continuity.
+- **Structured context injection** — use XML tags, JSON schemas, or delimiters to separate instructions, facts, and examples so the model can parse them reliably.
+- **Few-shot priming** — embed representative examples directly in the context to steer style, format, and reasoning patterns.
+- **Tool-result framing** — shape how tool outputs are presented back to the model to maximize signal and minimize noise.
+- **Context compression** — summarize long histories or large documents before inserting them, cutting token spend while preserving meaning.
+
+**Relation to the Inference Economy**: context engineering is inseparable from cost. Every token in the context window is billed; bloated or poorly structured context inflates cost and degrades quality (more noise, more distraction for the model). Tight, well-engineered context reduces latency, lowers spend, and often improves output — making context engineering one of the highest-ROI optimizations in any production AI system. See the [Inference Economy](#inference-economy) section for complementary techniques.
 
 - [Effective Context Engineering for AI Agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) — Anthropic on designing the information environment agents operate in 📌 Unread
 - 🎬 [Prompt Engineering is Dead](https://www.youtube.com/watch?v=Cs7QiSi8KLY&list=PLopYFrR81G9Eb0xO3tbOzOf9ZOTEFKohy&index=4) — Context Engineering is the new prompt engineering
+- [Spring AI Prompt / Context Engineering Patterns](https://spring.io/blog/2025/04/14/spring-ai-prompt-engineering-patterns) — Prompt and context engineering patterns for Spring AI
 - [Prompt Patterns](https://www.promptpatterns.dev/) — Catalog of reusable prompt patterns 📌 Unread
 - [Prompting Guide](https://www.promptingguide.ai/fr) — Comprehensive prompt engineering guide
 - [Prompting Guide: Basics](https://www.promptingguide.ai/fr/introduction/basics) — Introduction to prompt fundamentals
