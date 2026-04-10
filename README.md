@@ -614,7 +614,7 @@ Specs, prompts, and docs are the new source code — prompt-driven, spec-driven,
 **Prompt engineering** — crafting individual instructions to steer a model — was the first lever developers pulled. It still matters, but it is no longer enough. **Context engineering** is the broader discipline: deliberately shaping *everything* the model sees at inference time — the system prompt, retrieved documents, conversation history, tool outputs, memory summaries, and structural formatting. The goal is to give the model exactly the right information, in the right form, at the right moment, so it can reason well without guessing or hallucinating.
 
 Core techniques:
-- **Retrieval-Augmented Generation (RAG)** — pull in relevant documents or facts at query time rather than baking knowledge into the model.
+- **Retrieval-Augmented Generation (RAG)** — pull in relevant documents or facts at query time rather than baking knowledge into the model. Evolved from one-shot fixed pipelines (RAG, 2020-2023) → agent-decided multi-hop retrieval (Agentic RAG, 2023-2024) → agent-built context from scattered sources across databases, filesystems, and memory (Agentic Search / Context Engineering, 2025+).
 - **Memory management** — decide what to keep, compress, or forget across turns to stay within context limits without losing continuity.
 - **Structured context injection** — use XML tags, JSON schemas, or delimiters to separate instructions, facts, and examples so the model can parse them reliably.
 - **Few-shot priming** — embed representative examples directly in the context to steer style, format, and reasoning patterns.
