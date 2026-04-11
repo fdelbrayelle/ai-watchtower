@@ -334,6 +334,7 @@ The open standard for connecting AI models to external tools and data sources.
 - [MCP is Dead, Long Live the CLI](https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html) — The debate: MCP vs CLI tools (nuance: MCPs cost more tokens for tool calls; skills & CLI can be more efficient, but MCPs still have valid use cases)
 - [MCP vs CLI Guidance](https://cc.bruniaux.com/guide/mcp-vs-cli/#guidance-by-situation) — When to use MCP vs CLI 📌 Unread
 - [Datagouv MCP](https://github.com/datagouv/datagouv-mcp) — French open data MCP server
+- [OpenLegi MCP](https://www.openlegi.fr) — French and European legislation MCP server
 - [Micronaut MCP](https://micronaut-projects.github.io/micronaut-mcp/snapshot/guide/) — MCP support for Micronaut framework
 
 ### RAG
