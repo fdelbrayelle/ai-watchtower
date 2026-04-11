@@ -367,6 +367,7 @@ Managed agent offerings where the execution infrastructure, scheduling, and life
 
 - [Managed Agents](https://www.anthropic.com/engineering/managed-agents) — Anthropic's approach to building and operating agents at scale 📌 Unread
 - [Dispatch](https://www.anthropic.com/products/dispatch) — Anthropic's multi-agent orchestration platform 📌 Unread
+- [Multica](https://multica.ai/) — Managed multi-agent platform for running and orchestrating AI agents at scale 📌 Unread
 
 #### Orchestration
 
