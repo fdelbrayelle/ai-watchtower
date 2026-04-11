@@ -408,6 +408,7 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 
 #### Learn
 
+- [Claude Code Roadmap](https://roadmap.sh/claude-code) — Interactive learning roadmap for Claude Code
 - [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) — Official Anthropic training 📌 Unread
 - [Claude Certified Architect](https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request) — Certification for Claude partners
 - [Claude Certified Architect Study Guide](https://github.com/paullarionov/claude-certified-architect/blob/main/guide_en.MD) — Community study guide 📌 Unread
