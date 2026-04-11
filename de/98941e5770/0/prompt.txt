@@ -1,0 +1,5 @@
+Add https://multica.ai/ as a Claude Code Managed Agents alternative
+
+---
+
+Add https://multica.ai/ as a Claude Code Managed Agents alternative in @README.md
