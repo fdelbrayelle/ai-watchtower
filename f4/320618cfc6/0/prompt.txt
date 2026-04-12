@@ -1,0 +1,8 @@
+- Add the advisor strategy to Claude Code section (or elsewhere)? https://claude.com/blog/the-advisor-strategy command "/advisor"
+- Add also Agent Teams to Claude Code (or elsewhere?) : https://code.claude.com/docs/en/agent-teams
+
+---
+
+Add to @README.md :
+- Add the advisor strategy to Claude Code section (or elsewhere)? https://claude.com/blog/the-advisor-strategy command "/advisor"
+- Add also Agent Teams to Claude Code (or elsewhere?) : https://code.claude.com/docs/en/agent-teams
