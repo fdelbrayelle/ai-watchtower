@@ -464,6 +464,7 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 - [Oh My Claude Code](https://github.com/yeachan-heo/oh-my-claudecode) — Plugin to orchestrate Claude Code
 - [Codex](https://github.com/openai/codex-plugin-cc) — OpenAI Codex CLI plugin for Claude Code 📌 Unread
 - [UI/UX Pro Max Skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) — UI/UX design skill for Claude Code 📌 Unread
+- [Paperasse](https://github.com/romainsimon/paperasse) — Skills for French administrative paperwork ("paperasse") 📌 Unread
 
 ### Code Assistants & AI Editors
 
