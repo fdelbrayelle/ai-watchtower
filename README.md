@@ -392,6 +392,7 @@ Best practices, monitoring, and plugins for Claude Code.
 - [Claude Code Changelog](https://code.claude.com/docs/en/changelog) — Official changelog
 - [Claude Code Plugins](https://code.claude.com/docs/en/plugins) — Official plugins documentation
 - [Claude Cowork](https://code.claude.com/docs/en/cowork) — Collaborative multi-agent sessions in Claude Code 📌 Unread
+- [Agent Teams](https://code.claude.com/docs/en/agent-teams) — Official guide to building and orchestrating multi-agent teams in Claude Code 📌 Unread
 - [Claude Opus 4.6 Announcement](https://www.anthropic.com/news/claude-opus-4-6) — Latest model release
 - [Claude Sonnet 4.6 Announcement](https://www.anthropic.com/news/claude-sonnet-4-6) — Latest model release
 - [COBOL Modernization with AI](https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization) — Breaking the cost barrier 📌 Unread
@@ -446,6 +447,7 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 - For parallel work, use **Git worktrees**: run parallel sessions with `claude --worktree feature-auth`.
 - **Sandboxes**: Claude Code can run in [sandboxed environments](https://docs.anthropic.com/en/docs/claude-code/security#sandboxing) for isolation and security. This is the safer alternative to `--dangerously-skip-permissions` or full auto mode — use sandboxes when you need unattended execution without bypassing permission checks.
 - **Remote Control**: Use the [Remote Control API](https://code.claude.com/docs/en/remote-control) to programmatically interact with Claude Code sessions — send messages, monitor state, and build custom integrations on top of running instances. 📌 Unread
+- **[Advisor Strategy](https://claude.com/blog/the-advisor-strategy)**: Use `/advisor` to invoke a stronger reviewer model mid-session — it sees your full conversation history and can catch mistakes, suggest better approaches, or validate your plan before you commit to it.
 
 #### Plugins
 
