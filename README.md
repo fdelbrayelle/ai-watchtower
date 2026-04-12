@@ -460,6 +460,7 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 - [Hookify](https://github.com/anthropics/claude-code/tree/main/plugins/hookify) — Official plugin to manage Claude Code hooks visually
 - [Oh My Hi](https://github.com/netil/oh-my-hi) — Visual dashboard that parses Claude Code harness config and usage data into an interactive HTML analytics interface 📌 Unread
 - [Claude Mem](https://github.com/thedotmack/claude-mem) — Memory management plugin for Claude Code
+- [MemPalace](https://github.com/MemPalace/mempalace) — Local-first AI memory system: stores conversations verbatim, organizes them spatially for high-accuracy retrieval 📌 Unread
 - [Oh My Claude Code](https://github.com/yeachan-heo/oh-my-claudecode) — Plugin to orchestrate Claude Code
 - [Codex](https://github.com/openai/codex-plugin-cc) — OpenAI Codex CLI plugin for Claude Code 📌 Unread
 - [UI/UX Pro Max Skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) — UI/UX design skill for Claude Code 📌 Unread
