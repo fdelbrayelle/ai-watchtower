@@ -491,6 +491,7 @@ AI-powered design-to-code tools and collaborative design platforms.
 - [Figma to Code](https://www.figma.com/community/plugin/747985167520967365) — Convert Figma designs to code
 - [Google Stitch](https://stitch.withgoogle.com/) — Google's AI-powered design-to-code tool 📌 Unread
 - [Paper](https://paper.design/) — Collaborative design tool for building interfaces 📌 Unread
+- [getdesign.md](https://getdesign.md/) — Aggregates design system docs and patterns from top brands (Stripe, Figma, Apple…) for rapid AI-assisted UI development 📌 Unread
 
 ### Generative AI Patterns & Learning
 
@@ -664,6 +665,7 @@ Core techniques:
 ### Token Optimization
 
 - [RTK](https://github.com/rtk-ai/rtk) — Token reduction tool (standalone Rust binary, zero dependencies)
+- [caveman](https://github.com/JuliusBrussee/caveman) — Claude Code skill that cuts LLM output tokens ~65% by making Claude respond in terse caveman-style speech while maintaining technical accuracy 📌 Unread
 - [code-review-graph](https://github.com/tirth8205/code-review-graph) — Local knowledge graph for Claude Code; persistent codebase map so Claude reads only what matters — 6.8× fewer tokens on reviews, up to 49× on daily tasks
 - [Claudette](https://github.com/nicmarti/Claudette) — Token reduction via MCP
 - [Serena](https://github.com/oraios/serena) — Language-server-powered code intelligence MCP, gives agents precise context to save tokens 📌 Unread
