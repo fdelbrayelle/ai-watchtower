@@ -1764,6 +1764,16 @@
     "description": "Token reduction tool (standalone Rust binary, zero dependencies)"
   },
   {
+    "id": "inference-economy-code-review-graph-183",
+    "title": "code-review-graph",
+    "url": "https://github.com/tirth8205/code-review-graph",
+    "categoryId": "inference-economy",
+    "subcategory": "Token Optimization",
+    "type": "tool",
+    "unread": true,
+    "description": "Local knowledge graph for Claude Code; persistent codebase map so Claude reads only what matters — 6.8× fewer tokens on reviews, up to 49× on daily tasks"
+  },
+  {
     "id": "inference-economy-claudette-178",
     "title": "Claudette",
     "url": "https://github.com/nicmarti/Claudette",

@@ -664,6 +664,7 @@ Core techniques:
 ### Token Optimization
 
 - [RTK](https://github.com/rtk-ai/rtk) — Token reduction tool (standalone Rust binary, zero dependencies)
+- [code-review-graph](https://github.com/tirth8205/code-review-graph) — Local knowledge graph for Claude Code; persistent codebase map so Claude reads only what matters — 6.8× fewer tokens on reviews, up to 49× on daily tasks
 - [Claudette](https://github.com/nicmarti/Claudette) — Token reduction via MCP
 - [Serena](https://github.com/oraios/serena) — Language-server-powered code intelligence MCP, gives agents precise context to save tokens 📌 Unread
 - [TOON](https://github.com/toon-format/toon) — Token-Oriented Object Notation — compact encoding that cuts ~40% tokens vs JSON for LLM payloads
