@@ -425,6 +425,7 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 
 #### Tools
 
+- 📌 [claude-desktop-debian](https://github.com/aaddrick/claude-desktop-debian) — Unofficial Claude Desktop app support for Debian-based Linux distributions
 - [Claude Swarm Monitor](https://github.com/oinant/claude-swarm-monitor) — Monitor Claude Code swarms
 - [Claude Octopus](https://github.com/nyldn/claude-octopus) — Multi-agent orchestrator coordinating Claude, Codex, and Gemini CLIs 📌 Unread
 - [CC Workflow Studio](https://github.com/breaking-brake/cc-wf-studio) — Claude Code observability
