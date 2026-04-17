@@ -666,7 +666,7 @@ Core techniques:
 ### Token Optimization
 
 - [Claude Mem](https://github.com/thedotmack/claude-mem) — Cross-session memory plugin for Claude Code; persists context across conversations to avoid re-explaining it each time
-- [RTK](https://github.com/rtk-ai/rtk) — Token reduction tool (standalone Rust binary, zero dependencies)
+- [RTK](https://github.com/rtk-ai/rtk) — Token reduction tool (standalone Rust binary, zero dependencies). After install: rerun the `curl -fsSL …` install command + `rtk init -g` to activate hook-based usage, then verify with `rtk gain`
 - [caveman](https://github.com/JuliusBrussee/caveman) — Claude Code skill that cuts LLM output tokens ~65% by making Claude respond in terse caveman-style speech while maintaining technical accuracy 📌 Unread
 - [code-review-graph](https://github.com/tirth8205/code-review-graph) — Local knowledge graph for Claude Code; persistent codebase map so Claude reads only what matters — 6.8× fewer tokens on reviews, up to 49× on daily tasks
 - [Claudette](https://github.com/nicmarti/Claudette) — Token reduction via MCP
