@@ -89,6 +89,7 @@ Own the "what" and "why" before the agent writes the "how".
 
 - [Product Manager Roadmap](https://roadmap.sh/product-manager) — Roadmap for product managers
 - [Thiga Books & Assets](https://www.thiga.co/en/our-assets) — Product management books and resources by Thiga
+- [Agent-First Product Engineering](https://posthog.com/newsletter/agent-first-product-engineering) — PostHog on how product engineering shifts when AI agents are first-class actors in the development process
 
 ### The Product Manager Role
 
