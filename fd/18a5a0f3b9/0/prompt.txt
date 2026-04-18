@@ -1,0 +1,5 @@
+Where add this link in @README.md ? Product Thinking? https://posthog.com/newsletter/agent-first-product-engineering
+
+---
+
+yes but it's read
