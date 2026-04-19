@@ -1,0 +1,5 @@
+add Claude Design: https://www.anthropic.com/news/claude-design-anthropic-labs
+
+---
+
+add Claude Design: https://www.anthropic.com/news/claude-design-anthropic-labs in @README.md
