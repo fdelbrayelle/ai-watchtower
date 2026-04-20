@@ -683,7 +683,7 @@ Core techniques:
 
 #### Claude Code Token Hygiene
 
-- **5-hour sessions:** Claude usage/session limits reset every 5 hours (official Anthropic source: [About Claude's Pro Plan Usage](https://support.anthropic.com/en/articles/8324991-about-claude-s-pro-plan-usage/) and [About Claude's Max Plan Usage](https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage)).
+- **5-hour sessions:** Claude usage/session limits reset every 5 hours (official Anthropic source: [About Claude's Pro Plan Usage](https://support.anthropic.com/en/articles/8324991-about-claude-s-pro-plan-usage/) and [About Claude's Max Plan Usage](https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage)). Start your first session early (~7 am) — if the limit hits, you can take lunch around noon and start a fresh 5-hour session for the afternoon.
 - **Startup overhead:** Each `claude` invocation consumes tokens just to initialize/load context. You can verify this with `/context`. Use `/insights` to get a breakdown of token usage by category (tools, system prompt, conversation) — helps identify what's burning the most tokens in a session.
 - **Repo switching cost:** Working across many repositories increases token usage due to repeated context loading and memory/context switching.
 - **Reasoning level:** Avoid unnecessarily high thinking/reasoning levels when a simpler mode is enough. Default to [**high** effort mode](https://platform.claude.com/docs/en/about-claude/models/migration-guide#choosing-an-effort-level) — it gives the best quality/cost balance across most tasks.
