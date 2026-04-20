@@ -539,6 +539,7 @@ Docker, terminals, browser automation, and other tools for AI-augmented workflow
 #### Docker & Infrastructure
 
 - [Docker Model Runner](https://www.docker.com/blog/introducing-docker-model-runner/) — Run AI models directly in Docker
+- [Portless](https://portless.sh/) — Replaces port numbers with stable, named `.localhost` URLs for local development — automatic HTTPS, no port juggling 📌 Unread
 
 #### Terminal Tools
 
