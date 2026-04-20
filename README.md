@@ -301,6 +301,8 @@ Between level 2 and level 3, something fundamental shifts: **the developer stops
 
 > Where is your organization today — and can it move to the next level?
 
+- [AI Codebase Maturity Model](https://arxiv.org/abs/2604.09388) — Framework for assessing how ready a codebase is for AI-augmented development: structure, testability, documentation, and automation readiness 📌 Unread
+
 ### Agents & Frameworks
 
 - [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) — Anthropic's guide to agent design 📌 Unread
