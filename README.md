@@ -670,8 +670,8 @@ Core techniques:
 ### Token Optimization
 
 - [Claude Mem](https://github.com/thedotmack/claude-mem) — Cross-session memory plugin for Claude Code; persists context across conversations to avoid re-explaining it each time
-- [RTK](https://github.com/rtk-ai/rtk) — Token reduction tool (standalone Rust binary, zero dependencies). After install, to upgrade: rerun `curl -fsSL https://raw.githubusercontent.com/rtk-ai/rtk/refs/heads/master/install.sh | sh` + `rtk init -g` to activate hook-based usage, then verify with `rtk gain`
-- [caveman](https://github.com/JuliusBrussee/caveman) — Claude Code skill that cuts LLM output tokens ~65% by making Claude respond in terse caveman-style speech while maintaining technical accuracy 📌 Unread
+- [RTK](https://github.com/rtk-ai/rtk) — **Input token** reduction tool (standalone Rust binary, zero dependencies): filters and compresses Claude Code's tool call outputs before they re-enter context. After install, to upgrade: rerun `curl -fsSL https://raw.githubusercontent.com/rtk-ai/rtk/refs/heads/master/install.sh | sh` + `rtk init -g` to activate hook-based usage, then verify with `rtk gain`
+- [caveman](https://github.com/JuliusBrussee/caveman) — **Output token** reduction skill: cuts LLM output tokens ~65% by making Claude respond in terse caveman-style speech while maintaining technical accuracy 📌 Unread
 - [code-review-graph](https://github.com/tirth8205/code-review-graph) — Local knowledge graph for Claude Code; persistent codebase map so Claude reads only what matters — 6.8× fewer tokens on reviews, up to 49× on daily tasks
 - [Claudette](https://github.com/nicmarti/Claudette) — Token reduction via MCP
 - [Serena](https://github.com/oraios/serena) — Language-server-powered code intelligence MCP, gives agents precise context to save tokens 📌 Unread
@@ -681,7 +681,7 @@ Core techniques:
 #### Claude Code Token Hygiene
 
 - **5-hour sessions:** Claude usage/session limits reset every 5 hours (official Anthropic source: [About Claude's Pro Plan Usage](https://support.anthropic.com/en/articles/8324991-about-claude-s-pro-plan-usage/) and [About Claude's Max Plan Usage](https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage)).
-- **Startup overhead:** Each `claude` invocation consumes tokens just to initialize/load context. You can verify this with `/context`.
+- **Startup overhead:** Each `claude` invocation consumes tokens just to initialize/load context. You can verify this with `/context`. Use `/insights` to get a breakdown of token usage by category (tools, system prompt, conversation) — helps identify what's burning the most tokens in a session.
 - **Repo switching cost:** Working across many repositories increases token usage due to repeated context loading and memory/context switching.
 - **Reasoning level:** Avoid unnecessarily high thinking/reasoning levels when a simpler mode is enough. Default to [**high** effort mode](https://platform.claude.com/docs/en/about-claude/models/migration-guide#choosing-an-effort-level) — it gives the best quality/cost balance across most tasks.
 - **Model choice + `/plan`:** In Claude Code, using Sonnet instead of Opus can save a lot of tokens when the task does not need the stronger model. Use `/model opusplan` to automatically use Opus 4.6 only during plan mode and fall back to Sonnet 4.6 for execution ([docs](https://code.claude.com/docs/model-config)). Always use `/plan` for large tasks (e.g. implementing a feature) where some research is needed — it focuses the session before burning execution tokens.
