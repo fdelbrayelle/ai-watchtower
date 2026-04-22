@@ -465,7 +465,6 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 - [Context7](https://github.com/upstash/context7) — Up-to-date docs and code examples for any library, pulled straight into your prompt
 - [Superpowers](https://github.com/obra/superpowers) — Agentic skills framework & software development methodology
 - [Hookify](https://github.com/anthropics/claude-code/tree/main/plugins/hookify) — Official plugin to manage Claude Code hooks visually
-- [Oh My Hi](https://github.com/netil/oh-my-hi) — Visual dashboard that parses Claude Code harness config and usage data into an interactive HTML analytics interface 📌 Unread
 - [MemPalace](https://github.com/MemPalace/mempalace) — Local-first AI memory system: stores conversations verbatim, organizes them spatially for high-accuracy retrieval 📌 Unread
 - [Oh My Claude Code](https://github.com/yeachan-heo/oh-my-claudecode) — Plugin to orchestrate Claude Code
 - [Codex](https://github.com/openai/codex-plugin-cc) — OpenAI Codex CLI plugin for Claude Code 📌 Unread
@@ -679,7 +678,12 @@ Core techniques:
 - [Claudette](https://github.com/nicmarti/Claudette) — Token reduction via MCP
 - [Serena](https://github.com/oraios/serena) — Language-server-powered code intelligence MCP, gives agents precise context to save tokens 📌 Unread
 - [TOON](https://github.com/toon-format/toon) — Token-Oriented Object Notation — compact encoding that cuts ~40% tokens vs JSON for LLM payloads
+
+#### Usage & Cost Tracking
+
 - [Opcode](https://opcode.sh/) — Track AI spending and usage across tools
+- [Oh My Hi](https://github.com/netil/oh-my-hi) — Visual dashboard that parses Claude Code harness config and usage data into an interactive HTML analytics interface 📌 Unread
+- [ccusage](https://ccusage.com/) — Track Claude Code token usage and costs across sessions, with per-project and per-model breakdowns 📌 Unread
 
 #### Claude Code Token Hygiene
 
