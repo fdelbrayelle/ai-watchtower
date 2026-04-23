@@ -422,6 +422,7 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 - [Claude Certified Architect Study Guide](https://github.com/paullarionov/claude-certified-architect/blob/main/guide_en.MD) — Community study guide 📌 Unread
 - [Claude Code Best Practices (Thread 1)](https://x.com/bcherny/status/2007179832300581177) — Tips from a Claude engineer 📌 Unread
 - [Claude Code Best Practices (Thread 2)](https://x.com/bcherny/status/2017742741636321619) — More tips from a Claude engineer 📌 Unread
+- [Andrej Karpathy Skills](https://github.com/forrestchang/andrej-karpathy-skills) — Karpathy's CLAUDE.md and skills extracted as a reusable template 📌 Unread
 - [Claude Code Best Practices Repo](https://github.com/shanraisshan/claude-code-best-practice) — Community-curated best practices 📌 Unread
 - [Claude Code Guide](https://cc.bruniaux.com/guide/) — Comprehensive guide 📌 Unread
 - [Claude Code Diagrams](https://cc.bruniaux.com/diagrams/) — Visual architecture diagrams 📌 Unread
