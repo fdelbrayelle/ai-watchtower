@@ -679,6 +679,13 @@ Core techniques:
 - [Claudette](https://github.com/nicmarti/Claudette) — Token reduction via MCP
 - [Serena](https://github.com/oraios/serena) — Language-server-powered code intelligence MCP, gives agents precise context to save tokens 📌 Unread
 - [TOON](https://github.com/toon-format/toon) — Token-Oriented Object Notation — compact encoding that cuts ~40% tokens vs JSON for LLM payloads
+- [Context Mode](https://github.com/mksglu/context-mode) — Sandboxes raw output into SQLite instead of context window — 98% context reduction on logs and GitHub data 📌 Unread
+- [Claude Token Optimizer](https://github.com/nadimtuhin/claude-token-optimizer) — Setup prompts that optimize any project's docs and context — 90% token savings 📌 Unread
+- [Token Optimizer](https://github.com/alexgreensh/token-optimizer) — Finds invisible ghost tokens eating context quality; diagnoses and fixes context decay 📌 Unread
+- [Token Optimizer MCP](https://github.com/ooples/token-optimizer-mcp) — Adds aggressive caching and compression to MCP tool responses — 95%+ token reduction 📌 Unread
+- [Claude Context](https://github.com/zilliztech/claude-context) — Zilliz hybrid vector search MCP; makes entire codebase the context for 40% less cost 📌 Unread
+- [Claude Token Efficient](https://github.com/drona23/claude-token-efficient) — Drop-in CLAUDE.md file enforcing strict terseness with zero code changes 📌 Unread
+- [Token Savior](https://github.com/Mibayy/token-savior) — Symbol-based code navigation MCP with persistent memory — 97% reduction on code navigation 📌 Unread
 
 #### Usage & Cost Tracking
 
