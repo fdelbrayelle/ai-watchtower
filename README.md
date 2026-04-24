@@ -326,6 +326,7 @@ Between level 2 and level 3, something fundamental shifts: **the developer stops
 
 - [A2A: A New Era of Agent Interoperability](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) — Google's Agent-to-Agent protocol
 - [UCP: Universal Commerce Protocol](https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/) — Google's Universal Commerce Protocol
+- [LSP: Language Server Protocol](https://microsoft.github.io/language-server-protocol/) — Microsoft's open protocol for editor/IDE language features (autocomplete, go-to-definition, diagnostics) — now adopted by AI coding tools to give agents precise, language-aware code intelligence 📌 Unread
 
 #### MCP (Model Context Protocol)
 
@@ -486,6 +487,7 @@ IDEs, copilots, and AI-powered coding tools.
 - [Junie](https://www.jetbrains.com/junie/) — JetBrains' AI coding agent
 - [Lovable](https://lovable.dev) — AI-powered full-stack app builder
 - [Mammouth AI](https://mammouth.ai/) — AI coding assistant
+- [Kimi Code](https://www.kimi.com/code) — Moonshot AI's coding assistant 📌 Unread
 - [OpenCode](https://opencode.ai/) — Open-source AI coding platform 📌 Unread
 - [OpenCode Worktree](https://github.com/kdcokenny/opencode-worktree) — Worktree support (alternative: `claude --worktree feature-auth`) 📌 Unread
 - [OCX](https://github.com/kdcokenny/ocx) — Extends OpenCode capabilities 📌 Unread
