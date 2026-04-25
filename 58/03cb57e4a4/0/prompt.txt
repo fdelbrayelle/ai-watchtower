@@ -1,0 +1,3 @@
+- Add RLM (https://alexzhang13.github.io/blog/2025/rlm/) as an alternative to LLM + Implementation for Claude Code (https://github.com/rand/rlm-claude-code)
+- Add OpenMythos (https://github.com/kyegomez/OpenMythos)
+- Add https://github.com/kamranahmedse/claude-statusline in Claude Code Tools section
