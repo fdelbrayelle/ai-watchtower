@@ -429,6 +429,8 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 - [Claude Code Diagrams](https://cc.bruniaux.com/diagrams/) — Visual architecture diagrams 📌 Unread
 - [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) — Curated resources for Claude Code
 - [Claw Code](https://github.com/instructkr/claw-code) — Leaked Claude Code source code 📌 Unread
+- [RLM: Recursive Language Models](https://alexzhang13.github.io/blog/2025/rlm/) — Inference strategy where models decompose unbounded contexts by recursively calling themselves via REPL environments — an alternative to standard LLMs for long-context tasks 📌 Unread
+- [RLM Claude Code](https://github.com/rand/rlm-claude-code) — Claude Code plugin integrating RLM capabilities for handling arbitrarily large contexts with persistent memory 📌 Unread
 
 #### Tools
 
@@ -439,6 +441,7 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 - [Ralph Claude Code](https://github.com/frankbria/ralph-claude-code) — Claude Code assistant 📌 Unread
 - [ExitBox](https://github.com/Cloud-Exit/ExitBox) — Security sandbox for Claude Code
 - [AI-RSK](https://github.com/Krigsexe/ai-rsk) — Security gate for AI-generated code, blocks builds until vulnerabilities are fixed
+- [claude-statusline](https://github.com/kamranahmedse/claude-statusline) — Configure Claude Code's status line to show usage limits, current directory, and git info 📌 Unread
 
 #### Tips
 
@@ -511,6 +514,7 @@ Architecture patterns, training resources, and foundational learning.
 - [12 Days of Free Gen AI Training](https://cloud.google.com/blog/topics/training-certifications/12-days-of-no-cost-generative-ai-training?hl=en) — Google Cloud free training
 - [A Field Guide to AI](https://hamel.dev/blog/posts/field-guide/) — Practical AI field guide
 - [HuggingFace](https://huggingface.co) — The open-source AI platform
+- [OpenMythos](https://github.com/kyegomez/OpenMythos) — Open-source implementation of a Recurrent-Depth Transformer: a looped architecture that achieves advanced reasoning through iterative latent computation rather than chain-of-thought 📌 Unread
 
 #### JEPA & World Models
 
