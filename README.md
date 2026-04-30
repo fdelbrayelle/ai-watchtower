@@ -442,6 +442,7 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 - [ExitBox](https://github.com/Cloud-Exit/ExitBox) — Security sandbox for Claude Code
 - [AI-RSK](https://github.com/Krigsexe/ai-rsk) — Security gate for AI-generated code, blocks builds until vulnerabilities are fixed
 - [claude-statusline](https://github.com/kamranahmedse/claude-statusline) — Configure Claude Code's status line to show usage limits, current directory, and git info 📌 Unread
+- [free-claude-code](https://github.com/Alishahryar1/free-claude-code) — Run Claude Code for free using alternative model backends 📌 Unread
 
 #### Tips
 
