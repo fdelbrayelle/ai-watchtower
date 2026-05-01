@@ -372,7 +372,7 @@ The harness is the scaffolding that wraps a model and turns it into an agent: it
 
 Managed agent offerings where the execution infrastructure, scheduling, and lifecycle management are handled by the vendor.
 
-- [Managed Agents](https://www.anthropic.com/engineering/managed-agents) — Anthropic's approach to building and operating agents at scale 📌 Unread
+- [Managed Agents](https://www.anthropic.com/engineering/managed-agents) — Anthropic's approach to building and operating agents at scale (to launch: `/claude-api managed-agents-onboard`) 📌 Unread
 - [Dispatch](https://www.anthropic.com/products/dispatch) — Anthropic's multi-agent orchestration platform 📌 Unread
 - [Multica](https://multica.ai/) — Managed multi-agent platform for running and orchestrating AI agents at scale 📌 Unread
 
