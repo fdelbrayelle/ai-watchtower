@@ -468,7 +468,7 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 - [Code Simplifier](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/code-simplifier) — Anthropic's official code simplification plugin
 - [Frontend Design](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/frontend-design) — Anthropic's official frontend design plugin
 - [Ralph Loop](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-loop) — Anthropic's official loop/iteration plugin
-- [Context7](https://github.com/upstash/context7) — Up-to-date docs and code examples for any library, pulled straight into your prompt
+
 - [Superpowers](https://github.com/obra/superpowers) — Agentic skills framework & software development methodology
 - [Hookify](https://github.com/anthropics/claude-code/tree/main/plugins/hookify) — Official plugin to manage Claude Code hooks visually
 - [MemPalace](https://github.com/MemPalace/mempalace) — Local-first AI memory system: stores conversations verbatim, organizes them spatially for high-accuracy retrieval 📌 Unread
@@ -572,8 +572,6 @@ Overview of the AI-native development ecosystem.
 
 - [AI Native Dev Landscape](https://landscape.ainativedev.io/) — Interactive landscape of AI-native tools
 - **AI Native Applications ≠ Chatbot Wrappers** — Building an "AI native" application isn't about bolting a chatbot or a GPT-powered feature onto an existing product. It means rethinking the product from the ground up around AI capabilities: the UX adapts to probabilistic outputs instead of deterministic flows, the data model is designed for embeddings and retrieval, the architecture assumes agents as first-class actors, and the value proposition simply couldn't exist without AI at its core. A chatbot skin on a CRUD app is AI-adjacent, not AI-native. The same applies to the landscape itself: AI-native ecosystems replace entire categories (CI, observability, testing, IDEs) with tools that are built around AI reasoning — not traditional tools with an AI add-on.
-- **Design for agent users, not just human users** — Until 2022, every product was designed exclusively for human users. Today, agents are users too — they call your APIs, read your documentation, navigate your interfaces. If your system isn't legible to agents (structured data, clear semantics, machine-readable endpoints), you're designing for half the audience.
-
 #### 12-Factor AI Native
 
 Inspired by the [12-Factor App](https://12factor.net/) methodology for cloud-native, imagine the equivalent principles for **AI-native** applications. See also [12-Factor Agents](https://github.com/humanlayer/12-factor-agents) (⭐ 19k) — a complementary set of 12 implementation-level principles for building production-ready LLM agents (own your prompts, own your context window, stateless reducer pattern, etc.).
@@ -590,6 +588,17 @@ Inspired by the [12-Factor App](https://12factor.net/) methodology for cloud-nat
 10. **Guardrails as Infrastructure** — Safety, compliance, and content filters are infra concerns, not afterthoughts
 11. **Disposable Agents** — Agents are ephemeral and reproducible; no precious long-running state
 12. **Cost-Aware Routing** — Route to the cheapest model/tool that meets the quality bar (CLI > MCP > RAG > full context)
+
+### Agent Experience (AX)
+
+AX is the discipline of designing systems that are legible and usable by AI agents — the agent-facing counterpart to UX. As agents become first-class users of APIs, documentation, and interfaces, how well your system communicates its capabilities, errors, and data structures directly impacts agent task success rates.
+
+**Design for agent users, not just human users** — Until 2022, every product was designed exclusively for human users. Today, agents are users too — they call your APIs, read your documentation, navigate your interfaces. If your system isn't legible to agents (structured data, clear semantics, machine-readable endpoints), you're designing for half the audience.
+
+- [What is Agent Experience and Why Should You Care?](https://techstackups.com/articles/what-is-agent-experience-and-why-should-you-care/) — Introduction to AX as a design discipline: why agents need different affordances than humans, and what it means to build agent-friendly systems 📌 Unread
+- [How to Do an AX Audit](https://techstackups.com/articles/how-to-do-an-ax-audit/) — Practical AX audit: evaluate how well your system serves AI agents — API discoverability, structured outputs, error clarity, and machine-readable interfaces 📌 Unread
+- [CLI-Anything](https://github.com/HKUDS/CLI-Anything) — Turn any tool into a CLI for AI agents — agent-consumable interface layer over arbitrary tools
+- [Context7](https://github.com/upstash/context7) — Up-to-date docs and code examples for any library, pulled straight into your prompt — makes library documentation legible to agents
 
 ### Psychology, Culture & AI
 
@@ -660,7 +669,7 @@ Core techniques:
 - [Skills.sh](https://skills.sh/) — Reusable AI skills marketplace
 - [AgentSkills.io](https://agentskills.io) — AI agent skills platform 📌 Unread
 - [Math Spec-Driven Skill](https://github.com/Ben8t/math-spec-driven-skill) — Example of spec-driven skill development
-- [CLI-Anything](https://github.com/HKUDS/CLI-Anything) — Turn any tool into a CLI for AI agents
+
 
 ---
 
