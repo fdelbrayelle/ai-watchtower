@@ -458,9 +458,26 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 - Switch Plan Mode to Accept Edits with `Shift + Tab`.
 - Check usage with `/usage`.
 - For parallel work, use **Git worktrees**: run parallel sessions with `claude --worktree feature-auth`.
-- **Sandboxes**: Claude Code can run in [sandboxed environments](https://docs.anthropic.com/en/docs/claude-code/security#sandboxing) for isolation and security. This is the safer alternative to `--dangerously-skip-permissions` or full auto mode — use sandboxes when you need unattended execution without bypassing permission checks.
 - **Remote Control**: Use the [Remote Control API](https://code.claude.com/docs/en/remote-control) to programmatically interact with Claude Code sessions — send messages, monitor state, and build custom integrations on top of running instances. 📌 Unread
 - **[Advisor Strategy](https://claude.com/blog/the-advisor-strategy)**: Use `/advisor` to invoke a stronger reviewer model mid-session — it sees your full conversation history and can catch mistakes, suggest better approaches, or validate your plan before you commit to it.
+
+##### Sandboxes
+
+Claude Code can run in [sandboxed environments](https://docs.anthropic.com/en/docs/claude-code/security#sandboxing) for isolation and security — safer alternative to `--dangerously-skip-permissions` or full auto mode. Use when you need unattended execution without bypassing permission checks.
+
+In `~/.claude/settings.json`:
+
+```json
+{
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": true,
+    "excludedCommands": ["git", "gh"]
+  }
+}
+```
+
+`excludedCommands` lists commands that run outside the sandbox — use it for tools that need host filesystem access (e.g. `git`, `gh`).
 
 ##### Ubuntu Desktop Notifications
 
