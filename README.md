@@ -462,6 +462,23 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 - **Remote Control**: Use the [Remote Control API](https://code.claude.com/docs/en/remote-control) to programmatically interact with Claude Code sessions — send messages, monitor state, and build custom integrations on top of running instances. 📌 Unread
 - **[Advisor Strategy](https://claude.com/blog/the-advisor-strategy)**: Use `/advisor` to invoke a stronger reviewer model mid-session — it sees your full conversation history and can catch mistakes, suggest better approaches, or validate your plan before you commit to it.
 
+##### Ubuntu Desktop Notifications
+
+Get notified with sound when Claude Code finishes a task.
+
+```bash
+sudo apt install pulseaudio-utils libnotify-bin
+```
+
+In `~/.claude/settings.json`, add to `hooks.Stop`:
+
+```json
+{
+  "type": "command",
+  "command": "notify-send 'Claude Code' '✅ Done!' && paplay /usr/share/sounds/freedesktop/stereo/complete.oga"
+}
+```
+
 #### Plugins
 
 - [Code Review](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-review) — Anthropic's official code review plugin
