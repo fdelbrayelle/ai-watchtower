@@ -463,7 +463,7 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 
 ##### Sandboxes
 
-Claude Code can run in [sandboxed environments](https://docs.anthropic.com/en/docs/claude-code/security#sandboxing) for isolation and security — safer alternative to `--dangerously-skip-permissions` or full auto mode. Use when you need unattended execution without bypassing permission checks.
+Claude Code can run in [sandboxed environments](https://code.claude.com/docs/en/sandboxing) for isolation and security — safer alternative to `--dangerously-skip-permissions` or full auto mode. Use when you need unattended execution without bypassing permission checks.
 
 In `~/.claude/settings.json`:
 
