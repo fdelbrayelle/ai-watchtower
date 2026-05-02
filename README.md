@@ -485,7 +485,6 @@ In `~/.claude/settings.json`, add to `hooks.Stop`:
 - [Code Simplifier](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/code-simplifier) — Anthropic's official code simplification plugin
 - [Frontend Design](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/frontend-design) — Anthropic's official frontend design plugin
 - [Ralph Loop](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-loop) — Anthropic's official loop/iteration plugin
-
 - [Superpowers](https://github.com/obra/superpowers) — Agentic skills framework & software development methodology
 - [Hookify](https://github.com/anthropics/claude-code/tree/main/plugins/hookify) — Official plugin to manage Claude Code hooks visually
 - [MemPalace](https://github.com/MemPalace/mempalace) — Local-first AI memory system: stores conversations verbatim, organizes them spatially for high-accuracy retrieval 📌 Unread
