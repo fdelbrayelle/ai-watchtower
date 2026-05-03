@@ -1,0 +1,13 @@
+ADd this alternative to AGENTS.md somewhere in @README.md https://github.com/1st1/lat.md
+
+---
+
+It's broader than CLaude Code
+
+---
+
+Hmm any other place where it could fit?
+
+---
+
+Yeah in Memory it seems better
