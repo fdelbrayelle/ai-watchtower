@@ -1,0 +1,5 @@
+Add to @README.md the concept of "SRE Agent" (see: https://www.sfeir.dev/google-cloud-next-2026-agent-sre-la-sentinelle-qui-veille-sur-vos-nuits/)
+
+---
+
+actually it's read and it's a french article
