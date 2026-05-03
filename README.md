@@ -273,6 +273,8 @@ Designing, chaining, and supervising AI agents — platforms, protocols, and too
 
 These usually encode: **What** (facts, rules, conventions), **Why** (rationale, constraints), and **How** (architecture, workflows, patterns).
 
+- [lat.md](https://github.com/1st1/lat.md) — Alternative to AGENTS.md: a structured Markdown format for writing agent instructions files that works across agents and IDEs 📌 Unread
+
 **Hooks:** Shell commands that fire automatically in response to agent events (before/after tool calls, on notifications, etc.). They let you enforce rules, run linters, trigger builds, or inject context — without the agent needing to know about them.
 
 **Human in the loop:** The human gives goals, answers questions, approves risky actions, reviews outputs, and redirects the agent when needed. The agent proposes; the human disposes.
