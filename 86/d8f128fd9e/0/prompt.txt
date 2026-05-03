@@ -1,0 +1,13 @@
+In the notifications sections add how to "add Mobile push notifications" @README.md  (once Remote COntrol is active, In your terminal, run /config and enable Push when Claude decides)
+
+---
+
+Add this under the notifications sections
+
+---
+
+The info I just sent before
+
+---
+
+Add https://github.com/liza-mas/liza as a multi coding agent system
