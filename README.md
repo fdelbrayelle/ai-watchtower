@@ -790,6 +790,7 @@ Run open-weight models on your own hardware for data privacy, lower latency, and
 You can't debug what you can't see — instrument what agents produce.
 
 - [AI Agent Observability](https://wandb.ai/site/articles/ai-agent-observability/) — Weights & Biases guide to agent observability
+- [SRE Agent (Google Cloud Next 2026)](https://www.sfeir.dev/google-cloud-next-2026-agent-sre-la-sentinelle-qui-veille-sur-vos-nuits/) — Autonomous incident management agent: receives alerts, triages, investigates root causes, executes remediations under human approval gates, and reports — built on a multi-agent architecture (MCP tooling for logs/metrics/Kubernetes, C4 + runbook context, AI gateway validation layer). Five maturity levels: Interpret → Investigate → Remediate → Report → Prevent. Primary goal: absorb alert noise (targets ~80% false-positive elimination) rather than replace on-call engineers (🇫🇷 article)
 - [Langfuse](https://langfuse.com/) — Open-source LLM engineering platform for tracing, prompt management, and evaluation. Instruments your LLM calls with traces, spans, and scores so you can debug failures, measure quality, and track costs across every model call in production — the standard observability stack for teams building on LLMs.
 - [Entire](https://entire.io/) — Git-native AI session recorder. Operates via **Git hooks** (`post-commit`) to automatically capture the full context of every agent run (transcript, prompts, tool calls, token usage, file edits) as checkpoints stored on a dedicated `entire/checkpoints/v1` branch.
 
