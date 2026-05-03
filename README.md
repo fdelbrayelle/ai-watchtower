@@ -358,6 +358,7 @@ The open standard for connecting AI models to external tools and data sources.
 - [Agentic SDLC Handbook](https://danielmeppiel.github.io/agentic-sdlc-handbook/) — Practical handbook for applying AI agents across the full software development lifecycle 📌 Unread
 - [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD) — Breakthrough Method for Agile AI Development 📌 Unread
 - [Beads](https://github.com/steveyegge/beads) — AI coding assistant framework by Steve Yegge 📌 Unread
+- [LIZA](https://github.com/liza-mas/liza) — Multi-agent coding system 📌 Unread
 - [VibeKanban](https://www.vibekanban.com/) — AI-native project management 📌 Unread
 - [Get Shit Done](https://github.com/gsd-build/get-shit-done) — Pragmatic AI development methodology 📌 Unread
 
@@ -460,6 +461,7 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 - For parallel work, use **Git worktrees**: run parallel sessions with `claude --worktree feature-auth`.
 - **Remote Control**: Use the [Remote Control API](https://code.claude.com/docs/en/remote-control) to programmatically interact with Claude Code sessions — send messages, monitor state, and build custom integrations on top of running instances. 📌 Unread
 - **[Advisor Strategy](https://claude.com/blog/the-advisor-strategy)**: Use `/advisor` to invoke a stronger reviewer model mid-session — it sees your full conversation history and can catch mistakes, suggest better approaches, or validate your plan before you commit to it.
+- **Mobile push notifications**: Once [Remote Control](https://code.claude.com/docs/en/remote-control) is active, run `/config` in your terminal and enable **Push when Claude decides** to receive mobile push notifications when Claude finishes a task.
 
 ##### Sandboxes
 
@@ -495,6 +497,10 @@ In `~/.claude/settings.json`, add to `hooks.Stop`:
   "command": "notify-send 'Claude Code' '✅ Done!' && paplay /usr/share/sounds/freedesktop/stereo/complete.oga"
 }
 ```
+
+##### Mobile Push Notifications
+
+Once [Remote Control](https://code.claude.com/docs/en/remote-control) is active, run `/config` in your terminal and enable **Push when Claude decides** to receive mobile push notifications when Claude finishes a task.
 
 #### Plugins
 
