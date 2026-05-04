@@ -673,6 +673,17 @@ Thought pieces on how AI is reshaping developer culture and the software industr
 - [**Peter Principle**](https://en.wikipedia.org/wiki/Peter_principle) **& AI overpromotion** — "People rise to their level of incompetence." We risk "promoting" AI to high-stakes roles (legal decisions, medical diagnosis, autonomous weapons) that exceed its actual understanding and competence — confusing fluent output with genuine expertise.
 - [**Dunning-Kruger Effect**](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect) **& AI overconfidence** — AI models often deliver incorrect answers with extreme confidence, and users with limited domain knowledge can't tell the difference. The result: humans overestimate the machine's true intelligence, and the machine has no mechanism to signal its own uncertainty.
 
+#### Psychological Debts
+
+Six psychological debts AI progressively generates in professional environments — and their antidotes.
+
+- **Cognitive Debt** — Over-delegating to AI risks losing the thread of your own reasoning. *Antidote:* enforce "cognitive friction" — require a clear hypothesis before querying AI (J.P. Morgan practice). AI scouts your thinking; it doesn't replace it.
+- **Autonomy Debt** — When AI is imposed to boost output volume, employees feel dispossessed of their craft. *Antidote:* co-create algorithmic transparency — ING provides "nutritional labels" for each model so humans understand the data and regain control.
+- **Competence Debt** — When three-day analysis work is generated in four seconds, experts start doubting their own value (impostor syndrome amplified by AI). *Antidote:* peer-to-peer AI training (Microsoft initiative) — teams explore AI together, anchored in their domain expertise.
+- **Sociability Debt** — AI reduces social interactions, healthy disagreement, and team cohesion. *Antidote:* group rituals — P&G holds innovation reviews where AI outputs are collectively debated across departments.
+- **Credibility Debt (Shadow AI)** — Many hide their AI usage fearing they'll look incompetent or lazy. *Antidote:* destigmatize institutionally — Klarna built a testing culture where using internal AI became a badge of pride.
+- **Identity Debt** — Automating the core of what defines a professional erodes their sense of purpose. *Antidote:* AI in service of the craft, not replacing it — Philips uses AI to reduce logistics, enhancing the value of clinical judgment and patient time.
+
 ---
 
 <a id="technical-writing"></a>
