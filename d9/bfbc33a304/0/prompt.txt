@@ -1,0 +1,25 @@
+In @README.md in the Psychology section add the psychological debts AI adds, simplify it to make it fit:
+
+1- La dette cognitive (Quand l'IA pense à notre place)
+A trop déléguer, le risque n'est pas de devenir "moins intelligent", mais de perdre le fil de sa propre réflexion.
+🎯Le remède : Instaurez une "friction cognitive". Chez J.P. Morgan, les équipes doivent formuler une hypothèse claire avant de solliciter l'IA. Elle reste un éclaireur de vos réflexions, jamais le décideur.
+
+2- La dette d'autonomie (Le sentiment d'être un pion)
+Quand l'IA est imposée pour doper le volume de production, l'employé se sent dépossédé du contrôle de son métier.
+🎯Le remède : Co-produire la transparence algorithmique. La banque ING par exemple a créé des "étiquettes nutritionnelles" pour chaque modèle afin que l'humain comprenne la data et reprenne le contrôle.
+
+3- La dette de compétence (Le syndrome de l'imposteur)
+Un travail d'analyse qui vous prenait jadis trois jours est désormais généré en 4 secondes... L'expert finit par douter de sa propre utilité et valeur.
+🎯Le remède : Formez vos équipes en mode "peer-to-peer", une initiative terrain de Microsoft qui permet aux équipes d'explorer l'IA entre pairs, en restant ancrées dans leurs compétences métier.
+
+4- La dette de sociabilité (L'isolement numérique)
+L'IA est un assistant fabuleux, mais elle fait chuter les interactions sociales, la contradiction saine et la construction d'équipe.
+🎯Le remède : Implémentez des rituels de groupe. Faites comme P&G qui organise des revues de projets d'innovation où les "outputs" de l'IA sont débattus collectivement entre les différents départements.
+
+5- La dette de crédibilité (Le tabou du "Shadow AI")
+Beaucoup se cachent d'utiliser l'IA au travail par peur de passer pour incompétents ("Je vais avoir l'air d'un fraudeur ou de quelqu'un de fainéant").
+🎯Le remède : Déstigmatisez l'outil. Assumez-le institutionnellement. Klarna a créé une culture du test tellement poussée que se faire assister par son IA interne est devenu une norme de fierté. 
+
+6- La dette d'identité (La menace de son savoir-faire)
+Automatiser le cœur de ce qui définit un professionnel, c'est le nier.
+🎯Le remède : L'IA au service du cœur de métier, pas à sa place. Philips, par exemple, aide les médecins à assumer l'IA car celle-ci allège leur logistique, et donne une valeur accrue au geste clinique pur et au temps accordé aux patients.
