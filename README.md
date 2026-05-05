@@ -693,6 +693,7 @@ Six psychological debts AI progressively generates in professional environments 
 Specs, prompts, and docs are the new source code — prompt-driven, spec-driven, and context-driven development.
 
 - [Technical Writer Roadmap](https://roadmap.sh/technical-writer) — Roadmap for technical writers
+- [Mintlify Score](https://www.mintlify.com/score) — Documentation quality scorer: grades your docs for completeness, clarity, and coverage — instant feedback on what to improve 📌 Unread
 
 ### From Prompt Engineering to Context Engineering
 
