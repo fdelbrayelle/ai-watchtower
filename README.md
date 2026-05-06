@@ -532,6 +532,7 @@ IDEs, copilots, and AI-powered coding tools.
 - [Junie](https://www.jetbrains.com/junie/) — JetBrains' AI coding agent
 - [Lovable](https://lovable.dev) — AI-powered full-stack app builder
 - [Mammouth AI](https://mammouth.ai/) — AI coding assistant
+- [Blackbox AI](https://www.blackbox.ai/) — AI coding assistant with code search, autocomplete, and chat 📌 Unread
 - [Kimi Code](https://www.kimi.com/code) — Moonshot AI's coding assistant 📌 Unread
 - [OpenCode](https://opencode.ai/) — Open-source AI coding platform 📌 Unread
 - [OpenCode Worktree](https://github.com/kdcokenny/opencode-worktree) — Worktree support (alternative: `claude --worktree feature-auth`) 📌 Unread
