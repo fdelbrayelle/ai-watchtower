@@ -641,6 +641,7 @@ AX is the discipline of designing systems that are legible and usable by AI agen
 - [How to Do an AX Audit](https://techstackups.com/articles/how-to-do-an-ax-audit/) — Practical AX audit: evaluate how well your system serves AI agents — API discoverability, structured outputs, error clarity, and machine-readable interfaces 📌 Unread
 - [CLI-Anything](https://github.com/HKUDS/CLI-Anything) — Turn any tool into a CLI for AI agents — agent-consumable interface layer over arbitrary tools
 - [Context7](https://github.com/upstash/context7) — Up-to-date docs and code examples for any library, pulled straight into your prompt — makes library documentation legible to agents
+- [curl.md](https://curl.md/) — Fetch any website as clean markdown for LLM consumption (e.g. `curl curl.md/kestra.io`) — makes your site legible to agents and a quick AX sanity check
 
 ### Psychology, Culture & AI
 
