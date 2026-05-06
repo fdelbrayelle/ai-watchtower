@@ -323,6 +323,7 @@ Between level 2 and level 3, something fundamental shifts: **the developer stops
 - [Cosine](https://cosine.sh/) — AI code companion
 - [Air.dev](https://air.dev/) — AI agent builder
 - [GitHub Agentic Workflows](https://github.com/features) — GitHub's built-in agentic capabilities
+- [ADK (Agent Development Kit)](https://google.github.io/adk-docs/) — Google's open-source framework for building, evaluating, and deploying AI agents
 
 ### Protocols
 
