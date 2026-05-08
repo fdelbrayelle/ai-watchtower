@@ -512,12 +512,14 @@ Once [Remote Control](https://code.claude.com/docs/en/remote-control) is active,
 - [Frontend Design](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/frontend-design) — Anthropic's official frontend design plugin
 - [Ralph Loop](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-loop) — Anthropic's official loop/iteration plugin
 - [Superpowers](https://github.com/obra/superpowers) — Agentic skills framework & software development methodology
+- [gstack](https://github.com/garrytan/gstack) — Transforms Claude Code into a virtual engineering team: 23 specialized agents (CEO, designer, QA, security) with a structured sprint workflow — `/office-hours` for product interrogation, `/plan-ceo-review`, `/review`, `/qa`, `/ship`. Built by Garry Tan (YC) 📌 Unread
 - [Hookify](https://github.com/anthropics/claude-code/tree/main/plugins/hookify) — Official plugin to manage Claude Code hooks visually
 - [MemPalace](https://github.com/MemPalace/mempalace) — Local-first AI memory system: stores conversations verbatim, organizes them spatially for high-accuracy retrieval 📌 Unread
 - [Oh My Claude Code](https://github.com/yeachan-heo/oh-my-claudecode) — Plugin to orchestrate Claude Code
 - [Codex](https://github.com/openai/codex-plugin-cc) — OpenAI Codex CLI plugin for Claude Code 📌 Unread
 - [UI/UX Pro Max Skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) — UI/UX design skill for Claude Code 📌 Unread
 - [Paperasse](https://github.com/romainsimon/paperasse) — Skills for French administrative paperwork ("paperasse") 📌 Unread
+- [Understand-Anything](https://github.com/Lum1104/Understand-Anything) — Turns any codebase into an interactive knowledge graph: visualizes files, functions, classes, and dependencies in a web dashboard; supports Karpathy-pattern LLM wikis. Plugin for Claude Code, Cursor, VS Code Copilot, and Gemini CLI 📌 Unread
 
 ### Code Assistants & AI Editors
 
@@ -604,6 +606,7 @@ Docker, terminals, browser automation, and other tools for AI-augmented workflow
 
 - [Scrapling](https://github.com/D4Vinci/Scrapling) — AI-adapted web scraping
 - [Trigger.dev](https://trigger.dev/) — Background jobs and workflow automation
+- [Restate](https://www.restate.dev/) — Durable execution runtime for distributed apps: automatic failure recovery, sagas, and long-running workflows without a separate message broker — reliable foundation for agentic pipelines 📌 Unread
 - [Computer Use (Anthropic)](https://docs.anthropic.com/en/docs/agents-and-tools/computer-use) — Let Claude control a computer — click, type, navigate, and take screenshots 📌 Unread
 - [Perplexity Computer](https://www.perplexity.ai/hub/blog/introducing-computer-use) — Perplexity's computer-using agent for browser tasks 📌 Unread
 - [Operator (OpenAI)](https://openai.com/index/introducing-operator/) — OpenAI's web-browsing agent that autonomously completes multi-step tasks (shopping, form filling, booking) inside a browser 📌 Unread
@@ -794,6 +797,7 @@ Run open-weight models on your own hardware for data privacy, lower latency, and
 </tbody></table>
 
 - **[Gemma 4](https://deepmind.google/models/gemma/gemma-4)** (Google DeepMind, open weights) — Multimodal model family, 1B to 27B. Gemma 4 27B needs ~16 GB RAM (Q4). Setup: `ollama pull gemma4` then `ollama run gemma4`
+- **[Mistral Medium 3.5](https://ollama.com/library/mistral-medium-3.5)** (Mistral AI) — Dense 128B model with 256k context; instruction-following, reasoning, coding, and vision in one set of weights. Needs ~80 GB RAM (Q4) — high-end workstation or Mac Studio Pro Ultra only. Setup: `ollama pull mistral-medium-3.5` then `ollama launch claude --model mistral-medium-3.5`
 - **[Qwen](https://ollama.com/library/qwen)** (Alibaba, Apache 2.0 open source) — Strong multilingual model family, 0.5B to 235B. Qwen3 8B needs ~6 GB RAM (Q4). Setup: `ollama pull qwen3` then `ollama run qwen3`
 - [Ollama](https://ollama.com/) — The standard runtime for running local models; one command to pull and serve any supported model (`ollama serve` starts a local OpenAI-compatible API on `localhost:11434`). To use a local model with Claude Code: `ollama launch claude --model qwen2.5-coder:14b` (needs ~10 GB RAM; swap model name for any Ollama-supported model)
 
