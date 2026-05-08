@@ -1,0 +1,11 @@
+- Add ollama launch claude --model mistral-medium-3.5 next to gemma 4 in @README.md 
+- Add https://www.restate.dev/ maybe next to entire.io ? better other place?
+- Add https://github.com/garrytan/gstack to the best place maybe next to superpowers? But it seems more, especially with /officehours
+- Add https://github.com/Lum1104/Understand-Anything to the best place
+
+---
+
+- Add ollama launch claude --model mistral-medium-3.5 next to gemma 4 in @README.md 
+- Add https://www.restate.dev/ maybe next to entire.io ? better other place?
+- Add https://github.com/garrytan/gstack to the best place maybe next to superpowers? But it seems more, especially with /officehours
+- Add https://github.com/Lum1104/Understand-Anything to the best place (plugins?)
