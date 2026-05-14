@@ -1,0 +1,1 @@
+Add in @README.md these Claude plugins for legal at the best place https://github.com/anthropics/claude-for-legal
