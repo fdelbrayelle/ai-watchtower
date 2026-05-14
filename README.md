@@ -897,6 +897,8 @@ Generative Engine Optimization — making your content discoverable by AI models
 
 GDPR, AI Act, licensing — the rules AI can't learn on its own.
 
+- [Claude for Legal](https://github.com/anthropics/claude-for-legal) — Anthropic's official suite of Claude Code and Cowork plugins for legal workflows: contract review, DSAR response, privacy assessments, employment compliance, IP clearance, litigation support, regulatory monitoring, and AI governance — every output is a draft for attorney review 📌 Unread
+
 - [GDPR Official Text](https://gdpr-info.eu/) — Full text of the General Data Protection Regulation
 - [GDPR Article 22 — Automated Decision-Making](https://gdpr-info.eu/art-22-gdpr/) — Right not to be subject to automated individual decision-making, including profiling
 - [EU AI Act](https://artificialintelligenceact.eu/) — Full text of the EU AI Act
