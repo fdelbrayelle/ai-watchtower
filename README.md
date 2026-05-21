@@ -761,6 +761,7 @@ Core techniques:
 - [Claude Context](https://github.com/zilliztech/claude-context) — Zilliz hybrid vector search MCP; makes entire codebase the context for 40% less cost 📌 Unread
 - [Claude Token Efficient](https://github.com/drona23/claude-token-efficient) — Drop-in CLAUDE.md file enforcing strict terseness with zero code changes 📌 Unread
 - [Token Savior](https://github.com/Mibayy/token-savior) — Symbol-based code navigation MCP with persistent memory — 97% reduction on code navigation 📌 Unread
+- [lean-ctx](https://github.com/yvgude/lean-ctx) — Cognitive context layer for agentic systems: 62 MCP tools with 10 read modes, 95+ compression patterns, persistent session memory, and real-time context budgeting — 99% token savings on shell output, cached file re-reads cost ~13 tokens vs. 2000+; supports 28+ agents (Claude Code, Cursor, Copilot, Windsurf, Gemini) 📌 Unread
 
 #### Usage & Cost Tracking
 
