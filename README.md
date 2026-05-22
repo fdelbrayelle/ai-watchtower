@@ -549,6 +549,7 @@ AI-powered design-to-code tools and collaborative design platforms.
 - [Claude Design](https://www.anthropic.com/news/claude-design-anthropic-labs) — Anthropic Labs' design tool 📌 Unread
 - [Figma to Code](https://www.figma.com/community/plugin/747985167520967365) — Convert Figma designs to code
 - [Google Stitch](https://stitch.withgoogle.com/) — Google's AI-powered design-to-code tool 📌 Unread
+- [OpenUI](https://www.openui.com/) — Generate UI components from natural language descriptions 📌 Unread
 - [Paper](https://paper.design/) — Collaborative design tool for building interfaces 📌 Unread
 - [getdesign.md](https://getdesign.md/) — Aggregates design system docs and patterns from top brands (Stripe, Figma, Apple…) for rapid AI-assisted UI development 📌 Unread
 
