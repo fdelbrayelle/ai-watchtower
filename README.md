@@ -539,6 +539,7 @@ IDEs, copilots, and AI-powered coding tools.
 - [Kimi Code](https://www.kimi.com/code) — Moonshot AI's coding assistant 📌 Unread
 - [OpenCode](https://opencode.ai/) — Open-source AI coding platform 📌 Unread
 - [OpenCode Worktree](https://github.com/kdcokenny/opencode-worktree) — Worktree support (alternative: `claude --worktree feature-auth`) 📌 Unread
+- [Worktrunk](https://worktrunk.dev/) — CLI tool that simplifies git worktree management to run AI agents in parallel 📌 Unread
 - [OCX](https://github.com/kdcokenny/ocx) — Extends OpenCode capabilities 📌 Unread
 
 ### UX/UI Design
