@@ -730,6 +730,7 @@ Core techniques:
 - [Skills.sh](https://skills.sh/) — Reusable AI skills marketplace
 - [AgentSkills.io](https://agentskills.io) — AI agent skills platform 📌 Unread
 - [Math Spec-Driven Skill](https://github.com/Ben8t/math-spec-driven-skill) — Example of spec-driven skill development
+- [mattpocock/skills](https://github.com/mattpocock/skills) — Curated TypeScript/JavaScript skills library for reusable AI agent capabilities 📌 Unread
 
 
 ---
