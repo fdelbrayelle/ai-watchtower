@@ -454,6 +454,7 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 - Prefer **Skills or CLI over MCP** when possible — it is usually cheaper in tokens.
 - Run `/compact` around 60–70% context usage. Run `/clear` around 80–90%, or start a fresh session.
 - Check the current memory state with `/memory` (auto-memory and auto-dream can be enabled there).
+- Use `/tui fullscreen` to enable fullscreen mode — unlocks features like clickable URLs and a go-to-bottom button.
 - **Start a new session for a new topic.** Do not keep piling unrelated work into one chat.
 - Use `/loop` for periodic reminders or cron-like tasks. Example: `/loop 20m run "echo kindly reminder to look 20 seconds at 20 meters to save your view"`
 - Resume a previous session with `/resume` or `claude --resume`.
