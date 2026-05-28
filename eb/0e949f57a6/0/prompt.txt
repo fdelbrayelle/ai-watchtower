@@ -1,0 +1,5 @@
+Add "/tui fullscreen" to Claude Code tips to have fullscreen features (URL clicks, go to bottom etc)
+
+---
+
+Add "/tui fullscreen" to Claude Code tips to have fullscreen features (URL clicks, go to bottom etc) in @README.md
