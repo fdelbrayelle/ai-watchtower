@@ -425,6 +425,7 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 - [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) — Official Anthropic training 📌 Unread
 - [Claude Certified Architect](https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request) — Certification for Claude partners
 - [Claude Certified Architect Study Guide](https://github.com/paullarionov/claude-certified-architect/blob/main/guide_en.MD) — Community study guide 📌 Unread
+- [Agent Skills Best Practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices) — Official Anthropic guide to writing and structuring agent skills
 - [Claude Code Best Practices (Thread 1)](https://x.com/bcherny/status/2007179832300581177) — Tips from a Claude engineer 📌 Unread
 - [Claude Code Best Practices (Thread 2)](https://x.com/bcherny/status/2017742741636321619) — More tips from a Claude engineer 📌 Unread
 - [Andrej Karpathy Skills](https://github.com/forrestchang/andrej-karpathy-skills) — Karpathy's CLAUDE.md and skills extracted as a reusable template 📌 Unread
