@@ -1,0 +1,1 @@
+Add in @README.md at the best place how to keep Ubuntu with systemd-inhibit (find the exact command) and macOS with caffeinated
