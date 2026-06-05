@@ -507,6 +507,20 @@ In `~/.claude/settings.json`, add to `hooks.Stop`:
 
 Once [Remote Control](https://code.claude.com/docs/en/remote-control) is active, run `/config` in your terminal and enable **Push when Claude decides** to receive mobile push notifications when Claude finishes a task.
 
+##### Prevent System Sleep
+
+Keep the machine awake during long agentic sessions — prevents suspension mid-run. Run in a separate terminal before starting Claude Code.
+
+**Ubuntu:**
+```bash
+systemd-inhibit --what=idle:sleep --who="Claude Code" --why="Agentic session" sleep infinity
+```
+
+**macOS:**
+```bash
+caffeinate -dims
+```
+
 #### Plugins
 
 - [Code Review](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-review) — Anthropic's official code review plugin
