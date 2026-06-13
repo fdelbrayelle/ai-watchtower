@@ -335,6 +335,7 @@ Between level 2 and level 3, something fundamental shifts: **the developer stops
 
 The open standard for connecting AI models to external tools and data sources.
 
+- [Web MCP](https://developer.chrome.com/docs/ai/webmcp) — Chrome's proposed web standard for exposing structured tools to AI agents: websites declare their features as machine-readable endpoints so agents interact with them reliably instead of scraping or simulating UI 📌 Unread
 - [MCP Introduction](https://modelcontextprotocol.io/introduction) — Official documentation
 - [Spring AI & MCP](https://www.baeldung.com/spring-ai-model-context-protocol-mcp) — Integrating MCP with Spring AI
 - [MCP Servers Explained](https://generativeai.pub/mcp-servers-explained-python-and-agentic-ai-tool-integration-aa2ddca6cbe5) — Python and agentic AI tool integration
@@ -535,6 +536,7 @@ caffeinate -dims
 - [Codex](https://github.com/openai/codex-plugin-cc) — OpenAI Codex CLI plugin for Claude Code 📌 Unread
 - [UI/UX Pro Max Skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) — UI/UX design skill for Claude Code 📌 Unread
 - [Paperasse](https://github.com/romainsimon/paperasse) — Skills for French administrative paperwork ("paperasse") 📌 Unread
+- [Graphify](https://graphify.net/) — Open-source knowledge graph skill for AI coding assistants (Claude Code, Codex, Cursor, Gemini CLI, and more): parses code, SQL schemas, docs, papers, images, and videos into a queryable multi-modal graph using Tree-sitter and LLMs — persistent semantic memory that survives context resets 📌 Unread
 - [Understand-Anything](https://github.com/Lum1104/Understand-Anything) — Turns any codebase into an interactive knowledge graph: visualizes files, functions, classes, and dependencies in a web dashboard; supports Karpathy-pattern LLM wikis. Plugin for Claude Code, Cursor, VS Code Copilot, and Gemini CLI 📌 Unread
 
 ### Code Assistants & AI Editors
