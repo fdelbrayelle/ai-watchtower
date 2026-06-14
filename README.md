@@ -771,6 +771,7 @@ Core techniques:
 - [Claude Mem](https://github.com/thedotmack/claude-mem) — Cross-session memory plugin for Claude Code; persists context across conversations to avoid re-explaining it each time
 - [RTK](https://github.com/rtk-ai/rtk) — **Input token** reduction tool (standalone Rust binary, zero dependencies): filters and compresses Claude Code's tool call outputs before they re-enter context. After install, to upgrade: rerun `curl -fsSL https://raw.githubusercontent.com/rtk-ai/rtk/refs/heads/master/install.sh | sh` + `rtk init -g` to activate hook-based usage, then verify with `rtk gain`
 - [caveman](https://github.com/JuliusBrussee/caveman) — **Output token** reduction skill: cuts LLM output tokens ~65% by making Claude respond in terse caveman-style speech while maintaining technical accuracy 📌 Unread
+- [ponytail](https://github.com/DietrichGebert/ponytail) — Alternative **output token** reduction skill 📌 Unread
 - [code-review-graph](https://github.com/tirth8205/code-review-graph) — Local knowledge graph for Claude Code; persistent codebase map so Claude reads only what matters — 6.8× fewer tokens on reviews, up to 49× on daily tasks
 - [Claudette](https://github.com/nicmarti/Claudette) — Token reduction via MCP
 - [Serena](https://github.com/oraios/serena) — Language-server-powered code intelligence MCP, gives agents precise context to save tokens 📌 Unread
