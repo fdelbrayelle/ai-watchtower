@@ -361,6 +361,7 @@ The open standard for connecting AI models to external tools and data sources.
 
 - [Agentic SDLC Handbook](https://danielmeppiel.github.io/agentic-sdlc-handbook/) — Practical handbook for applying AI agents across the full software development lifecycle 📌 Unread
 - [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD) — Breakthrough Method for Agile AI Development 📌 Unread
+- [spec-kit](https://github.com/github/spec-kit) — GitHub's toolkit for writing AI-ready specs 📌 Unread
 - [Beads](https://github.com/steveyegge/beads) — AI coding assistant framework by Steve Yegge 📌 Unread
 - [LIZA](https://github.com/liza-mas/liza) — Multi-agent coding system 📌 Unread
 - [VibeKanban](https://www.vibekanban.com/) — AI-native project management 📌 Unread
