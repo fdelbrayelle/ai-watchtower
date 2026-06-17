@@ -387,6 +387,7 @@ Managed agent offerings where the execution infrastructure, scheduling, and life
 Frameworks for composing, routing, and coordinating multiple agents or tool calls.
 
 - [AgentRQ](https://agentrq.com/) — Real-time task management platform for bidirectional human-agent collaboration, letting agents assign tasks to humans and vice versa 📌 Unread
+- [Omnigent](https://omnigent.ai/) — Meta-harness for building and running AI agents: unified layer over multiple models and frameworks with policy controls, sandboxing, and real-time collaboration 📌 Unread
 - [OpenClaw](https://openclaw.ai/) — Open-source AI agent framework
 - [Agno](https://www.agno.com/) — Open-source Python framework for building, deploying, and managing secure multi-agent AI systems 📌 Unread
 - [NanoClaw](https://nanoclaw.net/) — Lightweight agent runtime
@@ -900,6 +901,7 @@ If you didn't write it, you'd better know how to break it.
 Build visibility on LinkedIn, Twitter/X, Slack, and beyond — your work won't speak for itself.
 
 - [Personal Branding for Devs](https://www.freecodecamp.org/news/personal-branding-for-devs-handbook/) — freeCodeCamp handbook on developer personal branding
+- [Takoia](https://takoia.github.io/landing-page/) — Platform to develop and monetize your AI expertise by reselling it to others 📌 Unread
 - **Your LinkedIn CV Won't Be Enough** — A long list of hard skills and job titles on LinkedIn is becoming table stakes. AI-powered recruiting agents and talent-sourcing bots are already crawling GitHub repositories, analyzing commit history, PR quality, and actual contributions to assess what engineers truly deliver — not what they claim. The same applies beyond GitHub: agents will scrape your blog posts for depth of thought, your Stack Overflow answers for expertise signals, your open-source contributions for collaboration patterns, and your conference talks for communication skills. The implication: your real, observable output across platforms becomes your resume. Polished profiles without substance will be filtered out by the same AI that generates them. Invest in visible, verifiable outcomes — meaningful commits, well-crafted technical writing, thoughtful code reviews, and genuine community contributions — because that's what the crawlers will judge you on.
 
 ---
