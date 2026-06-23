@@ -374,6 +374,13 @@ The open standard for connecting AI models to external tools and data sources.
 
 The harness is the scaffolding that wraps a model and turns it into an agent: it controls the execution loop, routes tool calls, enforces permissions, manages context windows, and handles retries and escalation. Harness Engineering is the discipline of designing, operating, and optimizing that layer — distinct from prompt engineering (what you say) or model selection (which model you use). As agents grow more autonomous and run at scale, the harness becomes the main lever for reliability, cost control, and safety. The concept of an *AI factory* extends this further: a harness-driven pipeline where agents are orchestrated like industrial processes, with defined inputs, outputs, quality gates, and throughput metrics.
 
+The discipline covers four quadrants across two axes — **preventive vs. defensive** and **human vs. machine**:
+
+| | Preventive | Defensive |
+|---|---|---|
+| **Human** 😉 | Reveal and align quality standards across the organization, teams, and projects (mob-programming, training, team standards) | Review and validation by humans (code review in small batches, refactoring decisions, retrospectives) |
+| **Machine** 🤖 | Make standards explicit as instructions or living documentation (AI rulesets, ADRs, CLAUDE.md) | Automated tests, architecture tests, static analysis (linters, ArchUnit, Packmind…) |
+
 - [Everything I Learned About Harness Engineering and AI Factories in San Francisco (April 2026)](https://escape.tech/blog/everything-i-learned-about-harness-engineering-and-ai-factories-in-san-francisco-april-2026/) — Field report from the SF AI scene: harness patterns, AI factory thinking, and lessons from teams running agents at scale 📌 Unread
 - [12 Agentic Harness Patterns from Claude Code](https://generativeprogrammer.com/p/12-agentic-harness-patterns-from) — Patterns extracted from the leaked source 📌 Unread
 
@@ -402,6 +409,12 @@ Tools that operate at the harness layer itself: controlling the execution loop, 
 
 - [Emdash](https://www.emdash.sh/) — Desktop app to run multiple AI coding agents in parallel, each in an isolated Git worktree, with issue tracker integration and built-in diff/commit UI 📌 Unread
 - [Paperclip](https://github.com/paperclipai/paperclip) — Orchestrate multiple Claude Code sessions/agents in parallel 📌 Unread
+
+### Loop Engineering
+
+The loop is the core of any agentic system: a repeating cycle of observe → reason → act that continues until the task is done or a stopping condition is met. Loop Engineering is the discipline of designing, controlling, and optimizing that cycle — how many iterations to allow, when to break out, how to detect convergence or divergence, and how to handle failure gracefully without runaway behavior. Key challenges: avoiding infinite loops, detecting when the agent is stuck, managing error accumulation across iterations, and balancing exploration (try different approaches) against exploitation (refine what's working).
+
+- [The Art of Loop Engineering](https://www.langchain.com/blog/the-art-of-loop-engineering) — LangChain's guide to designing robust agentic loops: stopping conditions, cycle detection, error recovery, and the tradeoffs between tight loops (fast, fragile) and loose loops (slower, more robust) 📌 Unread
 
 ### Claude Code
 
@@ -669,6 +682,7 @@ AX is the discipline of designing systems that are legible and usable by AI agen
 
 - [What is Agent Experience and Why Should You Care?](https://techstackups.com/articles/what-is-agent-experience-and-why-should-you-care/) — Introduction to AX as a design discipline: why agents need different affordances than humans, and what it means to build agent-friendly systems 📌 Unread
 - [How to Do an AX Audit](https://techstackups.com/articles/how-to-do-an-ax-audit/) — Practical AX audit: evaluate how well your system serves AI agents — API discoverability, structured outputs, error clarity, and machine-readable interfaces 📌 Unread
+- [Stack Overflow for Agents](https://stackoverflow.blog/2026/06/10/announcing-stack-overflow-for-agents/) — Stack Overflow's structured API for AI agents: machine-readable Q&A, code snippets, and documentation — the canonical developer knowledge base made legible to AI agents 📌 Unread
 - [CLI-Anything](https://github.com/HKUDS/CLI-Anything) — Turn any tool into a CLI for AI agents — agent-consumable interface layer over arbitrary tools
 - [Context7](https://github.com/upstash/context7) — Up-to-date docs and code examples for any library, pulled straight into your prompt — makes library documentation legible to agents
 - [curl.md](https://curl.md/) — Fetch any website as clean markdown for LLM consumption (e.g. `curl curl.md/kestra.io`) — makes your site legible to agents and a quick AX sanity check
