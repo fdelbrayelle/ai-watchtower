@@ -415,6 +415,7 @@ Tools that operate at the harness layer itself: controlling the execution loop, 
 The loop is the core of any agentic system: a repeating cycle of observe → reason → act that continues until the task is done or a stopping condition is met. Loop Engineering is the discipline of designing, controlling, and optimizing that cycle — how many iterations to allow, when to break out, how to detect convergence or divergence, and how to handle failure gracefully without runaway behavior. Key challenges: avoiding infinite loops, detecting when the agent is stuck, managing error accumulation across iterations, and balancing exploration (try different approaches) against exploitation (refine what's working).
 
 - [The Art of Loop Engineering](https://www.langchain.com/blog/the-art-of-loop-engineering) — LangChain's guide to designing robust agentic loops: stopping conditions, cycle detection, error recovery, and the tradeoffs between tight loops (fast, fragile) and loose loops (slower, more robust) 📌 Unread
+- [The Coming Loop](https://lucumr.pocoo.org/2026/6/23/the-coming-loop/) — Armin Ronacher on the near-future shift toward persistent agentic loops as the dominant programming model, and what that means for developer tooling and mental models 📌 Unread
 
 ### Claude Code
 
