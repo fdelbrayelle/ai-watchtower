@@ -90,6 +90,7 @@ Own the "what" and "why" before the agent writes the "how".
 - [Product Manager Roadmap](https://roadmap.sh/product-manager) — Roadmap for product managers
 - [Thiga Books & Assets](https://www.thiga.co/en/our-assets) — Product management books and resources by Thiga
 - [Agent-First Product Engineering](https://posthog.com/newsletter/agent-first-product-engineering) — PostHog on how product engineering shifts when AI agents are first-class actors in the development process
+- [AI Product First](https://mcorbin.fr/posts/2026-06-21-ai-product-first) — Why product thinking must come before AI tooling: the case for defining value, users, and outcomes before reaching for agents or automation 📌 Unread
 - [What is a Product Engineer?](https://posthog.com/product-engineer/what-is-a-product-engineer) — PostHog's definition and role breakdown for product engineers 📌 Unread
 
 ### The Product Manager Role
@@ -789,6 +790,7 @@ Core techniques:
 
 ### Token Optimization
 
+- [Réduire ses tokens Claude Code : ce que valent vraiment les plugins](https://www.sfeir.dev/ia/reduire-ses-tokens-claude-code-ce-que-valent-vraiment-les-plugins/) — Benchmark of the main Claude Code plugins from a token efficiency angle: real gains, trade-offs, and how to choose (🇫🇷 article) 📌 Unread
 - [Claude Mem](https://github.com/thedotmack/claude-mem) — Cross-session memory plugin for Claude Code; persists context across conversations to avoid re-explaining it each time
 - [RTK](https://github.com/rtk-ai/rtk) — **Input token** reduction tool (standalone Rust binary, zero dependencies): filters and compresses Claude Code's tool call outputs before they re-enter context. After install, to upgrade: rerun `curl -fsSL https://raw.githubusercontent.com/rtk-ai/rtk/refs/heads/master/install.sh | sh` + `rtk init -g` to activate hook-based usage, then verify with `rtk gain`
 - [caveman](https://github.com/JuliusBrussee/caveman) — **Output token** reduction skill: cuts LLM output tokens ~65% by making Claude respond in terse caveman-style speech while maintaining technical accuracy 📌 Unread
