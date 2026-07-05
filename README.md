@@ -354,6 +354,7 @@ The open standard for connecting AI models to external tools and data sources.
 
 - [RAG is Dead, Long Live RAG](https://lighton.ai/lighton-blogs/rag-is-dead-long-live-rag-retrieval-in-the-age-of-agents) — Rather than being killed by larger context windows, RAG has evolved into a sophisticated system that makes intelligent, conditional decisions about whether and how to retrieve information
 - 🎬 [Is RAG Still Needed?](https://www.youtube.com/watch?v=UabBYexBD4k&list=PLopYFrR81G9Eb0xO3tbOzOf9ZOTEFKohy&index=3)
+- [Cache-Augmented Generation (CAG)](https://datascientist.fr/blog/cache-augmented-generation-cag-la-nouvelle-evolution-du-rag) — CAG preloads knowledge directly into the model's context/cache instead of retrieving it dynamically at query time like RAG — faster responses, but limited to what fits and was baked in upfront (🇫🇷 article) 📌 Unread
 
 ### Vector Databases
 
@@ -363,6 +364,7 @@ The open standard for connecting AI models to external tools and data sources.
 ### Methodologies
 
 - [Agentic SDLC Handbook](https://danielmeppiel.github.io/agentic-sdlc-handbook/) — Practical handbook for applying AI agents across the full software development lifecycle 📌 Unread
+- [SDLC & Team Topologies for AI Agents](https://blog.owulveryck.info/2026/07/02/sdlc-team-topologies.html) — Argues stream-aligned teams should focus on solution design while delegating implementation to AI agents, with enabling teams codifying guardrails and standards into self-service platform features — "an enabling team succeeds when it is no longer needed" 📌 Unread
 - [AI-Driven Development](https://www.ai-driven-development.org/) — Community and resources for AI-driven development practices and methodologies 📌 Unread
 - [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD) — Breakthrough Method for Agile AI Development 📌 Unread
 - [spec-kit](https://github.com/github/spec-kit) — GitHub's toolkit for writing AI-ready specs 📌 Unread
@@ -416,6 +418,7 @@ Tools that operate at the harness layer itself: controlling the execution loop, 
 The loop is the core of any agentic system: a repeating cycle of observe → reason → act that continues until the task is done or a stopping condition is met. Loop Engineering is the discipline of designing, controlling, and optimizing that cycle — how many iterations to allow, when to break out, how to detect convergence or divergence, and how to handle failure gracefully without runaway behavior. Key challenges: avoiding infinite loops, detecting when the agent is stuck, managing error accumulation across iterations, and balancing exploration (try different approaches) against exploitation (refine what's working).
 
 - [The Art of Loop Engineering](https://www.langchain.com/blog/the-art-of-loop-engineering) — LangChain's guide to designing robust agentic loops: stopping conditions, cycle detection, error recovery, and the tradeoffs between tight loops (fast, fragile) and loose loops (slower, more robust) 📌 Unread
+- [loop-engineering](https://github.com/cobusgreyling/loop-engineering) — Practical patterns and starter templates for building systems that automatically prompt and orchestrate AI coding agents, with CLI tools (`loop-audit`, `loop-init`, `loop-cost`) across platforms like Grok, Claude Code, and GitHub Actions 📌 Unread
 - [The Coming Loop](https://lucumr.pocoo.org/2026/6/23/the-coming-loop/) — Armin Ronacher on the near-future shift toward persistent agentic loops as the dominant programming model, and what that means for developer tooling and mental models 📌 Unread
 - **Plan the Loop Before You Build It** (André Lindenberg, LinkedIn, 4 juil. 2026) — The Loop Engineering Canvas, modeled on Osterwalder's Business Model Canvas, is a nine-field, pre-code planning exercise (Goal at center; Problem framing the top; Trigger/Actions/State on the left; Limits/Control/Model & Prompt on the right; Observability along the bottom) that a team fills out together to decide *whether* a recurring problem deserves a loop at all, before writing any harness code. Its core argument: a loop looks like a bad deal under pure cost accounting (opex forever vs. capex once for bespoke software), but that's the wrong comparison — a loop isn't asked to solve one case, it's a *capability* that keeps paying out on every future occurrence, i.e. capex billed in opex-shaped installments. How much of the problem class that capability actually covers is capped by how well the **Goal**'s gate can verify new cases — the gate is the multiplier on the loop's real value, not just an end-of-run checkpoint. Four worked examples (JVM dependency upgrades via OpenRewrite, Salesforce incident triage, Cloudflare Project Glasswing vulnerability discovery, a Meta ACH-style mutation-tested test factory) all share the same shape: a deterministic system does the actual work and verification, while the model is confined to the single step that needs judgment. Takeaway: if you can't name the deterministic check the Goal field demands, you don't have a loop yet — you have a wish that a model behaves the same way twice.
 
@@ -430,6 +433,7 @@ Best practices, monitoring, and plugins for Claude Code.
 - [Claude Opus 4.6 Announcement](https://www.anthropic.com/news/claude-opus-4-6) — Latest model release
 - [Claude Sonnet 4.6 Announcement](https://www.anthropic.com/news/claude-sonnet-4-6) — Latest model release
 - [COBOL Modernization with AI](https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization) — Breaking the cost barrier 📌 Unread
+- [2x, Nine Months Later](https://ideas.fin.ai/p/2x-nine-months-later) — Intercom set out to double R&D productivity in 12 months with Claude Code and tripled output in 16: merged PRs doubled, defect backlog shrank 54%, deployment downtime fell 35%, ~94% of code changes are now AI-driven 📌 Unread
 
 #### Mastery Levels
 
@@ -847,6 +851,7 @@ Run open-weight models on your own hardware for data privacy, lower latency, and
 - **[Gemma 4](https://deepmind.google/models/gemma/gemma-4)** (Google DeepMind, open weights) — Multimodal model family, 1B to 27B. Gemma 4 27B needs ~16 GB RAM (Q4). Setup: `ollama pull gemma4` then `ollama run gemma4`
 - **[Mistral Medium 3.5](https://ollama.com/library/mistral-medium-3.5)** (Mistral AI) — Dense 128B model with 256k context; instruction-following, reasoning, coding, and vision in one set of weights. Needs ~80 GB RAM (Q4) — high-end workstation or Mac Studio Pro Ultra only. Setup: `ollama pull mistral-medium-3.5` then `ollama launch claude --model mistral-medium-3.5`
 - **[Qwen](https://ollama.com/library/qwen)** (Alibaba, Apache 2.0 open source) — Strong multilingual model family, 0.5B to 235B. Qwen3 8B needs ~6 GB RAM (Q4). Setup: `ollama pull qwen3` then `ollama run qwen3`
+- **[Ornith-1.0](https://deep-reinforce.com/ornith_1_0.html)** (DeepReinforce, open weights) — Self-improving model family built for agentic coding, from an edge-deployable 9B Dense to a 397B MoE flagship; the 397B variant matches Claude Opus 4.7 on Terminal-Bench 2.1 and SWE-Bench Verified 📌 Unread
 - [Ollama](https://ollama.com/) — The standard runtime for running local models; one command to pull and serve any supported model (`ollama serve` starts a local OpenAI-compatible API on `localhost:11434`). To use a local model with Claude Code: `ollama launch claude --model qwen2.5-coder:14b` (needs ~10 GB RAM; swap model name for any Ollama-supported model)
 
 ### Multi-LLM Access & Routing
@@ -855,6 +860,7 @@ Run open-weight models on your own hardware for data privacy, lower latency, and
 - [OpenRouter](https://openrouter.ai/) — LLM routing and access
 - [1min AI](https://1min.ai/) — Multi-model AI access platform
 - [LLMFit](https://github.com/AlexsJones/llmfit) — Find which models & providers run on your hardware 📌 Unread
+- [Free LLM API Resources](https://github.com/cheahjs/free-llm-api-resources) — Curated directory of providers offering free or trial LLM API access, with rate limits and available models per provider 📌 Unread
 
 ---
 
