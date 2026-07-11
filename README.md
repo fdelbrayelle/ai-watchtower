@@ -209,6 +209,7 @@ Spring AI, LangChain4J, and the Java AI ecosystem.
 - [LangChain4J + Docker Model Runner](https://medium.com/@lize.raes/langchain4j-%EF%B8%8F-docker-model-runner-b5f720a76c85) — Running LangChain4J with Docker
 - [Evolution of the Java Ecosystem for AI](https://inside.java/2025/01/29/evolution-of-java-ecosystem-for-integrating-ai/) — Oracle's perspective on Java + AI
 - [Koog for Java](https://blog.jetbrains.com/ai/2026/03/koog-comes-to-java/) — JetBrains' AI framework for Java 📌 Unread
+- [The Biggest jvm-skills Update Yet](https://jvmskills.com/blog/biggest-jvm-skills-update-yet/) — jvm-skills is a curated catalog of AI skills teaching coding agents JVM-ecosystem knowledge; this update adds 25 new skills discovered via an automated "skill-scout" pipeline sourced from conference speakers and library authors 📌 Unread
 
 #### Python Ecosystem
 
@@ -247,6 +248,7 @@ AI accelerates output, but craft still matters. Build agents or skills specializ
 - **DDD (Domain-Driven Design)** — Encode bounded contexts, aggregates, and ubiquitous language in project instructions so agents produce code that respects domain boundaries instead of creating a big ball of mud.
 - **Clean Architecture** — Enforce hexagonal / ports-and-adapters patterns through CLAUDE.md rules or custom agents that validate dependency direction (domain → application → infrastructure, never the reverse).
 - **Other patterns** — Onion Architecture, CQRS, Event Sourcing — codify these as agent constraints or review skills so generated code stays structurally sound.
+- [QUALITY.md](https://getquality.md/) — Open file format for declaring a project's quality model: desired quality characteristics, their requirements, and the context behind them — lets teams and AI agents evaluate a codebase against shared quality standards and improve it through iterative loops 📌 Unread
 
 ---
 
@@ -585,6 +587,7 @@ IDEs, copilots, and AI-powered coding tools.
 - [OpenCode Worktree](https://github.com/kdcokenny/opencode-worktree) — Worktree support (alternative: `claude --worktree feature-auth`) 📌 Unread
 - [Worktrunk](https://worktrunk.dev/) — CLI tool that simplifies git worktree management to run AI agents in parallel 📌 Unread
 - [OCX](https://github.com/kdcokenny/ocx) — Extends OpenCode capabilities 📌 Unread
+- [Grok Build](https://grok.com/build) — xAI's coding agent and CLI: plan mode before edits, up to 8 concurrent sub-agents each in its own Git worktree, and out-of-the-box support for AGENTS.md, plugins, hooks, skills, and MCP servers 📌 Unread
 
 ### UX/UI Design
 
@@ -962,6 +965,7 @@ GDPR, AI Act, licensing — the rules AI can't learn on its own.
 - [GDPR Article 22 — Automated Decision-Making](https://gdpr-info.eu/art-22-gdpr/) — Right not to be subject to automated individual decision-making, including profiling
 - [EU AI Act](https://artificialintelligenceact.eu/) — Full text of the EU AI Act
 - [AI Act Explainer](https://linuxfoundation.eu/newsroom/ai-act-explainer) — Linux Foundation's EU AI Act explainer
+- [TokenVeil](https://tokenveil.eu/) — Self-hosted anonymization tool: strips sensitive data (names, IPs, API keys) before prompts reach external AI models and restores it in the response — lets teams use services like Claude or Gemini without exposing confidential data 📌 Unread
 
 ---
 
