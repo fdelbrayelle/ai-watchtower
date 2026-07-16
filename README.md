@@ -588,6 +588,7 @@ IDEs, copilots, and AI-powered coding tools.
 - [Worktrunk](https://worktrunk.dev/) — CLI tool that simplifies git worktree management to run AI agents in parallel 📌 Unread
 - [OCX](https://github.com/kdcokenny/ocx) — Extends OpenCode capabilities 📌 Unread
 - [Grok Build](https://grok.com/build) — xAI's coding agent and CLI: plan mode before edits, up to 8 concurrent sub-agents each in its own Git worktree, and out-of-the-box support for AGENTS.md, plugins, hooks, skills, and MCP servers 📌 Unread
+- [Pi](https://pi.dev/) — Minimal agent harness: customize an AI coding assistant via extensions, skills, and themes instead of adapting workflow to a pre-built tool 📌 Unread
 
 ### UX/UI Design
 
