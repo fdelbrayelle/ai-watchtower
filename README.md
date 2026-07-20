@@ -949,6 +949,7 @@ Build visibility on LinkedIn, Twitter/X, Slack, and beyond — your work won't s
 
 Generative Engine Optimization — making your content discoverable by AI models.
 
+- [Agentic Resource Discovery Specification (ARD)](https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification/) — Google's proposed spec letting sites publish a machine-readable manifest of actions/resources for AI agents to discover, beyond crawlable content
 - [Moz](https://moz.com/) — Reference SEO resource (guides, tools, blog) — strong traditional SEO foundations remain essential for GEO, since AI agents still rely on well-structured, crawlable, authoritative content to surface answers
 - [What is GEO/LLMO?](https://www.crews-education.com/actualites/qu-est-ce-que-le-geo-llmo) — Introduction to Generative Engine Optimization
 - [8 On-Page SEO Tips for LLM/GEO](https://www.sebastien-vallat.com/8-conseils-seo-on-page-llm-geo/) — Practical optimization tips
