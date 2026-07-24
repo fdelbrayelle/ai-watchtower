@@ -329,6 +329,7 @@ Between level 2 and level 3, something fundamental shifts: **the developer stops
 - [GitHub Agentic Workflows](https://github.com/features) — GitHub's built-in agentic capabilities
 - [ADK (Agent Development Kit)](https://google.github.io/adk-docs/) — Google's open-source framework for building, evaluating, and deploying AI agents
 - [Eve](https://vercel.com/eve) — Vercel's framework for building autonomous agents: Markdown for instructions, TypeScript for tools, with built-in durability — comparable to what Next.js is for web apps 📌 Unread
+- [AI-Driven-Dev Framework](https://github.com/ai-driven-dev/framework) — Agentic framework bundling 7 plugins, 40+ skills, and 2 agents to automate the full SDLC (spec → implementation → review → deploy) 📌 Unread
 
 ### Protocols
 
@@ -477,6 +478,7 @@ Six levels of Claude Code usage, from basic prompting to fully autonomous system
 - [AI-RSK](https://github.com/Krigsexe/ai-rsk) — Security gate for AI-generated code, blocks builds until vulnerabilities are fixed
 - [claude-statusline](https://github.com/kamranahmedse/claude-statusline) — Configure Claude Code's status line to show usage limits, current directory, and git info 📌 Unread
 - [free-claude-code](https://github.com/Alishahryar1/free-claude-code) — Run Claude Code for free using alternative model backends 📌 Unread
+- [adoption-audit gist](https://gist.github.com/batou9150/5df83474911b946a451be0074fb766cd) — `/adoption-audit` slash command: scores your Claude Code usage against a 5-step AI-adoption ladder (concurrency, automation, context engineering) and recommends next steps 📌 Unread
 
 #### Tips
 
@@ -600,6 +602,7 @@ AI-powered design-to-code tools and collaborative design platforms.
 - [OpenUI](https://www.openui.com/) — Generate UI components from natural language descriptions 📌 Unread
 - [Paper](https://paper.design/) — Collaborative design tool for building interfaces 📌 Unread
 - [getdesign.md](https://getdesign.md/) — Aggregates design system docs and patterns from top brands (Stripe, Figma, Apple…) for rapid AI-assisted UI development 📌 Unread
+- [tldraw offline](https://offline.tldraw.com/) — Offline-first whiteboard app with AI integration 📌 Unread
 
 ### Generative AI Patterns & Learning
 
@@ -801,6 +804,7 @@ Core techniques:
 ### Token Optimization
 
 - [Réduire ses tokens Claude Code : ce que valent vraiment les plugins](https://www.sfeir.dev/ia/reduire-ses-tokens-claude-code-ce-que-valent-vraiment-les-plugins/) — Benchmark of the main Claude Code plugins from a token efficiency angle: real gains, trade-offs, and how to choose (🇫🇷 article) 📌 Unread
+- [10 leviers pour diviser ta facture de tokens par 5](https://alexwrites.fr/fr/10-leviers-pour-diviser-ta-facture-de-tokens-par-5) — Ten levers to cut your token bill 5x (🇫🇷 article) 📌 Unread
 - [Claude Mem](https://github.com/thedotmack/claude-mem) — Cross-session memory plugin for Claude Code; persists context across conversations to avoid re-explaining it each time
 - [CORE](https://github.com/RedPlanetHQ/core) — Open-source, self-hosted "Personal AI OS": a shared memory knowledge graph plus always-on automation across Claude Code, Cursor, Codex, email, GitHub, Slack, etc., so no session re-explains what a previous one already knew 📌 Unread
 - [RTK](https://github.com/rtk-ai/rtk) — **Input token** reduction tool (standalone Rust binary, zero dependencies): filters and compresses Claude Code's tool call outputs before they re-enter context. After install, to upgrade: rerun `curl -fsSL https://raw.githubusercontent.com/rtk-ai/rtk/refs/heads/master/install.sh | sh` + `rtk init -g` to activate hook-based usage, then verify with `rtk gain`
@@ -808,6 +812,7 @@ Core techniques:
 - [Frugon](https://frugon.rodiun.io/) — Free, local, open-source LLM cost analyzer: reads your real LLM logs and shows which calls a cheaper model would have handled just as well, entirely on your machine 📌 Unread
 - [caveman](https://github.com/JuliusBrussee/caveman) — **Output token** reduction skill: cuts LLM output tokens ~65% by making Claude respond in terse caveman-style speech while maintaining technical accuracy 📌 Unread
 - [ponytail](https://github.com/DietrichGebert/ponytail) — **Output token** reduction skill (complementary to caveman): makes Claude prefer stdlib, one-liners, and existing packages over custom code — 47–77% cheaper runs, 80–94% less generated code 📌 Unread
+- [i-have-adhd](https://github.com/ayghri/i-have-adhd/) — **Output token** reduction plugin: reformats responses to be action-first and concise (lead with the next step, cap lists at 5 items), cutting verbosity and tangents 📌 Unread
 - [code-review-graph](https://github.com/tirth8205/code-review-graph) — Local knowledge graph for Claude Code; persistent codebase map so Claude reads only what matters — 6.8× fewer tokens on reviews, up to 49× on daily tasks
 - [headroom](https://github.com/chopratejas/headroom) — Context window management tool for AI coding assistants 📌 Unread
 - [Claudette](https://github.com/nicmarti/Claudette) — Token reduction via MCP
@@ -862,6 +867,7 @@ Run open-weight models on your own hardware for data privacy, lower latency, and
 - **[Ornith-1.0](https://deep-reinforce.com/ornith_1_0.html)** (DeepReinforce, open weights) — Self-improving model family built for agentic coding, from an edge-deployable 9B Dense to a 397B MoE flagship; the 397B variant matches Claude Opus 4.7 on Terminal-Bench 2.1 and SWE-Bench Verified 📌 Unread
 - [Ollama](https://ollama.com/) — The standard runtime for running local models; one command to pull and serve any supported model (`ollama serve` starts a local OpenAI-compatible API on `localhost:11434`). To use a local model with Claude Code: `ollama launch claude --model qwen2.5-coder:14b` (needs ~10 GB RAM; swap model name for any Ollama-supported model)
 - [llm-d](https://github.com/llm-d/llm-d) — Kubernetes-native distributed inference stack (CNCF); scales open-weight model serving across GPU clusters with intelligent routing, once a single Ollama box outgrows the workload 📌 Unread
+- [Mesh LLM](https://meshllm.cloud/) — Distributed LLM infra: splits large models across nearby GPUs, from 768GB cloud nodes down to 8GB mini PCs; serves Claude Code, Goose, OpenCode, and Pi 📌 Unread
 
 ### Multi-LLM Access & Routing
 
