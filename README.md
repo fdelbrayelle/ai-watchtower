@@ -278,6 +278,7 @@ Designing, chaining, and supervising AI agents — platforms, protocols, and too
 These usually encode: **What** (facts, rules, conventions), **Why** (rationale, constraints), and **How** (architecture, workflows, patterns).
 
 - [lat.md](https://github.com/1st1/lat.md) — Alternative to AGENTS.md: a structured Markdown format for writing agent instructions files that works across agents and IDEs 📌 Unread
+- [Open Reasoning Format](https://glaforge.dev/posts/2026/07/21/open-reasoning-format-encoding-and-remembering-agentic-behavior/) — Lightweight file-based spec letting coding agents record and retrieve operational learnings across sessions as Markdown playbooks, cutting repeat-task steps ~50% 📌 Unread
 
 **Hooks:** Shell commands that fire automatically in response to agent events (before/after tool calls, on notifications, etc.). They let you enforce rules, run linters, trigger builds, or inject context — without the agent needing to know about them.
 
