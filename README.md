@@ -152,6 +152,7 @@ Roadmaps, machine learning, and data career paths.
 - 📚 [**Fundamentals of Data Engineering**](https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/) (book) — Joe Reis, Matt Housley — Data pipelines, storage, ingestion, orchestration, and the data engineering lifecycle
 - 📚 [**Machine Learning avec Scikit-Learn**](https://www.oreilly.com/library/view/machine-learning-avec/9782100797820/) (book) — Aurélien Géron — Hands-on ML with Scikit-Learn
 - 📚 [**Deep Learning avec Keras et TensorFlow**](https://www.oreilly.com/library/view/deep-learning-avec/9782100805020/) (book) — Aurélien Géron — Deep learning with Keras and TensorFlow
+- [Faceberg](https://github.com/huggingface/faceberg) — Hugging Face tool that maps Hugging Face Hub datasets to Apache Iceberg tables via metadata only (no data copying), so DuckDB, Spark, PyIceberg, and Pandas can query them directly through an auto-deployed REST catalog 📌 Unread
 
 #### Roadmaps
 
@@ -279,6 +280,7 @@ These usually encode: **What** (facts, rules, conventions), **Why** (rationale, 
 
 - [lat.md](https://github.com/1st1/lat.md) — Alternative to AGENTS.md: a structured Markdown format for writing agent instructions files that works across agents and IDEs 📌 Unread
 - [Open Reasoning Format](https://glaforge.dev/posts/2026/07/21/open-reasoning-format-encoding-and-remembering-agentic-behavior/) — Lightweight file-based spec letting coding agents record and retrieve operational learnings across sessions as Markdown playbooks, cutting repeat-task steps ~50% 📌 Unread
+- [Open Knowledge Format (OKF)](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing?hl=en) — Google Cloud's vendor-neutral spec for representing organizational knowledge (schemas, metrics, runbooks, API docs) as plain Markdown + YAML frontmatter, so humans and agents consume the same version-controlled knowledge without translation or vendor lock-in 📌 Unread
 
 **Hooks:** Shell commands that fire automatically in response to agent events (before/after tool calls, on notifications, etc.). They let you enforce rules, run linters, trigger builds, or inject context — without the agent needing to know about them.
 
@@ -791,6 +793,7 @@ Core techniques:
 - [Knowledge Priming](https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html) — Reducing friction with AI through knowledge priming
 - [Skills.sh](https://skills.sh/) — Reusable AI skills marketplace
 - [AgentSkills.io](https://agentskills.io) — AI agent skills platform 📌 Unread
+- [autoskills](https://www.autoskills.sh/) — CLI (`npx autoskills`) that detects a project's tech stack from its config files and installs matching curated AI agent skills from a vetted, hash-verified registry, covering 100+ technologies 📌 Unread
 - [Math Spec-Driven Skill](https://github.com/Ben8t/math-spec-driven-skill) — Example of spec-driven skill development
 - [mattpocock/skills](https://github.com/mattpocock/skills) — Curated TypeScript/JavaScript skills library for reusable AI agent capabilities 📌 Unread
 
