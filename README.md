@@ -809,6 +809,7 @@ Core techniques:
 - **Good RAG beats large context stuffing** — A well-tuned RAG pipeline retrieving only what's needed can outperform naively filling a 1M-token context window, both in cost and in result quality (less noise, more relevant context)
 - **Stateful agents beat stateless ones for long tasks** — Stateless LLM calls re-send the full context every turn; stateful agents (e.g. with KV cache, persistent memory, or session continuity) pay that cost once and reuse it, yielding lower token spend and latency at scale
 - **Script or batch over per-prompt repetition** — If you find yourself asking the same thing repeatedly, or need many similar outputs (e.g. translating a list, generating N variants, processing a dataset), write a script or generate outside Claude Code entirely. Interactive prompting has per-message startup cost, no parallelism, and burns session tokens. A script runs once, is reproducible, and scales.
+- **Split frontier planning from cheap execution** — [Agent Swarm Model Economics](https://cursor.com/blog/agent-swarm-model-economics) — Cursor's research building SQLite from docs found every model mix produced similar quality, but cost ranged from $1,339 to $10,565; a frontier planner (Opus 4.8) decomposing work for a cheaper worker model (Composer 2.5) cut cost from $9,373 to $411 with comparable output — few moments in a large task genuinely require frontier intelligence 📌 Unread
 
 ### Token Optimization
 
