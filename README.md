@@ -378,6 +378,7 @@ The open standard for connecting AI models to external tools and data sources.
 - [LIZA](https://github.com/liza-mas/liza) — Multi-agent coding system 📌 Unread
 - [VibeKanban](https://www.vibekanban.com/) — AI-native project management 📌 Unread
 - [Get Shit Done](https://github.com/gsd-build/get-shit-done) — Pragmatic AI development methodology 📌 Unread
+- [Killer SaaS](https://github.com/MikeCodeur/killer-saas) — Agentic pipeline methodology for rapidly building SaaS products, following a PRD → User Stories → Architecture → (Research → Design → Plan → Execute → Review → Ship) workflow enforced via git hooks 📌 Unread
 
 ### Harness Engineering
 
