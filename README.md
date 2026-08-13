@@ -333,6 +333,7 @@ Between level 2 and level 3, something fundamental shifts: **the developer stops
 - [ADK (Agent Development Kit)](https://google.github.io/adk-docs/) — Google's open-source framework for building, evaluating, and deploying AI agents
 - [Eve](https://vercel.com/eve) — Vercel's framework for building autonomous agents: Markdown for instructions, TypeScript for tools, with built-in durability — comparable to what Next.js is for web apps 📌 Unread
 - [AI-Driven-Dev Framework](https://github.com/ai-driven-dev/framework) — Agentic framework bundling 7 plugins, 40+ skills, and 2 agents to automate the full SDLC (spec → implementation → review → deploy) 📌 Unread
+- [OpenChamber](https://openchamber.dev/) — Agentic development environment with multi-model execution, session persistence, and cross-platform access (desktop, browser, mobile, VS Code) 📌 Unread
 
 ### Protocols
 
@@ -393,6 +394,7 @@ The discipline covers four quadrants across two axes — **preventive vs. defens
 
 - [Everything I Learned About Harness Engineering and AI Factories in San Francisco (April 2026)](https://escape.tech/blog/everything-i-learned-about-harness-engineering-and-ai-factories-in-san-francisco-april-2026/) — Field report from the SF AI scene: harness patterns, AI factory thinking, and lessons from teams running agents at scale 📌 Unread
 - [12 Agentic Harness Patterns from Claude Code](https://generativeprogrammer.com/p/12-agentic-harness-patterns-from) — Patterns extracted from the leaked source 📌 Unread
+- 📚 [**Agentic Engineering at Scale**](https://www.oreilly.com/library/view/agentic-engineering-at/0642572344306/) (book) — Chris Ford — Agentic coding, harness engineering, and guardrails for shipping robust systems at enterprise scale: coordinating coding-agent swarms and leading AI-adoption initiatives beyond individual prototypes 📌 Unread
 
 #### Product as a Service
 
@@ -445,6 +447,7 @@ Best practices, monitoring, and plugins for Claude Code.
 - [Claude Code Plugins](https://code.claude.com/docs/en/plugins) — Official plugins documentation
 - [Claude Cowork](https://code.claude.com/docs/en/cowork) — Collaborative multi-agent sessions in Claude Code 📌 Unread
 - [Agent Teams](https://code.claude.com/docs/en/agent-teams) — Official guide to building and orchestrating multi-agent teams in Claude Code 📌 Unread
+- [Cross-Session Messaging](https://code.claude.com/docs/en/cross-session-messaging) — Lets one Claude Code session deliver a message to another (same machine, another machine, or the web) so parallel sessions can hand off findings, coordinate worktrees, or report status without you copy-pasting between terminals 📌 Unread
 - [Claude Opus 4.6 Announcement](https://www.anthropic.com/news/claude-opus-4-6) — Latest model release
 - [Claude Sonnet 4.6 Announcement](https://www.anthropic.com/news/claude-sonnet-4-6) — Latest model release
 - [COBOL Modernization with AI](https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization) — Breaking the cost barrier 📌 Unread
@@ -711,6 +714,7 @@ AX is the discipline of designing systems that are legible and usable by AI agen
 - [Stack Overflow for Agents](https://stackoverflow.blog/2026/06/10/announcing-stack-overflow-for-agents/) — Stack Overflow's structured API for AI agents: machine-readable Q&A, code snippets, and documentation — the canonical developer knowledge base made legible to AI agents 📌 Unread
 - [CLI-Anything](https://github.com/HKUDS/CLI-Anything) — Turn any tool into a CLI for AI agents — agent-consumable interface layer over arbitrary tools
 - [Context7](https://github.com/upstash/context7) — Up-to-date docs and code examples for any library, pulled straight into your prompt — makes library documentation legible to agents
+- [Xirp](https://xirp.spotify.com/) — Spotify's context layer for coding agents: connects to your services, docs, and architectural decisions so agents make technically sound calls instead of guessing, and auto-generates living documentation from that work 📌 Unread
 - [curl.md](https://curl.md/) — Fetch any website as clean markdown for LLM consumption (e.g. `curl curl.md/kestra.io`) — makes your site legible to agents and a quick AX sanity check
 
 ### Psychology, Culture & AI
