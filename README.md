@@ -736,6 +736,7 @@ Thought pieces on how AI is reshaping developer culture and the software industr
 - 🎥 [The Idiot Factory](https://www.youtube.com/watch?v=4xq6bVbS-Pw) (🇫🇷 video) — Micode on how over-reliance on AI leads to cognitive atrophy
 - 🎥 [Samouraï Dansant](https://www.youtube.com/@SamouraiDansant) (🇫🇷 channel) — Psychology-focused YouTube channel
 - [AI and the Paperclip Problem](https://cepr.org/voxeu/columns/ai-and-paperclip-problem) — VoxEU/CEPR economics perspective on the classic alignment thought experiment: an AI optimizing a single metric (make paperclips) destroys everything else — a parable for misaligned objectives at scale 📌 Unread
+- [No Meat Proxy](https://nomeatproxy.com/) — Community standard against thoughtlessly relaying AI-generated content verbatim: synthesize before forwarding to colleagues, and always understand/verify/own work submitted under your name 📌 Unread
 
 #### Theory
 - **Cognitive Surrender** — Psychologists' term for immediately deferring to an AI without engaging System 1 or System 2 thinking — a "System 0". A CRT study found 50% of participants consulted AI right away, 87% adopted its answer, and those who did were *more* confident (77% vs 65%) despite missing the point of the question. 📚 Shaw et al (2026). *Thinking—Fast, Slow, and Artificial: How AI is Reshaping Human Reasoning and the Rise of Cognitive Surrender.*
