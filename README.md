@@ -414,6 +414,7 @@ Frameworks for composing, routing, and coordinating multiple agents or tool call
 - [Agno](https://www.agno.com/) — Open-source Python framework for building, deploying, and managing secure multi-agent AI systems 📌 Unread
 - [NanoClaw](https://nanoclaw.net/) — Lightweight agent runtime
 - [NemoClaw](https://github.com/NVIDIA/NemoClaw) — NVIDIA's agent framework
+- [AX (Agent Execution Platform)](https://agentexecutor.io/) — Google's open-source control plane for running agentic workloads at scale: declare a Task, AX runs it in sandboxed Workspaces with Gateway network policies and centralized Model config, built on Agent Substrate for high density and sub-second resumption 📌 Unread
 
 #### Harness Tools
 
