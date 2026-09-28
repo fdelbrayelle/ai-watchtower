@@ -895,6 +895,7 @@ Run open-weight models on your own hardware for data privacy, lower latency, and
 - [LiteLLM](https://github.com/BerriAI/litellm) — Unified API for 100+ LLMs
 - [OpenRouter](https://openrouter.ai/) — LLM routing and access
 - [1min AI](https://1min.ai/) — Multi-model AI access platform
+- [Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev) (TypeSafe AI) — "System One Model": frontier intelligence as a typed function call, not chat — unstructured state in, typed probabilistic decisions out. 40-200x faster than standard LLMs, no hallucinations (guaranteed type-safety), calibrated confidence scores; trades text generation for machine-native automation 📌 Unread
 - [LLMFit](https://github.com/AlexsJones/llmfit) — Find which models & providers run on your hardware 📌 Unread
 - [Free LLM API Resources](https://github.com/cheahjs/free-llm-api-resources) — Curated directory of providers offering free or trial LLM API access, with rate limits and available models per provider 📌 Unread
 
