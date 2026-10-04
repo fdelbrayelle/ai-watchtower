@@ -631,6 +631,7 @@ Architecture patterns, training resources, and foundational learning.
 - [A Field Guide to AI](https://hamel.dev/blog/posts/field-guide/) — Practical AI field guide
 - [HuggingFace](https://huggingface.co) — The open-source AI platform
 - [OpenMythos](https://github.com/kyegomez/OpenMythos) — Open-source implementation of a Recurrent-Depth Transformer: a looped architecture that achieves advanced reasoning through iterative latent computation rather than chain-of-thought 📌 Unread
+- [Tavus Griffin](https://www.tavus.io/griffin) — First "Human Interaction Model" (HIM): a model designed to understand and generate real-time, face-to-face human interaction 📌 Unread
 
 #### JEPA & World Models
 
