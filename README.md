@@ -395,6 +395,7 @@ The discipline covers four quadrants across two axes — **preventive vs. defens
 - [Everything I Learned About Harness Engineering and AI Factories in San Francisco (April 2026)](https://escape.tech/blog/everything-i-learned-about-harness-engineering-and-ai-factories-in-san-francisco-april-2026/) — Field report from the SF AI scene: harness patterns, AI factory thinking, and lessons from teams running agents at scale 📌 Unread
 - [12 Agentic Harness Patterns from Claude Code](https://generativeprogrammer.com/p/12-agentic-harness-patterns-from) — Patterns extracted from the leaked source 📌 Unread
 - 📚 [**Agentic Engineering at Scale**](https://www.oreilly.com/library/view/agentic-engineering-at/0642572344306/) (book) — Chris Ford — Agentic coding, harness engineering, and guardrails for shipping robust systems at enterprise scale: coordinating coding-agent swarms and leading AI-adoption initiatives beyond individual prototypes 📌 Unread
+- [Are Harnesses Worth the Cost?](https://martinfowler.com/articles/are-harnesses-worth-the-cost.html) — Martin Fowler — Weighing the cost of building and running an agent harness against the reliability and quality gains it delivers 📌 Unread
 
 #### Product as a Service
 
