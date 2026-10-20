@@ -586,6 +586,7 @@ caffeinate -dims
 - [Paperasse](https://github.com/romainsimon/paperasse) — Skills for French administrative paperwork ("paperasse") 📌 Unread
 - [Graphify](https://graphify.net/) — Open-source knowledge graph skill for AI coding assistants (Claude Code, Codex, Cursor, Gemini CLI, and more): parses code, SQL schemas, docs, papers, images, and videos into a queryable multi-modal graph using Tree-sitter and LLMs — persistent semantic memory that survives context resets 📌 Unread
 - [Understand-Anything](https://github.com/Lum1104/Understand-Anything) — Turns any codebase into an interactive knowledge graph: visualizes files, functions, classes, and dependencies in a web dashboard; supports Karpathy-pattern LLM wikis. Plugin for Claude Code, Cursor, VS Code Copilot, and Gemini CLI 📌 Unread
+- [pstack](https://github.com/cursor/plugins/tree/main/pstack) — Plugin from Cursor's official plugins repo 📌 Unread
 
 ### Code Assistants & AI Editors
 
