@@ -423,6 +423,7 @@ Tools that operate at the harness layer itself: controlling the execution loop, 
 
 - [Emdash](https://www.emdash.sh/) — Desktop app to run multiple AI coding agents in parallel, each in an isolated Git worktree, with issue tracker integration and built-in diff/commit UI 📌 Unread
 - [Paperclip](https://github.com/paperclipai/paperclip) — Orchestrate multiple Claude Code sessions/agents in parallel 📌 Unread
+- [APM](https://microsoft.github.io/apm/) — Microsoft open-source Agent Package Manager: declare skills, prompts, instructions, plugins, and MCP servers in one manifest and install them across supported agent tools with a single command 📌 Unread
 
 ### Loop Engineering
 
