@@ -211,6 +211,7 @@ Spring AI, LangChain4J, and the Java AI ecosystem.
 - [Evolution of the Java Ecosystem for AI](https://inside.java/2025/01/29/evolution-of-java-ecosystem-for-integrating-ai/) — Oracle's perspective on Java + AI
 - [Koog for Java](https://blog.jetbrains.com/ai/2026/03/koog-comes-to-java/) — JetBrains' AI framework for Java 📌 Unread
 - [The Biggest jvm-skills Update Yet](https://jvmskills.com/blog/biggest-jvm-skills-update-yet/) — jvm-skills is a curated catalog of AI skills teaching coding agents JVM-ecosystem knowledge; this update adds 25 new skills discovered via an automated "skill-scout" pipeline sourced from conference speakers and library authors 📌 Unread
+- [SouJava agent-skills](https://github.com/soujava/agent-skills) — MIT-licensed collection of reusable agent skills for spec-driven Java development, Spring Boot / MicroProfile / Quarkus guidance, architecture migration, diagramming, and commit messages 📌 Unread
 
 #### Python Ecosystem
 
@@ -250,6 +251,7 @@ AI accelerates output, but craft still matters. Build agents or skills specializ
 - **Clean Architecture** — Enforce hexagonal / ports-and-adapters patterns through CLAUDE.md rules or custom agents that validate dependency direction (domain → application → infrastructure, never the reverse).
 - **Other patterns** — Onion Architecture, CQRS, Event Sourcing — codify these as agent constraints or review skills so generated code stays structurally sound.
 - [QUALITY.md](https://getquality.md/) — Open file format for declaring a project's quality model: desired quality characteristics, their requirements, and the context behind them — lets teams and AI agents evaluate a codebase against shared quality standards and improve it through iterative loops 📌 Unread
+- [What if Clear was no longer our job?](https://medium.com/@tpierrain/what-if-clear-was-no-longer-our-job-16fe571ae206) — Thomas Pierrain 📌 Unread
 
 ---
 
@@ -356,6 +358,7 @@ The open standard for connecting AI models to external tools and data sources.
 - [Datagouv MCP](https://github.com/datagouv/datagouv-mcp) — French open data MCP server
 - [OpenLegi MCP](https://www.openlegi.fr) — French and European legislation MCP server
 - [Micronaut MCP](https://micronaut-projects.github.io/micronaut-mcp/snapshot/guide/) — MCP support for Micronaut framework
+- [REA](https://github.com/morluto/rea) — Local MCP toolset letting AI agents analyze software, from app behavior down to native binaries, and return findings with supporting evidence 📌 Unread
 
 ### RAG
 
@@ -396,6 +399,7 @@ The discipline covers four quadrants across two axes — **preventive vs. defens
 - [12 Agentic Harness Patterns from Claude Code](https://generativeprogrammer.com/p/12-agentic-harness-patterns-from) — Patterns extracted from the leaked source 📌 Unread
 - 📚 [**Agentic Engineering at Scale**](https://www.oreilly.com/library/view/agentic-engineering-at/0642572344306/) (book) — Chris Ford — Agentic coding, harness engineering, and guardrails for shipping robust systems at enterprise scale: coordinating coding-agent swarms and leading AI-adoption initiatives beyond individual prototypes 📌 Unread
 - [Are Harnesses Worth the Cost?](https://martinfowler.com/articles/are-harnesses-worth-the-cost.html) — Martin Fowler — Weighing the cost of building and running an agent harness against the reliability and quality gains it delivers 📌 Unread
+- [How to Build a Software Factory with Claude Code](https://www.freecodecamp.org/news/how-to-build-software-factory-with-claude-code/) — freeCodeCamp — Structured "software factory" in Claude Code: project memory, skills, hooks, seven specialized subagents, and an orchestrator with human approval points 📌 Unread
 
 #### Product as a Service
 
@@ -404,6 +408,7 @@ Managed agent offerings where the execution infrastructure, scheduling, and life
 - [Managed Agents](https://www.anthropic.com/engineering/managed-agents) — Anthropic's approach to building and operating agents at scale (to launch: `/claude-api managed-agents-onboard`) 📌 Unread
 - [Dispatch](https://www.anthropic.com/products/dispatch) — Anthropic's multi-agent orchestration platform 📌 Unread
 - [Multica](https://multica.ai/) — Managed multi-agent platform for running and orchestrating AI agents at scale 📌 Unread
+- [Dots](https://openai.com/fr-FR/index/introducing-dots/) — OpenAI's always-on agents (DevDay 2026): give a dot a goal and connected apps, and it keeps working in the background in its own cloud environment, bringing results back for review 📌 Unread
 
 #### Orchestration
 
@@ -424,6 +429,7 @@ Tools that operate at the harness layer itself: controlling the execution loop, 
 - [Emdash](https://www.emdash.sh/) — Desktop app to run multiple AI coding agents in parallel, each in an isolated Git worktree, with issue tracker integration and built-in diff/commit UI 📌 Unread
 - [Paperclip](https://github.com/paperclipai/paperclip) — Orchestrate multiple Claude Code sessions/agents in parallel 📌 Unread
 - [APM](https://microsoft.github.io/apm/) — Microsoft open-source Agent Package Manager: declare skills, prompts, instructions, plugins, and MCP servers in one manifest and install them across supported agent tools with a single command 📌 Unread
+- [The Boss](https://github.com/flcarre/theboss) — Cross-platform desktop app tracking the status of AI coding agents (Claude Code, Codex) as a pixel-art office where each agent session is a robot at its desk 📌 Unread
 
 ### Loop Engineering
 
