@@ -458,6 +458,7 @@ Best practices, monitoring, and plugins for Claude Code.
 - [Claude Cowork](https://code.claude.com/docs/en/cowork) — Collaborative multi-agent sessions in Claude Code 📌 Unread
 - [Agent Teams](https://code.claude.com/docs/en/agent-teams) — Official guide to building and orchestrating multi-agent teams in Claude Code 📌 Unread
 - [Cross-Session Messaging](https://code.claude.com/docs/en/cross-session-messaging) — Lets one Claude Code session deliver a message to another (same machine, another machine, or the web) so parallel sessions can hand off findings, coordinate worktrees, or report status without you copy-pasting between terminals 📌 Unread
+- [Claude Code Multiplayer](https://delta.dev/blog/claude-code-multiplayer) — Delta CLI and Claude Code plugin (beta) to share a conversation and unfinished code changes so teammates can join from their own sessions 📌 Unread
 - [Claude Opus 4.6 Announcement](https://www.anthropic.com/news/claude-opus-4-6) — Latest model release
 - [Claude Sonnet 4.6 Announcement](https://www.anthropic.com/news/claude-sonnet-4-6) — Latest model release
 - [COBOL Modernization with AI](https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization) — Breaking the cost barrier 📌 Unread
